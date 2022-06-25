@@ -1,3 +1,15 @@
-export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+import { HeroBanner } from "../components";
+import { HeroText } from "../components/HeroText";
+import { Statistics } from "../components/Statistics";
+
+export default function Index() {
+  return (
+    <>
+      <div>
+        <HeroBanner />
+        <HeroText />
+      </div>
+      <Statistics />
+    </>
+  );
 }
