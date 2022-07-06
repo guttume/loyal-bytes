@@ -13,5 +13,16 @@ export const images = {
   serverSmall: "images/server-icon-sm.png",
   sliderImageOne: "images/slider-image-1.png",
   sliderImageTwo: "images/slider-image-2.png",
-  heroRings: "images/home-page/hero-rings.png"
+  heroRings: "images/home-page/hero-rings.png",
+  homePageRings: "images/home-page/page-rings.png",
+  rightConfetti: "images/home-page/confetti-right.png",
+  leftConfetti: "images/home-page/confetti-left.png",
+  patterns: "images/home-page/patterns.png",
+  brandsMonday: "images/home-page/brands/monday.png",
+  brandsMorpheus: "images/home-page/brands/morpheus.png",
+  brandsOracle: "images/home-page/brands/oracle.png",
+  brandsProtonet: "images/home-page/brands/protonet.png",
+  brandsSamsung: "images/home-page/brands/samsung.png",
+  brandsSegment: "images/home-page/brands/segment.png",
+  brandsZepplin: "images/home-page/brands/zepplin.png",
 };

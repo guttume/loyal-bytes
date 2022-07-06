@@ -12,6 +12,7 @@ interface StatsProps {
   color: string;
   numberText: string;
   text: string;
+  shadowColor: string;
 }
 
 export interface IconComponents {
@@ -21,7 +22,7 @@ export interface IconComponents {
   badge: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 }
 
-export const StatisticsItem = ({ icon, color, numberText, text }: StatsProps) => {
+export const StatisticsItem = ({ icon, color, numberText, text, shadowColor }: StatsProps) => {
   const components = {
     user: UserAddIcon,
     cap: AcademicCapIcon,
@@ -32,13 +33,13 @@ export const StatisticsItem = ({ icon, color, numberText, text }: StatsProps) =>
   let IconComponent = components[icon];
 
   return (
-    <div className="flex space-x-4 items-center p-4 rounded-lg shadow-lg">
+    <div className={`flex space-x-4 items-center p-4 rounded-lg shadow-xl ${shadowColor}`}>
       <div className={`${color} w-12 h-12 rounded-full flex justify-center items-center`}>
         <IconComponent className="w-6 h-6 text-white" />
       </div>
       <div>
         <div className="flex items-center">
-          <span className="text-xl font-extrabold">{numberText}</span>
+          <span className="text-xl lg:text-3xl font-extrabold">{numberText}</span>
           <span className="ml-2">
             <PlusIcon className="w-5 h-5" />
           </span>

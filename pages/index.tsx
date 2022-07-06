@@ -78,6 +78,15 @@ export default function Index() {
       </Section>
       <Section>
         <div className="text-center mb-8">
+        <div className="absolute left-1/2 lg:-ml-56 w-24 lg:-mt-12">
+            <img src={images.patterns} alt="background art" />
+          </div>
+        <div className="absolute left-1/2 lg:-ml-64 w-12 lg:mt-24">
+            <img src={images.leftConfetti} alt="background art" />
+          </div>
+          <div className="absolute left-1/2 lg:ml-48 w-20 lg:mt-24">
+            <img src={images.rightConfetti} alt="background art" />
+          </div>
           <SectionTitle>Open Doors of Opportunities</SectionTitle>
           <SectionSubTitle>
             MONEY BACK GUARANTEE even in the last lecture
@@ -87,6 +96,9 @@ export default function Index() {
           <Button color="bg-orange-500 text-orange-50">View All Courses</Button>
         </div>
         <div className="mt-16 lg:relative lg:h-96">
+          <div className="absolute w-5/12 top-0 -mt-40 -ml-56">
+            <img src={images.homePageRings} alt="rings" />
+          </div>
           <div className="lg:border lg:absolute lg:w-full lg:px-16 lg:pl-24 lg:py-16 lg:rounded-lg bg-gradient-to-r from-teal-50 via-yellow-50 to-red-50">
             <div className="lg:w-[600px]">
               <SectionTitle>Corporate Trainings</SectionTitle>
@@ -173,7 +185,32 @@ export default function Index() {
         <div className="text-center">
           <SectionTitle>Over top business placements</SectionTitle>
         </div>
-        <div>{/* images of brands goes here */}</div>
+        <div className="flex justify-center space-x-6 flex-wrap my-12">
+          <div className="w-32 py-4">
+            <img src={images.brandsZepplin} alt="Zepplin logo" />
+          </div>
+          <div className="w-32 py-4">
+            <img src={images.brandsOracle} alt="Oracle logo" />
+          </div>
+          <div className="w-32 py-4">
+            <img src={images.brandsMorpheus} alt="Morpheus logo" />
+          </div>
+          <div className="w-32 py-4">
+            <img src={images.brandsSamsung} alt="Samsung logo" />
+          </div>
+          <div className="w-32 py-4">
+            <img src={images.brandsMonday} alt="Monday logo" />
+          </div>
+          <div className="w-32 py-4">
+            <img src={images.brandsSegment} alt="Segment logo" />
+          </div>
+          <div className="w-32 py-4">
+            <img src={images.brandsProtonet} alt="Protonet logo" />
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <a href="#" className="underline text-xl font-bold text-gray-600">View all</a>
+        </div>
       </Section>
       <Section>
         <div className="bg-blue-800 text-blue-50 p-4 rounded-lg shadow-md lg:flex items-center justify-between lg:px-16 lg:py-12">
