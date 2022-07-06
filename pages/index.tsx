@@ -9,7 +9,6 @@ import {
   SectionTitle,
   TestimonialItem
 } from "../components";
-import { HeroText } from "../components/HeroText";
 import { PopularCourseItem } from "../components/PopularCourseItem";
 import { Statistics } from "../components/Statistics";
 
@@ -18,7 +17,6 @@ export default function Index() {
     <>
       <div className="lg:flex flex-row-reverse">
         <HeroBanner />
-        <HeroText />
       </div>
       <Statistics />
       <Section>
@@ -190,7 +188,7 @@ export default function Index() {
           </div>
         </div>
       </Section>
-      <section className="mt-4 -mx-12 px-8 bg-blue-500 pb-8">
+      <section className="mt-4 lg:-mx-12 px-8 bg-blue-500 pb-8">
         <div className="p-4 w-full max-w-3xl mx-auto lg:ml-12">
           <h2 className="text-2xl font-bold text-blue-50 mb-4 mt-16">
             Professional Web Design

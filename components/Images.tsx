@@ -13,4 +13,5 @@ export const images = {
   serverSmall: "images/server-icon-sm.png",
   sliderImageOne: "images/slider-image-1.png",
   sliderImageTwo: "images/slider-image-2.png",
+  heroRings: "images/home-page/hero-rings.png"
 };
