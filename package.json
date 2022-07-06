@@ -4,15 +4,19 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",
+    "framer-motion": "^6.3.16",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-jam-icons": "^1.0.0",
+    "react-pro-sidebar": "^0.7.1",
+    "swiper": "^8.2.5"
   },
   "devDependencies": {
     "@types/node": "18.0.0",

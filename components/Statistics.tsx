@@ -2,7 +2,7 @@ import { StatisticsItem } from "./StatisticsItem";
 
 export const Statistics = () => {
   return (
-    <div className="grid grid-cols-2 px-4 w-full">
+    <div className="grid grid-cols-2 lg:grid-cols-4 px-12 lg:mt-8 lg:gap-20 w-full">
       <StatisticsItem
         key={"professionals"}
         icon="user"
