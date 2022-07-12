@@ -1,6 +1,6 @@
 export * from "./Accordion";
 export * from "./Button";
-export * from "./courses/AzureAiHero";
+export * from "./courses/CourseHero";
 export * from "./Header";
 export * from "./Hero";
 export * from "./HeroText";

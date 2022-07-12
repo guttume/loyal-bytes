@@ -1,6 +1,12 @@
 import { images } from "../Images";
 
-export const AzureAiHero = () => {
+export const CourseHero = ({
+  title,
+  subtitle,
+}: {
+  title: string;
+  subtitle: string;
+}) => {
   return (
     <section className="relative h-[calc(100vh-96px)]">
       <div className="absolute w-[100vw] h-[calc(100vh-96px)] object-contain -z-10">
@@ -20,13 +26,8 @@ export const AzureAiHero = () => {
         </div>
         <div className="w-1/2 h-full flex justify-center items-center">
           <div>
-            <h1 className="text-6xl font-bold text-right">
-              Azure AI Fundamentals - 900
-            </h1>
-            <h2 className="text-3xl my-4 text-right">
-              A master course designed for working professionals like you. Make
-              your career soar with Loyal Bytes.
-            </h2>
+            <h1 className="text-6xl font-bold text-right">{title}</h1>
+            <h2 className="text-3xl my-4 text-right">{subtitle}</h2>
             <div className="flex space-x-12 justify-end my-16">
               <img src={images.awsLogo} alt="AWS logo" className="h-12" />
               <img src={images.gcpLogo} alt="GCP logo" className="h-12" />

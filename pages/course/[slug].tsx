@@ -2,7 +2,7 @@ import { GetStaticProps } from "next";
 import Link from "next/link";
 import {
   Accordion,
-  AzureAiHero,
+  CourseHero,
   Highlight,
   images,
   PortfolioSummary,
@@ -17,8 +17,8 @@ import {
 export default function Course({ content }: CoursePageProps) {
   return (
     <div>
-      <AzureAiHero />
-      <section className="flex bg-gradient-to-t from-indigo-700 via-indigo-700 to-indigo-500 shadow-xl shadow-indigo-300">
+      <CourseHero title={content.title} subtitle={content.subtitle} />
+      <section className="flex bg-gradient-to-t from-indigo-700 via-indigo-700 to-indigo-500 shadow-2xl shadow-indigo-300">
         <div className="w-1/3 flex justify-center items-center">
           <img
             src={content.courseDetail.displayImage}
@@ -66,7 +66,7 @@ export default function Course({ content }: CoursePageProps) {
         <h4 className="w-4/12 text-5xl font-bold border-r border-orange-500 flex items-center">
           This course is ideal for
         </h4>
-        <div className="w-8/12 pl-32 text-2xl">{content.idealFor}</div>
+        <div className="w-8/12 pl-32 text-lg">{content.idealFor}</div>
       </section>
       <section className="relative">
         <div className="absolute w-[650px] -mt-96 top-0 left-0 transform -translate-x-1/2 -z-10">
@@ -83,7 +83,7 @@ export default function Course({ content }: CoursePageProps) {
         </div>
       </section>
       <section className="relative my-16">
-        <div className="bg-gradient-to-r from-indigo-500 via-indigo-500 to-indigo-700 mx-12 px-28 rounded-xl py-12 shadow-xl shadow-indigo-300">
+        <div className="bg-gradient-to-r from-indigo-500 via-indigo-500 to-indigo-700 mx-12 px-28 rounded-xl py-12 shadow-2xl shadow-indigo-300">
           <div className="w-2/3">
             <h3 className="text-5xl text-indigo-50 font-bold mb-11">
               After completing this course, you will be able to
@@ -161,6 +161,8 @@ export default function Course({ content }: CoursePageProps) {
 
 export async function getStaticPaths() {
   const paths = getAllCourseSlugs();
+
+  console.log(paths);
 
   return {
     paths,
