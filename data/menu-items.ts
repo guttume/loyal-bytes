@@ -1,7 +1,7 @@
 export const menuItems = [
   {
     title: "Batches",
-    link: "",
+    link: "/batches",
   },
   {
     title: "Training Flexibility",

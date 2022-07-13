@@ -35,4 +35,5 @@ export const images = {
   azureAiHeroBg: "/images/course-page/azure-hero-bg.png",
   moduleIcon: "/images/course-page/module-icon.png",
   whiteRings: "/images/white-rings.png",
+  batchesHero: "/images/batches/hero.png",
 };

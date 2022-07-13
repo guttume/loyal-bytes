@@ -1,6 +1,7 @@
 import {
   Button,
   HeroBanner,
+  HurryUp,
   images,
   PortfolioSummary,
   Section,
@@ -129,17 +130,7 @@ export default function Index() {
         <PortfolioSummary />
       </Section>
       <Section>
-        <div className="bg-blue-800 text-blue-50 p-4 rounded-lg shadow-md lg:flex items-center justify-between lg:px-16 lg:py-12">
-          <div>
-            <p className="font-bold text-lg mb-3">Hurry up!</p>
-            <p>
-              We have limited seats. Apply now for courses and avail discounts.
-            </p>
-          </div>
-          <div className="mt-6">
-            <Button color="bg-white text-gray-800">View All Courses</Button>
-          </div>
-        </div>
+        <HurryUp />
       </Section>
       <section className="mt-4 lg:-mx-12 px-8 bg-blue-500 pb-8">
         <div className="p-4 w-full max-w-3xl mx-auto lg:ml-12">

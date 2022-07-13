@@ -5,6 +5,7 @@ export * from "./Header";
 export * from "./Hero";
 export * from "./HeroText";
 export * from "./Highlight";
+export * from "./HurryUp";
 export * from "./Images";
 export * from "./Layout";
 export * from "./MenutButton";

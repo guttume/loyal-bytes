@@ -17,4 +17,8 @@
   .btn-outline-secondary {
     @apply border border-white text-white bg-transparent;
   }
+
+  .btn-white {
+    @apply bg-white text-gray-800;
+  }
 }
