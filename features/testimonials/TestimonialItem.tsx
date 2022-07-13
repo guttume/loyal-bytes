@@ -1,7 +1,7 @@
 // @ts-ignore
 export const TestimonialItem = ({ children, imageUrl, dateText, title }) => {
   return (
-    <div className="w-full lg:w-[740px] lg:pr-16 lg:mx-auto flex shadow-md rounded-lg">
+    <div className="w-full flex shadow-md rounded-lg">
       <div className="w-1/3">
         <img src={imageUrl} />
       </div>

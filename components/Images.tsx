@@ -49,4 +49,17 @@ export const images = {
       phone: "/images/contact/icons/phone.png",
     },
   },
+  testimonials: {
+    grids: {
+      one: "/images/testimonials/grids/grid-img-1.png",
+      two: "/images/testimonials/grids/grid-img-2.png",
+      three: "/images/testimonials/grids/grid-img-3.png",
+      four: "/images/testimonials/grids/grid-img-4.png",
+      five: "/images/testimonials/grids/grid-img-5.png",
+      six: "/images/testimonials/grids/grid-img-6.png",
+      seven: "/images/testimonials/grids/grid-img-7.png",
+    },
+    rings: "/images/testimonials/rings.png",
+    bar: "/images/testimonials/bar.png",
+  },
 };
