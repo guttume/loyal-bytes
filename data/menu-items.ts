@@ -9,7 +9,7 @@ export const menuItems = [
   },
   {
     title: "Corporate Training",
-    link: "",
+    link: "/corporate-training",
   },
   {
     title: "Impact",

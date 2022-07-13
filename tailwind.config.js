@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         darkerText: "#2D3957",
         darkText: "#273E74",
+        beige: "#FBF5F1",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--gradient-color-stops))",
