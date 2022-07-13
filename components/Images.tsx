@@ -36,8 +36,17 @@ export const images = {
   moduleIcon: "/images/course-page/module-icon.png",
   whiteRings: "/images/white-rings.png",
   batchesHero: "/images/batches/hero.png",
-  corporateTrainingHero: "images/corporate-training/hero.png",
-  corporateTrainingBrands: "images/corporate-training/brands.png",
-  corporateTrainingBoyOnPc: "images/corporate-training/boy-on-pc.png",
-  corporateTrainingVodafone: "images/corporate-training/vodafone.png",
+  corporateTrainingHero: "/images/corporate-training/hero.png",
+  corporateTrainingBrands: "/images/corporate-training/brands.png",
+  corporateTrainingBoyOnPc: "/images/corporate-training/boy-on-pc.png",
+  corporateTrainingVodafone: "/images/corporate-training/vodafone.png",
+  contact: {
+    hero: "/images/contact/hero.png",
+    map: "/images/contact/map.png",
+    icons: {
+      location: "/images/contact/icons/location.png",
+      mail: "/images/contact/icons/mail.png",
+      phone: "/images/contact/icons/phone.png",
+    },
+  },
 };
