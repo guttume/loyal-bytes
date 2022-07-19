@@ -62,4 +62,20 @@ export const images = {
     rings: "/images/testimonials/rings.png",
     bar: "/images/testimonials/bar.png",
   },
+  about: {
+    bg: "/images/about/bg.png",
+    certificate: "/images/about/certificate.png",
+    circle: "/images/about/circle.png",
+    hero: "/images/about/hero.png",
+    profile: "/images/about/profile.png",
+    microsoft: "/images/about/microsoft.png",
+    grids: {
+      one: "/images/about/grid/grid-img-01.png",
+      two: "/images/about/grid/grid-img-02.png",
+      three: "/images/about/grid/grid-img-03.png",
+      four: "/images/about/grid/grid-img-04.png",
+      five: "/images/about/grid/grid-img-05.png",
+      six: "/images/about/grid/grid-img-06.png",
+    },
+  },
 };
