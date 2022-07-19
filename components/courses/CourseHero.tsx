@@ -8,26 +8,28 @@ export const CourseHero = ({
   subtitle: string;
 }) => {
   return (
-    <section className="relative h-[calc(100vh-96px)]">
-      <div className="absolute w-[100vw] h-[calc(100vh-96px)] object-contain -z-10">
+    <section className="lg:relative lg:h-[calc(100vh-96px)]">
+      <div className="hidden lg:block absolute w-[100vw] h-[calc(100vh-96px)] object-contain -z-10">
         <img
           src={images.azureAiHeroBg}
           alt="hero background"
           className="w-full h-full"
         />
       </div>
-      <div className="flex h-full px-16">
-        <div className="w-1/2 h-full py-12 flex justify-center items-center">
+      <div className="lg:flex h-full px-4 lg:px-16">
+        <div className="w-full lg:w-1/2 h-full py-12 flex justify-center items-center">
           <img
             src={images.azureAiHeroImage}
             alt="hero image"
             className="w-auto h-full"
           />
         </div>
-        <div className="w-1/2 h-full flex justify-center items-center">
+        <div className="lg:w-1/2 h-full lg:flex justify-center items-center">
           <div>
-            <h1 className="text-6xl font-bold text-right">{title}</h1>
-            <h2 className="text-3xl my-4 text-right">{subtitle}</h2>
+            <h1 className="text-4xl lg:text-6xl font-bold text-right">
+              {title}
+            </h1>
+            <h2 className="text-xl lg:text-3xl my-4 text-right">{subtitle}</h2>
             <div className="flex space-x-12 justify-end my-16">
               <img src={images.awsLogo} alt="AWS logo" className="h-12" />
               <img src={images.gcpLogo} alt="GCP logo" className="h-12" />

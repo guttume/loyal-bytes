@@ -18,8 +18,8 @@ export const AccordionItem = ({
 }: AccordionItemProps) => {
   return (
     <div onClick={() => toggle(index)}>
-      <div className="flex justify-between bg-orange-100 rounded-lg items-center px-12 py-6">
-        <div className="w-8">
+      <div className="flex justify-between bg-orange-100 rounded-lg items-center px-4 lg:px-12 py-6">
+        <div className="lg:w-8">
           <img src={images.moduleIcon} alt="" />
         </div>
         <h4 className="font-semibold">{item.title}</h4>

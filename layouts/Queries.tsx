@@ -1,7 +1,7 @@
 export const Queries = () => {
   return (
-    <div className="bg-orange-500 px-20 py-12">
-      <div className="flex items-center justify-between">
+    <div className="bg-orange-500 px-4 lg:px-20 py-12">
+      <div className="lg:flex space-y-4 lg:space-y-0 items-center justify-between">
         <div>
           <p className="text-5xl font-bold text-orange-50 mb-4">
             Still have queries?

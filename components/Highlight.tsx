@@ -8,7 +8,7 @@ interface HighlightProps {
 
 export const Highlight = ({ color, heading, subheading }: HighlightProps) => {
   return (
-    <div className="bg-white rounded shadow-sm w-48 space-y-6 py-8 px-4">
+    <div className="bg-white rounded shadow-sm lg:w-48 space-y-6 py-8 px-4">
       <div className="flex justify-center">
         <span
           className={`${color} h-8 w-8 flex justify-center items-center rounded-full`}

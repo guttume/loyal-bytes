@@ -70,7 +70,7 @@ export default function about() {
               />
             </span>
             <p className="absolute bottom-0 left-1/2 mb-12 transform -translate-x-1/2 w-48 text-center text-white font-semibold">
-              "We are the pioneers of the IT in India and abroad"
+              &quot;We are the pioneers of the IT in India and abroad&quot;
             </p>
           </div>
           <div className="w-1/2 py-16">
