@@ -78,4 +78,14 @@ export const images = {
       six: "/images/about/grid/grid-img-06.png",
     },
   },
+  placement: {
+    hero: "/images/placements/hero.png",
+    side: "/images/placements/side.png",
+    brands: {
+      google: "/images/placements/brands/google.png",
+      cisco: "/images/placements/brands/cisco.png",
+      dell: "/images/placements/brands/dell.png",
+      ford: "/images/placements/brands/ford.png",
+    },
+  },
 };
