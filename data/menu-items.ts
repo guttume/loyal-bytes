@@ -27,8 +27,8 @@ export const menuItems = [
     title: "Testimonials",
     link: "/testimonials",
   },
-  {
-    title: "Gallery",
-    link: "",
-  },
+  // {
+  //   title: "Gallery",
+  //   link: "",
+  // },
 ];
