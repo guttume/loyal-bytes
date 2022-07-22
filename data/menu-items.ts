@@ -5,7 +5,7 @@ export const menuItems = [
   },
   {
     title: "Training Flexibility",
-    link: "",
+    link: "training-flexibility",
   },
   {
     title: "Corporate Training",

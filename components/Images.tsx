@@ -88,4 +88,21 @@ export const images = {
       ford: "/images/placements/brands/ford.png",
     },
   },
+  training: {
+    hero: "/images/training/hero.png",
+    offer: "/images/training/offer.png",
+    benefits: {
+      one: "/images/training/benefits_one.png",
+      two: "/images/training/benefits_two.png",
+      three: "/images/training/benefits_three.png",
+      four: "/images/training/benefits_four.png",
+    },
+    iconBenefit: "/images/training/icon_benefit.png",
+    rings: {
+      green: "images/training/green.png",
+      orange: "images/training/orange.png",
+      violet: "images/training/violet.png",
+    },
+    bg: "/images/training/bg.png",
+  },
 };
