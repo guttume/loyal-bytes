@@ -3,7 +3,7 @@ import { images } from "../components";
 export default function Placement() {
   return (
     <>
-      <section className="relative h-[calc(100vh+100px)]">
+      <section className="relative lg:h-[calc(100vh+100px)]">
         <div className="absolute -z-10">
           <img
             src={images.placement.hero}
@@ -11,19 +11,22 @@ export default function Placement() {
             className="w-full"
           />
         </div>
-        <div className="px-12 space-y-6 w-full max-w-2xl">
-          <h1 className="text-6xl font-bold text-white pt-32">
-            Become Affiliated Become Global
+        <div className="px-8 lg:px-12 space-y-6 w-full max-w-2xl">
+          <h1 className="text-6xl font-bold lg:text-white pt-28 lg:pt-32">
+            <span className="text-white">Become Affiliated</span> Become Global
           </h1>
-          <h2 className="text-xl text-white">
+          <h2 className="text-xl lg:text-white">
             Our students have been placed in the top tech companies across the
             globe.
           </h2>
-          <div className="space-y-6 pt-4">
+          <div className="flex justify-center lg:block space-x-4 lg:space-x-0 lg:space-y-6 pt-4">
             <button className="btn btn-primary block w-1/2">
               Hear from our students
             </button>
-            <button className="btn btn-outline-secondary block w-1/2">
+            <button className="lg:hidden btn btn-outline-primary block w-1/2">
+              Inquire now
+            </button>
+            <button className="hidden btn btn-outline-secondary lg:block w-1/2">
               Inquire now
             </button>
           </div>
@@ -153,10 +156,10 @@ export default function Placement() {
           </div>
         </div>
       </section>
-      <section className="my-16 px-12">
-        <div className="flex space-x-4 items-center">
-          <div className="w-1/2">
-            <h3 className="text-2xl font-semibold mb-8">
+      <section className="my-16 px-8 lg:px-12">
+        <div className="lg:flex space-y-8 lg:space-y-0 lg:space-x-4 items-center">
+          <div className="lg:w-1/2">
+            <h3 className="text-2xl font-semibold mb-4 lg:mb-8">
               Our professionals are serving at:
             </h3>
             <p className="text-lg">
@@ -170,23 +173,25 @@ export default function Placement() {
               Scotland, Bank of America, and counting
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             <img src={images.placement.side} alt="A women working" />
           </div>
         </div>
       </section>
-      <section className="bg-orange-500 px-12 py-12">
-        <div className="flex px-20 justify-between">
-          <div>
-            <h3 className="text-3xl text-white font-bold">
+      <section className="bg-orange-500 px-8 lg:px-12 py-12">
+        <div className="lg:flex lg:px-20 justify-between space-y-8 lg:space-y-0">
+          <div className="space-y-4 lg:space-y-0">
+            <h3 className="text-3xl text-white font-bold text-center lg:text-left">
               Apply now and get early birds offers
             </h3>
-            <h4 className="text-lg text-white font-semibold">
+            <h4 className="text-lg text-white font-semibold text-center lg:text-left">
               Apply for the course of your choice and avail attractive early
               birds offers.
             </h4>
           </div>
-          <button className="btn btn-outline-secondary">Apply now</button>
+          <div className="flex justify-center lg:block">
+            <button className="btn btn-outline-secondary">Apply now</button>
+          </div>
         </div>
       </section>
     </>
