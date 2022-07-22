@@ -4,14 +4,14 @@ import { images } from "../components";
 export default function CorporateTraining() {
   return (
     <>
-      <section className="relative">
-        <div className="absolute top-0 right-0 w-[600px] transform translate-x-1/2">
+      <section className="relative px-8 lg:px-0">
+        <div className="hidden lg:block absolute top-0 right-0 w-[600px] transform translate-x-1/2">
           <img src={images.homePageRings} alt="rings picture" />
         </div>
-        <div className="absolute top-0 left-0 w-[900px] mt-48 transform -translate-x-1/2 -z-10">
+        <div className="hidden lg:block absolute top-0 left-0 w-[900px] mt-48 transform -translate-x-1/2 -z-10">
           <img src={images.homePageRings} alt="rings picture" />
         </div>
-        <h1 className="text-6xl text-center font-bold text-darkerText mt-12 leading-tight">
+        <h1 className="text-5xl lg:text-6xl text-center font-bold text-darkerText mt-12 leading-tight">
           Stay Ahead of Time with{" "}
           <span className="text-orange-500 block">Loyal Bytes</span>
         </h1>
@@ -20,7 +20,7 @@ export default function CorporateTraining() {
           for Corporates
         </h2>
         <div className="flex items-center justify-center mt-4">
-          <div className="h-[590px]">
+          <div className="lg:h-[590px]">
             <img
               src={images.corporateTrainingHero}
               alt="hero picture"
@@ -29,9 +29,9 @@ export default function CorporateTraining() {
           </div>
         </div>
       </section>
-      <section className="my-16 px-12">
-        <div className="bg-beige rounded-lg flex px-14 py-12 space-x-8">
-          <div className="w-1/2">
+      <section className="lg:my-16 lg:px-12">
+        <div className="bg-beige rounded-lg lg:flex px-8 lg:px-14 py-12 lg:space-x-8">
+          <div className="lg:w-1/2">
             <span>
               <DesktopComputerIcon className="h-5 w-5 text-orange-500" />
             </span>
@@ -80,7 +80,7 @@ export default function CorporateTraining() {
               </p>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             {[0, 0, 0, 0, 0, 0].map((item, index) => (
               <div key={index} className="my-4">
                 <img
@@ -92,16 +92,16 @@ export default function CorporateTraining() {
           </div>
         </div>
       </section>
-      <section className="bg-darkText px-12">
-        <div className="flex py-16 items-center space-x-12">
-          <div className="w-1/2 bg-white rounded-xl flex justify-center py-8">
+      <section className="bg-darkText px-8 lg:px-12">
+        <div className="lg:flex py-16 items-center space-x-12">
+          <div className="lg:w-1/2 bg-white rounded-xl flex justify-center py-8">
             <div>
               <img
                 src={images.corporateTrainingVodafone}
                 alt="vodafone logo"
                 className="w-96"
               />
-              <ul className="my-8 space-y-2 list-disc">
+              <ul className="my-8 space-y-2 list-disc pr-4 pl-8">
                 {[
                   "WINDOWS 10 FOR ENTERPRISE (Banglore)",
                   "WINDOWS SERVER 2012 and ADFS 3.0",
@@ -114,7 +114,7 @@ export default function CorporateTraining() {
               </ul>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2 mt-8 lg:mt-0">
             <img
               src={images.corporateTrainingBoyOnPc}
               alt="A picture of a boy working on a computer"
