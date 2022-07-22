@@ -3,18 +3,18 @@ import { images, Statistics } from "../components";
 export default function about() {
   return (
     <>
-      <section className="px-12">
-        <div className="absolute top-0 right-0 h-[calc(100vh+64px)] -z-10">
+      <section className="px-8 lg:px-12">
+        <div className="hidden lg:block absolute top-0 right-0 lg:h-[calc(100vh+64px)] -z-10">
           <img
             src={images.about.hero}
             alt="A picture of a girl flying in clouds"
-            className="h-full w-auto"
+            className="lg:h-full lg:w-auto"
           />
         </div>
-        <div className="h-[calc(100vh-126px)] w-2/3 flex items-center">
+        <div className="lg:h-[calc(100vh-126px)] lg:w-2/3 flex items-center">
           <div className="space-y-12">
             <div className="space-y-6">
-              <h1 className="text-7xl font-bold text-darkerText">
+              <h1 className="text-5xl lg:text-7xl font-bold text-darkerText">
                 Make your career fly with{" "}
                 <span className="text-orange-500">Loyal Bytes</span>
               </h1>
@@ -49,7 +49,7 @@ export default function about() {
                 />
               </span>
             </div>
-            <div className="space-x-4">
+            <div className="flex lg:block space-x-4">
               <button className="btn btn-primary border border-orange-500 w-48">
                 View Courses
               </button>
@@ -60,9 +60,9 @@ export default function about() {
           </div>
         </div>
       </section>
-      <section className="mt-16 bg-gradient-to-r from-blue-500 via-indigo-500 to-indigo-500 px-12">
-        <div className="flex">
-          <div className="w-1/2 relative flex justify-center pt-12">
+      <section className="mt-16 bg-gradient-to-r from-blue-500 via-indigo-500 to-indigo-500 px-8 lg:px-12">
+        <div className="lg:flex">
+          <div className="lg:w-1/2 relative flex justify-center pt-12">
             <span className="blur-md">
               <img
                 src={images.about.profile}
@@ -73,7 +73,7 @@ export default function about() {
               &quot;We are the pioneers of the IT in India and abroad&quot;
             </p>
           </div>
-          <div className="w-1/2 py-16">
+          <div className="lg:w-1/2 py-16">
             <div className="flex items-center space-x-4 mb-16">
               <div>
                 <span className="block h-12 w-12 bg-orange-500 rounded-full">
@@ -110,7 +110,7 @@ export default function about() {
                 industry and still come out a winner when serving clients.
               </p>
             </div>
-            <div className="flex space-x-8">
+            <div className="flex justify-center lg:justify-start space-x-8">
               <img
                 src={images.about.microsoft}
                 alt="Microsoft cerfiticication log"
@@ -126,19 +126,21 @@ export default function about() {
         </div>
       </section>
       <section
-        className="px-12 py-16 relative"
+        className="px-8 lg:px-12 py-16 relative"
         style={{
           backgroundColor: "#F2F6FF",
           backgroundImage: "url('/images/about/bg.png')",
           backgroundSize: "cover",
         }}
       >
-        <div className="flex items-center">
-          <div className="text-darkerText px-16">
-            <h3 className="text-8xl font-bold">
+        <div className="lg:flex items-center">
+          <div className="text-darkerText px-0 lg:px-16 mb-8 lg:mb-0">
+            <h3 className="text-4xl lg:text-8xl font-bold">
               Understand technology and play with it
             </h3>
-            <p className="text-right text-3xl font-bold">&ndash; Ronak Shah</p>
+            <p className="text-right text-xl lg:text-3xl italic font-bold">
+              &ndash; Ronak Shah
+            </p>
           </div>
           <div className="space-y-6">
             <p>
@@ -187,12 +189,12 @@ export default function about() {
           </div>
         </div>
       </section>
-      <section className="px-12 my-16">
-        <div className="flex space-x-6">
+      <section className="px-8 lg:px-12 my-16">
+        <div className="lg:flex lg:space-x-6">
           <div className="space-y-6 mt-4">
             <h3 className="text-5xl font-bold text-darkerText">
               We help you to
-              <br /> achieve your goals
+              <br className="hidden" /> achieve your goals
             </h3>
             <h4 className="text-xl text-gray-500">
               We love what we do and we do it with passion. We value the
@@ -200,41 +202,43 @@ export default function about() {
             </h4>
             <button className="btn btn-primary">Corporate Training</button>
           </div>
-          <div className="flex space-x-4">
-            <img
-              src={images.about.grids.one}
-              alt="A Picture of a man"
-              className="w-[360px] h-[408px]"
-            />
-          </div>
-          <div>
-            <img
-              src={images.about.grids.two}
-              alt="A Picture of a man"
-              className="w-[360px] h-[408px]"
-            />
+          <div className="flex space-x-4 items-center mt-4 lg:mt-0">
+            <div className="flex space-x-4">
+              <img
+                src={images.about.grids.one}
+                alt="A Picture of a man"
+                className="lg:w-[360px] lg:h-[408px]"
+              />
+            </div>
+            <div>
+              <img
+                src={images.about.grids.two}
+                alt="A Picture of a man"
+                className="lg:w-[360px] lg:h-[408px]"
+              />
+            </div>
           </div>
         </div>
-        <div className="flex space-x-8 mt-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
           <img
             src={images.about.grids.three}
             alt="A Picture of a man"
-            className="w-[363px] h-[408px]"
+            className="lg:w-[363px] lg:h-[408px]"
           />
           <img
             src={images.about.grids.four}
             alt="A Picture of a man"
-            className="w-[363px] h-[408px]"
+            className="lg:w-[363px] lg:h-[408px]"
           />
           <img
             src={images.about.grids.five}
             alt="A Picture of a man"
-            className="w-[363px] h-[408px]"
+            className="lg:w-[363px] lg:h-[408px]"
           />
           <img
             src={images.about.grids.six}
             alt="A Picture of a man"
-            className="w-[363px] h-[408px]"
+            className="lg:w-[363px] lg:h-[408px]"
           />
         </div>
       </section>
