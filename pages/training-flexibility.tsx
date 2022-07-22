@@ -17,9 +17,9 @@ export default function TrainingFlexibility() {
               Learn from anywhere
             </h1>
             <h2 className="mt-4 text-lg">
-              We're just one click away to help you take your career from great
-              to incredible. Fill in the form and our friendly staff will be
-              ready to assist you in your queries.
+              We&apos;re just one click away to help you take your career from
+              great to incredible. Fill in the form and our friendly staff will
+              be ready to assist you in your queries.
             </h2>
             <div className="my-6 flex justify-center lg:justify-start space-x-2">
               <button className="btn btn-primary">Know about us</button>
@@ -43,18 +43,18 @@ export default function TrainingFlexibility() {
             <p className="text-white">
               Loyal Bytes Learning Services has an advanced learning center
               specifically created to provide training in quality management to
-              working professionals. Loyal Bytes Learning Service's expertise in
-              the design and management of distributed education programs that
-              provide student learning environments, technology platforms, and
-              related educational processes and services created should have
-              holistic teaching and learning experience. Our IT training
-              programs and IT certifications help professionals master the
-              cutting-edge technologies deployed in today's organizations and
-              gain an edge over their peers. These, coupled with strategic
-              academic alliances, provide a truly enriching learning experience.
-              With its Center for Advanced Learning, Loyal Bytes Learning
-              Services provides working professionals with quality management
-              education.
+              working professionals. Loyal Bytes Learning Service&apos;s
+              expertise in the design and management of distributed education
+              programs that provide student learning environments, technology
+              platforms, and related educational processes and services created
+              should have holistic teaching and learning experience. Our IT
+              training programs and IT certifications help professionals master
+              the cutting-edge technologies deployed in today&apos;s
+              organizations and gain an edge over their peers. These, coupled
+              with strategic academic alliances, provide a truly enriching
+              learning experience. With its Center for Advanced Learning, Loyal
+              Bytes Learning Services provides working professionals with
+              quality management education.
             </p>
             <p className="text-white">
               In addition to the technology platform, student study
@@ -72,9 +72,9 @@ export default function TrainingFlexibility() {
         <div className="space-y-6 px-8 lg:flex lg:space-y-0 lg:space-x-8">
           <ol className="relative bg-white rounded py-8 pr-2 pl-8 list-decimal lg:w-1/3">
             <li>Custom Trainings based on thecorporate requirements.</li>
-            <li>Training as per vendor’s course ware.</li>
+            <li>Training as per vendor&apos;s course ware.</li>
             <li>
-              Remote trainings to small individualgroups and save travel &
+              Remote trainings to small individualgroups and save travel &amp;
               miscellaneouscost.
             </li>
             <li>Qualified and experienced faculty</li>
@@ -308,7 +308,7 @@ export default function TrainingFlexibility() {
           Train-me-where-I-am allows enterprises to have our experts conduct
           pieces of training on their premises. Given the huge costs associated
           with making entire teams travel to a different location, it becomes
-          more feasible to fly a trainer to the client's location
+          more feasible to fly a trainer to the client&apos;s location
         </p>
       </section>
     </>

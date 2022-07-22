@@ -13,7 +13,7 @@ export const menuItems = [
   },
   {
     title: "Impact",
-    link: "",
+    link: "/placement",
   },
   {
     title: "Contact",
