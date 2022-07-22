@@ -4,13 +4,13 @@ import { HurryUp, images, Statistics } from "../components";
 export default function Contact() {
   return (
     <>
-      <section className="p-12">
-        <div className="flex items-center space-x-2">
-          <div className="pl-20 w-7/12">
-            <h1 className="text-7xl font-bold text-darkerText">
+      <section className="p-8 lg:p-12">
+        <div className="lg:flex items-center lg:space-x-2">
+          <div className="lg:pl-20 lg:w-7/12">
+            <h1 className="text-4xl lg:text-7xl font-bold text-darkerText">
               Become a part of a Global Community
             </h1>
-            <ul className="mt-16 text-xl border-l-2 border-orange-500 pl-4">
+            <ul className="mt-8 lg:mt-16 text-xl border-l-2 border-orange-500 pl-4">
               {[
                 "Virtual classes available",
                 "Money back guarantee",
@@ -28,7 +28,7 @@ export default function Contact() {
               ))}
             </ul>
           </div>
-          <div className="w-5/12">
+          <div className="lg:w-5/12 mt-8 lg:mt-0">
             <img
               src={images.contact.hero}
               alt="A picture of a boy having coffee"
@@ -39,14 +39,14 @@ export default function Contact() {
       <section>
         <Statistics />
       </section>
-      <section className="p-24">
-        <div className="w-full bg-gray-200 rounded-lg p-20 space-y-20">
-          <div className="w-full flex space-x-8 items-center">
-            <div className="w-1/3 space-y-4">
+      <section className="py-8 lg:p-24">
+        <div className="w-full bg-gray-200 lg:rounded-lg p-8 lg:p-20 space-y-4 lg:space-y-20">
+          <div className="w-full lg:flex lg:space-x-8 items-center">
+            <div className="lg:w-1/3 space-y-4">
               <h3 className="text-3xl font-bold text-darkerText">
                 Have a query?
               </h3>
-              <h4 className="text-lg font-bold text-gray-600 pb-12">
+              <h4 className="text-lg font-bold text-gray-600 pb-4 lg:pb-12">
                 Get in touch with us and our friendly and professional staff
                 will guide you step by step to resolve your queries.
               </h4>
@@ -57,7 +57,7 @@ export default function Contact() {
                 </span>
               </button>
             </div>
-            <div className="w-2/3">
+            <div className="lg:w-2/3 mt-4 lg:mt-0">
               <img
                 src={images.contact.map}
                 alt="A picture of a google map"
@@ -65,8 +65,8 @@ export default function Contact() {
               />
             </div>
           </div>
-          <div className="flex justify-between items-center">
-            <div className="flex space-x-2 items-center w-1/3">
+          <div className="lg:flex space-y-6 lg:space-y-0 justify-between items-center">
+            <div className="flex space-x-2 items-center lg:w-1/3">
               <span>
                 <img
                   src={images.contact.icons.phone}
@@ -78,7 +78,7 @@ export default function Contact() {
                 <a href="">+91 9769303625</a> / <a href="">022 67250749</a>
               </span>
             </div>
-            <div className="flex space-x-2 items-center w-1/3">
+            <div className="flex space-x-2 items-center lg:w-1/3">
               <span>
                 <img
                   src={images.contact.icons.mail}
@@ -91,7 +91,7 @@ export default function Contact() {
                 <a href="">inquiryhotmail.com</a>
               </span>
             </div>
-            <div className="flex space-x-2 items-center w-1/3">
+            <div className="flex space-x-2 items-center lg:w-1/3">
               <span>
                 <img
                   src={images.contact.icons.location}
@@ -107,7 +107,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <section className="px-16 mb-16">
+      <section className="lg:px-16 mb-16">
         <HurryUp />
       </section>
     </>
