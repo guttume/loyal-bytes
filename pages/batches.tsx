@@ -1,6 +1,5 @@
-import { Autoplay, FreeMode, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { HurryUp, images, TestimonialItem } from "../components";
+import Link from "next/link";
+import { HurryUp, images, Testimonial } from "../components";
 import { batches } from "../data/batches";
 
 export default function Batches() {
@@ -14,7 +13,11 @@ export default function Batches() {
           <h2 className="text-xl">
             With Loyal Bytes you get flexible choices course batches
           </h2>
-          <button className="btn btn-primary">Hear from our students</button>
+          <Link href={"/testimonials"}>
+            <a className="btn btn-primary inline-block">
+              Hear from our students
+            </a>
+          </Link>
         </div>
         <div className="lg:w-1/2">
           <div className="pb-16 lg:pb-0 lg:mt-48">
@@ -35,7 +38,7 @@ export default function Batches() {
               <th className="rounded-l py-3">Courses</th>
               <th>Days</th>
               <th>Batch Mode</th>
-              <th className="hidden lg:block py-3">Time</th>
+              <th className="hidden">Time</th>
               <th className="rounded-r py-3">Duration</th>
             </tr>
           </thead>
@@ -45,7 +48,7 @@ export default function Batches() {
                 <td className="py-4 px-2 rounded-l">{batch.course}</td>
                 <td>{batch.days}</td>
                 <td>{batch.mode}</td>
-                <td className="hidden lg:block py-4">{batch.time}</td>
+                <td className="hidden">{batch.time}</td>
                 <td className="rounded-r">{batch.duration}</td>
               </tr>
             ))}
@@ -83,68 +86,15 @@ export default function Batches() {
           </div>
         </div>
         <div className="flex justify-center">
-          <a href="#" className="underline text-xl font-bold text-gray-600">
-            View all
-          </a>
+          <Link href={"/placement"}>
+            <a className="underline text-xl font-bold text-gray-600">
+              View all
+            </a>
+          </Link>
         </div>
       </section>
-      <section className="px-8 lg:px-0 mt-16 lg:-mt-32">
-        <div className="lg:mt-48 lg:h-[450px]">
-          <h3 className="text-5xl font-bold text-darkText text-center mb-16">
-            What Our Students Say About Us
-          </h3>
-          <Swiper
-            spaceBetween={10}
-            slidesPerView={"auto"}
-            freeMode={true}
-            autoplay={true}
-            modules={[Pagination, FreeMode, Autoplay]}
-            pagination={{ clickable: true }}
-          >
-            <SwiperSlide>
-              <TestimonialItem
-                dateText={"May 8, 2000"}
-                imageUrl={images.sliderImageOne}
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                }
-              >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
-                fugiat facilis error, voluptatum, molestias assumenda pariatur
-                ex eos sequi nisi corrupti atque quod impedit totam expedita
-                ipsum enim culpa libero?
-              </TestimonialItem>
-            </SwiperSlide>
-            <SwiperSlide>
-              <TestimonialItem
-                dateText={"May 8, 2000"}
-                imageUrl={images.sliderImageTwo}
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                }
-              >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
-                fugiat facilis error, voluptatum, molestias assumenda pariatur
-                ex eos sequi nisi corrupti atque quod impedit totam expedita
-                ipsum enim culpa libero?
-              </TestimonialItem>
-            </SwiperSlide>
-            <SwiperSlide>
-              <TestimonialItem
-                dateText={"May 8, 2000"}
-                imageUrl={images.sliderImageOne}
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                }
-              >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
-                fugiat facilis error, voluptatum, molestias assumenda pariatur
-                ex eos sequi nisi corrupti atque quod impedit totam expedita
-                ipsum enim culpa libero?
-              </TestimonialItem>
-            </SwiperSlide>
-          </Swiper>
-        </div>
+      <section className="px-8 lg:px-12 mt-16 lg:-mt-32">
+        <Testimonial />
       </section>
       <section className="lg:px-12 my-6">
         <HurryUp />
