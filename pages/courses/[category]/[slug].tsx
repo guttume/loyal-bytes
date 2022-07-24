@@ -7,13 +7,13 @@ import {
   images,
   PortfolioSummary,
   Testimonial,
-} from "../../components";
-import { Queries } from "../../layouts";
+} from "../../../components";
+import { Queries } from "../../../layouts";
 import {
   CourseContent,
   getAllCourseSlugs,
   getCourseData,
-} from "../../lib/courses";
+} from "../../../lib/courses";
 
 export default function Course({ content }: CoursePageProps) {
   return (
@@ -155,8 +155,6 @@ export default function Course({ content }: CoursePageProps) {
 export async function getStaticPaths() {
   const paths = getAllCourseSlugs();
 
-  console.log(paths);
-
   return {
     paths,
     fallback: false,
@@ -164,7 +162,7 @@ export async function getStaticPaths() {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const courseData = getCourseData(params?.slug);
+  const courseData = getCourseData(params?.category, params?.slug);
   return {
     props: {
       content: courseData.default,

@@ -3,19 +3,43 @@ import path from "path";
 
 const coursesDirectory = path.join(process.cwd(), "courses");
 
-export function getAllCourseSlugs() {
-  const fileNames = fs.readdirSync(coursesDirectory);
-  return fileNames.map((fileName) => {
+export function getAllCategories() {
+  const categories = fs.readdirSync(coursesDirectory);
+  return categories.map((category) => {
     return {
       params: {
-        slug: fileName.replace(/\.js$/, ""),
+        category,
       },
     };
   });
 }
 
-export function getCourseData(slug: string | string[] | undefined) {
-  const fileContents = require(`../courses/${slug}.js`);
+export function getCoursesForCategory(category: string | string[] | undefined) {
+  return fs.readdirSync(`${coursesDirectory}/${category}`);
+}
+
+export function getAllCourseSlugs() {
+  const files: any[] = [];
+  const categories = fs.readdirSync(coursesDirectory);
+  categories.map((category) => {
+    const fileNames = fs.readdirSync(path.join(coursesDirectory, category));
+    fileNames.forEach((fileName) => {
+      files.push({
+        params: {
+          category: category,
+          slug: fileName.replace(/\.js$/, ""),
+        },
+      });
+    });
+  });
+  return files;
+}
+
+export function getCourseData(
+  category: string | string[] | undefined,
+  slug: string | string[] | undefined
+) {
+  const fileContents = require(`${coursesDirectory}/${category}/${slug}.js`);
 
   return {
     slug,

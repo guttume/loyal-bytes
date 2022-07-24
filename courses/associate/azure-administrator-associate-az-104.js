@@ -48,8 +48,7 @@ export default {
     "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   modules: [
     {
-      title:
-        "Module 1: Manage Azure identities and governance (15–20%)  ",
+      title: "Module 1: Manage Azure identities and governance (15–20%)  ",
       submodules: [
         {
           heading: "Manage Azure Active Directory (Azure AD) objects",
@@ -88,11 +87,11 @@ export default {
       ],
     },
     {
-      title:
-        "Module 2: Deploy and manage Azure compute resources (20–25%)",
+      title: "Module 2: Deploy and manage Azure compute resources (20–25%)",
       submodules: [
         {
-          heading: "Automate deployment of virtual machines (VMs) by using Azure Resource Manager templates",
+          heading:
+            "Automate deployment of virtual machines (VMs) by using Azure Resource Manager templates",
           contents: [
             "Modify an Azure Resource Manager template",
             "Configure a virtual hard disk (VHD) template",
@@ -115,8 +114,7 @@ export default {
           ],
         },
         {
-          heading:
-            "Create and configure containers",
+          heading: "Create and configure containers",
           contents: [
             "Configure sizing and scaling for Azure Container Instances",
             "Configure container groups for Azure Container Instances",
@@ -127,8 +125,7 @@ export default {
           ],
         },
         {
-          heading:
-            "Create and configure Azure App Service",
+          heading: "Create and configure Azure App Service",
           contents: [
             "Create an App Service plan",
             "Configure scaling settings in an App Service plan",
@@ -143,8 +140,7 @@ export default {
       ],
     },
     {
-      title:
-        "Module 3: Configure and manage virtual networking (25–30%)",
+      title: "Module 3: Configure and manage virtual networking (25–30%)",
       submodules: [
         {
           heading: "Implement and manage virtual networking",
@@ -159,8 +155,7 @@ export default {
           ],
         },
         {
-          heading:
-            "Secure access to virtual networks",
+          heading: "Secure access to virtual networks",
           contents: [
             "Create security rules",
             "Associate a network security group (NSG) to a subnet or network interface",
@@ -170,8 +165,7 @@ export default {
           ],
         },
         {
-          heading:
-            "Configure load balancing",
+          heading: "Configure load balancing",
           contents: [
             "Configure Azure Application Gateway",
             "Configure an internal or public load balancer",
@@ -179,8 +173,7 @@ export default {
           ],
         },
         {
-          heading:
-            "Monitor and troubleshoot virtual networking",
+          heading: "Monitor and troubleshoot virtual networking",
           contents: [
             "Monitor on-premises connectivity",
             "Configure and use Azure Monitor for Networks",
@@ -201,8 +194,7 @@ export default {
       ],
     },
     {
-      title:
-        "Module 4: Monitor and back up Azure resources (10–15%)",
+      title: "Module 4: Monitor and back up Azure resources (10–15%)",
       submodules: [
         {
           heading: "Monitor resources by using Azure Monitor",

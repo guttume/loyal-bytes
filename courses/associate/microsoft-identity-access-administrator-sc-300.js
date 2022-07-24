@@ -1,0 +1,263 @@
+export default {
+  title: "Microsoft Identity and Access Administrator SC - 300",
+    subtitle:
+    "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  heroImage: "/images/course-page/azure-hero-image.png",
+  heroBg: "/images/course-page/azure-hero-bg.png",
+  courseDetail: {
+    duration: "40 Hours",
+    certification: "DP – 203 and Data Engineering on Microsoft Azure",
+    batchInfo: "Weekends and weekdays batches available",
+    level: "200",
+    highlights: [
+      {
+        icon: "user",
+        color: "orange",
+        heading: "Duration",
+        subheading: "32 Hours.",
+      },
+      {
+        icon: "user ",
+        color: "orange",
+        heading: "Batch Days",
+        subheading: "Weekdays", 
+      },
+      {
+        icon: "user ",
+        color: "orange",
+        heading: "Learningmode",
+        subheading:
+          "Group, One-to-One, Corporate Batches, Online Live Classrooms",
+      },
+      {
+        icon: "user",
+        color: "orange",
+        heading: "Passing score",
+        subheading: "700",
+      },
+    ],
+    bg: "blue",
+    displayImage: "/images/course-page/azure-hightlights-image.png",
+    description:
+      "This course provides IT Identity and Access Professional, along with IT Security Professional, with the knowledge and skills needed to implement identity management solutions based on Microsoft Azure AD, and it connected identity technologies. This course includes identity content for Azure AD, enterprise application registration, conditional access, identity governance, and other identity tools. This course provides IT Identity & Access Professionals and IT Security Professionals with the knowledge and skills needed to implement identity management solutions based on Microsoft Azure AD, and its connected identity technologies. This course includes identity content for Azure AD, enterprise application registration, conditional access, identity governance, and other identity tools.",
+  },
+  idealFor:
+    "The Microsoft identity and access administrator designs, implements, and operates an organization’s identity and access management systems by using Azure Active Directory (Azure AD). They manage tasks such as providing secure authentication and authorization access to enterprise applications. The administrator provides seamless experiences and self-service management capabilities for all users. Adaptive access and governance are core elements to the role. This role is also responsible for troubleshooting, monitoring, and reporting for the identity and access environment. The identity and access administrator may be a single individual or a member of a larger team. This role collaborates with many other roles in the organization to drive strategic identity projects to modernize identity solutions, to implement hybrid identity solutions and to implement identity governance.",
+
+  learningObjectives:
+    "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
+  modules: [
+    {
+      title:
+        "Module 1: IMPLEMENT AN IDENTITY MANAGEMENT SOLUTION (25-30%)",
+      submodules: [
+        {
+          heading: "IMPLEMENT INITIAL CONFIGURATION OF AZURE ACTIVE DIRECTORY",
+          contents: [
+            "Configure and manage Azure Active Directory roles",
+            "Configure and manage custom domains.", 
+            "Configure and manage device registration options",
+            "Configure delegation by using administrative units",
+            "Configure tenant-wide settings",
+          ],
+        },
+        {
+          heading: "CREATE, CONFIGURE AND MANAGE IDENTITIES",
+          contents: [
+            "Create, configure, and manage users ",
+            "Create, configure, and manage groups",
+            "Manage licenses",
+          ],
+        },
+        {
+          heading: "IMPLEMENT AND MANAGE EXTERNAL IDENTITIES",
+          contents: [
+            "Manage external collaboration settings in Azure Active Directory",
+            "Invite external users (individually or in bulk)",
+            "Manage external user accounts in Azure Active Directory",
+            "Configure identity providers (social and SAML/WS-fed)",
+          ],
+        },
+        {
+          heading: "IMPLEMENT AND MANAGE HYBRID IDENTITY",
+          contents: [
+            "Implement and manage Azure Active Directory Connect (AADC)",
+            "Implement and manage Azure AD Connect cloud sync",
+            "Implement and manage Password Hash Synchronization (PHS)",
+            "Implement and manage Pass-Through Authentication (PTA)",
+            "Implement and manage seamless Single Sign-On (SSO)",
+            "Implement and manage Federation (excluding manual ADFS deployments)",
+            "Implement and manage Azure Active Directory Connect Health",
+            "Troubleshoot synchronization errors",
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        "Module 2: IMPLEMENT AN AUTHENTICATION AND ACCESS MANAGEMENT SOLUTION (25-30%)",
+      submodules: [
+        {
+          heading: "PLAN AND IMPLEMENT AZURE MULTIFACTOR AUTHENTICATION (MFA)",
+          contents: [
+            "Plan Azure MFA deployment (excluding MFA Server)",
+            "Implement and manage Azure MFA settings",
+            "Manage MFA settings for users",
+          ],
+        },
+        {
+          heading: "MANAGE USER AUTHENTICATION",
+          contents: [
+            "Administer authentication methods (FIDO2 / Password less)",
+            "Implement an authentication solution based on Windows Hello for Business",
+            "Configure and deploy self-service password reset",
+            "Deploy and manage password protection",
+            "Configure smart lockout thresholds",
+            "Implement and manage tenant restrictions",
+          ],
+        },
+        {
+          heading: "PLAN, IMPLEMENT AND ADMINISTER CONDITIONAL ACCESS",
+          contents: [
+            "Plan and implement security defaults",
+            "Plan conditional access policies",
+            "Implement conditional access policy controls and assignments (targeting, applications, and conditions)",
+            "Testing and troubleshooting conditional access policies",
+            "Implement application controls",
+          ],
+        },
+        {
+          heading: "MANAGE AZURE AD IDENTITY PROTECTION",
+          contents: [
+            "Implement and manage a user risk policy",
+            "Implement and manage sign-in risk policy",
+            "Implement and manage mfa registration policy",
+            "Monitor, investigate and remediate elevated risky users",
+          ]
+        },
+      ],
+    },
+    {
+      title:
+        "Module 3: IMPLEMENT ACCESS MANAGEMENT FOR APPS (10 – 15%)",
+      submodules: [
+        {
+          heading: "PLAN, IMPLEMENT, AND MONITOR THE INTEGRATION OF ENTERPRISE APPS FOR SSO",
+          contents: [
+            "Implement and configure consent settings",
+            "Discover apps by using microsoft defender for cloud apps or adfs application activity report",
+            "Design and implement access management for apps",
+            "Design and implement app management roles",
+            "Monitor and audit access / sign-ins to azure active directory integrated enterprise applications",
+            "Integrate on-premises apps by using azure ad application proxy",
+            "Integrate custom saas apps for sso",
+            "Configure pre-integrated (gallery) saas apps",
+            "Implement application user provisioning",    
+          ],
+        },
+        {                                   
+          heading: "IMPLEMENT APP REGISTRATIONS",
+          contents: [
+            "Plan your line of business application registration strategy",
+            "Implement application registrations",
+            "Configure application permissions",
+            "Implement application authorization",
+            "Plan and configure multi-tier application permissions",
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        "Module 4: PLAN AND IMPLEMENT AN IDENTITY GOVERNANCE STRATEGY (25 - 30%)",
+      submodules: [
+        {
+          heading: "PLAN AND IMPLEMENT ENTITLEMENT MANAGEMENT",
+          contents: [
+            "Define catalogs",
+            "Define access packages",
+            "Plan, implement and manage entitlements",
+            "Implement and manage terms of use",
+            "Manage the lifecycle of external users in azure ad identity governance settings define catalogs",
+          ],
+        },
+        {
+          heading: "PLAN, IMPLEMENT AND MANAGE ACCESS REVIEWS",
+          contents: [
+            "Plan for access reviews",
+            "Create access reviews for groups and apps",
+            "Monitor access review findings",
+            "Manage licenses for access reviews",
+            "Automate access review management tasks",
+            "Configure recurring access reviews",
+          ],
+        },
+        {
+          heading: "PLAN AND IMPLEMENT PRIVILEGED ACCESS",
+          contents: [
+            "Define a privileged access strategy for administrative users (resources, roles, approvals, thresholds)",
+            "Configure privileged identity management for azure ad roles",
+            "Configure privileged identity management for azure resources",
+            "Assign roles",
+            "Manage pim requests",
+            "Analyze pim audit history and reports",
+            "Create and manage break-glass accounts",
+          ],
+        },
+        {
+          heading: "MONITOR AND MAINTAIN AZURE ACTIVE DIRECTORY",
+          contents: [
+            "Analyze and investigate sign-in logs to troubleshoot access issues",
+            "Review and monitor azure ad audit logs",
+            "Enable and integrate azure ad diagnostic logs with log analytics / microsoft sentinel",
+            "Export sign-in and audit logs to a third-party siem",
+            "Review azure ad activity by using log analytics / microsoft sentinel, excluding kql use",
+            "Analyze azure active directory workbooks / reporting",
+            "Configure notifications",
+          ],
+        },
+      ],
+    },
+  ],
+  onCompletion: [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used.",
+  ],
+  batches: [
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+  ],
+};

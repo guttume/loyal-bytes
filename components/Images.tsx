@@ -105,4 +105,11 @@ export const images = {
     },
     bg: "/images/training/bg.png",
   },
+  course: {
+    hero: "/images/course/hero.png",
+    fundamentals: "/images/course/fundamentals.png",
+    associate: "/images/course/associate.png",
+    expert: "/images/course/experts.png",
+    speciality: "/images/course/speciality.png",
+  },
 };

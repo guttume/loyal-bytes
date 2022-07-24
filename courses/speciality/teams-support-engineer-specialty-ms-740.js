@@ -1,0 +1,292 @@
+  export default {
+  title: "Teams Support Engineer Specialty MS 740",
+    subtitle:
+    "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  heroImage: "/images/course-page/azure-hero-image.png",
+  heroBg: "/images/course-page/azure-hero-bg.png",
+  courseDetail: {
+    duration: "40 Hours",
+    certification: "DP – 203 and Data Engineering on Microsoft Azure",
+    batchInfo: "Weekends and weekdays batches available",
+    level: "200",
+    highlights: [
+      {
+        icon: "user",
+        color: "orange",
+        heading: "Duration",
+        subheading: "32 Hours.",
+      },
+      {
+        icon: "user ",
+        color: "orange",
+        heading: "Batch Days",
+        subheading: "•	Saturday, Weekdays", 
+      },
+      {
+        icon: "user ",
+        color: "orange",
+        heading: "Learningmode",
+        subheading:
+          "Group, One-to-One, Corporate Batches, Online Live Classrooms",
+      },
+      {
+        icon: "user",
+        color: "orange",
+        heading: "Passing score",
+        subheading: "700",
+      },
+    ],
+    bg: "blue",
+    displayImage: "/images/course-page/azure-hightlights-image.png",
+    description:
+      "Candidates for this certification are support engineers who use advanced troubleshooting methods to support Microsoft Teams environments, analyze telemetry and log data, troubleshoot deployments, and tune performance. Candidates are expected to review logs and other data, infer the root cause of an issue and provide a fix. ",
+  },
+  idealFor:
+    "Candidates for this exam are support engineers who use advanced troubleshooting methods to support Microsoft Teams environments, analyze telemetry and log data, troubleshoot deployments, and tune performance. Candidates are expected to review logs and other data, infer the root cause of an issue, and provide a fix. Candidates should have significant experience troubleshooting unified communications solutions with hands-on expertise specific to troubleshooting Microsoft Teams. In addition, candidates should have networking knowledge of Azure fundamentals, telephony, PowerShell, data storage technologies, APIs, app security, authentication and authorization, security, and compliance information, debugging, performance tuning, and monitoring.",
+
+  learningObjectives:
+    "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
+  modules: [
+    {
+      title:
+        "Module 1: TROUBLESHOOT MICROSOFT TEAMS VOICE ISSUES (15-20%)",
+      submodules: [
+        {
+          heading: "TROUBLESHOOT AUDIO AND VIDEO FLOW ISSUES",
+          contents: [
+            "Troubleshoot audio and video quality issues",
+            "Troubleshoot call drops",
+            "Investigate issues with call quality and dropped calls by using call quality dashboard, network tracing tools, and logs",
+          ],
+        },
+        {
+          heading: "TROUBLESHOOT EMERGENCY CALLING ISSUES",
+          contents: [
+            "Troubleshoot dynamic emergency calling",
+            "Identify issues with emergency phone number normalization rules",
+            "Troubleshoot location detection failures",
+            "Troubleshoot missing locations in outbound calls and missing addresses",
+            "Troubleshoot dial mask issues",
+          ],
+        },
+        {
+          heading: "TROUBLESHOOT DIRECT ROUTING ISSUES",
+          contents: [
+            "Troubleshoot issues pairing the Session Border Controller (SBC) with the phone number service",
+            "Troubleshoot dial plan issues including normalization rules",
+            "Identify the root cause of direct-dialling call issues by reviewing the SBC log",
+            "Troubleshoot audio conferencing issues including provisioning and configuration issues",
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        "Module 2: TROUBLESHOOT ISSUES WITH TEAMS MEETINGS AND LIVE EVENTS (20-25%)",
+      submodules: [
+        {
+          heading: "TROUBLESHOOT LIVE EVENTS ISSUES",
+          contents: [
+            "Troubleshoot meeting creation and scheduling issues",
+            "Troubleshoot recording issues including policies related to recording",
+            "Investigate issues sharing content and viewing reports",
+            "Troubleshoot reporting issues including issues with attendance reports and moderated questions",
+            "Troubleshoot attendee access and playback issues",
+            "Troubleshoot and optimize networks for teams live events",
+            "Investigate issues connecting to the service and joining meetings",
+          ],
+        },
+        {
+          heading: "TROUBLESHOOT TEAMS SERVICES",
+          contents: [
+            "Validate Microsoft Audio Conferencing licensing",
+            "Troubleshoot dial pad issues",
+            "Troubleshoot phone number provisioning issues",
+            "Troubleshoot issues with the Outlook add-in for Teams",
+            "Troubleshoot issues enabling and configuring audio and video devices for Teams",
+            "Troubleshoot online and hybrid call queues and auto-attendant issues",
+            "Troubleshoot user provisioning issues including licensing users, phone number assignments, and policies",
+            "Troubleshoot issues with phone system features",
+            "Investigate phone system set up and configuration issues",
+          ],
+        },
+        {
+          heading: "TROUBLESHOOT TEAMS CLIENT ISSUES",
+          contents: [
+            "Troubleshoot Teams client start up issues and crashes on Windows, Mac, and Linux devices",
+            "Troubleshoot Investigate causes for high memory or CPU usage",
+            "Investigate network issues including network latency",
+            "Analyse web traffic and review HTTP status codes by using Fiddler and other tools",
+            "Troubleshoot issues installing and updating client software",
+            "Troubleshoot performance issues including long times for uploading files and chats slow to load or send",
+            "Troubleshoot call set up issues",
+            "Troubleshoot issues adding participants to meetings",
+          ],
+        },
+        {
+          heading: "TROUBLESHOOT MESSAGING ISSUES",
+          contents: [
+            "Troubleshoot message delivery issues",
+            "Troubleshoot issues attaching files and content to messages",
+            "Troubleshoot chat notification issues",
+            
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        "Module 3: TROUBLESHOOT FEDERATION ISSUES (10-15%)",
+      submodules: [
+        {
+          heading: "TROUBLESHOOT ISSUES INTEROPERATING WITH SKYPE FOR BUSINESS",
+          contents: [
+            "Investigate chat issues when interoperating with Skype for Business",
+            "Troubleshoot federation issues between Teams and Skype or Skype for Business",
+            "Troubleshooting Interop chat scenarios",
+          ],
+        },
+        {                                   
+          heading: "TROUBLESHOOT TEAMS FEDERATION ISSUES",
+          contents: [
+            "Troubleshoot federation policies and domain lists",
+            "Verify tenant configuration settings including allowed and blocked domain lists and type of federation", 
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        "Module 4: TROUBLESHOOT ISSUES SIGNING INTO TEAMS (15-20%)",
+      submodules: [
+        {
+          heading: "TROUBLESHOOT ACCOUNT AND NETWORK ISSUES",
+          contents: [
+            "Verify Active Directory Federation Services (AD FS) health including endpoint availability and synchronization status",
+            "Troubleshoot issues with Azure Active Directory Seamless Single Sign-On (Azure AD Seamless SSO)",
+            "Identify reasons for blocked accounts by reviewing web log data",
+            "Verify user virtual private network (VPN) configuration settings including split tunnelling and client version",
+            "Validate network configuration settings including firewall ports, IP ranges, and proxy configuration issues",
+          ],
+        },
+        {
+          heading: "TROUBLESHOOT MEMBER SIGN-IN ISSUES",
+          contents: [
+            "Investigate authentication issues",
+            "Verify whether an applied conditional access policy prevents sign in",
+            "Determine whether a user account or the device from which a user attempts to sign in is the cause of a sign in issue",
+            "Troubleshoot client sign-in issues by collecting and analyzing teams debug logs",
+            "Troubleshoot teams rooms system (trs) sign-in issues by analyzing log data from teams room devices",
+            "Investigate points of failure in the sign-in process flow",
+          ],
+        },
+        {
+          heading: "TROUBLESHOOT GUEST ACCESS ISSUES",
+          contents: [
+            "Troubleshoot issues adding guest users to teams",
+            "Troubleshoot call, message, and meeting issues for guest users by checking the guest meeting, guest messaging, and guest calling configuration policies",
+            "Audit invitations sent but not used and inactive accounts",
+            "Validate configuration settings for federated message flow",
+            "Review azure sign-in logs and audit logs for the domain which hosts teams",
+          ],
+        },
+      ],
+    },
+    {
+      title:
+      "Module 5: TROUBLESHOOT TEAMS AND CHANNELS (10-15%)",
+    submodules: [
+      {
+        heading: "TROUBLESHOOT ISSUES WITH APPS",
+        contents: [
+          "Configure Teams to allow or block an app",
+          "Validate app permission policies",
+          "Validate app setup policies",          
+        ],
+      },
+      {
+        heading: "TROUBLESHOOT ISSUES WITH PUBLIC AND PRIVATE CHANNELS",
+        contents: [   
+          "Check user permissions, team policies, and tenant policies",
+          "Verify and troubleshoot channel email settings",
+          "Troubleshoot tenant replication issues in teams and channels",
+          "Troubleshoot deletion issues in teams and channels",
+        ],
+      },
+    ],
+  },
+  {
+    title:
+    "Module 6: TROUBLESHOOT ISSUES WITH FILES (15-20%)",
+  submodules: [
+    {
+      heading: "TROUBLESHOOT PERSON-TO-PERSON (P2P) PRIVATE CHAT FILES ISSUES INCLUDING ISSUES ACCESS AND SHARING ISSUES",
+      contents: [
+        "Verify access rights for the user",
+        "Troubleshoot teams client configuration policies",
+        "Troubleshoot issues provisioning users",
+      ],      
+    },
+    {
+      heading: "TROUBLESHOOT FILE ISSUES FOR PRIVATE CHANNELS",
+      contents: [   
+        "Verify that the sharepoint site for the channel is accessible",
+        "Verify sharepoint access permissions",
+        "Confirm that the sharepoint site collection link is intact",
+      ],
+     },
+     {
+      heading: "9.6.3	TROUBLESHOOT FILE ISSUES FOR PUBLIC CHANNELS",
+      contents: [   
+        "Verify sharepoint access permissions",
+        "Determine whether the name for a channel or team have been changed",
+        "Confirm that the sharepoint site collection link is intact",
+        "Troubleshoot file synchronization issues and missing files",
+      ],
+     },
+    ],
+  },
+  
+],
+  onCompletion: [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used.",
+  ],
+  batches: [
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+  ],
+};
