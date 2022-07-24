@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { images } from "./Images";
 
 export const PortfolioSummary = () => {
@@ -32,9 +33,9 @@ export const PortfolioSummary = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <a href="#" className="underline text-xl font-bold text-gray-600">
-          View all
-        </a>
+        <Link href={"/placement"}>
+          <a className="underline text-xl font-bold text-gray-600">View all</a>
+        </Link>
       </div>
     </div>
   );

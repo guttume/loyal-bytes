@@ -1,5 +1,5 @@
-import { images } from "../components";
-import { TestimonialItem } from "../features/testimonials";
+import { images, TestimonialItem } from "../components";
+import { testimonials } from "../data/testimonials";
 import { Queries } from "../layouts";
 
 export default function Testimonials() {
@@ -88,135 +88,18 @@ export default function Testimonials() {
         <div className="flex justify-center mt-8 mb-16">
           <img src={images.testimonials.bar} alt="A picture of a bar" />
         </div>
-        <div className="space-y-8">
-          <div className="lg:flex lg:space-x-4">
-            <div>
-              <TestimonialItem
-                imageUrl={images.sliderImageOne}
-                dateText="May 8, 2020"
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-                nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
-                magna eget nibh in turpis. Consequat duis diam lacus arcu.
-                Faucibus venenatis felis id augue sit cursus pellentesque enim
-                arcu. Elementum felis magna pretium in tincidunt.
-              </TestimonialItem>
-            </div>
-            <div>
-              <TestimonialItem
-                imageUrl={images.sliderImageOne}
-                dateText="May 8, 2020"
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-                nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
-                magna eget nibh in turpis. Consequat duis diam lacus arcu.
-                Faucibus venenatis felis id augue sit cursus pellentesque enim
-                arcu. Elementum felis magna pretium in tincidunt.
-              </TestimonialItem>
-            </div>
-          </div>
-          <div className="lg:flex lg:space-x-4">
-            <div>
-              <TestimonialItem
-                imageUrl={images.sliderImageTwo}
-                dateText="May 8, 2020"
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-                nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
-                magna eget nibh in turpis. Consequat duis diam lacus arcu.
-                Faucibus venenatis felis id augue sit cursus pellentesque enim
-                arcu. Elementum felis magna pretium in tincidunt.
-              </TestimonialItem>
-            </div>
-            <div>
-              <TestimonialItem
-                imageUrl={images.sliderImageTwo}
-                dateText="May 8, 2020"
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-                nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
-                magna eget nibh in turpis. Consequat duis diam lacus arcu.
-                Faucibus venenatis felis id augue sit cursus pellentesque enim
-                arcu. Elementum felis magna pretium in tincidunt.
-              </TestimonialItem>
-            </div>
-          </div>
-          <div className="lg:flex lg:space-x-4">
-            <div>
-              <TestimonialItem
-                imageUrl={images.sliderImageOne}
-                dateText="May 8, 2020"
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-                nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
-                magna eget nibh in turpis. Consequat duis diam lacus arcu.
-                Faucibus venenatis felis id augue sit cursus pellentesque enim
-                arcu. Elementum felis magna pretium in tincidunt.
-              </TestimonialItem>
-            </div>
-            <div>
-              <TestimonialItem
-                imageUrl={images.sliderImageOne}
-                dateText="May 8, 2020"
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-                nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
-                magna eget nibh in turpis. Consequat duis diam lacus arcu.
-                Faucibus venenatis felis id augue sit cursus pellentesque enim
-                arcu. Elementum felis magna pretium in tincidunt.
-              </TestimonialItem>
-            </div>
-          </div>
-          <div className="lg:flex lg:space-x-4">
-            <div>
-              <TestimonialItem
-                imageUrl={images.sliderImageTwo}
-                dateText="May 8, 2020"
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-                nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
-                magna eget nibh in turpis. Consequat duis diam lacus arcu.
-                Faucibus venenatis felis id augue sit cursus pellentesque enim
-                arcu. Elementum felis magna pretium in tincidunt.
-              </TestimonialItem>
-            </div>
-            <div>
-              <TestimonialItem
-                imageUrl={images.sliderImageTwo}
-                dateText="May 8, 2020"
-                title={
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-                }
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus
-                nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
-                magna eget nibh in turpis. Consequat duis diam lacus arcu.
-                Faucibus venenatis felis id augue sit cursus pellentesque enim
-                arcu. Elementum felis magna pretium in tincidunt.
-              </TestimonialItem>
-            </div>
-          </div>
+        <div className="grid grid-cols-2 gap-4">
+          {testimonials.map((testimonial) => (
+            <TestimonialItem
+              key={testimonial.name}
+              title={testimonial.name}
+              company={testimonial.company}
+              designation={testimonial.designation}
+              imageUrl={testimonial.image}
+            >
+              {testimonial.body}
+            </TestimonialItem>
+          ))}
         </div>
       </section>
       <section className="mt-16">

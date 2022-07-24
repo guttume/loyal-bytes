@@ -1,5 +1,5 @@
+import Link from "next/link";
 import {
-  Button,
   HeroBanner,
   HurryUp,
   images,
@@ -93,7 +93,9 @@ export default function Index() {
           </SectionSubTitle>
         </div>
         <div className="flex justify-center">
-          <Button color="bg-orange-500 text-orange-50">View All Courses</Button>
+          <Link href={"/courses"}>
+            <a className="btn btn-primary">View All Courses</a>
+          </Link>
         </div>
         <div className="mt-16 lg:relative lg:h-96">
           <div className="absolute w-5/12 top-0 -mt-40 -ml-56">
@@ -114,7 +116,9 @@ export default function Index() {
                 training capital into core business solutions.
               </SectionSubTitle>
               <div className="flex justify-center lg:block my-4">
-                <Button color="bg-black text-white">Know more</Button>
+                <Link href={"/corporate-training"}>
+                  <a className="btn btn-black">Know more</a>
+                </Link>
               </div>
             </div>
           </div>
@@ -132,20 +136,6 @@ export default function Index() {
       <Section>
         <HurryUp />
       </Section>
-      <section className="mt-4 lg:-mx-12 px-8 bg-blue-500 pb-8">
-        <div className="p-4 w-full max-w-3xl mx-auto lg:ml-12">
-          <h2 className="text-2xl font-bold text-blue-50 mb-4 mt-16">
-            Professional Web Design
-          </h2>
-          <p className="text-blue-50">
-            Hi! My name is Dmitrii Rogoza and I&apos;m an expert in web design
-            and branding. I can help you make your website more attractive.
-          </p>
-          <Button color="bg-black text-white border border-white mt-4">
-            Get started
-          </Button>
-        </div>
-      </section>
       <footer className="hidden lg:grid grid-cols-[2fr_1fr_1fr_1fr] text-white bg-black px-16 py-8 -mx-12 text-sm">
         <section className="w-64 text-xs ml-12">
           <div className="w-40">

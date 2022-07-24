@@ -61,6 +61,13 @@ export const images = {
     },
     rings: "/images/testimonials/rings.png",
     bar: "/images/testimonials/bar.png",
+    brands: {
+      colgate: "/images/testimonials/brands/colgate.png",
+      johnson: "/images/testimonials/brands/johnson.png",
+      capgemini: "/images/testimonials/brands/capgemini.png",
+      concentrix: "/images/testimonials/brands/concentrix.png",
+      placeholder: "/images/testimonials/brands/placeholder.png",
+    },
   },
   about: {
     bg: "/images/about/bg.png",
