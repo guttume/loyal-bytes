@@ -1,7 +1,10 @@
 import { PlayIcon } from "@heroicons/react/solid";
+import Link from "next/link";
+import { useState } from "react";
 import { images } from "../components";
 
 export default function TrainingFlexibility() {
+  const [showMoreOffer, setShowMoreOffer] = useState(false);
   return (
     <>
       <div className=" hidden lg:block fixed top-0 right-0 -z-10 w-1/2">
@@ -22,7 +25,9 @@ export default function TrainingFlexibility() {
               be ready to assist you in your queries.
             </h2>
             <div className="my-6 flex justify-center lg:justify-start space-x-2">
-              <button className="btn btn-primary">Know about us</button>
+              <Link href={"/about"}>
+                <a className="btn btn-primary">Know about us</a>
+              </Link>
               <div className="flex items-center space-x-2">
                 <PlayIcon className="h-12 w-12 text-sky-600" />
                 <p>See our impact</p>
@@ -31,16 +36,16 @@ export default function TrainingFlexibility() {
           </div>
         </div>
       </section>
-      <section className="py-8 bg-blue-700 px-8 lg:px-16">
+      <section className="py-8 bg-blue-700 text-white px-8 lg:px-16">
         <div className="space-y-8 lg:flex lg:flex-row-reverse lg:items-center">
           <div className="lg:w-1/3">
             <img src={images.training.offer} alt="Offer" />
           </div>
           <div className="space-y-4 lg:w-2/3">
-            <h3 className="text-3xl text-white font-bold border-b-2 border-yellow-400 pb-2 tracking-wider">
+            <h3 className="text-3xl font-bold border-b-2 border-yellow-400 pb-2 tracking-wider">
               What do we offer?
             </h3>
-            <p className="text-white">
+            <p>
               Loyal Bytes Learning Services has an advanced learning center
               specifically created to provide training in quality management to
               working professionals. Loyal Bytes Learning Service&apos;s
@@ -52,16 +57,41 @@ export default function TrainingFlexibility() {
               the cutting-edge technologies deployed in today&apos;s
               organizations and gain an edge over their peers. These, coupled
               with strategic academic alliances, provide a truly enriching
-              learning experience. With its Center for Advanced Learning, Loyal
-              Bytes Learning Services provides working professionals with
-              quality management education.
+              learning experience.
             </p>
-            <p className="text-white">
-              In addition to the technology platform, student study
-              environments, and allied education services and processes that
-              make up the total teaching-learning experience, Loyal Bytes...
+            <p>
+              With its Center for Advanced Learning, Loyal Bytes Learning
+              Services provides working professionals with quality management
+              education.
             </p>
-            <button className="btn btn-outline-secondary">Read More</button>
+            {showMoreOffer && (
+              <>
+                <p>
+                  In addition to the technology platform, student study
+                  environments, and allied education services and processes that
+                  make up the total teaching-learning experience, Loyal Bytes
+                  Learning Services provides design and management expertise in
+                  distributed education programs.
+                </p>
+                <p>
+                  Professionals from our training programs and IT Certifications
+                  gain expertise in cutting-edge technologies that are deployed
+                  in today's organizations and get an edge over their peers.
+                </p>
+                <p>
+                  The combination of these, as well as academic alliances,
+                  ensures an incredibly rich educational experience.
+                </p>
+              </>
+            )}
+            {showMoreOffer || (
+              <button
+                className="btn btn-outline-secondary"
+                onClick={() => setShowMoreOffer(true)}
+              >
+                Read More
+              </button>
+            )}
           </div>
         </div>
       </section>
@@ -69,8 +99,8 @@ export default function TrainingFlexibility() {
         <h3 className="text-3xl font-semibold tracking-wider text-center mb-4 text-white">
           Our Methodology
         </h3>
-        <div className="space-y-6 px-8 lg:flex lg:space-y-0 lg:space-x-8">
-          <ol className="relative bg-white rounded py-8 pr-2 pl-8 list-decimal lg:w-1/3">
+        <div className="space-y-6 px-8 lg:flex lg:space-y-0 lg:space-x-8 font-bold text-sm">
+          <ol className="relative bg-white rounded py-8 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
             <li>Custom Trainings based on thecorporate requirements.</li>
             <li>Training as per vendor&apos;s course ware.</li>
             <li>
@@ -79,7 +109,7 @@ export default function TrainingFlexibility() {
             </li>
             <li>Qualified and experienced faculty</li>
           </ol>
-          <ul className="bg-white rounded py-8 pr-2 pl-8 list-decimal lg:w-1/3">
+          <ul className="bg-white rounded py-8 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
             <li>Immediate practical session after theory session.</li>
             <li>
               Flexibility in medium of instruction viz English, Gujarati or
@@ -90,7 +120,7 @@ export default function TrainingFlexibility() {
             </li>
             <li>Computer-Based Training</li>
           </ul>
-          <ul className="bg-white rounded py-8 pr-2 pl-8 list-decimal lg:w-1/3">
+          <ul className="bg-white rounded py-8 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
             <li>Assignments before starting practical session</li>
             <li>Session wise topic break-up</li>
             <li>Quiz contests, seminars</li>
