@@ -1,4 +1,5 @@
 import { PropsWithChildren } from "react";
+import { Footer } from "../layouts/Footer";
 import { Header } from "./Header";
 
 export const Layout = ({ children }: PropsWithChildren) => {
@@ -6,6 +7,7 @@ export const Layout = ({ children }: PropsWithChildren) => {
     <div>
       <Header />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 };

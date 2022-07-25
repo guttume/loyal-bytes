@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { HurryUp, images, Testimonial } from "../components";
+import { HurryUp, images, PortfolioSummary, Testimonial } from "../components";
 import { batches } from "../data/batches";
 
 export default function Batches() {
@@ -59,39 +59,7 @@ export default function Batches() {
         <h3 className="text-center text-5xl font-bold text-darkText">
           Our Students are Placed Globally
         </h3>
-        <h4 className="text-center text-xl mt-6">
-          More than 40 global companies
-        </h4>
-        <div className="flex justify-center space-x-6 flex-wrap lg:my-12">
-          <div className="w-32 py-4">
-            <img src={images.brandsZepplin} alt="Zepplin logo" />
-          </div>
-          <div className="w-32 py-4">
-            <img src={images.brandsOracle} alt="Oracle logo" />
-          </div>
-          <div className="w-32 py-4">
-            <img src={images.brandsMorpheus} alt="Morpheus logo" />
-          </div>
-          <div className="w-32 py-4">
-            <img src={images.brandsSamsung} alt="Samsung logo" />
-          </div>
-          <div className="w-32 py-4">
-            <img src={images.brandsMonday} alt="Monday logo" />
-          </div>
-          <div className="w-32 py-4">
-            <img src={images.brandsSegment} alt="Segment logo" />
-          </div>
-          <div className="w-32 py-4">
-            <img src={images.brandsProtonet} alt="Protonet logo" />
-          </div>
-        </div>
-        <div className="flex justify-center">
-          <Link href={"/placement"}>
-            <a className="underline text-xl font-bold text-gray-600">
-              View all
-            </a>
-          </Link>
-        </div>
+        <PortfolioSummary />
       </section>
       <section className="px-8 lg:px-12 mt-16 lg:-mt-32">
         <Testimonial />

@@ -4,7 +4,7 @@ import { images } from "../components";
 export default function CorporateTraining() {
   return (
     <>
-      <section className="relative px-8 lg:px-0">
+      <section className="relative px-8 lg:px-0 overflow-clip">
         <div className="hidden lg:block absolute top-0 right-0 w-[600px] transform translate-x-1/2">
           <img src={images.homePageRings} alt="rings picture" />
         </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { images, Statistics } from "../components";
 
 export default function about() {
@@ -50,12 +51,14 @@ export default function about() {
               </span>
             </div>
             <div className="flex lg:block space-x-4">
-              <button className="btn btn-primary border border-orange-500 w-48">
-                View Courses
-              </button>
-              <button className="btn btn-outline-primary">
-                View All Courses
-              </button>
+              <Link href={"/courses"}>
+                <a className="btn btn-primary border border-orange-500 w-48">
+                  View Courses
+                </a>
+              </Link>
+              <Link href={"/courses"}>
+                <a className="btn btn-outline-primary">View All Courses</a>
+              </Link>
             </div>
           </div>
         </div>
@@ -200,7 +203,9 @@ export default function about() {
               We love what we do and we do it with passion. We value the
               experimentation of the message and smart incentives.
             </h4>
-            <button className="btn btn-primary">Corporate Training</button>
+            <Link href={"/corporate-training"}>
+              <a className="btn btn-primary inline-block">Corporate Training</a>
+            </Link>
           </div>
           <div className="flex space-x-4 items-center mt-4 lg:mt-0">
             <div className="flex space-x-4">
@@ -253,27 +258,13 @@ export default function about() {
             </h2>
           </div>
           <div className="flex justify-center space-x-6 flex-wrap my-12">
-            <div className="w-32 py-4">
-              <img src={images.brandsZepplin} alt="Zepplin logo" />
-            </div>
-            <div className="w-32 py-4">
-              <img src={images.brandsOracle} alt="Oracle logo" />
-            </div>
-            <div className="w-32 py-4">
-              <img src={images.brandsMorpheus} alt="Morpheus logo" />
-            </div>
-            <div className="w-32 py-4">
-              <img src={images.brandsSamsung} alt="Samsung logo" />
-            </div>
-            <div className="w-32 py-4">
-              <img src={images.brandsMonday} alt="Monday logo" />
-            </div>
-            <div className="w-32 py-4">
-              <img src={images.brandsSegment} alt="Segment logo" />
-            </div>
-            <div className="w-32 py-4">
-              <img src={images.brandsProtonet} alt="Protonet logo" />
-            </div>
+            {Object.values(images.placement.brands)
+              .slice(0, 8)
+              .map((brand, index) => (
+                <div key={index.toString()} className="w-32">
+                  <img src={brand} alt="" />
+                </div>
+              ))}
           </div>
         </div>
       </section>
