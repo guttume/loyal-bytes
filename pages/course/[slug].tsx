@@ -7,13 +7,13 @@ import {
   images,
   PortfolioSummary,
   Testimonial,
-} from "../../../components";
-import { Queries } from "../../../layouts";
+} from "../../components";
+import { Queries } from "../../layouts";
 import {
   CourseContent,
   getAllCourseSlugs,
   getCourseData,
-} from "../../../lib/courses";
+} from "../../lib/courses";
 
 export default function Course({ content }: CoursePageProps) {
   return (
@@ -55,7 +55,9 @@ export default function Course({ content }: CoursePageProps) {
             </Link>
           </p>
           <div className="flex flex-col space-y-6 space-x-6 items-center">
-            <button className="btn btn-primary">Apply now</button>
+            <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
+              <a className="btn btn-primary">Apply now</a>
+            </Link>
             <button className="btn btn-outline-secondary">
               Download brochure
             </button>
@@ -154,6 +156,7 @@ export default function Course({ content }: CoursePageProps) {
 
 export async function getStaticPaths() {
   const paths = getAllCourseSlugs();
+  console.log(paths);
 
   return {
     paths,
@@ -162,10 +165,10 @@ export async function getStaticPaths() {
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const courseData = getCourseData(params?.category, params?.slug);
+  const courseData = await getCourseData(params?.slug);
   return {
     props: {
-      content: courseData.default,
+      content: courseData,
     },
   };
 };

@@ -1,0 +1,227 @@
+ {
+  "title": "Microsoft 365 Messaging MS - 203",
+  "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  "heroImage": "/images/course-page/azure-hero-image.png",
+  "heroBg": "/images/course-page/azure-hero-bg.png",
+  "courseDetail": {
+    "duration": "40 Hours",
+    "certification": "DP – 203 and Data Engineering on Microsoft Azure",
+    "batchInfo": "Weekends and weekdays batches available",
+    "level": "200",
+    "highlights": [
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Duration",
+        "subheading": "40 Hours."
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Batch Days",
+        "subheading": "Weekends"
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Learningmode",
+        "subheading": "Group, One-to-One, Corporate Batches, Online Live Classrooms"
+      },
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Passing score",
+        "subheading": "700"
+      }
+    ],
+    "bg": "blue",
+    "displayImage": "/images/course-page/azure-hightlights-image.png",
+    "description": "Microsoft 365 Messaging Administrators deploy, configure, manage, troubleshoot, and monitor recipients, compliance, threat protection, and mail flow in hybrid and cloud enterprise environments.This learning path is designed to help you prepare for Microsoft's AZ-700 Designing and Implementing Microsoft Azure Networking Solutions exam. People who pass the AZ-700 exam will earn the Microsoft Certified: Azure Network Engineer Associate certification. The AZ-700 exam tests your knowledge of five subject areas: designing, implementing, and managing hybrid networking, designing, and implementing core networking infrastructure, designing, and implementing routing, securing and monitoring networks, and designing and implementing private access to Azure services."
+  },
+  "idealFor": "Candidates for this exam are messaging administrators who deploy, configure, manage, troubleshoot, and monitor recipients, compliance, threat protection, and mail flow in hybrid and cloud enterprise environments. Messaging administrators are responsible for managing message hygiene, permissions, messaging infrastructure, hybrid configuration, migration, transport, mailboxes, and client access. Messaging administrators collaborate with other workload administrators and the Microsoft 365 enterprise administrator to implement a secure hybrid or cloud-only messaging topology that meets the business needs of an enterprise. The messaging administrator should have a working knowledge of authentication types, licensing, and integration with Microsoft 365 applications",
+  "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
+  "modules": [
+    {
+      "title": "Module 1: MANAGE ORGANIZATIONAL SETTINGS AND RESOURCES (30-35%)",
+      "submodules": [
+        {
+          "heading": "PLAN AND MANAGE ORGANIZATIONAL SETTINGS",
+          "contents": [
+            "Manage a Global Address List (GAL), including hierarchical address books (HAB)",
+            "Manage an Offline Address Book (OAB)",
+            "Manage address book policies",
+            "Manage email address policies",
+            "Plan and configure organization relationships and individual sharing",
+            "Manage add-ins from Microsoft 365 Admin Center"
+          ]
+        },
+        {
+          "heading": "PLAN AND MANAGE CLIENT ACCESS",
+          "contents": [
+            "Plan namespaces",
+            "Configure virtual directories and urls in a hybrid environment",
+            "Configure global outlook on the web policies",
+            "Configure autodiscover",
+            "Troubleshoot client access connectivity problems"
+          ]
+        },
+        {
+          "heading": "9.1.3\tMANAGE RECIPIENT RESOURCES",
+          "contents": [
+            "Manage resource mailboxes",
+            "Manage groups including distribution lists, dynamic distribution lists, mail-enabled security groups, and microsoft 365 groups",
+            "Manage user mailboxes",
+            "Manage mailbox permissions, including delegation",
+            "Manage shared mailboxes, including converting to a shared mailbox",
+            "Manage license for shared resources",
+            "Create and manage contacts, including mail contacts and mail users",
+            "Manage email addresses for microsoft teams"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2: PLAN AND MANAGE THE MAIL TRANSPORT ARCHITECTURE (20-25%)",
+      "submodules": [
+        {
+          "heading": "PLAN AND CONFIGURE CONNECTORS",
+          "contents": [
+            "Plan connectors to route or secure mail flow",
+            "Create and configure connectors to route mail",
+            "Create and configure connectors to secure mail flow between organizations",
+            "Create and configure conditional mail routing",
+            "Configure enhanced filtering for connectors"
+          ]
+        },
+        {
+          "heading": "MANAGE MAIL FLOW",
+          "contents": [
+            "Manage mail flow rules",
+            "Manage accepted and remote domains",
+            "Manage hybrid mail flow"
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT MAIL FLOW",
+          "contents": [
+            "Trace a message",
+            "Analyze a message trace",
+            "Analyze message headers",
+            "Analyze non-deliverable reports (ndrs)",
+            "Troubleshoot by using the microsoft remote connectivity analyzer",
+            "Troubleshoot by using the microsoft support and recovery assistant",
+            "Troubleshoot by using transport logs and queues in a hybrid environment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3: PLAN AND IMPLEMENT A HYBRID CONFIGURATION AND MIGRATION (15-20%)",
+      "submodules": [
+        {
+          "heading": "PLAN AND IMPLEMENT A HYBRID ENVIRONMENT",
+          "contents": [
+            "Plan a hybrid deployment by using the Hybrid Configuration Wizard (HCW)manage the Edge server role in a hybrid environment",
+            "Configure Organization Configuration Transfer (OCT)",
+            "Configure the environment by using the Hybrid Configuration Wizard",
+            "Deploy the Exchange Hybrid Agent",
+            "Manage the Exchange certificates lifecycle in a hybrid environment"
+          ]
+        },
+        {
+          "heading": "PLAN AND IMPLEMENT MIGRATION",
+          "contents": [
+            "Evaluate migration methods, including cutover, minimal hybrid (express migration), cutover, cross tenant, staged, PST Imports, IMAP, Google Workspace (formerly G-Suite), batch migration by using the Exchange admin center",
+            "Configure migration endpoints in Microsoft 365",
+            "Manage mailbox migration batches",
+            "Troubleshoot mailbox migration",
+            "Plan a public folder migration to Microsoft 365"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4: SECURE THE MESSAGING ENVIRONMENT (25-30%)",
+      "submodules": [
+        {
+          "heading": "MANAGE ROLE-BASED PERMISSIONS IN EXCHANGE",
+          "contents": [
+            "Plan RBAC roles",
+            "Manage role groups",
+            "Assign user accounts to admin roles",
+            "Manage user roles"
+          ]
+        },
+        {
+          "heading": "MANAGE MESSAGE HYGIENE",
+          "contents": [
+            "Plan for message hygiene",
+            "Configure and manage anti-spam settings",
+            "Configure and manage anti-malware policies",
+            "Monitor and review quarantined items",
+            "Plan and configure spam confidence levels (scl)",
+            "Configure and manage safe attachments",
+            "Configure and manage safe links",
+            "Configure and manage anti-phishing",
+            "Manage email user submissions",
+            "Add and manage dns records for domains",
+            "Validate settings by using configuration analyzer"
+          ]
+        },
+        {
+          "heading": "MANAGE COMPLIANCE",
+          "contents": [
+            "Configure retention labels and retention policies",
+            "Configure data loss prevention (dlp) policies",
+            "Configure sensitivity labels and policies",
+            "Configure and analyze audit logs",
+            "Manage journal rules",
+            "Manage content search",
+            "Manage core ediscovery cases (not including advanced ediscovery)"
+          ]
+        }
+      ]
+    }
+  ],
+  "onCompletion": [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+  ],
+  "batches": [
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    }
+  ]
+}

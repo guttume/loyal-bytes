@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { images } from "../Images";
 
 export const CourseHero = ({
@@ -40,10 +41,12 @@ export const CourseHero = ({
               />
             </div>
             <div className="flex justify-end space-x-8">
-              <button className="btn btn-primary">Apply Now</button>
-              <button className="btn btn-outline-primary">
-                View all courses
-              </button>
+              <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
+                <a className="btn btn-primary">Apply Now</a>
+              </Link>
+              <Link href={"/courses"}>
+                <a className="btn btn-outline-primary">View all courses</a>
+              </Link>
             </div>
           </div>
         </div>

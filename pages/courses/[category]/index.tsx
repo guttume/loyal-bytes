@@ -10,9 +10,6 @@ export default function Category({ courses }: { courses: Array<string> }) {
   const { category } = router.query;
   return (
     <div className="bg-gray-100 min-h-[calc(100vh-100px)] relative overflow-clip">
-      <div className="absolute transform -translate-x-1/2 w-[650px]">
-        <img src={images.homePageRings} alt="rings" />
-      </div>
       <section className="p-8 lg:p-12 pb-16">
         <h1 className="text-center text-5xl capitalize font-bold">
           {typeof category === "string" && category.toUpperCase()}
@@ -37,9 +34,7 @@ export default function Category({ courses }: { courses: Array<string> }) {
                   />
                 </span>
               </div>
-              <Link
-                href={`/courses/${category}/${course.replace(/\.js$/, "")}`}
-              >
+              <Link href={`/course/${course.replace(/\.js$/, "")}`}>
                 <a className="w-full text-lg font-bold pl-4">
                   {course
                     .replace(/\.js$/, "")
@@ -66,8 +61,6 @@ export default function Category({ courses }: { courses: Array<string> }) {
 
 export async function getStaticPaths() {
   const paths = getAllCategories();
-
-  console.log(paths);
 
   return {
     paths,

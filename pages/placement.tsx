@@ -26,12 +26,12 @@ export default function Placement() {
                 Hear from our students
               </a>
             </Link>
-            <Link href={"/https://forms.office.com/r/VEQqdjwzZr"}>
+            <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
               <a className="lg:hidden btn btn-outline-primary flex justify-center items-center w-1/2">
                 Inquire now
               </a>
             </Link>
-            <Link href={"/https://forms.office.com/r/VEQqdjwzZr"}>
+            <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
               <a className="hidden btn btn-outline-secondary justify-center lg:flex w-1/2">
                 Inquire now
               </a>

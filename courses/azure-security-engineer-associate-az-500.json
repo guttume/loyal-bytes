@@ -1,0 +1,234 @@
+ {
+  "title": "Azure Security Engineer Associate AZ - 500",
+  "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  "heroImage": "/images/course-page/azure-hero-image.png",
+  "heroBg": "/images/course-page/azure-hero-bg.png",
+  "courseDetail": {
+    "duration": "32 Hours",
+    "certification": "AZ - 500 and Azure Security Engineer Associate",
+    "batchInfo": "weekdays batches available",
+    "level": "200",
+    "highlights": [
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Duration",
+        "subheading": "32 Hours."
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Batch Days",
+        "subheading": "Weekdays"
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Learningmode",
+        "subheading": "Group, One-to-One, Corporate Batches, Online Live Classrooms"
+      },
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Passing score",
+        "subheading": "700"
+      }
+    ],
+    "bg": "blue",
+    "displayImage": "/images/course-page/azure-hightlights-image.png",
+    "description": "This course provides IT Security Professionals with the knowledge and skills needed to implement security controls, maintain an organization’s security posture, and identify and remediate security vulnerabilities. This course includes security for identity and access, platform protection, data and applications, and security operations. This course covers all the topics that are required for Microsoft Azure AZ-500 Microsoft Azure Security Technologies exam. Even if you aren’t planning to take the exam this course will help you get started on your way to deploying and managing Microsoft Azure security technologies with hands-on LAB. The AZ-500 exam tests your knowledge in four different subject areas, and that’s how this learning path is structured. We’ll start with managing identities and access. Next, we’ll get into implementing platform protection, which will include topics like Network Security Groups, Azure Firewalls, Container Security, and much more. You will then learn about managing security options using tools like Azure Monitor, the Azure Security Center, and Log Analytics. You’ll learn how to secure data and applications by configuring security policies, enabling auditing, leveraging Key Vault, and many other topics."
+  },
+  "idealFor": "Candidates for this exam should have subject matter expertise implementing Azure security controls that protect identity, access, data, applications, and networks in cloud and hybrid environments as part of an end-to-end infrastructure. Responsibilities for an Azure security engineer include managing the security posture, identifying, and remediating vulnerabilities, performing threat modeling, implementing threat protection, and responding to security incident escalations. Azure security engineers often serve as part of a larger team to plan and implement cloud-based management and security. Candidates for this exam should have practical experience in administration of Azure and hybrid environments. Candidates should have experience with infrastructure as code, security operations processes, cloud capabilities, and Azure services.",
+  "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
+  "modules": [
+    {
+      "title": "Module 1: Manage identity and access (30-35%)",
+      "submodules": [
+        {
+          "heading": "Manage Azure Active Directory (Azure AD) identities",
+          "contents": [
+            "Create and manage a managed identity for Azure resources",
+            "Manage Azure AD groups",
+            "Manage Azure AD users",
+            "Manage external identities by using Azure AD",
+            "Manage administrative units"
+          ]
+        },
+        {
+          "heading": "Manage secure access by using Azure AD",
+          "contents": [
+            "Configure Azure AD Privileged Identity Management (PIM)",
+            "Implement Conditional Access policies, including multifactor authentication ",
+            "Implement Azure AD Identity Protection ",
+            "Implement password less authentication ",
+            "Configure access reviews "
+          ]
+        },
+        {
+          "heading": "Manage application access",
+          "contents": [
+            "Integrate single sign on (SSO) and identity providers for authentication",
+            "Create an app registration",
+            "Configure app registration permission scopes",
+            "Manage app registration permission consent",
+            "Manage API permissions to Azure subscriptions and resources",
+            "Configure an authentication method for a service principal"
+          ]
+        },
+        {
+          "heading": "Manage access control",
+          "contents": [
+            "Configure Azure role permissions for management groups, subscriptions, resource groups, and resources",
+            "Interpret role and resource permissions",
+            "Assign built-in Azure AD roles",
+            "Create and assign custom roles, including Azure roles and Azure AD roles"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2: Implement platform protection (15-20%)",
+      "submodules": [
+        {
+          "heading": "Implement advanced network security",
+          "contents": [
+            "Secure the connectivity of hybrid networks",
+            "Secure the connectivity of virtual networks",
+            "Create and configure Azure Firewall",
+            "Create and configure Azure Firewall Manager",
+            "Create and configure Azure Application Gateway",
+            "Create and configure Azure Front Door",
+            "Create and configure Web Application Firewall (WAF)",
+            "Configure a resource firewall, including storage account, Azure SQL, Azure Key Vault, or Azure App Service",
+            "Configure network isolation for Web Apps and Azure Functions",
+            "Implement Azure Service Endpoints",
+            "Implement Azure Private Endpoints, including integrating with other services",
+            "Implement Azure Private Links",
+            "Implement Azure DDoS Protection"
+          ]
+        },
+        {
+          "heading": "Configure advanced security for compute",
+          "contents": [
+            "Configure Azure Endpoint Protection for virtual machines (VMs)",
+            "Implement and manage security updates for VMs",
+            "Configure security for container services",
+            "Manage access to Azure Container Registry",
+            "Configure security for serverless compute",
+            "Configure security for an Azure App Service",
+            "Configure encryption at rest",
+            "Configure encryption in transit"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3: Manage security operations (25-30%)",
+      "submodules": [
+        {
+          "heading": "Configure centralized policy management",
+          "contents": [
+            "Configure a custom security policy",
+            "Create a policy initiative",
+            "Configure security settings and auditing by using Azure Policy"
+          ]
+        },
+        {
+          "heading": "Configure and manage threat protection",
+          "contents": [
+            "configure Microsoft Defender for Servers (not including Microsoft Defender for Endpoint) ",
+            "evaluate vulnerability scans from Microsoft Defender for Servers ",
+            "configure Microsoft Defender for SQL ",
+            "use the Microsoft Threat Modeling Tool "
+          ]
+        },
+        {
+          "heading": "Configure and manage security monitoring solutions ",
+          "contents": [
+            "Create and customize alert rules by using Azure Monitor ",
+            "Configure diagnostic logging and log retention by using Azure Monitor ",
+            "Monitor security logs by using Azure Monitor ",
+            "Create and customize alert rules in Microsoft Sentinel ",
+            "Configure connectors in Microsoft Sentinel ",
+            "Evaluate alerts and incidents in Microsoft Sentinel "
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4: Secure data and applications (25–30%) ",
+      "submodules": [
+        {
+          "heading": "Configure security for storage ",
+          "contents": [
+            "Configure access control for storage accounts ",
+            "Configure storage account access keys ",
+            "Configure Azure AD authentication for Azure Storage and Azure Files ",
+            "Configure delegated access "
+          ]
+        },
+        {
+          "heading": "Configure security for data ",
+          "contents": [
+            "Enable database authentication by using Azure AD ",
+            "Enable database auditing ",
+            "Configure dynamic masking on SQL workloads ",
+            "Implement database encryption for Azure SQL Database ",
+            "Implement network isolation for data solutions, including Azure Synapse Analytics and Azure Cosmos DB "
+          ]
+        },
+        {
+          "heading": "Configure and manage Azure Key Vault ",
+          "contents": [
+            "Create and configure Key Vault ",
+            "Configure access to Key Vault ",
+            "Manage certificates, secrets, and keys ",
+            "Configure key rotation ",
+            "Configure backup and recovery of certificates, secrets, and keys "
+          ]
+        }
+      ]
+    }
+  ],
+  "onCompletion": [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+  ],
+  "batches": [
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 export default {
-  title: "Designing and Implementing Enterprise-Scale Analytics Solutions Using Microsoft Azure and Microsoft Power BI D",
-    subtitle:
+  title: "Designing and Implementing Enterprise-Scale Analytics Solutions",
+  subtitle:
     "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   heroImage: "/images/course-page/azure-hero-image.png",
   heroBg: "/images/course-page/azure-hero-bg.png",
@@ -40,7 +40,7 @@ export default {
     displayImage: "/images/course-page/azure-hightlights-image.png",
     description:
       "Candidates for this exam should have advanced Power BI skills, including managing data repositories and data processing in the cloud and on-premises, along with using Power Query and Data Analysis Expressions (DAX). They should also be proficient in consuming data from Azure Synapse Analytics and should have experience querying relational databases, analyzing data by using Transact-SQL (T-SQL), and visualizing data.This course covers all the topics that are required for Microsoft Azure AZ-500 Microsoft Azure Security Technologies exam. Even if you aren't planning to take the exam this course will help you get started on your way to deploying and managing Microsoft Azure security technologies with hands-on LAB. The AZ-500 exam tests your knowledge in four different subject areas, and that's how this learning path is structured. We'll start with managing identities and access. Next, we'll get into implementing platform protection, which will include topics like Network Security Groups, Azure Firewalls, Container Security, and much more. You will then learn about managing security options using tools like Azure Monitor, the Azure Security Center, and Log Analytics. You'll learn how to secure data and applications by configuring security policies, enabling auditing, leveraging Key Vault, and many other topics.",
-      },
+  },
   idealFor:
     "Candidates for the Azure Enterprise Data Analyst Associate certification should have subject matter expertise in designing, creating, and deploying enterprise-scale data analytics solutions. Responsibilities for this role include performing advanced data analytics at scale, such as cleaning and transforming data, designing, and building enterprise data models, incorporating advanced analytics capabilities, integrating with IT infrastructure, and applying development lifecycle practices. These professionals help collect enterprise-level requirements for data analytics solutions that include Azure and Power BI. They also advise on data governance and configuration settings for Power BI administration, monitor data usage, and optimize performance of the data analytics solutions. Azure enterprise data analysts collaborate with other roles, such as solution architects, data engineers, data scientists, AI engineers, database administrators, and Power BI data analysts. Candidates for this exam should have advanced Power BI skills, including managing data repositories and data processing in the cloud and on-premises, along with using Power Query and Data Analysis Expressions (DAX). They should also be proficient in consuming data from Azure Synapse Analytics and should have experience querying relational databases, analyzing data by using Transact-SQL (T-SQL), and visualizing data.",
   learningObjectives:
@@ -53,17 +53,18 @@ export default {
         {
           heading: "GOVERN AND ADMINISTER A DATA ANALYTICS ENVIRONMENT",
           contents: [
-            "Manage Power BI assets by using Azure Purview", 
-            "Identify data sources in Azure by using Azure Purview", 
-            "Recommend settings in the Power BI admin portal", 
-            "Recommend a monitoring and auditing solution for a data analytics environment, including Power BI REST API and powershell cmdlets", 
+            "Manage Power BI assets by using Azure Purview",
+            "Identify data sources in Azure by using Azure Purview",
+            "Recommend settings in the Power BI admin portal",
+            "Recommend a monitoring and auditing solution for a data analytics environment, including Power BI REST API and powershell cmdlets",
           ],
         },
         {
-          heading: "INTEGRATE AN ANALYTICS PLATFORM INTO AN EXISTING IT INFRASTRUCTURE",
+          heading:
+            "INTEGRATE AN ANALYTICS PLATFORM INTO AN EXISTING IT INFRASTRUCTURE",
           contents: [
-            "Identify requirements for a solution, including features, performance, and licensing strategy", 
-            "Configure and manage power bi capacity", 
+            "Identify requirements for a solution, including features, performance, and licensing strategy",
+            "Configure and manage power bi capacity",
             "Recommend and configure an on-premises gateway in power bi ",
             "Recommend and configure a power bi tenant or workspace to integrate with azure data lake storage gen2",
             "Integrate an existing power bi workspace into azure synapse analytics",
@@ -72,9 +73,9 @@ export default {
         {
           heading: "MANAGE THE ANALYTICS DEVELOPMENT LIFECYCLE",
           contents: [
-            "Commit code and artifacts to a source control repository in Azure Synapse Analytics", 
+            "Commit code and artifacts to a source control repository in Azure Synapse Analytics",
             "Recommend a deployment strategy for Power BI assets ",
-            "Recommend a source control strategy for Power BI assets", 
+            "Recommend a source control strategy for Power BI assets",
             "Implement and manage deployment pipelines in Power BI ",
             "Perform impact analysis of downstream dependencies from dataflows and datasets ",
             "Recommend automation solutions for the analytics development lifecycle, including Power BI REST API and powershell cmdlets ",
@@ -85,16 +86,15 @@ export default {
       ],
     },
     {
-      title:
-        "Module 2: QUERY AND TRANSFORM DATA (20–25%)",
+      title: "Module 2: QUERY AND TRANSFORM DATA (20–25%)",
       submodules: [
         {
           heading: "QUERY DATA BY USING AZURE SYNAPSE ANALYTICS",
           contents: [
             "Identify an appropriate Azure Synapse pool when analyzing data",
-            "Recommend appropriate file types for querying serverless SQL pools", 
+            "Recommend appropriate file types for querying serverless SQL pools",
             "Query relational data sources in dedicated or serverless SQL pools, including querying partitioned data sources ",
-            "Use a machine learning PREDICT function in a query", 
+            "Use a machine learning PREDICT function in a query",
           ],
         },
         {
@@ -111,8 +111,7 @@ export default {
       ],
     },
     {
-      title:
-        "Module 3: IMPLEMENT AND MANAGE DATA MODELS (25–30%)",
+      title: "Module 3: IMPLEMENT AND MANAGE DATA MODELS (25–30%)",
       submodules: [
         {
           heading: "9.3.1	DESIGN AND BUILD TABULAR MODELS",
@@ -126,7 +125,7 @@ export default {
             "Design and implement enterprise-scale row-level security and object-level security ",
           ],
         },
-        {                                   
+        {
           heading: "OPTIMIZE ENTERPRISE-SCALE DATA MODELS",
           contents: [
             "Identify and implement performance improvements in queries and report visuals ",
@@ -136,12 +135,11 @@ export default {
             "Implement incremental refresh ",
             "Optimize a data model by using denormalization ",
           ],
-        },  
+        },
       ],
     },
     {
-      title:
-        "Module 4: 9.4	EXPLORE AND VISUALIZE DATA (20–25%)",
+      title: "Module 4: 9.4	EXPLORE AND VISUALIZE DATA (20–25%)",
       submodules: [
         {
           heading: "9.4.1	EXPLORE DATA BY USING AZURE SYNAPSE ANALYTICS",

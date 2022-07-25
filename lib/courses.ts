@@ -4,14 +4,16 @@ import path from "path";
 const coursesDirectory = path.join(process.cwd(), "courses");
 
 export function getAllCategories() {
-  const categories = fs.readdirSync(coursesDirectory);
-  return categories.map((category) => {
-    return {
-      params: {
-        category,
-      },
-    };
-  });
+  const categories = fs.readdirSync(coursesDirectory, { withFileTypes: true });
+  return categories
+    .filter((category) => category.isDirectory())
+    .map((category) => {
+      return {
+        params: {
+          category: category.name,
+        },
+      };
+    });
 }
 
 export function getCoursesForCategory(category: string | string[] | undefined) {
@@ -19,27 +21,23 @@ export function getCoursesForCategory(category: string | string[] | undefined) {
 }
 
 export function getAllCourseSlugs() {
-  const files: any[] = [];
-  const categories = fs.readdirSync(coursesDirectory);
-  categories.map((category) => {
-    const fileNames = fs.readdirSync(path.join(coursesDirectory, category));
-    fileNames.forEach((fileName) => {
-      files.push({
+  const fileNames = fs.readdirSync(coursesDirectory, { withFileTypes: true });
+  return fileNames
+    .filter((fileName) => fileName.isFile())
+    .map((fileName) => {
+      return {
         params: {
-          category: category,
-          slug: fileName.replace(/\.js$/, ""),
+          slug: fileName.name.replace(/\.json$/, ""),
         },
-      });
+      };
     });
-  });
-  return files;
 }
 
-export function getCourseData(
-  category: string | string[] | undefined,
-  slug: string | string[] | undefined
-) {
-  const fileContents = require(`${coursesDirectory}/${category}/${slug}.js`);
+export async function getCourseData(slug: any) {
+  const fileName = path.join(coursesDirectory, slug);
+  // const fileContents = require(`${fileName}.js`);
+  const data = fs.readFileSync(`${fileName}.json`);
+  const fileContents = JSON.parse(data.toString());
 
   return {
     slug,

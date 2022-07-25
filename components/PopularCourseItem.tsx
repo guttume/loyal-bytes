@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import Link from "next/link";
 
 // @ts-ignore
 export const PopularCourseItem = ({ imageUrl, title, color, children }) => {
@@ -12,7 +12,9 @@ export const PopularCourseItem = ({ imageUrl, title, color, children }) => {
       <div className="mt-56 p-8 text-center space-y-4">
         <h3 className="font-bold text-xl mt-4">{title}</h3>
         <p>{children}</p>
-        <Button color={color}>Join now</Button>
+        <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
+          <a className={`btn ${color} inline-block`}>Join now</a>
+        </Link>
       </div>
     </div>
   );

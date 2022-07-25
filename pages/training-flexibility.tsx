@@ -76,7 +76,8 @@ export default function TrainingFlexibility() {
                 <p>
                   Professionals from our training programs and IT Certifications
                   gain expertise in cutting-edge technologies that are deployed
-                  in today's organizations and get an edge over their peers.
+                  in today&apos;s organizations and get an edge over their
+                  peers.
                 </p>
                 <p>
                   The combination of these, as well as academic alliances,
