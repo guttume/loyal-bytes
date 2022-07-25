@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { images } from "../components";
 
 export default function Placement() {
@@ -20,15 +21,21 @@ export default function Placement() {
             globe.
           </h2>
           <div className="flex justify-center lg:block space-x-4 lg:space-x-0 lg:space-y-6 pt-4">
-            <button className="btn btn-primary block w-1/2">
-              Hear from our students
-            </button>
-            <button className="lg:hidden btn btn-outline-primary block w-1/2">
-              Inquire now
-            </button>
-            <button className="hidden btn btn-outline-secondary lg:block w-1/2">
-              Inquire now
-            </button>
+            <Link href={"/testimonials"}>
+              <a className="btn btn-primary flex justify-center w-1/2 text-center">
+                Hear from our students
+              </a>
+            </Link>
+            <Link href={"/https://forms.office.com/r/VEQqdjwzZr"}>
+              <a className="lg:hidden btn btn-outline-primary flex justify-center items-center w-1/2">
+                Inquire now
+              </a>
+            </Link>
+            <Link href={"/https://forms.office.com/r/VEQqdjwzZr"}>
+              <a className="hidden btn btn-outline-secondary justify-center lg:flex w-1/2">
+                Inquire now
+              </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -43,115 +50,12 @@ export default function Placement() {
             in the subject matter.
           </h4>
           <div className="bg-gray-200 rounded-lg p-4 mt-8">
-            <div className="space-y-4">
-              <div className="flex justity-between">
-                <img
-                  src={images.placement.brands.google}
-                  alt="Google logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.cisco}
-                  alt="cisco logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.ford}
-                  alt="ford logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.dell}
-                  alt="dell logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.dell}
-                  alt="dell logo"
-                  className="w-1/5"
-                />
-              </div>
-              <div className="flex justity-between">
-                <img
-                  src={images.placement.brands.google}
-                  alt="Google logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.cisco}
-                  alt="cisco logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.ford}
-                  alt="ford logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.dell}
-                  alt="dell logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.dell}
-                  alt="dell logo"
-                  className="w-1/5"
-                />
-              </div>
-              <div className="flex justity-between">
-                <img
-                  src={images.placement.brands.google}
-                  alt="Google logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.cisco}
-                  alt="cisco logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.ford}
-                  alt="ford logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.dell}
-                  alt="dell logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.dell}
-                  alt="dell logo"
-                  className="w-1/5"
-                />
-              </div>
-              <div className="flex justity-between">
-                <img
-                  src={images.placement.brands.google}
-                  alt="Google logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.cisco}
-                  alt="cisco logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.ford}
-                  alt="ford logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.dell}
-                  alt="dell logo"
-                  className="w-1/5"
-                />
-                <img
-                  src={images.placement.brands.dell}
-                  alt="dell logo"
-                  className="w-1/5"
-                />
-              </div>
+            <div className="grid grid-cols-7 gap-4">
+              {Object.values(images.placement.brands).map((brand, index) => (
+                <div key={index.toString()}>
+                  <img src={brand} alt="" />
+                </div>
+              ))}
             </div>
           </div>
         </div>
