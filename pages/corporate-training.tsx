@@ -92,7 +92,7 @@ export default function CorporateTraining() {
           </div>
         </div>
       </section>
-      <section className="bg-darkText px-8 lg:px-12">
+      <section className="bg-darkText px-8 lg:px-12 mb-32">
         <div className="lg:flex py-16 items-center space-x-12">
           <div className="lg:w-1/2 bg-white rounded-xl flex justify-center py-8">
             <div>

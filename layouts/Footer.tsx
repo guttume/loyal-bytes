@@ -3,7 +3,7 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <footer>
-      <section className="bg-darkerText text-white p-8 lg:px-12">
+      <section className="bg-darkText text-white p-8 lg:px-12 text-sm">
         <div className="space-y-12 lg:space-y-0 flex items-start justify-between">
           <div className="space-y-2">
             <h2 className="text-xl font-bold">Loyal Bytes</h2>
@@ -146,8 +146,8 @@ export const Footer = () => {
           </div>
         </div>
       </section>
-      <section className="bg-darkText text-white px-8 py-4">
-        <p className="text-center text-sm">
+      <section className="bg-black text-white px-8 py-4">
+        <p className="text-center text-xs">
           &copy; 2022 Loyal Bytes Learning | Developed and maintained by
           Bornopedia Media
         </p>
