@@ -7,7 +7,7 @@ import {
   Section,
   SectionSubTitle,
   SectionTitle,
-  Testimonial,
+  Testimonial
 } from "../components";
 import { PopularCourseItem } from "../components/PopularCourseItem";
 import { Statistics } from "../components/Statistics";
