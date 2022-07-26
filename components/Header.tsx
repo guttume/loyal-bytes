@@ -15,7 +15,7 @@ export const Header = () => {
       <Nav />
       <div className="hidden lg:block">
         <Link href="https://forms.office.com/r/VEQqdjwzZr">
-          <a className="btn-small bg-accent text-white">Make Enquiry</a>
+          <a className="btn btn-primary text-white">Make Enquiry</a>
         </Link>
       </div>
     </header>

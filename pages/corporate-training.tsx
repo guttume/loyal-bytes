@@ -38,35 +38,35 @@ export default function CorporateTraining() {
             <p className="font-semibold text-xl my-4">Corporate Trainings</p>
             <div className="space-y-4">
               <p>
-                The holistic training outsourcing solutions provided by MSA for
-                Corporates, are a suite of best-in-class training processes that
+                The holistic training outsourcing solutions provided by LBLS for
+                Corporates are a suite of best-in-class training processes that
                 enable customers to reduce costs, sharpen their business focus
                 and obtain quantifiable results. These Corporate Learning
-                Solutions leverage MSA&apos;s in-depth knowledge and widespread
-                experience in Technology Training, Induction Training,
+                Solutions leverage LBLS&apos;s in-depth knowledge and widespread
+                experience in Technology Training, Induction Training, and
                 Product/Application Roll-out Training, making the company a
                 preferred training services partner.
               </p>
               <p>
-                MSA&apos;s Corporate Training Programs, targeted at both large
+                LBLS&apos;s Corporate Training Programs, targeted at both large
                 enterprises and Small and Medium Businesses (SMBs), deliver
-                training that is focused and meets the requirements of a 21st
-                century technology powered workplace.
+                training that is focused and meets the requirements of a
+                21st-century technology-powered workplace.
               </p>
               <p>
                 These corporate training programs additionally integrate proven
                 best practices into business processes and redirect surplus
-                training capital into core business solutions. MSA&apos;s
+                training capital into core business solutions. LBLS&apos;s
                 Corporate Learning Solutions on high-end technologies and
                 Managed Training Services (MTS) encompass Learning Content,
-                Learning Delivery, Learning Technology and Learning
+                Learning Delivery, Learning Technology, and Learning
                 Administration.
               </p>
               <p>
                 In a world where technology is continuously evolving, it is not
                 easy for your IT workforce to keep pace with what&apos;s
                 emerging on the horizon and develop knowledge and skills while
-                balancing work pressures and deadlines. At MSA, we understand
+                balancing work pressures and deadlines. At LBLS, we understand
                 what it takes for you to maintain your competitive advantage.
               </p>
               <p>
@@ -75,20 +75,28 @@ export default function CorporateTraining() {
                 business environment. These training programs enable users to
                 quickly adapt to changes and perform efficiently in the
                 real-time business environment. Whether it is change management,
-                performance management or implementing new enterprise software,
+                performance management, or implementing new enterprise software,
                 our roll-out training provides solutions for all.
               </p>
             </div>
           </div>
           <div className="lg:w-1/2">
-            {[0, 0, 0, 0, 0, 0].map((item, index) => (
+            <div className="grid grid-cols-3 gap-4">
+              {Object.values(images.placement.brands).map((brand, index) => (
+                <div key={index} className="my-4">
+                  <img src={brand} alt="Brand Logo Picture" />
+                </div>
+              ))}
+            </div>
+
+            {/* {[0, 0, 0, 0, 0, 0].map((item, index) => (
               <div key={index} className="my-4">
                 <img
                   src={images.corporateTrainingBrands}
                   alt="Brand Logo Picture"
                 />
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
       </section>

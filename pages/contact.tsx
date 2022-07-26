@@ -50,12 +50,12 @@ export default function Contact() {
                 Get in touch with us and our friendly and professional staff
                 will guide you step by step to resolve your queries.
               </h4>
-              <button className="flex space-x-4 items-center btn btn-outline-primary w-64 justify-center">
+              <a className="flex space-x-4 items-center btn btn-outline-primary w-64 justify-center" href="https://forms.office.com/r/VEQqdjwzZr">
                 <span>Get in touch</span>
                 <span>
                   <ArrowRightIcon className="h-5 w-5 text-orange-500" />
                 </span>
-              </button>
+              </a>
             </div>
             <div className="lg:w-2/3 mt-4 lg:mt-0">
               <img

@@ -3,10 +3,16 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <footer>
-      <section className="bg-darkText text-white p-8 lg:px-12 text-sm">
-        <div className="space-y-12 lg:space-y-0 flex items-start justify-between">
+      <section className="bg-footer text-white px-8 py-16 lg:px-12 text-sm">
+        <div className="space-y-12 lg:space-y-0 lg:flex items-start justify-between">
           <div className="space-y-2">
-            <h2 className="text-xl font-bold">Loyal Bytes</h2>
+            <h2 className="text-xl font-bold w-48">
+              {/* <Link href={"/"}>
+                <a>
+                  <img src={images.logoWhite} alt="white logo" />
+                </a>
+              </Link> */}
+            </h2>
             <div className="flex space-x-2 items-center text-white">
               <Link href={"https://www.facebook.com/LoyalBytes"}>
                 <a>
@@ -54,7 +60,7 @@ export const Footer = () => {
             <h4 className="text-xl font-bold border-b-2 border-white pb-1">
               Pages
             </h4>
-            <ul className="space-y-1">
+            <ul className="space-y-3">
               <li>
                 <Link href={"/batches"}>
                   <a>Batches</a>
@@ -72,12 +78,17 @@ export const Footer = () => {
               </li>
               <li>
                 <Link href={"/placement"}>
-                  <a>Impact</a>
+                  <a>Placements</a>
                 </Link>
               </li>
               <li>
                 <Link href={"/testimonials"}>
                   <a>Testimonials</a>
+                </Link>
+              </li>
+              <li>
+                <Link href={"/about"}>
+                  <a>About</a>
                 </Link>
               </li>
             </ul>
@@ -86,7 +97,7 @@ export const Footer = () => {
             <h4 className="text-xl font-bold border-b-2 border-white pb-1">
               Courses
             </h4>
-            <ul className="space-y-1">
+            <ul className="space-y-3">
               <li>
                 <Link
                   href={"/courses/fundamentals/microsoft-365-fundamentals-900"}
@@ -138,7 +149,7 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="space-y-2">
+          <div className="space-y-3">
             <h3 className="text-xl font-bold border-b-2 border-white pb-1">
               Connect with us
             </h3>

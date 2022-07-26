@@ -1,4 +1,5 @@
 export const images = {
+  logoWhite: "/images/white-logo.png",
   azureSmall: "/images/azure-icon-sm.png",
   corporateTrainings: "/images/corporate-trainings.png",
   courseActiveDirectory: "/images/course-active-directory.png",

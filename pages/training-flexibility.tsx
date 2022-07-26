@@ -96,12 +96,15 @@ export default function TrainingFlexibility() {
           </div>
         </div>
       </section>
-      <section className="bg-blue-700 py-8 lg:pb-16">
+      <section className="relative bg-blue-700 py-8 lg:pb-16 overflow-clip">
+        <div className="absolute top-0 left-0 w-1/3 -ml-40 mt-40">
+          <img src={images.homePageRings} alt="rings" />
+        </div>
         <h3 className="text-3xl font-semibold tracking-wider text-center mb-4 text-white">
           Our Methodology
         </h3>
         <div className="space-y-6 px-8 lg:flex lg:space-y-0 lg:space-x-8 font-bold text-sm">
-          <ol className="relative bg-white rounded py-8 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
+          <ol className="relative bg-white rounded-2xl py-24 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
             <li>Custom Trainings based on thecorporate requirements.</li>
             <li>Training as per vendor&apos;s course ware.</li>
             <li>
@@ -110,7 +113,7 @@ export default function TrainingFlexibility() {
             </li>
             <li>Qualified and experienced faculty</li>
           </ol>
-          <ul className="bg-white rounded py-8 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
+          <ul className="bg-white rounded-2xl py-24 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
             <li>Immediate practical session after theory session.</li>
             <li>
               Flexibility in medium of instruction viz English, Gujarati or
@@ -121,7 +124,7 @@ export default function TrainingFlexibility() {
             </li>
             <li>Computer-Based Training</li>
           </ul>
-          <ul className="bg-white rounded py-8 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
+          <ul className="bg-white rounded-2xl py-24 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
             <li>Assignments before starting practical session</li>
             <li>Session wise topic break-up</li>
             <li>Quiz contests, seminars</li>
