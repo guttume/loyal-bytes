@@ -5,7 +5,7 @@ import { Nav } from "./Nav";
 export const Header = () => {
   return (
     <header className="h-24 flex items-center justify-between pl-4 lg:px-12">
-      <div className="w-40">
+      <div className="w-64">
         <Link href="/">
           <a>
             <img src={images.logo} alt="logo" />
