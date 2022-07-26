@@ -73,7 +73,12 @@ export const Footer = () => {
               <li>
                 <Link href={"/placement"}>
                   <a>Impact</a>
-                </Link>{" "}
+                </Link>
+              </li>
+              <li>
+                <Link href={"/testimonials"}>
+                  <a>Testimonials</a>
+                </Link>
               </li>
             </ul>
           </div>

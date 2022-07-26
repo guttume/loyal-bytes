@@ -67,6 +67,7 @@ export const images = {
       capgemini: "/images/testimonials/brands/capgemini.png",
       concentrix: "/images/testimonials/brands/concentrix.png",
       placeholder: "/images/testimonials/brands/placeholder.png",
+      tcs: "/images/testimonials/brands/tcs.png",
     },
   },
   about: {
