@@ -1,4 +1,6 @@
 import { DesktopComputerIcon } from "@heroicons/react/solid";
+import { Autoplay, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "../components";
 
 export default function CorporateTraining() {
@@ -80,14 +82,31 @@ export default function CorporateTraining() {
               </p>
             </div>
           </div>
-          <div className="lg:w-1/2">
-            <div className="grid grid-cols-3 gap-4">
+          <div className="lg:w-1/2 h-[920px]">
+            <Swiper
+              scrollbar={true}
+              slidesPerView={7}
+              autoplay={true}
+              modules={[Pagination, Autoplay]}
+              direction={"vertical"}
+              pagination={{ clickable: true }}
+              className="v-brands"
+            >
+              {images.placement.slides.map((brand, index) => (
+                  <SwiperSlide key={brand}>
+                    <div key={index} className="my-4">
+                      <img src={brand} alt="Brand Logo Picture" />
+                    </div>
+                  </SwiperSlide>
+                ))}
+            </Swiper>
+            {/* <div className="grid grid-cols-3 gap-4">
               {Object.values(images.placement.brands).map((brand, index) => (
                 <div key={index} className="my-4">
                   <img src={brand} alt="Brand Logo Picture" />
                 </div>
               ))}
-            </div>
+            </div> */}
 
             {/* {[0, 0, 0, 0, 0, 0].map((item, index) => (
               <div key={index} className="my-4">
