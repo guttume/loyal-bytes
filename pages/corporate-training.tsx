@@ -2,6 +2,7 @@ import { DesktopComputerIcon } from "@heroicons/react/solid";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "../components";
+import { courses } from "../data/training-courses";
 
 export default function CorporateTraining() {
   return (
@@ -93,12 +94,12 @@ export default function CorporateTraining() {
               className="v-brands"
             >
               {images.placement.slides.map((brand, index) => (
-                  <SwiperSlide key={brand}>
-                    <div key={index} className="my-4">
-                      <img src={brand} alt="Brand Logo Picture" />
-                    </div>
-                  </SwiperSlide>
-                ))}
+                <SwiperSlide key={brand}>
+                  <div key={index} className="my-4">
+                    <img src={brand} alt="Brand Logo Picture" />
+                  </div>
+                </SwiperSlide>
+              ))}
             </Swiper>
             {/* <div className="grid grid-cols-3 gap-4">
               {Object.values(images.placement.brands).map((brand, index) => (
@@ -122,24 +123,32 @@ export default function CorporateTraining() {
       <section className="bg-darkText px-8 lg:px-12 mb-32">
         <div className="lg:flex py-16 items-center space-x-12">
           <div className="lg:w-1/2 bg-white rounded-xl flex justify-center py-8">
-            <div>
-              <img
-                src={images.corporateTrainingVodafone}
-                alt="vodafone logo"
-                className="w-96"
-              />
-              <ul className="my-8 space-y-2 list-disc pr-4 pl-8">
-                {[
-                  "WINDOWS 10 FOR ENTERPRISE (Banglore)",
-                  "WINDOWS SERVER 2012 and ADFS 3.0",
-                  "WINDOWS 10 FOR ENTERPRISE (Pune)",
-                  "WINDOWS 10 FOR ENTERPRISE (Kolkata)",
-                  "WINDOWS 10 FOR ENTERPRISE (Chennai)",
-                ].map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
+            <Swiper
+              scrollbar={false}
+              spaceBetween={10}
+              slidesPerView={3}
+              autoplay={true}
+              speed={1}
+              modules={[Pagination, Autoplay]}
+              // pagination={{ clickable: true }}
+            >
+              {courses.map((course, index) => (
+                <SwiperSlide key={index.toString()}>
+                  <div className="mx-4">
+                    <img
+                      src={course.image}
+                      alt="vodafone logo"
+                      className="w-84"
+                    />
+                    <ul className="my-8 space-y-2 list-disc pr-4 pl-8 text-sm">
+                      {course.courses.map((item, index) => (
+                        <li key={index.toString()}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0">
             <img

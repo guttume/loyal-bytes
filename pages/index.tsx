@@ -29,7 +29,7 @@ export default function Index() {
         <div className="space-y-8 lg:space-y-0 lg:grid grid-cols-3 gap-16">
           <PopularCourseItem
             imageUrl={images.courseAzure}
-            title="Microsoft Azure"
+            title="Azure Cloud"
             color={"bg-yellow-500 text-yellow-50"}
           >
             Implementing Microsoft Azure Infrastructure Solutions, Architecting
@@ -37,7 +37,7 @@ export default function Index() {
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseWindows10}
-            title="Windows 10 EDST"
+            title="Windows Server MCSC"
             color={"bg-rose-500 text-rose-50"}
           >
             Configuring Windows 8, Supporting Windows 8.1, Deploying Windows
@@ -53,7 +53,7 @@ export default function Index() {
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseActiveDirectory}
-            title="Active Directory Right Management Services"
+            title="M-365"
             color={"bg-green-500 text-green-50"}
           >
             This four-day instructor-led course provides students with the

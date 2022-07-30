@@ -1,17 +1,18 @@
 import Link from "next/link";
+import { images } from "../components";
 
 export const Footer = () => {
   return (
     <footer>
-      <section className="bg-footer text-white px-8 py-16 lg:px-12 text-sm">
+      <section className="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 text-white px-8 py-16 lg:px-12 text-sm">
         <div className="space-y-12 lg:space-y-0 lg:flex items-start justify-between">
-          <div className="space-y-2">
+          <div className="space-y-4">
             <h2 className="text-xl font-bold w-48">
-              {/* <Link href={"/"}>
+              <Link href={"/"}>
                 <a>
                   <img src={images.logoWhite} alt="white logo" />
                 </a>
-              </Link> */}
+              </Link>
             </h2>
             <div className="flex space-x-2 items-center text-white">
               <Link href={"https://www.facebook.com/LoyalBytes"}>
@@ -54,6 +55,10 @@ export const Footer = () => {
                   </svg>
                 </a>
               </Link>
+            </div>
+            <div className="space-y-2">
+            <p>9769303625</p>
+            <p>info@loyalbytes.com / rajesh.yadav@loyalbytes.com</p>
             </div>
           </div>
           <div className="space-y-2">
