@@ -50,12 +50,15 @@ export default function Contact() {
                 Get in touch with us and our friendly and professional staff
                 will guide you step by step to resolve your queries.
               </h4>
-              <button className="flex space-x-4 items-center btn btn-outline-primary w-64 justify-center">
+              <a
+                className="flex space-x-4 items-center btn btn-outline-primary w-64 justify-center"
+                href="https://forms.office.com/r/VEQqdjwzZr"
+              >
                 <span>Get in touch</span>
                 <span>
                   <ArrowRightIcon className="h-5 w-5 text-orange-500" />
                 </span>
-              </button>
+              </a>
             </div>
             <div className="lg:w-2/3 mt-4 lg:mt-0">
               <img
@@ -75,7 +78,7 @@ export default function Contact() {
                 />
               </span>
               <span>
-                <a href="">+91 9769303625</a> / <a href="">022 67250749</a>
+                <a href="">+91 9769303625</a>
               </span>
             </div>
             <div className="flex space-x-2 items-center lg:w-1/3">
@@ -87,8 +90,8 @@ export default function Contact() {
                 />
               </span>
               <span>
-                <a href="">msacademy@hotmail.com</a> /{" "}
-                <a href="">inquiryhotmail.com</a>
+                <a href="">info@loyalbytes.com</a> /{" "}
+                <a href="">rajesh.yadav@loyalbytes.com</a>
               </span>
             </div>
             <div className="flex space-x-2 items-center lg:w-1/3">
@@ -100,8 +103,9 @@ export default function Contact() {
                 />
               </span>
               <span>
-                A-405, 4th floor, Mathuria Apt., next to Vishal Hall, 49 Sir
-                M.V. Road, Andheri (East), Mumbai 400069
+                Address :- B - 202, Mathuria Apartment, next to Vishal Hall,
+                above Bank of India, 49 Sir M V road. Andheri East Mumbai -
+                400069
               </span>
             </div>
           </div>

@@ -6,13 +6,13 @@ import {
   Highlight,
   images,
   PortfolioSummary,
-  Testimonial,
+  Testimonial
 } from "../../components";
 import { Queries } from "../../layouts";
 import {
   CourseContent,
   getAllCourseSlugs,
-  getCourseData,
+  getCourseData
 } from "../../lib/courses";
 
 export default function Course({ content }: CoursePageProps) {
@@ -36,7 +36,7 @@ export default function Course({ content }: CoursePageProps) {
             {content.courseDetail.certification} |{" "}
             {content.courseDetail.batchInfo}
           </p>
-          <div className="lg:flex space-y-6 justify-between my-6">
+          <div className="lg:flex space-y-6 lg:space-y-0 justify-between my-6">
             {content.courseDetail.highlights.map((highlight) => (
               <Highlight
                 key={highlight.heading}
@@ -58,10 +58,12 @@ export default function Course({ content }: CoursePageProps) {
             <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
               <a className="btn btn-primary">Apply now</a>
             </Link>
-            <button className="btn btn-outline-secondary">
+            <Link href={"/loyal-bytes-brochure.pdf"}>
+            <a className="btn btn-outline-secondary">
               Download brochure
-            </button>
-            <Link href={"#"}>
+            </a>
+            </Link>
+            <Link href={"/demo-certificate.pdf"}>
               <a className="underline text-blue-50">Demo certificate</a>
             </Link>
           </div>

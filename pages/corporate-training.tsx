@@ -1,5 +1,8 @@
 import { DesktopComputerIcon } from "@heroicons/react/solid";
+import { Autoplay, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "../components";
+import { courses } from "../data/training-courses";
 
 export default function CorporateTraining() {
   return (
@@ -38,35 +41,35 @@ export default function CorporateTraining() {
             <p className="font-semibold text-xl my-4">Corporate Trainings</p>
             <div className="space-y-4">
               <p>
-                The holistic training outsourcing solutions provided by MSA for
-                Corporates, are a suite of best-in-class training processes that
+                The holistic training outsourcing solutions provided by LBLS for
+                Corporates are a suite of best-in-class training processes that
                 enable customers to reduce costs, sharpen their business focus
                 and obtain quantifiable results. These Corporate Learning
-                Solutions leverage MSA&apos;s in-depth knowledge and widespread
-                experience in Technology Training, Induction Training,
+                Solutions leverage LBLS&apos;s in-depth knowledge and widespread
+                experience in Technology Training, Induction Training, and
                 Product/Application Roll-out Training, making the company a
                 preferred training services partner.
               </p>
               <p>
-                MSA&apos;s Corporate Training Programs, targeted at both large
+                LBLS&apos;s Corporate Training Programs, targeted at both large
                 enterprises and Small and Medium Businesses (SMBs), deliver
-                training that is focused and meets the requirements of a 21st
-                century technology powered workplace.
+                training that is focused and meets the requirements of a
+                21st-century technology-powered workplace.
               </p>
               <p>
                 These corporate training programs additionally integrate proven
                 best practices into business processes and redirect surplus
-                training capital into core business solutions. MSA&apos;s
+                training capital into core business solutions. LBLS&apos;s
                 Corporate Learning Solutions on high-end technologies and
                 Managed Training Services (MTS) encompass Learning Content,
-                Learning Delivery, Learning Technology and Learning
+                Learning Delivery, Learning Technology, and Learning
                 Administration.
               </p>
               <p>
                 In a world where technology is continuously evolving, it is not
                 easy for your IT workforce to keep pace with what&apos;s
                 emerging on the horizon and develop knowledge and skills while
-                balancing work pressures and deadlines. At MSA, we understand
+                balancing work pressures and deadlines. At LBLS, we understand
                 what it takes for you to maintain your competitive advantage.
               </p>
               <p>
@@ -75,44 +78,77 @@ export default function CorporateTraining() {
                 business environment. These training programs enable users to
                 quickly adapt to changes and perform efficiently in the
                 real-time business environment. Whether it is change management,
-                performance management or implementing new enterprise software,
+                performance management, or implementing new enterprise software,
                 our roll-out training provides solutions for all.
               </p>
             </div>
           </div>
-          <div className="lg:w-1/2">
-            {[0, 0, 0, 0, 0, 0].map((item, index) => (
+          <div className="lg:w-1/2 h-[920px]">
+            <Swiper
+              scrollbar={true}
+              slidesPerView={7}
+              autoplay={true}
+              modules={[Pagination, Autoplay]}
+              direction={"vertical"}
+              pagination={{ clickable: true }}
+              className="v-brands"
+            >
+              {images.placement.slides.map((brand, index) => (
+                <SwiperSlide key={brand}>
+                  <div key={index} className="my-4">
+                    <img src={brand} alt="Brand Logo Picture" />
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+            {/* <div className="grid grid-cols-3 gap-4">
+              {Object.values(images.placement.brands).map((brand, index) => (
+                <div key={index} className="my-4">
+                  <img src={brand} alt="Brand Logo Picture" />
+                </div>
+              ))}
+            </div> */}
+
+            {/* {[0, 0, 0, 0, 0, 0].map((item, index) => (
               <div key={index} className="my-4">
                 <img
                   src={images.corporateTrainingBrands}
                   alt="Brand Logo Picture"
                 />
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
       </section>
-      <section className="bg-darkText px-8 lg:px-12">
+      <section className="bg-darkText px-8 lg:px-12 mb-32">
         <div className="lg:flex py-16 items-center space-x-12">
           <div className="lg:w-1/2 bg-white rounded-xl flex justify-center py-8">
-            <div>
-              <img
-                src={images.corporateTrainingVodafone}
-                alt="vodafone logo"
-                className="w-96"
-              />
-              <ul className="my-8 space-y-2 list-disc pr-4 pl-8">
-                {[
-                  "WINDOWS 10 FOR ENTERPRISE (Banglore)",
-                  "WINDOWS SERVER 2012 and ADFS 3.0",
-                  "WINDOWS 10 FOR ENTERPRISE (Pune)",
-                  "WINDOWS 10 FOR ENTERPRISE (Kolkata)",
-                  "WINDOWS 10 FOR ENTERPRISE (Chennai)",
-                ].map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            </div>
+            <Swiper
+              scrollbar={false}
+              spaceBetween={10}
+              slidesPerView={3}
+              autoplay={true}
+              speed={1}
+              modules={[Pagination, Autoplay]}
+              // pagination={{ clickable: true }}
+            >
+              {courses.map((course, index) => (
+                <SwiperSlide key={index.toString()}>
+                  <div className="mx-4">
+                    <img
+                      src={course.image}
+                      alt="vodafone logo"
+                      className="w-84"
+                    />
+                    <ul className="my-8 space-y-2 list-disc pr-4 pl-8 text-sm">
+                      {course.courses.map((item, index) => (
+                        <li key={index.toString()}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
           <div className="lg:w-1/2 mt-8 lg:mt-0">
             <img

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { images } from "../components";
+import { images, Testimonial } from "../components";
 
 export default function Placement() {
   return (
@@ -60,6 +60,9 @@ export default function Placement() {
           </div>
         </div>
       </section>
+      <section className="px-8 lg:px-12">
+        <Testimonial />
+      </section>
       <section className="my-16 px-8 lg:px-12">
         <div className="lg:flex space-y-8 lg:space-y-0 lg:space-x-4 items-center">
           <div className="lg:w-1/2">
@@ -82,7 +85,7 @@ export default function Placement() {
           </div>
         </div>
       </section>
-      <section className="bg-orange-500 px-8 lg:px-12 py-12">
+      <section className="bg-gradient-to-r from-blue-800 via-blue-600 to-blue-600 text-blue-50 mx-8 lg:mx-12 py-12 mb-16 rounded-xl">
         <div className="lg:flex lg:px-20 justify-between space-y-8 lg:space-y-0">
           <div className="space-y-4 lg:space-y-0">
             <h3 className="text-3xl text-white font-bold text-center lg:text-left">

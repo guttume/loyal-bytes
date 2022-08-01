@@ -12,21 +12,21 @@ export const menuItems = [
     link: "/corporate-training",
   },
   {
-    title: "Impact",
+    title: "Placements",
     link: "/placement",
   },
   {
     title: "Contact",
     link: "/contact",
   },
-  {
-    title: "About Us",
-    link: "/about",
-  },
-  {
-    title: "Testimonials",
-    link: "/testimonials",
-  },
+  // {
+  //   title: "About Us",
+  //   link: "/about",
+  // },
+  // {
+  //   title: "Testimonials",
+  //   link: "/testimonials",
+  // },
   // {
   //   title: "Gallery",
   //   link: "",

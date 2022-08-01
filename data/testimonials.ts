@@ -45,6 +45,15 @@ export const testimonials = [
     ],
   },
   {
+    name: "Nitesh Jiyalal Vishwakarma",
+    company: "TATA Consultancy Services",
+    image: images.testimonials.brands.tcs,
+    designation: "Solution Architect",
+    body: [
+      "If you want to learn with the best, Loyal Bytes is the destination. I have taken trials, booked courses from various other educators and training centers but the way Ronak Sir prepares his students is next level. Always recommended 😊",
+    ],
+  },
+  {
     name: "Wensley Saldanha",
     company: "Softline Services India Pvt. Limited",
     image: "",

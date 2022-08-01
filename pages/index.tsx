@@ -7,7 +7,7 @@ import {
   Section,
   SectionSubTitle,
   SectionTitle,
-  Testimonial,
+  Testimonial
 } from "../components";
 import { PopularCourseItem } from "../components/PopularCourseItem";
 import { Statistics } from "../components/Statistics";
@@ -29,7 +29,7 @@ export default function Index() {
         <div className="space-y-8 lg:space-y-0 lg:grid grid-cols-3 gap-16">
           <PopularCourseItem
             imageUrl={images.courseAzure}
-            title="Microsoft Azure"
+            title="Azure Cloud"
             color={"bg-yellow-500 text-yellow-50"}
           >
             Implementing Microsoft Azure Infrastructure Solutions, Architecting
@@ -37,7 +37,7 @@ export default function Index() {
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseWindows10}
-            title="Windows 10 EDST"
+            title="Windows Server MCSC"
             color={"bg-rose-500 text-rose-50"}
           >
             Configuring Windows 8, Supporting Windows 8.1, Deploying Windows
@@ -53,7 +53,7 @@ export default function Index() {
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseActiveDirectory}
-            title="Active Directory Right Management Services"
+            title="M-365"
             color={"bg-green-500 text-green-50"}
           >
             This four-day instructor-led course provides students with the
@@ -81,10 +81,10 @@ export default function Index() {
           <div className="absolute left-1/2 lg:-ml-56 w-24 lg:-mt-12">
             <img src={images.patterns} alt="background art" />
           </div>
-          <div className="absolute left-1/2 lg:-ml-64 w-12 lg:mt-24">
+          <div className="absolute lg:left-1/2 left-0 lg:-ml-64 w-12 mt-24 -z-10">
             <img src={images.leftConfetti} alt="background art" />
           </div>
-          <div className="absolute left-1/2 lg:ml-48 w-20 lg:mt-24">
+          <div className="absolute right-0 lg:left-1/2 lg:ml-48 w-20 mt-24 -z-10">
             <img src={images.rightConfetti} alt="background art" />
           </div>
           <SectionTitle>Open Doors of Opportunities</SectionTitle>
@@ -101,8 +101,11 @@ export default function Index() {
           <div className="absolute w-5/12 top-0 -mt-40 -ml-56">
             <img src={images.homePageRings} alt="rings" />
           </div>
+          <div className="lg:absolute lg:w-[500px] lg:right-0 lg:mt-8 lg:mr-40 z-10">
+            <img src={images.corporateTrainings} alt="corporate trainings" />
+          </div>
           <div className="lg:border lg:absolute lg:w-full lg:px-16 lg:pl-24 lg:py-16 lg:rounded-lg bg-gradient-to-r from-teal-50 via-yellow-50 to-red-50">
-            <div className="lg:w-[600px]">
+            <div className="lg:w-[600px] p-4">
               <SectionTitle>Corporate Trainings</SectionTitle>
               <SectionSubTitle>
                 MSA&apos;s Corporate Training Programs, targeted at both large
@@ -122,9 +125,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <div className="lg:absolute lg:w-[500px] lg:right-0 lg:mt-8 lg:mr-40">
-            <img src={images.corporateTrainings} alt="corporate trainings" />
-          </div>
+         
         </div>
       </Section>
       <Section>

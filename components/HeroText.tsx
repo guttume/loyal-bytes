@@ -6,7 +6,7 @@ export const HeroText = () => {
           className="text-4xl lg:text-6xl lg:tracking-wider font-extrabold mb-3"
           style={{ color: `#2D3957` }}
         >
-          Most trusted Institute in India
+          Where learning is a passion
         </h1>
         <h3 className="text-xl">
           We offer globally recognised Microsoft Certified courses taught by top

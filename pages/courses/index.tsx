@@ -38,7 +38,7 @@ export default function index() {
         </div>
       </section>
       <section className="p-8 lg:p-32">
-        <div className="grid grid-cols-4 gap-8">
+        <div className="lg:grid grid-cols-4 gap-8">
           {courseCategories.map((category) => (
             <div key={category.url}>
               <Link href={category.url}>

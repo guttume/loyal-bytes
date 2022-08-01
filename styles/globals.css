@@ -32,3 +32,12 @@
 .swiper .swiper-slide {
   height: 400px;
 }
+
+.brands.swiper {
+  height: 220px;
+}
+
+.v-brands.swiper {
+  height: 100%;
+  width: 100%;
+}

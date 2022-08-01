@@ -19,7 +19,7 @@ export const Testimonial = () => {
         modules={[Pagination, FreeMode, Autoplay]}
         pagination={{ clickable: true }}
       >
-        {testimonials.map((testimonial) => (
+        {testimonials.slice(0, 5).map((testimonial) => (
           <SwiperSlide key={testimonial.name}>
             <TestimonialItem
               company={testimonial.company}
