@@ -60,7 +60,7 @@ export default function Placement() {
           </div>
         </div>
       </section>
-      <section className="px-8 lg:px-12">
+      <section className="px-8 lg:px-12 lg:-mt-28">
         <Testimonial />
       </section>
       <section className="my-16 px-8 lg:px-12">

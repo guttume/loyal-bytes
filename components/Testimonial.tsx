@@ -7,7 +7,7 @@ import { TestimonialItem } from "./TestimonialItem";
 export const Testimonial = () => {
   return (
     <div className="lg:mt-48 w-full">
-      <div className="text-center mb-12">
+      <div className="text-center mb-4">
         <SectionTitle>What Our Students Say About Us</SectionTitle>
       </div>
       <Swiper

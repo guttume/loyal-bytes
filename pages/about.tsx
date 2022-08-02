@@ -63,7 +63,7 @@ export default function about() {
           </div>
         </div>
       </section>
-      <section className="mt-16 bg-gradient-to-r from-blue-500 via-indigo-500 to-indigo-500 px-8 lg:px-12">
+      <section className="bg-gradient-to-r from-blue-500 via-indigo-500 to-indigo-500 px-8 lg:px-12">
         <div className="lg:flex">
           <div className="lg:w-1/2 relative flex justify-center pt-12">
             <span className="blur-md">
@@ -147,52 +147,43 @@ export default function about() {
           </div>
           <div className="space-y-6">
             <p>
-              MSACADEME was founded in September 2013 by professionals to
-              explore technology to its best, share information and knowledge
-              gained from experiences on projects on the latest trends in the
-              industry and ultimately to inculcate the same expertise in
-              professionals looking forward to us.Technology never stops
-              changing and learning never ends and so we relentlessly keep on
-              improvising our training methods and techniques. MSA assures you
-              the finest training in industry on renowned certifications of I.T
-              Infrastructure Management Services from Microsoft, VMWare, ITIL,
-              etc. with MONEY BACK GUARANTEE even in the last lecture. The
-              founder of this academy Ronak Shah is of the notion that
-              “understand the technology and play with it rather than merely
-              learning how to configure it because technology is an iceberg and
-              most of it lies undiscovered unless u dig it out”. No doubt, at
-              this young age he has trained the maximum number of participants
-              and companies than any other consultant in Microsoft training
-              domain. Unlike other training providers we do not dupe our
-              participants or give them false hopes about successful careers. We
-              assure and deliver to them what we commit. We deliver training
-              exactly as per the needs of the industry and substantiate the
-              level of expectation of the industry needs.
+              Loyal Bytes Learning Services has an advanced learning center
+              specifically created to provide training in quality management to
+              working professionals. Loyal Bytes Learning Service's expertise in
+              the design and management of distributed education programs that
+              provide student learning environments, technology platforms, and
+              related educational processes and services created should have
+              holistic teaching and learning experience. Our IT training
+              programs and IT certifications help professionals master the
+              cutting-edge technologies deployed in today's organizations and
+              gain an edge over their peers. These, coupled with strategic
+              academic alliances, provide a truly enriching learning experience
             </p>
             <p>
-              The goal of MSA is to build a community of core professionals and
-              tech geeks who can offer infrastructure management services in
-              various facets of I.T. MSA&apos;s teaching techniques and courses
-              change with the ever changing I.T landscape. MSA&apos;s prime
-              target is to provide comprehensive trainings on industry
-              certifications like MICROSOFT, CISCO, ITIL, CompTIA and others.
-              MSA&apos;s training is more a group discussion where people
-              participate to understand the technology with a deep dive, rather
-              than just learning it for job.
+              With its Center for Advanced Learning, Loyal Bytes Learning
+              Services provides working professionals with quality management
+              education.
             </p>
             <p>
-              We provide best in class training which includes labs and exposure
-              to real world scenarios. Trainings are conducted with thorough
-              hands-on for students with an aim to create skilled professionals
-              and expertise in the content to understand the facts of the
-              technology and its application in any production environment. We
-              assure any fresher a career with flying colors in the I.T
-              industry.
+              In addition to the technology platform, student study
+              environments, and allied education services and processes that
+              make up the total teaching-learning experience, Loyal Bytes
+              Learning Services provides design and management expertise in
+              distributed education programs.
+            </p>
+            <p>
+              Professionals from our training programs and IT Certifications
+              gain expertise in cutting-edge technologies that are deployed in
+              today's organizations and get an edge over their peers.
+            </p>
+            <p>
+              The combination of these, as well as academic alliances, ensures
+              an incredibly rich educational experience.
             </p>
           </div>
         </div>
       </section>
-      <section className="px-8 lg:px-12 my-16">
+      {/* <section className="px-8 lg:px-12 my-16">
         <div className="lg:flex lg:space-x-6">
           <div className="space-y-6 mt-4">
             <h3 className="text-5xl font-bold text-darkerText">
@@ -246,7 +237,7 @@ export default function about() {
             className="lg:w-[363px] lg:h-[408px]"
           />
         </div>
-      </section>
+      </section> */}
       <section>
         <Statistics />
       </section>

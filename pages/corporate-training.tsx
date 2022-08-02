@@ -88,6 +88,7 @@ export default function CorporateTraining() {
               scrollbar={true}
               slidesPerView={7}
               autoplay={true}
+              spaceBetween={20}
               modules={[Pagination, Autoplay]}
               direction={"vertical"}
               pagination={{ clickable: true }}
@@ -130,7 +131,7 @@ export default function CorporateTraining() {
               autoplay={true}
               speed={1}
               modules={[Pagination, Autoplay]}
-              // pagination={{ clickable: true }}
+              pagination={{ clickable: true }}
             >
               {courses.map((course, index) => (
                 <SwiperSlide key={index.toString()}>

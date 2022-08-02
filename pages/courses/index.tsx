@@ -4,18 +4,22 @@ import { Queries } from "../../layouts";
 export default function index() {
   const courseCategories = [
     {
+      title: "Fundamentals (100)",
       image: images.course.fundamentals,
       url: "/courses/fundamentals",
     },
     {
+      title: "Associate (200)",
       image: images.course.associate,
       url: "/courses/associate",
     },
     {
+      title: "Expert (300)",
       image: images.course.expert,
       url: "/courses/expert",
     },
     {
+      title: "Speciality",
       image: images.course.speciality,
       url: "/courses/speciality",
     },
@@ -43,7 +47,7 @@ export default function index() {
             <div key={category.url}>
               <Link href={category.url}>
                 <a>
-                  <img src={category.image} alt="course image" />
+                  <img src={category.image} alt={category.title} />
                 </a>
               </Link>
             </div>

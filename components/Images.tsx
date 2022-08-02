@@ -152,7 +152,6 @@ export const images = {
       "/images/placements/slides/slides-10.png",
       "/images/placements/slides/slides-11.png",
       "/images/placements/slides/slides-12.png",
-      "/images/placements/slides/slides-13.png",
       "/images/placements/slides/slides-14.png",
       "/images/placements/slides/slides-15.png",
       "/images/placements/slides/slides-16.png",

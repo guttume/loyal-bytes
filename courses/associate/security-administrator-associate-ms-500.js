@@ -25,7 +25,7 @@ export default {
       {
         icon: "user ",
         color: "orange",
-        heading: "Learningmode",
+        heading: "Learning mode",
         subheading:
           "Group, One-to-One, Corporate Batches, Online Live Classrooms",
       },

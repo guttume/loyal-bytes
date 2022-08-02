@@ -1,5 +1,6 @@
 import { GetStaticProps } from "next";
 import Link from "next/link";
+import { useState } from "react";
 import {
   Accordion,
   CourseHero,
@@ -16,6 +17,7 @@ import {
 } from "../../lib/courses";
 
 export default function Course({ content }: CoursePageProps) {
+  const [showMore, setShowMore] = useState(true)
   return (
     <div>
       <CourseHero title={content.title} subtitle={content.subtitle} />
@@ -47,14 +49,14 @@ export default function Course({ content }: CoursePageProps) {
             ))}
           </div>
           <p className="mb-6 text-blue-50">
-            <span className="line-clamp-3">
+            <span className={showMore ? 'line-clamp-3' : ""}>
               {content.courseDetail.description}
             </span>
-            <Link href="#">
-              <a className="underline">View more</a>
-            </Link>
+              <button className="underline" onClick={() => setShowMore(!showMore)}>
+                View {showMore ? 'more' : 'less' }
+                </button>
           </p>
-          <div className="flex flex-col space-y-6 space-x-6 items-center">
+          <div className="flex flex-col lg:flex-row lg:space-y-0 space-y-6 space-x-6 items-center">
             <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
               <a className="btn btn-primary">Apply now</a>
             </Link>
@@ -114,7 +116,7 @@ export default function Course({ content }: CoursePageProps) {
           </div>
         </div>
       </section>
-      <section className="px-56 hidden lg:block">
+      {/* <section className="px-56 hidden lg:block">
         <h3 className="text-5xl text-center font-bold">Batches Available</h3>
         <table className="table-fixed w-full mt-16">
           <thead className="text-lg text-indigo-500 font-bold">
@@ -142,7 +144,7 @@ export default function Course({ content }: CoursePageProps) {
             <a className="underline">View Terms &amp; Conditions</a>
           </Link>
         </div>
-      </section>
+      </section> */}
       <section className="lg:-mt-32 px-4 lg:px-0">
         <Testimonial />
       </section>
