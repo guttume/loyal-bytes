@@ -1,17 +1,17 @@
 export const batches = [
   {
-    course: "MCSE Windows Server 2016",
+    course: "Azure AI Fundamentals - 900",
     days: "Monday - Friday",
     mode: "Weekdays",
     time: "1:00 pm to 4:30 pm",
-    duration: "3 Weeks",
+    duration: "16 Hours",
   },
   {
-    course: "Microsoft Azure",
-    days: "Saturday Only",
+    course: "Azure Data Fundamentals - 900",
+    days: "Monday - Friday",
     mode: "Fast Track",
     time: "9:00 am to 6:00 pm",
-    duration: "3 Days",
+    duration: "08 Hours",
   },
   {
     course: "Windows 10 Enterprise",

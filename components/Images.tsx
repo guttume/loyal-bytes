@@ -8,6 +8,7 @@ export const images = {
   courseNetworking: "/images/course-networking.png",
   courseOffice: "/images/course-office.png",
   courseWindows10: "/images/course-windows-10-edst.png",
+  courseM365: "/images/course-m-365.png",
   heroImageLarge: "/images/hero-image-lg.png",
   logo: "/images/logo.png",
   office365Small: "/images/office-365-icon-sm.png",

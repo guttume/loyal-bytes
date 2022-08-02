@@ -44,15 +44,7 @@ export default function Index() {
             Desktops and Enterprise Applications
           </PopularCourseItem>
           <PopularCourseItem
-            imageUrl={images.courseExchange}
-            title="Microsoft Exchange Server"
-            color={"bg-amber-500 text-amber-50"}
-          >
-            Core Solutions of Microsoft Exchange Server 2013, Advanced Solutions
-            of Microsoft Exchange Server 2013
-          </PopularCourseItem>
-          <PopularCourseItem
-            imageUrl={images.courseActiveDirectory}
+            imageUrl={images.courseM365}
             title="M-365"
             color={"bg-green-500 text-green-50"}
           >
@@ -60,19 +52,27 @@ export default function Index() {
             knowledge and skills
           </PopularCourseItem>
           <PopularCourseItem
-            imageUrl={images.courseNetworking}
-            title="MTA Networking Fundamentals"
+            imageUrl={images.courseOffice}
+            title="Microsoft Office 365"
+            color={"bg-blue-500 text-blue-50"}
+          >
+            Implementing Office 365, Managing Office 365 Identities and Services
+          </PopularCourseItem>
+          <PopularCourseItem
+            imageUrl={images.courseActiveDirectory}
+            title="Active Directory"
             color={"bg-orange-500 text-orange-50"}
           >
             This training course helps you prepare for Microsoft Technology
             Associate Exam 98-366
           </PopularCourseItem>
           <PopularCourseItem
-            imageUrl={images.courseOffice}
-            title="Microsoft Office 365"
-            color={"bg-blue-500 text-blue-50"}
+            imageUrl={images.courseExchange}
+            title="Microsoft Exchange Server"
+            color={"bg-amber-500 text-amber-50"}
           >
-            Implementing Office 365, Managing Office 365 Identities and Services
+            Core Solutions of Microsoft Exchange Server 2013, Advanced Solutions
+            of Microsoft Exchange Server 2013
           </PopularCourseItem>
         </div>
       </Section>
@@ -108,15 +108,20 @@ export default function Index() {
             <div className="lg:w-[600px] p-4">
               <SectionTitle>Corporate Trainings</SectionTitle>
               <SectionSubTitle>
-                MSA&apos;s Corporate Training Programs, targeted at both large
-                enterprises and Small and Medium Businesses (SMBs), deliver
-                training that is focused and meets the requirements of a 21st
-                century technology powered workplace.
+                The holistic training outsourcing solutions provided by LBLS for
+                Corporates are a suite of best-in-class training processes that
+                enable customers to reduce costs, sharpen their business focus
+                and obtain quantifiable results. These Corporate Learning
+                Solutions leverage LBLS&apos;s in-depth knowledge and widespread
+                experience in Technology Training, Induction Training, and
+                Product/Application Roll-out Training, making the company a
+                preferred training services partner.
               </SectionSubTitle>
               <SectionSubTitle>
-                These corporate training programs additionally integrate proven
-                best practices into business processes and redirect surplus
-                training capital into core business solutions.
+                LBLS&apos;s Corporate Training Programs, targeted at both large
+                enterprises and Small and Medium Businesses (SMBs), deliver
+                training that is focused and meets the requirements of a
+                21st-century technology-powered workplace.
               </SectionSubTitle>
               <div className="flex justify-center lg:block my-4">
                 <Link href={"/corporate-training"}>
@@ -125,7 +130,6 @@ export default function Index() {
               </div>
             </div>
           </div>
-         
         </div>
       </Section>
       <Section>

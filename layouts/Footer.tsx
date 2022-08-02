@@ -7,7 +7,7 @@ export const Footer = () => {
       <section className="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 text-white px-8 py-16 lg:px-12 text-sm">
         <div className="space-y-12 lg:space-y-0 lg:flex items-start justify-between">
           <div className="space-y-4">
-            <h2 className="text-xl font-bold w-48">
+            <h2 className="text-xl font-bold w-24">
               <Link href={"/"}>
                 <a>
                   <img src={images.logoWhite} alt="white logo" />
@@ -58,7 +58,8 @@ export const Footer = () => {
             </div>
             <div className="space-y-2">
             <p>9769303625</p>
-            <p>info@loyalbytes.com / rajesh.yadav@loyalbytes.com</p>
+            <p>info@loyalbytes.com </p>
+            <p>rajesh.yadav@loyalbytes.com</p>
             </div>
           </div>
           <div className="space-y-2">

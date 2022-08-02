@@ -136,7 +136,7 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Instructor Led Training
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg">
+        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
           Classroom Training help individuals polish their IT skills while they
           are traveling to our training center. Classroom training at one of our
           centers proves to be a great learning experience for students where
@@ -186,7 +186,7 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Personalized 1 on 1 Training
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg">
+        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
           Are you ready to get things done? Get one on one training and
           coaching, custom-tailored to your needs, experience, and skill level.
           Loyal Bytes Learning Services teaches the skills, knowledge, and
@@ -249,7 +249,7 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Boot Camp Trainings
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg">
+        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
           Due to the rapid changing IT scenario, we need to ensure that
           employees go through quality training that provides excellent
           knowledge, skills, and practical hands-on experience in a limited time
@@ -287,7 +287,7 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Live Virtual Classroom
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg">
+        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
           Loyal Bytes Learning Services Live Virtual Classroom brings to you an
           engaging superlative training experience that lets you learn and gain
           knowledge from the comfort of your home or office. Attend intensive
@@ -337,7 +337,7 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Train me where I AM
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg">
+        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
           Tailored to suit the needs of our corporate clients,
           Train-me-where-I-am allows enterprises to have our experts conduct
           pieces of training on their premises. Given the huge costs associated
