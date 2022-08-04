@@ -16,7 +16,7 @@ export const Footer = () => {
             </h2>
             <div className="flex space-x-2 items-center text-white">
               <Link href={"https://www.facebook.com/LoyalBytes"}>
-                <a>
+                <a target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-7 -2 24 24"
@@ -30,7 +30,7 @@ export const Footer = () => {
               <Link
                 href={"https://www.linkedin.com/company/loyalbytes/mycompany/"}
               >
-                <a>
+                <a target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-2 -2 24 24"
@@ -42,7 +42,7 @@ export const Footer = () => {
                 </a>
               </Link>
               <Link href={"https://www.instagram.com/loyalbytes/"}>
-                <a>
+                <a target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="-2 -2 24 24"
@@ -68,34 +68,22 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                <Link href={"/batches"}>
-                  <a>Batches</a>
-                </Link>
+                  <a href={"/batches.html"}>Batches</a>
               </li>
               <li>
-                <Link href={"/training-flexibility"}>
-                  <a>Training Flexibility</a>
-                </Link>
+                  <a href={"/training-flexibility.html"}>Training Flexibility</a>
               </li>
               <li>
-                <Link href={"/corporate-training"}>
-                  <a>Corporate Training</a>
-                </Link>
+                  <a href={"/corporate-training.html"}>Corporate Training</a>
               </li>
               <li>
-                <Link href={"/placement"}>
-                  <a>Placements</a>
-                </Link>
+                  <a href={"/placement.html"}>Placements</a>
               </li>
               <li>
-                <Link href={"/testimonials"}>
-                  <a>Testimonials</a>
-                </Link>
+                  <a href={"/testimonials.html"}>Testimonials</a>
               </li>
               <li>
-                <Link href={"/about"}>
-                  <a>About</a>
-                </Link>
+                  <a href={"/about.html"}>About</a>
               </li>
             </ul>
           </div>
@@ -106,51 +94,42 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href={"/courses/fundamentals/microsoft-365-fundamentals-900"}
+                  href={"/courses/fundamentals/azure-fundamentals-900"}
                 >
-                  <a>Microsoft 365 Fundamentals - 900</a>
+                  <a>Azure Cloud</a>
                 </Link>
               </li>
               <li>
                 <Link
-                  href={"/courses/fundamentals/dynamics-365-fundamentals-920"}
+                  href={"/courses/fundamentals/windows-server-hybrid-administrator-associate"}
                 >
-                  <a>Dynamics 365 Fundamentals (ERP) - 920</a>
+                  <a>Windows Server MCSC</a>
                 </Link>
               </li>
               <li>
                 <Link
                   href={
-                    "/courses/associate/azure-administrator-associate-az-104"
+                    "/courses/associate/microsoft-365-fundamentals-900"
                   }
                 >
-                  <a>Azure Administrator Associate AZ - 104</a>
+                  <a>Microsoft 365</a>
                 </Link>
               </li>
               <li>
-                <Link href={"/courses/fundamentals/azure-ai-fundamentals-900"}>
-                  <a>Azure AI Fundamentals - 900</a>
+                <Link href={"/courses/fundamentals/microsoft-365-messaging-ms-203"}>
+                  <a>Office 365</a>
                 </Link>
               </li>
               <li>
                 <Link
                   href={"/courses/fundamentals/azure-data-fundamentals-900"}
                 >
-                  <a>Azure Data Fundamentals - 900</a>
+                  <a>Active Directory</a>
                 </Link>
               </li>
               <li>
                 <Link href={"/courses/fundamentals/azure-fundamentals-900"}>
-                  <a>Azure Fundamentals - 900</a>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={
-                    "/courses/fundamentals/dynamics-365-fundamentals-910.js"
-                  }
-                >
-                  <a>Dynamics 365 Fundamentals (CRM) - 910</a>
+                  <a>Microsoft Exchange Server</a>
                 </Link>
               </li>
             </ul>

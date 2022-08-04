@@ -44,9 +44,7 @@ export const CourseHero = ({
               <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
                 <a className="btn btn-primary">Apply Now</a>
               </Link>
-              <Link href={"/courses"}>
-                <a className="btn btn-outline-primary">View all courses</a>
-              </Link>
+                <a href={"/courses.html"} className="btn btn-outline-primary">View all courses</a>
             </div>
           </div>
         </div>

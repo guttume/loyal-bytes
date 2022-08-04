@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "./Images";
@@ -42,9 +41,7 @@ export const PortfolioSummary = () => {
         </div>
       </div> */}
       <div className="flex justify-center">
-        <Link href={"/placement"}>
-          <a className="underline text-xl font-bold text-gray-600">View all</a>
-        </Link>
+          <a href={"/placement.html"} className="underline text-xl font-bold text-gray-600">View all</a>
       </div>
     </div>
   );

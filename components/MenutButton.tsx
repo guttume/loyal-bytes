@@ -1,5 +1,4 @@
 import { ChevronDownIcon, ViewGridIcon } from "@heroicons/react/solid";
-import Link from "next/link";
 
 export const MenuButton = () => {
   return (
@@ -8,9 +7,7 @@ export const MenuButton = () => {
         <ViewGridIcon className="w-5 h-5" />
       </span>
       <span className="text-xs uppercase font-bold tracking-wider">
-        <Link href="/courses">
-          <a>Courses</a>
-        </Link>
+          <a href="/courses.html">Courses</a>
       </span>
       <span className="hidden">
         <ChevronDownIcon className="w-5 h-5" />

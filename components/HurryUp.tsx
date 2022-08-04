@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export const HurryUp = () => {
   return (
@@ -8,9 +7,7 @@ export const HurryUp = () => {
         <p>We have limited seats. Apply now for courses and avail discounts.</p>
       </div>
       <div className="mt-6 flex lg:block justify-center">
-        <Link href={"/courses"}>
-          <a className="btn btn-white">View All Courses</a>
-        </Link>
+          <a href="/courses.html" className="btn btn-white">View All Courses</a>
       </div>
     </div>
   );

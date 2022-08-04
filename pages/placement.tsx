@@ -45,7 +45,7 @@ export default function Placement() {
             Our Top Placements
           </h3>
           <h4 className="text-center text-xl text-gray-600 w-full max-w-5xl mx-auto mt-4">
-            At MSA we make sure that every participant stepping out in the
+            At Loyal Bytes Learning we make sure that every participant stepping out in the
             industry has enough knowledge to substantiate his or her expertise
             in the subject matter.
           </h4>
@@ -97,7 +97,7 @@ export default function Placement() {
             </h4>
           </div>
           <div className="flex justify-center lg:block">
-            <button className="btn btn-outline-secondary">Apply now</button>
+            <a  href={"https://forms.office.com/r/VEQqdjwzZr"} className="btn btn-outline-secondary">Apply now</a>
           </div>
         </div>
       </section>

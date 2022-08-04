@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { HurryUp, images, PortfolioSummary, Testimonial } from "../components";
 import { batches } from "../data/batches";
 
@@ -13,11 +12,9 @@ export default function Batches() {
           <h2 className="text-xl">
             With Loyal Bytes you get flexible choices course batches
           </h2>
-          <Link href={"/testimonials"}>
-            <a className="btn btn-primary inline-block">
+            <a href={"/testimonials.html"} className="btn btn-primary inline-block">
               Hear from our students
             </a>
-          </Link>
         </div>
         <div className="lg:w-1/2">
           <div className="pb-16 lg:pb-0 lg:transform lg:translate-y-24 -mx-8 lg:-mx-0">

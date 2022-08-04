@@ -1,23 +1,23 @@
 export const menuItems = [
   {
     title: "Batches",
-    link: "/batches",
+    link: "/batches.html",
   },
   {
     title: "Training Flexibility",
-    link: "/training-flexibility",
+    link: "/training-flexibility.html",
   },
   {
     title: "Corporate Training",
-    link: "/corporate-training",
+    link: "/corporate-training.html",
   },
   {
     title: "Placements",
-    link: "/placement",
+    link: "/placement.html",
   },
   {
     title: "Contact",
-    link: "/contact",
+    link: "/contact.html",
   },
   // {
   //   title: "About Us",

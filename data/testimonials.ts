@@ -26,7 +26,7 @@ export const testimonials = [
     image: images.testimonials.brands.concentrix,
     designation: "Senior technical lead",
     body: [
-      "I started my IT Career with Ronak Sir Msce course, and till date I am connected with MSA for various other courses.",
+      "I started my IT Career with Ronak Sir Msce course, and till date I am connected with Loyal Bytes Learning for various other courses.",
       "I just cannot thanks him for providing me guidance on technical part as well as guiding me in choosing right technology for my career.",
       "I don't see it as a regular training academy but a career oriented forum where hundreds of individual have been trained and now making their career in IT.",
       "Thanks to Ronak Sir and entire Loyal bytes team for helping and shaping my career.",

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { images, Statistics } from "../components";
 
 export default function about() {
@@ -51,14 +50,10 @@ export default function about() {
               </span>
             </div>
             <div className="flex lg:block space-x-4">
-              <Link href={"/courses"}>
-                <a className="btn btn-primary border border-orange-500 w-48">
+                <a href={"/courses.html"} className="btn btn-primary border border-orange-500 w-48">
                   View Courses
                 </a>
-              </Link>
-              <Link href={"/courses"}>
-                <a className="btn btn-outline-primary">View All Courses</a>
-              </Link>
+                <a href={"/courses.html"} className="btn btn-outline-primary">View All Courses</a>
             </div>
           </div>
         </div>
@@ -149,13 +144,13 @@ export default function about() {
             <p>
               Loyal Bytes Learning Services has an advanced learning center
               specifically created to provide training in quality management to
-              working professionals. Loyal Bytes Learning Service's expertise in
+              working professionals. Loyal Bytes Learning Service&apos;s expertise in
               the design and management of distributed education programs that
               provide student learning environments, technology platforms, and
               related educational processes and services created should have
               holistic teaching and learning experience. Our IT training
               programs and IT certifications help professionals master the
-              cutting-edge technologies deployed in today's organizations and
+              cutting-edge technologies deployed in today&apos;s organizations and
               gain an edge over their peers. These, coupled with strategic
               academic alliances, provide a truly enriching learning experience
             </p>
@@ -174,7 +169,7 @@ export default function about() {
             <p>
               Professionals from our training programs and IT Certifications
               gain expertise in cutting-edge technologies that are deployed in
-              today's organizations and get an edge over their peers.
+              today&apos;s organizations and get an edge over their peers.
             </p>
             <p>
               The combination of these, as well as academic alliances, ensures
