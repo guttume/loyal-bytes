@@ -1,4 +1,3 @@
-import Fuse from "fuse.js";
 import { ChangeEvent, useState } from "react";
 import { useDetectClickOutside } from "react-detect-click-outside";
 
@@ -52,12 +51,9 @@ export const HeroText = () => {
   ];
 
   const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
-    setFilteredCourses([]);
     setSearchText(e.target.value);
-    const fuse = new Fuse(courses);
-    setFilteredCourses(fuse.search(searchText).map((result) => result?.item));
-    console.log(filteredCourses);
-    if (filteredCourses.length > 0 && filteredCourses.length < courses.length) {
+    setFilteredCourses(courses.filter((course) => course.split('-').join(' ').includes(searchText)));
+    if (filteredCourses.length > 0) {
       setShowSearchResult(true);
     } else {
       setShowSearchResult(false);
@@ -71,7 +67,7 @@ export const HeroText = () => {
           className="text-4xl lg:text-6xl lg:tracking-wider font-extrabold mb-3"
           style={{ color: `#2D3957` }}
         >
-          Where learning is a passion
+          Where Learning is a Passion
         </h1>
         <h3 className="text-xl">
           We offer globally recognised Microsoft Certified courses taught by top
@@ -82,6 +78,7 @@ export const HeroText = () => {
             type="text"
             value={searchText}
             id="search"
+            autoComplete={'off'}
             onChange={(e) => handleSearch(e)}
             placeholder="Search for a course"
             className="w-full rounded-md h-16 pl-16 border"
@@ -94,8 +91,8 @@ export const HeroText = () => {
               className="z-50 bg-gray-100 shadow-lg space-y-2 py-2 h-full max-h-48 overflow-y-auto"
               ref={ref}
             >
-              {courses.map((course) => (
-                <li key={course}>
+              {filteredCourses.map((course, index) => (
+                <li key={index}>
                   <a
                     href={`/course/${course}.html`}
                     className={

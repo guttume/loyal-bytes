@@ -1,12 +1,14 @@
 import { Autoplay, FreeMode, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { testimonials } from "../data/testimonials";
+import { GoogleReviews } from "./GoogleReviews";
 import { SectionTitle } from "./section";
 import { TestimonialItem } from "./TestimonialItem";
 
 export const Testimonial = () => {
   return (
     <div className="lg:mt-48 w-full">
+      <GoogleReviews />
       <div className="text-center mb-4">
         <SectionTitle>What Our Students Say About Us</SectionTitle>
       </div>

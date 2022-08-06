@@ -57,9 +57,9 @@ export const Footer = () => {
               </Link>
             </div>
             <div className="space-y-2">
-            <p>9769303625</p>
-            <p>info@loyalbytes.com </p>
-            <p>rajesh.yadav@loyalbytes.com</p>
+              <p>9769303625</p>
+              <p>info@loyalbytes.com </p>
+              <p>rajesh.yadav@loyalbytes.com</p>
             </div>
           </div>
           <div className="space-y-2">
@@ -68,22 +68,22 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                  <a href={"/batches.html"}>Batches</a>
+                <a href={"/batches.html"}>Batches</a>
               </li>
               <li>
-                  <a href={"/training-flexibility.html"}>Training Flexibility</a>
+                <a href={"/training-flexibility.html"}>Training Flexibility</a>
               </li>
               <li>
-                  <a href={"/corporate-training.html"}>Corporate Training</a>
+                <a href={"/corporate-training.html"}>Corporate Training</a>
               </li>
               <li>
-                  <a href={"/placement.html"}>Placements</a>
+                <a href={"/placement.html"}>Placements</a>
               </li>
               <li>
-                  <a href={"/testimonials.html"}>Testimonials</a>
+                <a href={"/testimonials.html"}>Testimonials</a>
               </li>
               <li>
-                  <a href={"/about.html"}>About</a>
+                <a href={"/about.html"}>About</a>
               </li>
             </ul>
           </div>
@@ -93,44 +93,43 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                <Link
-                  href={"/courses/fundamentals/azure-fundamentals-900"}
-                >
-                  <a>Azure Cloud</a>
-                </Link>
+                <a href={"/course/azure-solutions-architect-expert.html"}>
+                  Azure Solution Architect Expert
+                </a>
               </li>
               <li>
-                <Link
-                  href={"/courses/fundamentals/windows-server-hybrid-administrator-associate"}
-                >
-                  <a>Windows Server MCSC</a>
-                </Link>
+                <a href={"/course/azure-ai-fundamentals-900.html"}>
+                  Azure AI Fundamental
+                </a>
               </li>
               <li>
-                <Link
+                <a href={"/course/azure-data-scientist-associate-100.html"}>
+                  Azure Administrator Associate
+                </a>
+              </li>
+              <li>
+                <a href={"/course/microsoft-azure-iot-developer-az-220.html"}>
+                  Microsoft Azure IoT
+                </a>
+              </li>
+              <li>
+                <a href={"/course/microsoft-azure-iot-developer-az-220.html"}>
+                  Microsoft Azure IoT
+                </a>
+              </li>
+              <li>
+                <a
                   href={
-                    "/courses/associate/microsoft-365-fundamentals-900"
+                    "/course/microsoft-security-operations-analyst-sc-200.html"
                   }
                 >
-                  <a>Microsoft 365</a>
-                </Link>
+                  Microsoft Security Operations Analyst
+                </a>
               </li>
               <li>
-                <Link href={"/courses/fundamentals/microsoft-365-messaging-ms-203"}>
-                  <a>Office 365</a>
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={"/courses/fundamentals/azure-data-fundamentals-900"}
-                >
-                  <a>Active Directory</a>
-                </Link>
-              </li>
-              <li>
-                <Link href={"/courses/fundamentals/azure-fundamentals-900"}>
-                  <a>Microsoft Exchange Server</a>
-                </Link>
+                <a href="/course/security-compliance-and-identity-fundamentals-900.html">
+                  Security, Compliance, and Identity
+                </a>
               </li>
             </ul>
           </div>

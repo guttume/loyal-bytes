@@ -1,6 +1,7 @@
 export * from "./Accordion";
 export * from "./Button";
 export * from "./courses/CourseHero";
+export * from "./GoogleReviews";
 export * from "./Header";
 export * from "./Hero";
 export * from "./HeroText";
@@ -16,3 +17,4 @@ export * from "./Statistics";
 export * from "./StatisticsItem";
 export * from "./Testimonial";
 export * from "./TestimonialItem";
+

@@ -1,4 +1,4 @@
-import { images, TestimonialItem } from "../components";
+import { GoogleReviews, images, TestimonialItem } from "../components";
 import { testimonials } from "../data/testimonials";
 import { Queries } from "../layouts";
 
@@ -82,6 +82,7 @@ export default function Testimonials() {
         </div>
       </section>
       <section className="px-8 lg:px-12 mt-16 lg:mt-32">
+        <GoogleReviews />
         <h3 className="text-5xl font-bold text-darkerText text-center">
           What Our Students Say About Us
         </h3>

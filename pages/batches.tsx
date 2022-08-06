@@ -36,7 +36,7 @@ export default function Batches() {
                 <th className="rounded-l py-3">Courses</th>
                 <th>Days</th>
                 <th>Batch Mode</th>
-                <th className="hidden">Time</th>
+                <th className="hidden lg:table-cell">Time</th>
                 <th className="rounded-r py-3">Duration</th>
               </tr>
             </thead>
@@ -46,6 +46,7 @@ export default function Batches() {
                   <td className="py-4 px-2 rounded-l">{batch.course}</td>
                   <td>{batch.days}</td>
                   <td>{batch.mode}</td>
+                  <td className="hidden lg:table-cell">{batch.time}</td>
                   <td className="rounded-r">{batch.duration}</td>
                 </tr>
               ))}

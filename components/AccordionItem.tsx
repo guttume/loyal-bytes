@@ -17,7 +17,7 @@ export const AccordionItem = ({
   item,
 }: AccordionItemProps) => {
   return (
-    <div onClick={() => toggle(index)}>
+    <div onClick={() => toggle(index)} className="select-none cursor-pointer">
       <div className="flex justify-between bg-orange-100 rounded-lg items-center px-4 lg:px-12 py-6">
         <div className="lg:w-8">
           <img src={images.moduleIcon} alt="" />

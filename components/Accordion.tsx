@@ -6,7 +6,12 @@ export const Accordion = ({ data }: { data: Array<CourseModule> }) => {
   const [activeAccordion, setActiveAccordion] = useState(-1);
 
   const toggleAccordion = (index: number) => {
-    setActiveAccordion(index);
+    console.log(activeAccordion, index);
+    if(activeAccordion == index) {
+      setActiveAccordion(-1)
+    } else {
+      setActiveAccordion(index);
+    }
   };
 
   return (

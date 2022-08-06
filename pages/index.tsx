@@ -45,7 +45,7 @@ export default function Index() {
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseM365}
-            title="M-365"
+            title="Microsoft 365"
             color={"bg-green-500 text-green-50"}
           >
             This four-day instructor-led course provides students with the
@@ -53,7 +53,7 @@ export default function Index() {
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseOffice}
-            title="Microsoft Office 365"
+            title="Office 365"
             color={"bg-blue-500 text-blue-50"}
           >
             Implementing Office 365, Managing Office 365 Identities and Services

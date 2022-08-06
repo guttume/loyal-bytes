@@ -5,6 +5,8 @@ import { images } from "../components";
 
 export default function TrainingFlexibility() {
   const [showMoreOffer, setShowMoreOffer] = useState(false);
+  const [viewMoreInstructorText, setViewMoreInstructorText] = useState(false);
+  const [viewBootcampText, setViewBootcampText] = useState(false);
   return (
     <>
       <div className=" hidden lg:block fixed top-0 right-0 -z-10 w-1/2">
@@ -136,16 +138,49 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Instructor Led Training
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
-          Classroom Training help individuals polish their IT skills while they
-          are traveling to our training center. Classroom training at one of our
-          centers proves to be a great learning experience for students where
-          they interact & socialize with students from different work cultures.
-          This type of training is facilitated by an instructor in a classroom
-          setting. Instructor-led training allows for learners and instructors
-          or facilitators to interact and discuss the training material, either
-          individually or in a group setting... Read More
-        </p>
+        <div className="space-y-4 bg-white rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
+          {viewMoreInstructorText || (
+            <p className="font-semibold">
+              Classroom Training help individuals polish their IT skills while
+              they are traveling to our training center. Classroom training at
+              one of our centers proves to be a great learning experience for
+              students where they interact & socialize with students from
+              different work cultures. This type of training is facilitated by
+              an instructor in a classroom setting. Instructor-led training
+              allows for learners and instructors or facilitators to interact
+              and discuss the training material, either individually or in a
+              group setting...{" "}
+              <button
+                className="pl-4 underline text-blue-500"
+                onClick={() => setViewMoreInstructorText(true)}
+              >
+                Read more
+              </button>
+            </p>
+          )}
+          {viewMoreInstructorText && (
+            <p className="font-semibold">
+              Classroom Training help individuals polish their IT skills while
+              they are traveling to our training center. Classroom training at
+              one of our centers proves to be a great learning experience for
+              students where they interact & socialize with students from
+              different work cultures. This type of training is facilitated by
+              an instructor in a classroom setting. Instructor-led training
+              allows for learners and instructors or facilitators to interact
+              and discuss the training material, either individually or in a
+              group setting. When it comes to quality instruction in a classroom
+              setting, Loyal Bytes Learning Services is the leader for Microsoft
+              Technologies. Whether you&apos;re a student looking to advance
+              your career or start a new one, or a team leader looking to make
+              sense of new technology, you&apos;re virtually guaranteed to find
+              a course at the right time, in the right location. Loyal Bytes
+              Learning Services considers the classroom experience to be the
+              foundation of our Integrated Learning Approach and we continue to
+              make it more enriching, dynamic, and valuable for students and
+              businesses.
+            </p>
+          )}
+        </div>
       </section>
       <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
         <div className="lg:flex lg:items-center">
@@ -186,16 +221,18 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Personalized 1 on 1 Training
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
-          Are you ready to get things done? Get one on one training and
-          coaching, custom-tailored to your needs, experience, and skill level.
-          Loyal Bytes Learning Services teaches the skills, knowledge, and
-          competencies that are needed to perform a specific job within the
-          workplace and work environment. Our personalized training uses the
-          regular or existing workplace tools, machines, documents, equipment,
-          knowledge, and skills necessary for an employee to learn to
-          effectively perform his or her job..... Read More
-        </p>
+        <div className="bg-white rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto space-y-4">
+          <p className="font-semibold">
+            Are you ready to get things done? Get one on one training and
+            coaching, custom-tailored to your needs, experience, and skill
+            level. Loyal Bytes Learning Services teaches the skills, knowledge,
+            and competencies that are needed to perform a specific job within
+            the workplace and work environment. Our personalized training uses
+            the regular or existing workplace tools, machines, documents,
+            equipment, knowledge, and skills necessary for an employee to learn
+            to effectively perform his or her job.
+          </p>
+        </div>
       </section>
       <section className="p-8 lg:p-12 bg-gray-100">
         <div className="lg:flex flex-row-reverse items-center">
@@ -249,16 +286,53 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Boot Camp Trainings
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
-          Due to the rapid changing IT scenario, we need to ensure that
-          employees go through quality training that provides excellent
-          knowledge, skills, and practical hands-on experience in a limited time
-          frame. Our accelerated Boot Camps are a boon considering the time &
-          budget constraints most enterprises juggle with. The most cost
-          effective training solution that has emerged as a successful training
-          format for our IT professionals, are these Boot Camp training
-          programs... Read More
-        </p>
+        <div className="bg-white rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto space-y-4">
+          {viewBootcampText || (
+            <p className="font-semibold">
+              Due to the rapidly changing IT scenario, we need to ensure that
+              employees go through quality training that provides excellent
+              knowledge, skills, and practical hands-on experience in a limited
+              time frame. Our accelerated Boot Camps are a boon considering the
+              time & budget constraints most enterprises juggle...{" "}
+              <button
+                className="pl-4 underline text-blue-500"
+                onClick={() => setViewBootcampText(true)}
+              >
+                Read more
+              </button>
+            </p>
+          )}
+          {viewBootcampText && (
+            <>
+              <p className="font-semibold">
+                Due to the rapidly changing IT scenario, we need to ensure that
+                employees go through quality training that provides excellent
+                knowledge, skills, and practical hands-on experience in a
+                limited time frame. Our accelerated Boot Camps are a boon
+                considering the time & budget constraints most enterprises
+                juggle.
+              </p>
+              <p className="font-semibold">
+                The most cost-effective training solution that has emerged as a
+                successful training format for our IT professionals, is these
+                Boot Camp training programs. Boot Camps are all about teaching
+                specific skills, tools, or technologies over a limited period in
+                a zero-distraction environment. Boot Camps have proven to be one
+                of the most successful training formats for quickly and
+                effectively delivering comprehensive skills to IT professionals
+                at a low cost.
+              </p>
+              <p className="font-semibold">
+                Our Boot Camps courses are designed to deliver the maximum
+                amount of material over the shortest period. Our curriculum
+                design utilizes key principles of accelerated learning and
+                offers a framework for successful course delivery powered by
+                skilled instructors that can maximize the learning experience by
+                instilling a &ldquo;Yes You Can&rdquo; classroom attitude.
+              </p>
+            </>
+          )}
+        </div>
       </section>
       <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
         <div className="lg:flex items-center">
@@ -287,14 +361,16 @@ export default function TrainingFlexibility() {
         <h3 className="text-center text-3xl font-semibold text-darkertext">
           Live Virtual Classroom
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
-          Loyal Bytes Learning Services Live Virtual Classroom brings to you an
-          engaging superlative training experience that lets you learn and gain
-          knowledge from the comfort of your home or office. Attend intensive
-          online training sessions, add to it the convenience of your place and
-          time, minus the cost and hassle of travel &mdash; and you get the most
-          rewarding learning experience ever!... Read More
-        </p>
+        <div className="bg-white rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto space-y-4">
+          <p className="font-semibold">
+            Loyal Bytes Learning Services Live Virtual Classroom brings to you
+            an engaging superlative training experience that lets you learn and
+            gain knowledge from the comfort of your home or office. Attend
+            intensive online training sessions, add to it the convenience of
+            your place and time, minus the cost and hassle of travel &mdash; and
+            you get the most rewarding learning experience ever!
+          </p>
+        </div>
       </section>
       <section className="p-8 lg:p-12 bg-gray-100">
         <div className="lg:flex flex-row-reverse items-center">
