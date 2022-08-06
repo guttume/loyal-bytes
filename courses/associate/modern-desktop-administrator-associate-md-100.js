@@ -1,0 +1,417 @@
+  export default {
+  title: "Modern Desktop Administrator Associate MD 100 MD 101",
+    subtitle:
+    "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  heroImage: "/images/course-page/azure-hero-image.png",
+  heroBg: "/images/course-page/azure-hero-bg.png",
+  courseDetail: {
+    duration: "40 Hours",
+    certification: "DP – 203 and Data Engineering on Microsoft Azure",
+    batchInfo: "Weekends and weekdays batches available",
+    level: "200",
+    highlights: [
+      {
+        icon: "user",
+        color: "orange",
+        heading: "Duration",
+        subheading: "120 Hours.",
+      },
+      {
+        icon: "user ",
+        color: "orange",
+        heading: "Batch Days",
+        subheading: "Weekdays, Weekends", 
+      },
+      {
+        icon: "user ",
+        color: "orange",
+        heading: "Learning mode",
+        subheading:
+          "Group, One-to-One, Corporate Batches, Online Live Classrooms",
+      },
+      {
+        icon: "user",
+        color: "orange",
+        heading: "Passing score",
+        subheading: "700",
+      },
+    ],
+    bg: "blue",
+    displayImage: "/images/course-page/azure-hightlights-image.png",
+    description:
+      "Modern desktop administrators deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment. Candidates for this exam are administrators who deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment. Candidates manage identity, access, policies, updates, and apps. As an administrator, candidates typically collaborate with the Microsoft 365 enterprise administrator to design and implement a device strategy that meets the business needs of a modern organization. Candidates must be familiar with Microsoft 365 workloads and must be proficient and experienced in deploying, configuring, and maintaining Windows Client and non-Windows devices and technologies. Candidates for this exam are administrators who deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment. Candidates manage identity, access, policies, updates, and apps. As an administrator, candidates typically collaborate with the Microsoft 365 enterprise administrator to design and implement a device strategy that meets the business needs of a modern organization. Candidates must be familiar with Microsoft 365 workloads and must be proficient and experienced in deploying, configuring, and maintaining Windows 10 and non-Windows devices and technologies.",
+  },
+  idealFor:
+    "Candidates for this exam are IT professionals who have subject matter expertise in installing, configuring, and maintaining Microsoft Windows clients within a domain infrastructure. Responsibilities include protecting and maintaining the reliability of the Windows device and the data stored on the device. Candidates for this exam administer Windows clients in an Azure Active Directory environment. Candidates for this exam may collaborate with the Microsoft 365 enterprise administrator, the Microsoft 365 security administrator, and Windows Server administrators to implement a modern desktop and device strategy that meets the business needs of an organization. Candidates for this exam must be familiar with device management, client computer networking, policy-based management, and cloud-based solutions.Candidates for this exam are IT professionals who have subject matter expertise in installing, configuring, and maintaining Windows clients within a domain infrastructure. Responsibilities include protecting and maintaining the reliability of the Windows device and the data stored on the device. Candidates for this exam administer Windows clients in an Active Directory environment. Candidates for this exam may collaborate with the Microsoft 365 enterprise administrator, the Microsoft 365 security administrator, and Windows Server administrators to implement a modern desktop and device strategy that meets the business needs of an organization. Candidates for this exam must be familiar with device management, client computer networking, policy-based management, and cloud-based solutions.",
+
+  learningObjectives:
+    "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
+  modules: [
+    {
+      title:
+        "Module 1: INSTALL AND CONFIGURE WINDOWS (20–25%)",
+      submodules: [
+        {
+          heading: "INSTALL WINDOWS CLIENT",
+          contents: [
+            "Select the appropriate Windows edition ",
+            "Prepare hardware for installation ",
+            "Perform a manual clean installation ",
+            "Plan and implement an upgrade from a previous version of Windows ",
+            "Customize a Windows client installation by using the Windows ADK ",
+            "Configure activation and troubleshoot activation issues ",
+          ],
+        },
+        {
+          heading: "MANAGE AND USE HYPER-V ON WINDOWS CLIENT ",
+          contents: [
+            "Create and configure virtual machines by using Hyper-V ",
+            "Manage virtual hard drives ",
+            "Manage virtual networks ",
+            "Configure Hyper-V settings ",
+            "Configure and manage checkpoints ",
+            "Enable and use Windows Sandbox ",
+          ],
+        },
+        {
+          heading: "CONFIGURE WINDOWS SETTINGS ",
+          contents: [
+            "Configure system settings ",
+            "Manage user interface in windows 10 and windows 11 ",
+            "Configure microsoft edge ",
+            "Configure language and region ",
+            "Configure and troubleshoot connections to printers and other devices ",
+            "Configure windows client by using provisioning packages ",
+            "Configure startup options ",
+            "Configure and manage services ",
+            "Install and configure optional features ",
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        "Module 2: CONFIGURE AND MANAGE CONNECTIVITY AND STORAGE (15–20%) ",
+      submodules: [
+        {
+          heading: "CONFIGURE NETWORKING AND ACCESS",
+          contents: [
+            "Configure client IP settings ",
+            "Configure mobile networking ",
+            "Configure VPN client by using built-in tools or Connection Manager Administration Kit (CMAK) ",
+            "Configure and manage certificates on client devices ",
+            "Troubleshoot client connectivity ",
+          ],
+        },
+        {
+          heading: "10.2.2	CONFIGURE AND MANAGE STORAGE ",
+          contents: [
+            "Configure local storage ",
+            "Configure onedrive on windows client ",
+            "Optimize local drives by using disk cleanup or storage sense ",
+            "Configure file and folder permissions ",
+          ],
+        },
+        {
+          heading: "ACCESS USER DATA FROM MICROSOFT GRAPH",
+          contents: [
+            "Get the signed in user's profile",
+            "Get a list of users in the organization",
+            "Get the user's profile photo",
+            "Get the user object based on the user's unique identifier",
+            "Get the user's manager’s profile",
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        "Module 3: MAINTAIN WINDOWS (30–35%) ",
+      submodules: [
+        {
+          heading: "PERFORM SYSTEM AND DATA RECOVERY ",
+          contents: [
+            "Troubleshoot boot and startup processes ",
+            "Recover windows client ",
+            "Recover files ",
+            "Create and manage restore points ",
+            "Restore from restore points ",
+          ],
+        },
+        {                                   
+          heading: "MANAGE WINDOWS UPDATES ",
+          contents: [
+            "Configure updates ",
+            "Configure windows delivery optimization ",
+            "Control updates by using group policy settings ",
+            "Configure updates by using windows update for business ",
+            "Troubleshoot updates ",
+          ],
+        },
+        {
+          heading: "CONFIGURE REMOTE MANAGEMENT ",
+          contents: [
+            "Configure Remote Desktop ",
+            "Configure Windows Admin Center ",
+            "Configure powershell remoting and Windows Remote Management ",
+            "Configure remote assistance tools including Remote Assist and Quick Assist ",
+          ],
+        },
+        {
+          heading: "MONITOR AND MANAGE WINDOWS ",
+          contents: [
+            "Configure and analyze event logs ",
+            "Monitor and manage performance and reliability ",
+            "Configure scheduled tasks ",
+            "Manage registry ",
+          ],
+        },
+      ],
+    },
+    {
+      title:
+        "Module 4: PROTECT DEVICES AND DATA (25–30%) ",
+      submodules: [
+        {
+          heading: "MANAGE USERS, GROUPS, AND COMPUTER OBJECTS ",
+          contents: [
+            "Manage local users ",
+            "Manage local user profiles ",
+            "Manage local groups ",
+            "Manage microsoft accounts on windows client ",
+            "Enable users and groups from active directory to access windows client ",
+            "Join computers to active directory ",
+            "Configure sign-in options ",
+            "Manage credentials by using credential manager ",
+            "Configure user account control (uac) ",
+            "Implement and manage local administrator password solutions (laps) ",
+          ],
+        },
+        {
+          heading: "ONFIGURE AND MANAGE LOCAL AND GROUP POLICIES ",
+          contents: [
+            "Troubleshoot local policies and domain group policies on Windows client ",
+            "Configure and manage local and group policies, including security policy, user rights assignment, and audit policy ",
+            "Configure Windows client settings by using group policy ",
+          ],
+        },
+        {
+          heading: "MANAGE SECURITY SETTINGS ON WINDOWS CLIENT ",
+          contents: [
+            "Implement Bitlocker ",
+            "Configure and manage Windows client firewall ",
+            "Manage virus and threat protection ",
+            "Manage application and browser control settings ",
+          ],
+        },
+      ],
+    },
+    {
+      title:
+      "Module 4: DEPLOY WINDOWS CLIENT (25-30%) ",
+    submodules: [
+      {
+        heading: "DESCRIBE FUNDAMENTAL COMPONENTS AND TYPES OF OFFICE ADD-INS",
+        contents: [
+          "Assess infrastructure readiness by using Endpoint Analytics ",
+          "Select a deployment tool based on requirements ",
+          "Choose between migrate and rebuild ",
+          "Choose an imaging and/or provisioning strategy ",
+          "Plan and implement changes to Windows edition by using subscription activation or MAK license management ",
+        ],
+      },
+      {
+        heading: "PLAN AND IMPLEMENT WINDOWS CLIENT PROVISIONING BY USING WINDOWS AUTOPILOT ",
+        contents: [
+          "Choose an Autopilot deployment method based on requirements, including user-driven mode, self-deploying mode, autopilot reset, and pre-provisioning ",
+          "Configure device registration for Autopilot ",
+          "Create, validate, and assign deployment profiles ",
+          "Provision Windows devices by using Autopilot ",
+          "Troubleshoot an Autopilot deployment ",
+        ],
+      },
+      {
+        heading: "PLAN AND IMPLEMENT WINDOWS CLIENT DEPLOYMENT BY USING MICROSOFT DEPLOYMENT TOOLKIT (MDT) ",
+        contents: [
+          "Plan and implement an MDT deployment infrastructure ",
+          "Choose configuration options based on requirements, such as boot images, OS images, upgrade packages, task sequences, and drivers ",
+          "Create, manage, and deploy images ",
+          "Plan and implement PXE boot by using Windows Deployment Services (WDS) ",
+          "Create and use task sequences ",
+          "Manage application and driver deployment ",
+          "Customize an MDT deployment by using customsettings.ini and bootstrap.ini ",
+          "Monitor and troubleshoot deployment ",
+          "Plan and configure user state migration ",
+        ],
+      },
+    ],
+  },
+  {
+    title:
+      "Module 4:	MANAGE IDENTITY AND ACCESS (10-15%) ",
+    submodules: [
+      {
+        heading: "MANAGE IDENTITY",
+        contents: [
+          "Enable users and groups from Azure Active Directory to access Windows client ",
+          "Register devices in and join devices to Azure Active Directory ",
+          "Manage AD DS and Azure AD groups ",
+          "Manage AD DS and Azure AD users ",
+          "Configure Enterprise State Roaming in Azure AD ",
+        ],
+      },
+      {
+        heading: "PLAN AND IMPLEMENT CONDITIONAL ACCESS POLICIES ",
+        contents: [
+          "Plan conditional access ",
+          "Set up conditional access policies ",
+          "Determine which users are affected by a conditional access policy ",
+          "Troubleshoot conditional access ",
+        ],
+      }
+    ],
+  },
+  {
+    title:
+      "Module 5: MANAGE COMPLIANCE POLICIES AND CONFIGURATION PROFILES (10-15%) ",
+    submodules: [
+      {
+        heading: "IMPLEMENT DEVICE COMPLIANCE POLICIES",
+        contents: [
+          "Plan device compliance policies ",
+          "Implement device compliance policies ",
+          "Manage notifications for device compliance policies ",
+          "Monitor device compliance ",
+          "Troubleshoot device compliance policies ",
+        ],
+      },
+      {
+        heading: "PLAN AND IMPLEMENT CONDITIONAL ACCESS POLICIES ",
+        contents: [
+          "Plan device configuration profiles ",
+          "Implement device configuration profiles ",
+          "Monitor and troubleshoot device configuration profiles ",
+          "Configure and implement assigned access on public devices, including kiosks and dedicated devices",
+        ],
+      },
+    ],
+  },
+  {
+    title:
+      "Module 6: MANAGE, MAINTAIN, AND PROTECT DEVICES (25-30%) ",
+    submodules: [
+      {
+        heading: "MANAGE DEVICE LIFECYCLE ",
+        contents: [
+          "Configure enrollment settings in Intune ",
+          "Configure automatic and bulk enrollment in Intune ",
+          "Configure policy sets ",
+          "Restart, retire, or wipe devices ",  
+        ],
+      },
+      {
+        heading: "MONITOR DEVICES",
+        contents: [
+          "Monitor devices by using Azure Monitor ",
+          "Monitor device hardware and software inventory by using Endpoint Manager Admin Center ",
+          "Monitor devices by using Endpoint Analytics ",
+        ],
+      },
+      {
+        heading: "MANAGE DEVICE UPDATES ",
+        contents: [
+          "Plan for device updates ",
+          "Create and manage quality update policies by using intune ",
+          "Create and manage feature update policies by using intune ",
+          "Create and manage ios/ipados update policies by using intune", 
+          "Manage android updates by using device configuration profiles ",
+          "Monitor updates ",
+          "Troubleshoot updates in intune ",
+          "Configure windows client delivery optimization by using intune ",
+          "Create and manage update rings by using intune ",
+        ],
+      },
+      {
+        heading: "PLAN AND IMPLEMENT ENDPOINT PROTECTION ",
+        contents: [
+          "Plan endpoint security", 
+          "Implement and manage security baselines in intune ",
+          "Create and manage configuration policies for endpoint security including antivirus, encryption, firewall, endpoint detection and response, and attack surface reduction ",
+          "Onboard devices into microsoft defender for endpoint ",
+          "Monitor microsoft defender for endpoint ",
+          "Investigate and respond to threats",
+        ],
+      },
+    ],
+  },
+  {
+    title:
+    "Module 7: 11.5	MANAGE APPS (10-15%) ",
+  submodules: [
+    {
+      heading: "11.5.1	DEPLOY AND UPDATE APPLICATIONS ",
+      contents: [
+        "Deploy apps by using Intune ",
+        "Configure Microsoft 365 Apps deployment by using Office Deployment Toolkit or Office Customization Tool ",
+        "Manage Microsoft 365 Apps by using Microsoft 365 Apps Admin Center ",
+        "Deploy Microsoft 365 Apps by using Intune ",
+        "Manage Office app settings by using group policy or Intune ",
+        "Deploy apps by using Microsoft Store for Business, Apple store, and Google store ",
+      ],
+    },
+    {
+      heading: "11.5.2	IMPLEMENT APP PROTECTION AND APP CONFIGURATION POLICIES ",
+      contents: [
+        "Plan app protection policies ",
+        "Plan app configuration policies for ios and android ",
+        "Implement app protection policies ",
+        "Implement app configuration policies for ios and android ",
+        "Manage app protection policies ",
+        "Manage app configuration policies",
+      ],
+    },
+  ],
+  }
+],
+  onCompletion: [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used.",
+  ],
+  batches: [
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+    {
+      id: "",
+      days: "",
+      mode: "",
+      time: "",
+      duration: "",
+    },
+  ],
+};

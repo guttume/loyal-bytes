@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-small {
+    @apply shadow rounded px-4 py-2 text-sm;
+  }
+  .btn {
+    @apply shadow rounded px-6 py-3;
+  }
+  .btn-black {
+    @apply bg-black text-white;
+  }
+  .btn-primary {
+    @apply bg-orange-500 text-orange-50;
+  }
+
+  .btn-outline-primary {
+    @apply border border-orange-500 text-orange-500 bg-transparent;
+  }
+
+  .btn-outline-secondary {
+    @apply border border-white text-white bg-transparent;
+  }
+
+  .btn-white {
+    @apply bg-white text-gray-800;
+  }
+}
+
+.swiper .swiper-slide {
+  height: 400px;
+}
+
+.brands.swiper {
+  height: 220px;
+}
+
+.v-brands.swiper {
+  height: 100%;
+  width: 100%;
+}
