@@ -27,6 +27,40 @@ module.exports = {
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
       },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-5deg)" },
+          "50%": { transform: "rotate(5deg)" },
+        },
+        revolve: {
+          from: { transform: "rotate(180deg) translateX(580px) rotate(180deg)" },
+          to: { transform: "rotate(360deg) translateX(580px) rotate(0deg)" },
+        },
+        server: {
+          from: { transform: "rotate(90deg) translateX(580px) rotate(270deg)" },
+          to: { transform: "rotate(360deg) translateX(580px) rotate(0deg)" },
+        },
+        office: {
+          from: { transform: "rotate(360deg) translateX(480px) rotate(0deg)" },
+          to: { transform: "rotate(180deg) translateX(480px) rotate(180deg)" },
+        },
+        bounce: {
+          "0%, 100%": {
+            transform: 'translateY(-4%)',
+            "animation-timing-function": 'cubic-bezier(0.8, 0, 1, 1)'
+          },
+          "50%": {
+            transform: 'translateY(0)',
+            "animation-timing-function": 'cubic-bezier(0, 0, 0.2, 1)'
+          }
+        }
+      },
+      animation: {
+        wiggle: "wiggle 3s ease-in-out infinite",
+        revolve: "revolve 50s linear infinite",
+        server: "server 75s linear infinite",
+        office: "office 50s linear infinite",
+      },
     },
   },
   plugins: [require("@tailwindcss/line-clamp")],

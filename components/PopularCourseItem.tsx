@@ -3,7 +3,7 @@ import Link from "next/link";
 // @ts-ignore
 export const PopularCourseItem = ({ imageUrl, title, color, children }) => {
   return (
-    <div className="border border-gray-500 rounded-[40px]">
+    <div className="border border-gray-500 rounded-[40px] hover:animate-bounce">
       <div className="mt-1">
         <div className="lg:w-full">
           <img src={imageUrl} alt="image" className="rounded-[40px]"/>
