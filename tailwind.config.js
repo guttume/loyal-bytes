@@ -37,7 +37,7 @@ module.exports = {
           to: { transform: "rotate(360deg) translateX(580px) rotate(0deg)" },
         },
         server: {
-          from: { transform: "rotate(90deg) translateX(580px) rotate(270deg)" },
+          from: { transform: "rotate(180deg) translateX(580px) rotate(180deg)" },
           to: { transform: "rotate(360deg) translateX(580px) rotate(0deg)" },
         },
         office: {
@@ -46,11 +46,11 @@ module.exports = {
         },
         bounce: {
           "0%, 100%": {
-            transform: 'translateY(-4%)',
+            transform: 'translateY(0)',
             "animation-timing-function": 'cubic-bezier(0.8, 0, 1, 1)'
           },
           "50%": {
-            transform: 'translateY(0)',
+            transform: 'translateY(-4%)',
             "animation-timing-function": 'cubic-bezier(0, 0, 0.2, 1)'
           }
         }
@@ -60,6 +60,7 @@ module.exports = {
         revolve: "revolve 50s linear infinite",
         server: "server 75s linear infinite",
         office: "office 50s linear infinite",
+        bounce: "bounce 1s linear",
       },
     },
   },

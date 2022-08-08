@@ -10,7 +10,7 @@ export const GoogleReviews = () => {
     >
       <span>Google Reviews</span>
       <span>
-        <StarIcon className="h-4 w-4 text-orange-50" />
+        <StarIcon className="h-5 w-5 text-orange-50 animate-pulse" />
       </span>
     </a>
     </div>
