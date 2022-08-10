@@ -19,8 +19,8 @@ export default function Index() {
   const entry = useIntersectionObserver(ref, {})
   const isVisible = !!entry?.isIntersecting
   return (
-    <div className="lg:px-12">
-      <div className="flex-row-reverse lg:flex">
+    <div>
+      <div>
         <HeroBanner />
       </div>
       <Statistics />

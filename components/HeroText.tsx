@@ -61,15 +61,15 @@ export const HeroText = () => {
   };
 
   return (
-    <div className="items-center px-8 bg-white lg:bg-transparent lg:flex">
-      <div className="lg:ml-16">
+    <div className="items-center px-8 bg-white md:pr-0 xl:pl-12 md:bg-transparent lg:flex">
+      <div>
         <h1
-          className="mb-3 text-4xl font-extrabold lg:text-6xl lg:tracking-wider"
+          className="mb-3 text-4xl font-extrabold md:text-3xl lg:text-6xl lg:tracking-wider"
           style={{ color: `#2D3957` }}
         >
           Where Learning is a Passion
         </h1>
-        <h3 className="text-xl">
+        <h3 className="text-xl md:text-lg">
           We offer globally recognised Microsoft Certified courses taught by top
           pioneer of the industry.
         </h3>
