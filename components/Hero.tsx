@@ -8,7 +8,8 @@ export const HeroBanner = () => {
         <div className="h-full absolute w-full overflow-clip lg:overflow-y-clip lg:overflow-x-visible">
           <div className="absolute lg:w-full -z-10 top-1/2 left-1/2 lg:-ml-28 lg:-mt-12 transform -translate-y-32 lg:-translate-y-56 -translate-x-1/2">
             <div className="-z-10 w-[150vw] lg:w-[75vw]">
-              <svg
+            <img src={images.heroRings} alt="rings" />
+              {/* <svg
                 viewBox="0 0 1503 1503"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,11 +44,11 @@ export const HeroBanner = () => {
                     <stop offset={1} stopColor="#4FB0DA" />
                   </radialGradient>
                 </defs>
-              </svg>
+              </svg> */}
             </div>
-            <img src={images.azureSmall} alt="logo" className="absolute top-[calc(75vw/2)] left-1/2 ml-[100px] animate-revolve" />
+            {/* <img src={images.azureSmall} alt="logo" className="absolute top-[calc(75vw/2)] left-1/2 ml-[100px] animate-revolve" />
             <img src={images.serverSmall} alt="logo" className="absolute top-[calc(75vw/2)] left-1/2 ml-[100px] animate-server" />
-            <img src={images.office365Small} alt="logo" className="absolute top-[calc(75vw/2)] left-1/2 ml-[100px] animate-office" />
+            <img src={images.office365Small} alt="logo" className="absolute top-[calc(75vw/2)] left-1/2 ml-[100px] animate-office" /> */}
           </div>
         </div>
         <div className="flex justify-center lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-y-56 lg:-translate-x-56">

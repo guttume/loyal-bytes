@@ -101,10 +101,10 @@ export default function Index() {
           <div className="absolute w-5/12 top-0 -mt-40 -ml-56">
             <img src={images.homePageRings} alt="rings" />
           </div>
-          <div className="lg:absolute lg:w-[500px] lg:right-0 lg:mt-8 lg:mr-40 z-10">
+          <div className="lg:absolute lg:w-80 xl:w-[400px] 2xl:w-[500px] lg:right-0 lg:mt-8 lg:mr-4 xl:mr-8 2xl:mr-40 z-10">
             <img src={images.corporateTrainings} alt="corporate trainings" />
           </div>
-          <div className="lg:border lg:absolute lg:w-full lg:px-16 lg:pl-24 lg:py-16 lg:rounded-lg bg-gradient-to-r from-teal-50 via-yellow-50 to-red-50">
+          <div className="lg:border lg:absolute lg:w-full lg:px-4 2xl:pl-24 lg:py-16 lg:rounded-lg bg-gradient-to-r from-teal-50 via-yellow-50 to-red-50">
             <div className="lg:w-[600px] p-4">
               <SectionTitle>Corporate Trainings</SectionTitle>
               <SectionSubTitle>

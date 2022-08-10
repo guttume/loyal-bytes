@@ -13,7 +13,7 @@ export const PopularCourseItem = ({ imageUrl, title, color, children }) => {
         <h3 className="font-bold text-xl mt-4">{title}</h3>
         <p>{children}</p>
         <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
-          <a className={`btn ${color} block mx-auto rounded-lg w-64`}>Join now</a>
+          <a className={`btn ${color} block mx-auto rounded-lg w-full max-w-[256px]`}>Join now</a>
         </Link>
       </div>
     </div>
