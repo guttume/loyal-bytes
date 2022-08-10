@@ -11,7 +11,7 @@ export default function Document() {
           rel="stylesheet"
         ></link>
       </Head>
-      <body style={{overflowX: 'clip'}}>
+      <body>
         <Main />
         <NextScript />
       </body>
