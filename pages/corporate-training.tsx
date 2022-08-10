@@ -1,5 +1,5 @@
 import { DesktopComputerIcon } from "@heroicons/react/solid";
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "../components";
 import { courses } from "../data/training-courses";
@@ -14,11 +14,11 @@ export default function CorporateTraining() {
         <div className="hidden lg:block absolute top-0 left-0 w-[900px] mt-48 transform -translate-x-1/2 -z-10">
           <img src={images.homePageRings} alt="rings picture" />
         </div>
-        <h1 className="text-5xl lg:text-6xl text-center font-bold text-darkerText mt-12 leading-tight">
+        <h1 className="mt-12 text-5xl font-bold leading-tight text-center lg:text-6xl text-darkerText">
           Stay Ahead of Time with{" "}
-          <span className="text-orange-500 block">Loyal Bytes</span>
+          <span className="block text-orange-500">Loyal Bytes</span>
         </h1>
-        <h2 className="text-lg text-center w-full max-w-md mx-auto my-6">
+        <h2 className="w-full max-w-md mx-auto my-6 text-lg text-center">
           The holistic training outsourcing solutions provided by Loyal Bytes
           for Corporates
         </h2>
@@ -27,19 +27,19 @@ export default function CorporateTraining() {
             <img
               src={images.corporateTrainingHero}
               alt="hero picture"
-              className="h-full w-auto"
+              className="w-auto h-full"
             />
           </div>
         </div>
       </section>
       <section className="lg:my-16 lg:px-12">
-        <div className="bg-beige rounded-lg px-8 py-12 lg:px-14">
-          <div className="lg:flex items-center lg:space-x-8">
+        <div className="px-8 py-12 rounded-lg bg-beige lg:px-14">
+          <div className="items-center lg:flex lg:space-x-8">
             <div className="lg:w-1/2">
               <span>
-                <DesktopComputerIcon className="h-5 w-5 text-orange-500" />
+                <DesktopComputerIcon className="w-5 h-5 text-orange-500" />
               </span>
-              <p className="font-semibold text-xl my-4">Corporate Trainings</p>
+              <p className="my-4 text-xl font-semibold">Corporate Trainings</p>
               <div className="space-y-4">
                 <p>
                   The holistic training outsourcing solutions provided by LBLS
@@ -76,7 +76,7 @@ export default function CorporateTraining() {
               />
             </div>
           </div>
-          <div className="space-y-4 mt-4">
+          <div className="mt-4 space-y-4">
             <p>
               In a world where technology is continuously evolving, it is not
               easy for your IT workforce to keep pace with what&apos;s emerging
@@ -96,17 +96,17 @@ export default function CorporateTraining() {
           </div>
         </div>
       </section>
-      <section className="bg-darkText px-8 lg:px-12 mb-32">
+      <section className="px-8 mb-32 bg-darkText lg:px-12">
         <div className="py-16">
-          <div className="w-full max-w-6xl mx-auto bg-white rounded-xl flex justify-center py-8">
+          <div className="flex justify-center w-full max-w-6xl py-8 mx-auto bg-white rounded-xl">
             <Swiper
               scrollbar={false}
               spaceBetween={10}
               slidesPerView={4}
               autoplay={true}
               speed={40}
-              modules={[Pagination, Autoplay]}
-              pagination={{ clickable: true }}
+              navigation={true}
+              modules={[Navigation, Autoplay]}
             >
               {courses.map((course, index) => (
                 <SwiperSlide key={index.toString()}>
@@ -116,7 +116,7 @@ export default function CorporateTraining() {
                       alt="vodafone logo"
                       className="w-84"
                     />
-                    <ul className="my-8 space-y-2 list-disc pr-4 pl-8 text-sm">
+                    <ul className="pl-8 pr-4 my-8 space-y-2 text-sm list-disc">
                       {course.courses.map((item, index) => (
                         <li key={index.toString()}>{item}</li>
                       ))}

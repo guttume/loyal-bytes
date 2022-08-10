@@ -1,4 +1,4 @@
-import { Autoplay, Pagination } from "swiper";
+import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "./Images";
 
@@ -6,7 +6,7 @@ export const PortfolioSummary = () => {
   return (
     <div>
       <div className="text-center">
-        <h2 className="font-semibold text-2xl my-4">
+        <h2 className="my-4 text-2xl font-semibold">
           Over 40 top business placements
         </h2>
       </div>
@@ -16,9 +16,7 @@ export const PortfolioSummary = () => {
           spaceBetween={20}
           slidesPerView={3}
           autoplay={true}
-          modules={[Pagination, Autoplay]}
-          pagination={{ clickable: true }}
-          className="brands"
+          modules={[Autoplay]}
         >
           {images.placement.slides.map((brand, index) => (
             <SwiperSlide key={brand}>
@@ -29,8 +27,8 @@ export const PortfolioSummary = () => {
           ))}
         </Swiper>
       </div>
-      {/* <div className="flex justify-center space-x-6 flex-wrap my-12">
-        <div className="flex justify-center space-x-6 flex-wrap my-12">
+      {/* <div className="flex flex-wrap justify-center my-12 space-x-6">
+        <div className="flex flex-wrap justify-center my-12 space-x-6">
           {Object.values(images.placement.brands)
             .slice(0, 8)
             .map((brand, index) => (
@@ -41,7 +39,7 @@ export const PortfolioSummary = () => {
         </div>
       </div> */}
       <div className="flex justify-center">
-          <a href={"/placement.html"} className="underline text-xl font-bold text-gray-600">View all</a>
+          <a href={"/placement.html"} className="text-xl font-bold text-gray-600 underline">View all</a>
       </div>
     </div>
   );

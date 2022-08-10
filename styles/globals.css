@@ -4,34 +4,34 @@
 
 @layer components {
   .btn-small {
-    @apply shadow rounded px-4 py-2 text-sm;
+    @apply px-4 py-2 text-sm rounded shadow;
   }
   .btn {
-    @apply shadow rounded px-6 py-3;
+    @apply px-6 py-3 rounded shadow;
   }
   .btn-black {
-    @apply bg-black text-white;
+    @apply text-white bg-black;
   }
   .btn-primary {
     @apply bg-orange-500 text-orange-50;
   }
 
   .btn-outline-primary {
-    @apply border border-orange-500 text-orange-500 bg-transparent;
+    @apply text-orange-500 bg-transparent border border-orange-500;
   }
 
   .btn-outline-secondary {
-    @apply border border-white text-white bg-transparent;
+    @apply text-white bg-transparent border border-white;
   }
 
   .btn-white {
-    @apply bg-white text-gray-800;
+    @apply text-gray-800 bg-white;
   }
 }
 
-.swiper .swiper-slide {
+/* .swiper .swiper-slide {
   height: 400px;
-}
+} */
 
 .brands.swiper {
   height: 220px;
