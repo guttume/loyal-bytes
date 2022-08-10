@@ -31,7 +31,7 @@ export default function Index() {
             Courses with industry pioneers that will give your career wings
           </SectionSubTitle>
         </div>
-        <div className="grid-cols-3 gap-16 space-y-8 lg:space-y-0 lg:grid">
+        <div className="gap-16 space-y-8 lg:grid-cols-3 md:space-y-0 md:grid md:grid-cols-2">
           <PopularCourseItem
             imageUrl={images.courseAzure}
             title="Azure Cloud"
