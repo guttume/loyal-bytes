@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { images } from "../../components";
 import { Queries } from "../../layouts";
 export default function index() {
@@ -26,16 +25,16 @@ export default function index() {
   ];
   return (
     <>
-      <section className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-600 p-8 lg:p-12">
-        <div className="space-y-8 lg:space-y-0 lg:flex justify-center lg:space-x-20">
-          <div className="text-center lg:text-left text-white font-bold space-y-4 lg:w-96">
+      <section className="p-8 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-600 lg:p-12">
+        <div className="justify-center space-y-8 lg:space-y-0 lg:flex lg:space-x-20">
+          <div className="space-y-4 font-bold text-center text-white lg:text-left lg:w-96">
             <ul>
-              <li className="font-semibold text-orange-500">Instructor Led Training</li>
+              <li className="font-semibold text-orange-500">Instructor- Led and VILT</li>
               <li className="font-semibold text-orange-500">Live Virtual Classroom</li>
               <li className="font-semibold text-orange-500">Boot Camp Trainings</li>
               <li className="font-semibold text-orange-500">Personalized 1 on 1 Training</li>
             </ul>
-            <h1 className="text-7xl">30K+ STUDENTS TRUST US</h1>
+            <h1 className="text-4xl md:text-7xl">30K+ STUDENTS TRUST US</h1>
             <h2 className="text-lg font-semibold">
               Loyal Bytes stood true on more than 30,000 student&apos;s
               expections
@@ -47,14 +46,12 @@ export default function index() {
         </div>
       </section>
       <section className="p-8 lg:p-32">
-        <div className="lg:grid grid-cols-4 gap-8">
+        <div className="gap-8 xl:grid-cols-4 md:grid-cols-2 md:grid">
           {courseCategories.map((category) => (
             <div key={category.url}>
-              <Link href={category.url}>
-                <a>
+                <a  href={`${category.url}.html`}>
                   <img src={category.image} alt={category.title} />
                 </a>
-              </Link>
             </div>
           ))}
         </div>

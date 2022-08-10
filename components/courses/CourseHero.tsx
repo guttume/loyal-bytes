@@ -9,7 +9,7 @@ export const CourseHero = ({
   subtitle: string;
 }) => {
   return (
-    <section className="lg:relative lg:h-[calc(100vh-96px)]">
+    <section className="lg:relative lg:h-[calc(100vh-96px)] lg:pb-16 xl:pb-0">
       <div className="hidden lg:block absolute w-[100vw] h-[calc(100vh-96px)] object-contain -z-10">
         <img
           src={images.azureAiHeroBg}
@@ -17,21 +17,21 @@ export const CourseHero = ({
           className="w-full h-full"
         />
       </div>
-      <div className="lg:flex h-full px-4 lg:px-16">
-        <div className="w-full lg:w-1/2 h-full py-12 flex justify-center items-center">
+      <div className="h-full px-4 lg:flex lg:px-16">
+        <div className="flex items-center justify-center w-full h-full py-12 lg:w-1/2">
           <img
             src={images.azureAiHeroImage}
             alt="hero image"
             className="w-auto h-full"
           />
         </div>
-        <div className="lg:w-1/2 h-full lg:flex justify-center items-center">
+        <div className="items-center justify-center h-full lg:w-1/2 lg:flex">
           <div>
-            <h1 className="text-4xl lg:text-6xl font-bold text-right">
+            <h1 className="text-4xl font-bold text-right lg:text-6xl">
               {title}
             </h1>
-            <h2 className="text-xl lg:text-3xl my-4 text-right">{subtitle}</h2>
-            <div className="flex space-x-12 justify-end my-16">
+            <h2 className="my-4 text-xl text-right lg:text-3xl">{subtitle}</h2>
+            <div className="flex justify-end my-16 space-x-12">
               <img src={images.awsLogo} alt="AWS logo" className="h-12" />
               <img src={images.gcpLogo} alt="GCP logo" className="h-12" />
               <img
