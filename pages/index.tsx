@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRef } from "react";
 import {
   HeroBanner,
   HurryUp,
@@ -11,11 +12,15 @@ import {
 } from "../components";
 import { PopularCourseItem } from "../components/PopularCourseItem";
 import { Statistics } from "../components/Statistics";
+import useIntersectionObserver from "../hooks";
 
 export default function Index() {
+  const ref = useRef<HTMLQuoteElement | null>(null)
+  const entry = useIntersectionObserver(ref, {})
+  const isVisible = !!entry?.isIntersecting
   return (
     <div className="lg:px-12">
-      <div className="lg:flex flex-row-reverse">
+      <div className="flex-row-reverse lg:flex">
         <HeroBanner />
       </div>
       <Statistics />
@@ -26,7 +31,7 @@ export default function Index() {
             Courses with industry pioneers that will give your career wings
           </SectionSubTitle>
         </div>
-        <div className="space-y-8 lg:space-y-0 lg:grid grid-cols-3 gap-16">
+        <div className="grid-cols-3 gap-16 space-y-8 lg:space-y-0 lg:grid">
           <PopularCourseItem
             imageUrl={images.courseAzure}
             title="Azure Cloud"
@@ -77,20 +82,20 @@ export default function Index() {
         </div>
       </Section>
       <Section>
-        <div className="text-center mb-8">
-          <div className="absolute left-1/2 lg:-ml-56 w-24 lg:-mt-12">
+        <div className="mb-8 text-center">
+          <div className="absolute w-24 left-1/2 lg:-ml-56 lg:-mt-12">
             <img src={images.patterns} alt="background art" />
           </div>
-          <div className="absolute lg:left-1/2 left-0 lg:-ml-64 w-12 mt-24 -z-10">
+          <div className="absolute left-0 w-12 lg:left-1/2 lg:-ml-64 -z-10">
             <img src={images.leftConfetti} alt="background art" />
           </div>
-          <div className="absolute right-0 lg:left-1/2 lg:ml-48 w-20 mt-24 -z-10">
+          <div className="absolute right-0 w-20 lg:left-1/2 lg:ml-48 -z-10">
             <img src={images.rightConfetti} alt="background art" />
           </div>
           <SectionTitle>Open Doors of Opportunities</SectionTitle>
-          <SectionSubTitle>
-            MONEY BACK GUARANTEE even in the last lecture
-          </SectionSubTitle>
+        <blockquote ref={ref} className={`p-4 font-bold text-sky-500 animate__animated ${isVisible && 'animate__tada'}`}>
+            &ldquo;MONEY BACK GUARANTEE even in the last lecture&rdquo;
+          </blockquote>
         </div>
         <div className="flex justify-center">
           <Link href={"/courses"}>
@@ -98,7 +103,7 @@ export default function Index() {
           </Link>
         </div>
         <div className="mt-16 lg:relative lg:h-96">
-          <div className="absolute w-5/12 top-0 -mt-40 -ml-56">
+          <div className="absolute top-0 w-5/12 -mt-40 -ml-56">
             <img src={images.homePageRings} alt="rings" />
           </div>
           <div className="lg:absolute lg:w-80 xl:w-[400px] 2xl:w-[500px] lg:right-0 lg:mt-8 lg:mr-4 xl:mr-8 2xl:mr-40 z-10">
@@ -123,7 +128,7 @@ export default function Index() {
                 training that is focused and meets the requirements of a
                 21st-century technology-powered workplace.
               </SectionSubTitle>
-              <div className="flex justify-center lg:block my-4">
+              <div className="flex justify-center my-4 lg:block">
                 <Link href={"/corporate-training"}>
                   <a className="btn btn-black">Know more</a>
                 </Link>
