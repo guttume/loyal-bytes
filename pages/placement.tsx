@@ -1,56 +1,52 @@
-import Link from "next/link";
 import { images, Testimonial } from "../components";
 
 export default function Placement() {
   return (
     <>
-      <section className="relative lg:h-[calc(100vh+100px)]">
-        <div className="absolute -z-10">
-          <img
-            src={images.placement.hero}
-            alt="Hero image"
-            className="w-full"
-          />
-        </div>
-        <div className="px-8 lg:px-12 space-y-6 w-full max-w-2xl">
-          <h1 className="text-6xl font-bold lg:text-white pt-28 lg:pt-32">
-            <span className="text-white">Become Affiliated</span> Become Global
-          </h1>
-          <h2 className="text-xl lg:text-white">
-            Our students have been placed in the top tech companies across the
-            globe.
-          </h2>
-          <div className="flex justify-center lg:block space-x-4 lg:space-x-0 lg:space-y-6 pt-4">
-            <Link href={"/testimonials"}>
-              <a className="btn btn-primary flex justify-center w-1/2 text-center">
-                Hear from our students
-              </a>
-            </Link>
-            <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
-              <a className="lg:hidden btn btn-outline-primary flex justify-center items-center w-1/2">
+      <section>
+        <div className="relative bg-gradient-to-tr from-blue-900 via-darkBlue to-blue-900 md:bg-gradient-radial">
+          <div className="absolute -z-10">
+            <img
+              src={images.placement.hero}
+              alt="Hero image"
+              className="hidden w-full md:block"
+            />
+          </div>
+          <div className="w-full max-w-2xl px-8 pb-12 space-y-6 lg:px-12">
+            <h1 className="text-4xl font-bold text-white md:text-6xl pt-28 lg:pt-32">
+              <span className="text-white">Become Affiliated</span> Become
+              Global
+            </h1>
+            <h2 className="text-xl text-white">
+              Our students have been placed in the top tech companies across the
+              globe.
+            </h2>
+            <div className="flex justify-center pt-4 space-x-4 lg:block lg:space-x-0 lg:space-y-6">
+                <a className="flex justify-center w-1/2 text-center btn btn-primary" href="/testimonials.html">
+                  Hear from our students
+                </a>
+              <a
+                className="flex justify-center w-1/2 btn btn-outline-secondary"
+                href={"https://forms.office.com/r/VEQqdjwzZr"}
+              >
                 Inquire now
               </a>
-            </Link>
-            <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
-              <a className="hidden btn btn-outline-secondary justify-center lg:flex w-1/2">
-                Inquire now
-              </a>
-            </Link>
+            </div>
           </div>
         </div>
       </section>
-      <section className="my-16 px-12">
+      <section className="px-12 my-16">
         <div>
-          <h3 className="text-5xl text-darkerText text-center font-bold">
+          <h3 className="text-3xl font-bold text-center md:text-5xl text-darkerText">
             Our Top Placements
           </h3>
-          <h4 className="text-center text-xl text-gray-600 w-full max-w-5xl mx-auto mt-4">
-            At Loyal Bytes Learning we make sure that every participant stepping out in the
-            industry has enough knowledge to substantiate his or her expertise
-            in the subject matter.
+          <h4 className="w-full max-w-5xl mx-auto mt-4 text-gray-600 md:text-center text- md:text-xl">
+            At Loyal Bytes Learning we make sure that every participant stepping
+            out in the industry has enough knowledge to substantiate his or her
+            expertise in the subject matter.
           </h4>
-          <div className="bg-gray-200 rounded-lg p-4 mt-8">
-            <div className="grid grid-cols-7 gap-4">
+          <div className="p-4 mt-8 bg-gray-200 rounded-lg">
+            <div className="grid grid-cols-3 gap-4 md:grid-cols-5 lg:grid-cols-7">
               {Object.values(images.placement.brands).map((brand, index) => (
                 <div key={index.toString()}>
                   <img src={brand} alt="" />
@@ -63,10 +59,10 @@ export default function Placement() {
       <section className="px-8 lg:px-12 lg:-mt-28">
         <Testimonial />
       </section>
-      <section className="my-16 px-8 lg:px-12">
-        <div className="lg:flex space-y-8 lg:space-y-0 lg:space-x-4 items-center">
+      <section className="px-8 my-16 lg:px-12">
+        <div className="items-center space-y-8 lg:flex lg:space-y-0 lg:space-x-4">
           <div className="lg:w-1/2">
-            <h3 className="text-2xl font-semibold mb-4 lg:mb-8">
+            <h3 className="mb-4 text-2xl font-semibold lg:mb-8">
               Our professionals are serving at:
             </h3>
             <p className="text-lg">
@@ -85,19 +81,24 @@ export default function Placement() {
           </div>
         </div>
       </section>
-      <section className="bg-gradient-to-r from-blue-800 via-blue-600 to-blue-600 text-blue-50 mx-8 lg:mx-12 py-12 mb-16 rounded-xl">
-        <div className="lg:flex lg:px-20 justify-between space-y-8 lg:space-y-0">
-          <div className="space-y-4 lg:space-y-0">
-            <h3 className="text-3xl text-white font-bold text-center lg:text-left">
+      <section className="py-12 mx-8 mb-16 bg-gradient-to-r from-blue-800 via-blue-600 to-blue-600 text-blue-50 lg:mx-12 rounded-xl">
+        <div className="justify-between space-y-8 lg:flex lg:px-20 lg:space-y-0">
+          <div className="px-4 space-y-4 lg:space-y-0">
+            <h3 className="text-3xl font-bold text-center text-white lg:text-left">
               Apply now and get early birds offers
             </h3>
-            <h4 className="text-lg text-white font-semibold text-center lg:text-left">
+            <h4 className="text-lg font-semibold text-center text-white lg:text-left">
               Apply for the course of your choice and avail attractive early
               birds offers.
             </h4>
           </div>
           <div className="flex justify-center lg:block">
-            <a  href={"https://forms.office.com/r/VEQqdjwzZr"} className="btn btn-outline-secondary">Apply now</a>
+            <a
+              href={"https://forms.office.com/r/VEQqdjwzZr"}
+              className="btn btn-outline-secondary"
+            >
+              Apply now
+            </a>
           </div>
         </div>
       </section>

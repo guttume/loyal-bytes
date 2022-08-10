@@ -20,6 +20,7 @@ module.exports = {
         secondary: "#faa954",
         tertiary: "#ffcc29",
         footer: "#3E99CF",
+        darkBlue: '#0057bd',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--gradient-color-stops))",
