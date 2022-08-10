@@ -9,16 +9,16 @@ export default function TrainingFlexibility() {
   const [viewBootcampText, setViewBootcampText] = useState(false);
   return (
     <>
-      <div className=" hidden lg:block fixed top-0 right-0 -z-10 w-1/2">
+      <div className="fixed top-0 right-0 hidden w-1/2 lg:block -z-10">
         <img src={images.training.bg} alt="bg" />
       </div>
       <section className="px-8 lg:px-12">
-        <div className="lg:flex flex-row-reverse lg:py-16 lg:items-center lg:space-x-4">
-          <div className="mx-auto w-full">
+        <div className="flex-row-reverse lg:flex lg:py-16 lg:items-center lg:space-x-4">
+          <div className="w-full mx-auto">
             <img src={images.training.hero} alt="hero image" />
           </div>
           <div className="my-8">
-            <h1 className="text-center lg:text-left text-5xl font-bold text-darkerText">
+            <h1 className="text-3xl font-bold text-center md:text-5xl lg:text-left text-darkerText">
               Learn from anywhere
             </h1>
             <h2 className="mt-4 text-lg">
@@ -26,25 +26,27 @@ export default function TrainingFlexibility() {
               great to incredible. Fill in the form and our friendly staff will
               be ready to assist you in your queries.
             </h2>
-            <div className="my-6 flex justify-center lg:justify-start space-x-2">
-              <Link href={"/about"}>
-                <a className="btn btn-primary">Know about us</a>
-              </Link>
-              <div className="flex items-center space-x-2">
-                <PlayIcon className="h-12 w-12 text-sky-600" />
-                <p>See our impact</p>
-              </div>
+            <div className="flex justify-center md:block">
+              <div className="justify-center my-6 space-y-4 md:space-y-0 md:space-x-2 md:flex md:justify-start">
+                <Link href={"/about"}>
+                  <a className="btn btn-primary">Know about us</a>
+                </Link>
+                <div className="flex items-center space-x-2">
+                  <PlayIcon className="w-12 h-12 text-sky-600" />
+                  <p>See our impact</p>
+                </div>
+            </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="py-8 bg-blue-700 text-white px-8 lg:px-16">
+      <section className="px-8 py-8 text-white bg-blue-700 lg:px-16">
         <div className="space-y-8 lg:flex lg:flex-row-reverse lg:items-center">
           <div className="lg:w-1/3">
             <img src={images.training.offer} alt="Offer" />
           </div>
           <div className="space-y-4 lg:w-2/3">
-            <h3 className="text-3xl font-bold border-b-2 border-yellow-400 pb-2 tracking-wider">
+            <h3 className="pb-2 text-2xl font-bold tracking-wider border-b-2 border-yellow-400 md:text-3xl">
               What do we offer?
             </h3>
             <p>
@@ -98,15 +100,15 @@ export default function TrainingFlexibility() {
           </div>
         </div>
       </section>
-      <section className="relative bg-blue-700 py-8 lg:pb-16 overflow-clip">
-        <div className="absolute top-0 left-0 w-1/3 -ml-40 mt-40">
+      <section className="relative py-8 bg-blue-700 lg:pb-16 overflow-clip">
+        <div className="absolute top-0 left-0 w-1/3 mt-40 -ml-40">
           <img src={images.homePageRings} alt="rings" />
         </div>
-        <h3 className="text-3xl font-semibold tracking-wider text-center mb-4 text-white">
+        <h3 className="mb-4 text-3xl font-semibold tracking-wider text-center text-white">
           Our Methodology
         </h3>
-        <div className="space-y-6 px-8 lg:flex lg:space-y-0 lg:space-x-8 font-bold text-sm">
-          <ol className="relative bg-white rounded-2xl py-24 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
+        <div className="px-8 space-y-6 text-sm font-bold lg:flex lg:space-y-0 lg:space-x-8">
+          <ol className="relative py-24 pl-8 pr-4 space-y-2 list-decimal bg-white rounded-2xl lg:w-1/3">
             <li>Custom Trainings based on thecorporate requirements.</li>
             <li>Training as per vendor&apos;s course ware.</li>
             <li>
@@ -115,7 +117,7 @@ export default function TrainingFlexibility() {
             </li>
             <li>Qualified and experienced faculty</li>
           </ol>
-          <ul className="bg-white rounded-2xl py-24 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
+          <ul className="py-24 pl-8 pr-4 space-y-2 list-decimal bg-white rounded-2xl lg:w-1/3">
             <li>Immediate practical session after theory session.</li>
             <li>
               Flexibility in medium of instruction viz English, Gujarati or
@@ -126,7 +128,7 @@ export default function TrainingFlexibility() {
             </li>
             <li>Computer-Based Training</li>
           </ul>
-          <ul className="bg-white rounded-2xl py-24 pr-4 pl-8 list-decimal lg:w-1/3 space-y-2">
+          <ul className="py-24 pl-8 pr-4 space-y-2 list-decimal bg-white rounded-2xl lg:w-1/3">
             <li>Assignments before starting practical session</li>
             <li>Session wise topic break-up</li>
             <li>Quiz contests, seminars</li>
@@ -134,11 +136,11 @@ export default function TrainingFlexibility() {
           </ul>
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
-        <h3 className="text-center text-3xl font-semibold text-darkertext">
+      <section className="p-8 space-y-4 bg-gray-100 lg:p-12">
+        <h3 className="text-3xl font-semibold text-center text-darkertext">
           Instructor Led Training
         </h3>
-        <div className="space-y-4 bg-white rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
+        <div className="w-full max-w-6xl p-4 mx-auto space-y-4 bg-white rounded-lg shadow-lg">
           {viewMoreInstructorText || (
             <p className="font-semibold">
               Classroom Training help individuals polish their IT skills while
@@ -151,7 +153,7 @@ export default function TrainingFlexibility() {
               and discuss the training material, either individually or in a
               group setting...{" "}
               <button
-                className="pl-4 underline text-blue-500"
+                className="pl-4 text-blue-500 underline"
                 onClick={() => setViewMoreInstructorText(true)}
               >
                 Read more
@@ -182,14 +184,14 @@ export default function TrainingFlexibility() {
           )}
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
+      <section className="p-8 space-y-4 bg-gray-100 lg:p-12">
         <div className="lg:flex lg:items-center">
           <div className="lg:w-1/3">
             <img src={images.training.benefits.one} alt="image" />
           </div>
           <div className="lg:w-2/3 lg:px-12">
             <div className="space-y-4">
-              <div className="flex justify-center items-center space-x-2 mt-2">
+              <div className="flex items-center justify-center mt-2 space-x-2">
                 <img
                   src={images.training.iconBenefit}
                   alt="icon"
@@ -197,7 +199,7 @@ export default function TrainingFlexibility() {
                 />
                 <h5 className="text-xl font-bold">Benefits</h5>
               </div>
-              <ul className="bg-yellow-200 rounded pr-4 pl-8 py-4 font-semibold list-disc">
+              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-yellow-200 rounded">
                 <li>Consistently the highest-rated training organization.</li>
                 <li>
                   Thousands of training courses &mdash; from technical training
@@ -217,11 +219,11 @@ export default function TrainingFlexibility() {
           </div>
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
-        <h3 className="text-center text-3xl font-semibold text-darkertext">
+      <section className="p-8 space-y-4 bg-gray-100 lg:p-12">
+        <h3 className="text-3xl font-semibold text-center text-darkertext">
           Personalized 1 on 1 Training
         </h3>
-        <div className="bg-white rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto space-y-4">
+        <div className="w-full max-w-6xl p-4 mx-auto space-y-4 bg-white rounded-lg shadow-lg">
           <p className="font-semibold">
             Are you ready to get things done? Get one on one training and
             coaching, custom-tailored to your needs, experience, and skill
@@ -234,14 +236,14 @@ export default function TrainingFlexibility() {
           </p>
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100">
-        <div className="lg:flex flex-row-reverse items-center">
+      <section className="p-8 bg-gray-100 lg:p-12">
+        <div className="flex-row-reverse items-center lg:flex">
           <div className="lg:w-1/3">
             <img src={images.training.benefits.two} alt="image" />
           </div>
           <div className="lg:w-2/3 lg:px-12">
             <div className="space-y-4">
-              <div className="flex justify-center items-center space-x-2 mt-2">
+              <div className="flex items-center justify-center mt-2 space-x-2">
                 <img
                   src={images.training.iconBenefit}
                   alt="icon"
@@ -249,7 +251,7 @@ export default function TrainingFlexibility() {
                 />
                 <h5 className="text-xl font-bold">Benefits</h5>
               </div>
-              <ul className="bg-green-200 rounded pr-4 pl-8 py-4 font-semibold list-disc">
+              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-green-200 rounded">
                 <li>
                   Simplicity &mdash; Personalized training is useful and simple
                   to learn the jobs that can be learned by watching and doing.
@@ -282,11 +284,11 @@ export default function TrainingFlexibility() {
           </div>
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
-        <h3 className="text-center text-3xl font-semibold text-darkertext">
+      <section className="p-8 space-y-4 bg-gray-100 lg:p-12">
+        <h3 className="text-3xl font-semibold text-center text-darkertext">
           Boot Camp Trainings
         </h3>
-        <div className="bg-white rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto space-y-4">
+        <div className="w-full max-w-6xl p-4 mx-auto space-y-4 bg-white rounded-lg shadow-lg">
           {viewBootcampText || (
             <p className="font-semibold">
               Due to the rapidly changing IT scenario, we need to ensure that
@@ -295,7 +297,7 @@ export default function TrainingFlexibility() {
               time frame. Our accelerated Boot Camps are a boon considering the
               time & budget constraints most enterprises juggle...{" "}
               <button
-                className="pl-4 underline text-blue-500"
+                className="pl-4 text-blue-500 underline"
                 onClick={() => setViewBootcampText(true)}
               >
                 Read more
@@ -334,14 +336,14 @@ export default function TrainingFlexibility() {
           )}
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
-        <div className="lg:flex items-center">
+      <section className="p-8 space-y-4 bg-gray-100 lg:p-12">
+        <div className="items-center lg:flex">
           <div className="lg:w-1/3">
             <img src={images.training.benefits.three} alt="image" />
           </div>
           <div className="lg:w-2/3 lg:px-12">
             <div className="space-y-4">
-              <div className="flex justify-center items-center space-x-2 mt-2">
+              <div className="flex items-center justify-center mt-2 space-x-2">
                 <img
                   src={images.training.iconBenefit}
                   alt="icon"
@@ -349,7 +351,7 @@ export default function TrainingFlexibility() {
                 />
                 <h5 className="text-xl font-bold">Benefits</h5>
               </div>
-              <ul className="bg-sky-200 rounded pr-4 pl-8 py-4 font-semibold list-disc">
+              <ul className="py-4 pl-8 pr-4 font-semibold list-disc rounded bg-sky-200">
                 <li>It offers high productivity with less time span.</li>
                 <li>It is reasonably quick and cost effective. </li>
               </ul>
@@ -357,11 +359,11 @@ export default function TrainingFlexibility() {
           </div>
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
-        <h3 className="text-center text-3xl font-semibold text-darkertext">
+      <section className="p-8 space-y-4 bg-gray-100 lg:p-12">
+        <h3 className="text-3xl font-semibold text-center text-darkertext">
           Live Virtual Classroom
         </h3>
-        <div className="bg-white rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto space-y-4">
+        <div className="w-full max-w-6xl p-4 mx-auto space-y-4 bg-white rounded-lg shadow-lg">
           <p className="font-semibold">
             Loyal Bytes Learning Services Live Virtual Classroom brings to you
             an engaging superlative training experience that lets you learn and
@@ -372,14 +374,14 @@ export default function TrainingFlexibility() {
           </p>
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100">
-        <div className="lg:flex flex-row-reverse items-center">
+      <section className="p-8 bg-gray-100 lg:p-12">
+        <div className="flex-row-reverse items-center lg:flex">
           <div className="lg:w-1/3">
             <img src={images.training.benefits.four} alt="image" />
           </div>
           <div className="lg:w-2/3 lg:px-12">
             <div className="space-y-6">
-              <div className="flex justify-center items-center space-x-2 mt-2">
+              <div className="flex items-center justify-center mt-2 space-x-2">
                 <img
                   src={images.training.iconBenefit}
                   alt="icon"
@@ -387,7 +389,7 @@ export default function TrainingFlexibility() {
                 />
                 <h5 className="text-xl font-bold">Benefits</h5>
               </div>
-              <ul className="bg-teal-200 rounded pr-4 pl-8 py-4 font-semibold list-disc">
+              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-teal-200 rounded">
                 <li>It offers training at your location in your comfort.</li>
                 <li>
                   The latest and the next-generation method of training is
@@ -409,11 +411,11 @@ export default function TrainingFlexibility() {
           </div>
         </div>
       </section>
-      <section className="p-8 lg:p-12 bg-gray-100 space-y-4">
-        <h3 className="text-center text-3xl font-semibold text-darkertext">
+      <section className="p-8 space-y-4 bg-gray-100 lg:p-12">
+        <h3 className="text-3xl font-semibold text-center text-darkertext">
           Train me where I AM
         </h3>
-        <p className="bg-white font-semibold rounded-lg p-4 shadow-lg w-full max-w-6xl mx-auto">
+        <p className="w-full max-w-6xl p-4 mx-auto font-semibold bg-white rounded-lg shadow-lg">
           Tailored to suit the needs of our corporate clients,
           Train-me-where-I-am allows enterprises to have our experts conduct
           pieces of training on their premises. Given the huge costs associated
