@@ -1,10 +1,12 @@
 import { DesktopComputerIcon } from "@heroicons/react/solid";
+import { useMediaQuery } from "react-responsive";
 import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "../components";
 import { courses } from "../data/training-courses";
 
 export default function CorporateTraining() {
+  const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
   return (
     <>
       <section className="relative px-8 lg:px-0 overflow-clip">
@@ -34,7 +36,7 @@ export default function CorporateTraining() {
       </section>
       <section className="lg:my-16 lg:px-12">
         <div className="px-8 py-12 rounded-lg bg-beige lg:px-14">
-          <div className="items-center lg:flex lg:space-x-8">
+          <div className="items-center space-y-4 lg:space-y-0 lg:flex lg:space-x-8">
             <div className="lg:w-1/2">
               <span>
                 <DesktopComputerIcon className="w-5 h-5 text-orange-500" />
@@ -68,7 +70,7 @@ export default function CorporateTraining() {
                 </p>
               </div>
             </div>
-            <div className="lg:w-1/2">
+            <div className="flex items-center justify-center lg:w-1/2">
               <img
                 src={images.corporateTrainingBoyOnPc}
                 alt="A picture of a boy working on a computer"
@@ -102,7 +104,7 @@ export default function CorporateTraining() {
             <Swiper
               scrollbar={false}
               spaceBetween={10}
-              slidesPerView={4}
+              slidesPerView={isMedium ? 4 : 1}
               autoplay={true}
               speed={40}
               navigation={true}
