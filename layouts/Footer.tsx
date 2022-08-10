@@ -4,17 +4,17 @@ import { images } from "../components";
 export const Footer = () => {
   return (
     <footer>
-      <section className="bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 text-white px-8 py-16 lg:px-12 text-sm">
-        <div className="space-y-12 lg:space-y-0 lg:flex items-start justify-between">
+      <section className="px-8 py-16 text-sm text-white bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 lg:px-12">
+        <div className="items-start justify-between space-y-12 lg:space-y-0 lg:flex">
           <div className="space-y-4">
-            <h2 className="text-xl font-bold w-24">
+            <h2 className="w-24 text-xl font-bold">
               <Link href={"/"}>
                 <a>
                   <img src={images.logoWhite} alt="white logo" />
                 </a>
               </Link>
             </h2>
-            <div className="flex space-x-2 items-center text-white">
+            <div className="flex items-center space-x-2 text-white">
               <Link href={"https://www.facebook.com/LoyalBytes"}>
                 <a target="_blank">
                   <svg
@@ -57,13 +57,13 @@ export const Footer = () => {
               </Link>
             </div>
             <div className="space-y-2">
-              <p>9769303625</p>
-              <p>info@loyalbytes.com </p>
-              <p>rajesh.yadav@loyalbytes.com</p>
+              <a className="block" href="tel:919769303625">+919769303625</a>
+              <a className="block" href="mailto:info@loyalbytes.com">info@loyalbytes.com</a>
+              <a className="block" href="mailto:rajesh.yadav@loyalbytes.com">rajesh.yadav@loyalbytes.com</a>
             </div>
           </div>
           <div className="space-y-2">
-            <h4 className="text-xl font-bold border-b-2 border-white pb-1">
+            <h4 className="pb-1 text-xl font-bold border-b-2 border-white">
               Pages
             </h4>
             <ul className="space-y-3">
@@ -88,7 +88,7 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="space-y-2">
-            <h4 className="text-xl font-bold border-b-2 border-white pb-1">
+            <h4 className="pb-1 text-xl font-bold border-b-2 border-white">
               Courses
             </h4>
             <ul className="space-y-3">
@@ -134,20 +134,20 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="space-y-3">
-            <h3 className="text-xl font-bold border-b-2 border-white pb-1">
+            <h3 className="pb-1 text-xl font-bold border-b-2 border-white">
               Connect with us
             </h3>
             <p>You can contact us to send email to us</p>
             <Link href={"/contact"}>
-              <a className="btn btn-white inline-block rounded-full">
+              <a className="inline-block rounded-full btn btn-white">
                 Contact us
               </a>
             </Link>
           </div>
         </div>
       </section>
-      <section className="bg-black text-white px-8 py-4">
-        <p className="text-center text-xs">
+      <section className="px-8 py-4 text-white bg-black">
+        <p className="text-xs text-center">
           &copy; 2022 Loyal Bytes Learning | Developed and maintained by
           Bornopedia Media
         </p>
