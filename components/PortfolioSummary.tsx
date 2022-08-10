@@ -1,8 +1,10 @@
+import { useMediaQuery } from "react-responsive";
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "./Images";
 
 export const PortfolioSummary = () => {
+  const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
   return (
     <div>
       <div className="text-center">
@@ -14,7 +16,7 @@ export const PortfolioSummary = () => {
         <Swiper
           scrollbar={true}
           spaceBetween={20}
-          slidesPerView={3}
+          slidesPerView={isMedium ? 3 : 1}
           autoplay={true}
           modules={[Autoplay]}
         >
