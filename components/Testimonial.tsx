@@ -18,7 +18,11 @@ export const Testimonial = () => {
           slidesPerView={"auto"}
           freeMode={true}
           scrollbar={true}
-          autoplay={true}
+          autoplay={{
+            delay: 7000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
           modules={[Pagination, FreeMode, Autoplay]}
           pagination={{ clickable: true }}
         >
