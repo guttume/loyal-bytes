@@ -48,18 +48,20 @@ export const StatisticsItem = ({ icon, color, numberText, text, shadowColor }: S
   let IconComponent = components[icon];
 
   return (
-    <div ref={ref} className={`flex space-x-4 items-center p-4 rounded-lg shadow-xl ${shadowColor}`}>
-      <div className={`${color} w-12 h-12 rounded-full flex justify-center items-center`}>
-        <IconComponent className="w-6 h-6 text-white" />
+    <div ref={ref} className={`lg:flex space-x-4 items-center p-4 rounded-lg shadow-xl space-y-2 lg:space-y-0 ${shadowColor}`}>
+      <div className="flex justify-center items-center lg:block">
+        <div className={`${color} w-12 h-12 rounded-full flex justify-center items-center`}>
+          <IconComponent className="w-6 h-6 text-white" />
+        </div>
       </div>
       <div>
-        <div className="flex items-center">
+        <div className="flex items-center justify-center">
           <animated.span className="text-xl lg:text-3xl font-extrabold">{number.to(n => n.toFixed(0))}</animated.span>
-          <span className="ml-2">
+          <span className="ml-0">
             <PlusIcon className="w-5 h-5" />
           </span>
         </div>
-        <span className="font-semibold text-sm">{text}</span>
+        <span className="font-semibold text-sm w-full block text-center">{text}</span>
       </div>
     </div>
   );

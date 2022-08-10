@@ -81,7 +81,7 @@ export const HeroText = () => {
             autoComplete={'off'}
             onChange={(e) => handleSearch(e)}
             placeholder="Search for a course"
-            className="w-full rounded-md h-16 pl-16 border"
+            className="w-full rounded-md h-16 pl-4 border"
           />
           <button className="bg-orange-500 h-14 px-8 rounded-md text-orange-50 absolute top-0 right-0 mt-1 mr-1">
             Search
