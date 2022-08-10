@@ -6,7 +6,7 @@ export const PortfolioSummary = () => {
   return (
     <div>
       <div className="text-center">
-        <h2 className="my-4 text-2xl font-semibold">
+        <h2 className="my-4 text-xl font-semibold md:text-2xl">
           Over 40 top business placements
         </h2>
       </div>
