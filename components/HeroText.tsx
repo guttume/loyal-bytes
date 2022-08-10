@@ -61,10 +61,10 @@ export const HeroText = () => {
   };
 
   return (
-    <div className="bg-white lg:bg-transparent -mt-20 py-12 px-8 lg:flex items-center">
+    <div className="items-center px-8 bg-white lg:bg-transparent lg:flex">
       <div className="lg:ml-16">
         <h1
-          className="text-4xl lg:text-6xl lg:tracking-wider font-extrabold mb-3"
+          className="mb-3 text-4xl font-extrabold lg:text-6xl lg:tracking-wider"
           style={{ color: `#2D3957` }}
         >
           Where Learning is a Passion
@@ -73,7 +73,7 @@ export const HeroText = () => {
           We offer globally recognised Microsoft Certified courses taught by top
           pioneer of the industry.
         </h3>
-        <div className="mt-6 w-full relative">
+        <div className="relative w-full mt-6">
           <input
             type="text"
             value={searchText}
@@ -81,14 +81,14 @@ export const HeroText = () => {
             autoComplete={'off'}
             onChange={(e) => handleSearch(e)}
             placeholder="Search for a course"
-            className="w-full rounded-md h-16 pl-4 border"
+            className="w-full h-16 pl-4 border rounded-md"
           />
-          <button className="bg-orange-500 h-14 px-8 rounded-md text-orange-50 absolute top-0 right-0 mt-1 mr-1">
+          <button className="absolute top-0 right-0 px-8 mt-1 mr-1 bg-orange-500 rounded-md h-14 text-orange-50">
             Search
           </button>
           {showSearchResult && (
             <ul
-              className="z-50 bg-gray-100 shadow-lg space-y-2 py-2 h-full max-h-48 overflow-y-auto"
+              className="z-50 h-full py-2 space-y-2 overflow-y-auto bg-gray-100 shadow-lg max-h-48"
               ref={ref}
             >
               {filteredCourses.map((course, index) => (

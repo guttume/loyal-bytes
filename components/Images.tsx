@@ -16,6 +16,7 @@ export const images = {
   sliderImageOne: "/images/slider-image-1.png",
   sliderImageTwo: "/images/slider-image-2.png",
   heroRings: "/images/home-page/hero-rings.png",
+  heroRingsSm: "/images/home-page/hero-rings-sm.png",
   homePageRings: "/images/home-page/page-rings.png",
   rightConfetti: "/images/home-page/confetti-right.png",
   leftConfetti: "/images/home-page/confetti-left.png",
