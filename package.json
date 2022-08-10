@@ -19,7 +19,8 @@
     "react-dom": "18.2.0",
     "react-pro-sidebar": "^0.7.1",
     "react-spring": "^9.5.2",
-    "swiper": "^8.2.5"
+    "swiper": "^8.2.5",
+    "tailwindcss-animatecss": "^1.0.7"
   },
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.4.0",
