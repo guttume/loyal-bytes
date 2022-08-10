@@ -92,8 +92,10 @@ export default function Index() {
           <div className="absolute right-0 w-20 lg:left-1/2 lg:ml-48 -z-10">
             <img src={images.rightConfetti} alt="background art" />
           </div>
-          <SectionTitle>Open Doors of Opportunities</SectionTitle>
-        <blockquote ref={ref} className={`p-4 font-bold text-sky-500 animate__animated ${isVisible && 'animate__tada'}`}>
+          <SectionTitle>
+            <span className="text-gray-400">Open Doors of Opportunities</span>
+            </SectionTitle>
+        <blockquote ref={ref} className={`p-4 text-xl font-bold animate__animated ${isVisible && 'animate__tada'}`}>
             &ldquo;MONEY BACK GUARANTEE even in the last lecture&rdquo;
           </blockquote>
         </div>
