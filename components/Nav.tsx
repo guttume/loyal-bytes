@@ -9,9 +9,9 @@ export const Nav = () => {
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
-    <nav className="flex justify-between lg:justify-start items-center lg:space-x-16 p-5">
+    <nav className="flex justify-between xl:justify-start items-center xl:space-x-16 p-5">
       <Sidebar hidden={!showSidebar} onClose={() => setShowSidebar(false)} />
-      <div className="hidden lg:flex space-x-12 items-center">
+      <div className="hidden xl:flex space-x-12 items-center">
         <div>
           <MenuButton />
         </div>
@@ -23,7 +23,7 @@ export const Nav = () => {
           ))}
         </ul>
       </div>
-      <button className="lg:hidden" onClick={() => setShowSidebar(true)}>
+      <button className="xl:hidden" onClick={() => setShowSidebar(true)}>
         <MenuAlt3Icon className="w-6 h-6 text-orange-500" />
       </button>
     </nav>
