@@ -14,14 +14,14 @@ export default function about() {
         <div className="lg:h-[calc(100vh-126px)] lg:w-2/3 flex items-center">
           <div className="space-y-12">
             <div className="space-y-6">
-              <h1 className="text-5xl lg:text-7xl font-bold text-darkerText">
+              <h1 className="text-3xl font-bold md:text-5xl xl:text-7xl text-darkerText lg:pr-32">
                 Make your career fly with{" "}
                 <span className="text-orange-500">Loyal Bytes</span>
               </h1>
-              <h2 className="text-xl font-bold text-gray-500">
+              <h2 className="text-xl font-bold text-gray-500 lg:pr-32">
                 Attend the batch for the same courses as many times as you wish
                 to,{" "}
-                <span className="block text-gray-800">
+                <span className="inline-block text-gray-800">
                   without any extra cost
                 </span>
               </h2>
@@ -31,65 +31,65 @@ export default function about() {
                 <img
                   src={images.windowsLogo}
                   alt="A picture of windows logo"
-                  className="h-16 w-auto"
+                  className="w-auto h-16"
                 />
               </span>
               <span>
                 <img
                   src={images.awsLogo}
                   alt="A picture of AWS logo"
-                  className="h-16 w-auto"
+                  className="w-auto h-16"
                 />
               </span>
               <span>
                 <img
                   src={images.gcpLogo}
                   alt="A picture of Google Cloud logo"
-                  className="h-16 w-auto"
+                  className="w-auto h-16"
                 />
               </span>
             </div>
-            <div className="flex lg:block space-x-4">
-                <a href={"/courses.html"} className="btn btn-primary border border-orange-500 w-48">
+            <div className="space-x-0 space-y-4 md:space-y-0 md:space-x-4 md:flex">
+                <a href={"/courses.html"} className="block w-48 border border-orange-500 btn btn-primary">
                   View Courses
                 </a>
-                <a href={"/courses.html"} className="btn btn-outline-primary">View All Courses</a>
+                <a href={"/courses.html"} className="block w-48 btn btn-outline-primary">View All Courses</a>
             </div>
           </div>
         </div>
       </section>
-      <section className="bg-gradient-to-r from-blue-500 via-indigo-500 to-indigo-500 px-8 lg:px-12">
+      <section className="px-8 mt-16 lg:mt-0 bg-gradient-to-r from-blue-500 via-indigo-500 to-indigo-500 lg:px-12">
         <div className="lg:flex">
-          <div className="lg:w-1/2 relative flex justify-center pt-12">
+          <div className="relative flex justify-center pt-12 lg:w-1/2">
             <span className="blur-md">
               <img
                 src={images.about.profile}
                 alt="A picture of a working man"
               />
             </span>
-            <p className="absolute bottom-0 left-1/2 mb-12 transform -translate-x-1/2 w-48 text-center text-white font-semibold">
+            <p className="absolute bottom-0 w-48 mb-12 font-semibold text-center text-white transform -translate-x-1/2 left-1/2">
               &quot;We are the pioneers of the IT in India and abroad&quot;
             </p>
           </div>
-          <div className="lg:w-1/2 py-16">
-            <div className="flex items-center space-x-4 mb-16">
+          <div className="py-16 lg:w-1/2">
+            <div className="flex items-center mb-16 space-x-4">
               <div>
-                <span className="block h-12 w-12 bg-orange-500 rounded-full">
+                <span className="block w-12 h-12 bg-orange-500 rounded-full">
                   <img
                     src={images.about.profile}
                     alt="A picture of a working man"
-                    className="object-contain rounded-full"
+                    className="object-contain w-12 h-12 rounded-full"
                   />
                 </span>
               </div>
               <div>
-                <h3 className="text-2xl text-white font-bold">Ronak Shah</h3>
+                <h3 className="text-2xl font-bold text-white">Ronak Shah</h3>
                 <h4 className="text-lg text-gray-100">
                   Principal Solutions Architect
                 </h4>
               </div>
             </div>
-            <div className="text-gray-100 text-lg space-y-4 mb-16">
+            <div className="mb-16 space-y-4 text-lg text-gray-100">
               <p>
                 A consultant and a Microsoft Certified Trainer since past 13
                 years for Microsoft cloud and on-premise technologies. A
@@ -108,35 +108,35 @@ export default function about() {
                 industry and still come out a winner when serving clients.
               </p>
             </div>
-            <div className="flex justify-center lg:justify-start space-x-8">
+            <div className="flex justify-center space-x-8 lg:justify-start">
               <img
                 src={images.about.microsoft}
                 alt="Microsoft cerfiticication log"
-                className="h-16 w-auto"
+                className="w-auto h-16"
               />
               <img
                 src={images.about.certificate}
                 alt="A picture of a microsoft certificate"
-                className="h-16 w-auto"
+                className="w-auto h-16"
               />
             </div>
           </div>
         </div>
       </section>
       <section
-        className="px-8 lg:px-12 py-16 relative"
+        className="relative px-8 py-16 lg:px-12"
         style={{
           backgroundColor: "#F2F6FF",
           backgroundImage: "url('/images/about/bg.png')",
           backgroundSize: "cover",
         }}
       >
-        <div className="lg:flex items-center">
-          <div className="text-darkerText px-0 lg:px-16 mb-8 lg:mb-0">
-            <h3 className="text-4xl lg:text-8xl font-bold">
+        <div className="items-center xl:flex">
+          <div className="px-0 mb-8 text-darkerText xl:px-16 xl:mb-0">
+            <h3 className="text-4xl font-bold xl:text-8xl">
               Understand technology and play with it
             </h3>
-            <p className="text-right text-xl lg:text-3xl italic font-bold">
+            <p className="text-xl italic font-bold text-right lg:text-3xl">
               &ndash; Ronak Shah
             </p>
           </div>
@@ -178,9 +178,9 @@ export default function about() {
           </div>
         </div>
       </section>
-      {/* <section className="px-8 lg:px-12 my-16">
+      {/* <section className="px-8 my-16 lg:px-12">
         <div className="lg:flex lg:space-x-6">
-          <div className="space-y-6 mt-4">
+          <div className="mt-4 space-y-6">
             <h3 className="text-5xl font-bold text-darkerText">
               We help you to
               <br className="hidden" /> achieve your goals
@@ -190,10 +190,10 @@ export default function about() {
               experimentation of the message and smart incentives.
             </h4>
             <Link href={"/corporate-training"}>
-              <a className="btn btn-primary inline-block">Corporate Training</a>
+              <a className="inline-block btn btn-primary">Corporate Training</a>
             </Link>
           </div>
-          <div className="flex space-x-4 items-center mt-4 lg:mt-0">
+          <div className="flex items-center mt-4 space-x-4 lg:mt-0">
             <div className="flex space-x-4">
               <img
                 src={images.about.grids.one}
@@ -210,7 +210,7 @@ export default function about() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+        <div className="grid grid-cols-2 gap-4 mt-4 lg:grid-cols-4">
           <img
             src={images.about.grids.three}
             alt="A Picture of a man"
@@ -239,11 +239,11 @@ export default function about() {
       <section className="my-16">
         <div>
           <div className="text-center">
-            <h2 className="font-semibold text-2xl mb-4">
+            <h2 className="px-8 mb-4 text-2xl font-semibold">
               Over 32k+ software businesses growing with Ar Shakir.
             </h2>
           </div>
-          <div className="flex justify-center space-x-6 flex-wrap my-12">
+          <div className="flex flex-wrap justify-center px-2 my-12 space-x-6">
             {Object.values(images.placement.brands)
               .slice(0, 8)
               .map((brand, index) => (
