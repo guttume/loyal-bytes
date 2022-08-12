@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { useRef } from "react";
 import {
   HeroBanner,
@@ -102,9 +101,7 @@ export default function Index() {
           </blockquote>
         </div>
         <div className="flex justify-center">
-          <Link href={"/courses"}>
-            <a className="btn btn-primary">View All Courses</a>
-          </Link>
+            <a href="/courses.html" className="btn btn-primary">View All Courses</a>
         </div>
         <div className="mt-16 lg:relative lg:h-96">
           <div className="absolute top-0 w-5/12 -mt-40 -ml-56">
@@ -133,9 +130,7 @@ export default function Index() {
                 21st-century technology-powered workplace.
               </SectionSubTitle>
               <div className="flex justify-center my-4 lg:block">
-                <Link href={"/corporate-training"}>
-                  <a className="btn btn-black">Know more</a>
-                </Link>
+                  <a href="/corporate-training.html" className="btn btn-black">Know more</a>
               </div>
             </div>
           </div>

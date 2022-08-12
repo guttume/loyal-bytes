@@ -178,61 +178,6 @@ export default function about() {
           </div>
         </div>
       </section>
-      {/* <section className="px-8 my-16 lg:px-12">
-        <div className="lg:flex lg:space-x-6">
-          <div className="mt-4 space-y-6">
-            <h3 className="text-5xl font-bold text-darkerText">
-              We help you to
-              <br className="hidden" /> achieve your goals
-            </h3>
-            <h4 className="text-xl text-gray-500">
-              We love what we do and we do it with passion. We value the
-              experimentation of the message and smart incentives.
-            </h4>
-            <Link href={"/corporate-training"}>
-              <a className="inline-block btn btn-primary">Corporate Training</a>
-            </Link>
-          </div>
-          <div className="flex items-center mt-4 space-x-4 lg:mt-0">
-            <div className="flex space-x-4">
-              <img
-                src={images.about.grids.one}
-                alt="A Picture of a man"
-                className="lg:w-[360px] lg:h-[408px]"
-              />
-            </div>
-            <div>
-              <img
-                src={images.about.grids.two}
-                alt="A Picture of a man"
-                className="lg:w-[360px] lg:h-[408px]"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="grid grid-cols-2 gap-4 mt-4 lg:grid-cols-4">
-          <img
-            src={images.about.grids.three}
-            alt="A Picture of a man"
-            className="lg:w-[363px] lg:h-[408px]"
-          />
-          <img
-            src={images.about.grids.four}
-            alt="A Picture of a man"
-            className="lg:w-[363px] lg:h-[408px]"
-          />
-          <img
-            src={images.about.grids.five}
-            alt="A Picture of a man"
-            className="lg:w-[363px] lg:h-[408px]"
-          />
-          <img
-            src={images.about.grids.six}
-            alt="A Picture of a man"
-            className="lg:w-[363px] lg:h-[408px]"
-          />
-        </div>
-      </section> */}
       <section>
         <Statistics />
       </section>

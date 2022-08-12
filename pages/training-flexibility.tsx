@@ -1,5 +1,4 @@
 import { PlayIcon } from "@heroicons/react/solid";
-import Link from "next/link";
 import { useState } from "react";
 import { images } from "../components";
 
@@ -28,9 +27,7 @@ export default function TrainingFlexibility() {
             </h2>
             <div className="flex justify-center md:block">
               <div className="justify-center my-6 space-y-4 md:space-y-0 md:space-x-2 md:flex md:justify-start">
-                <Link href={"/about"}>
-                  <a className="btn btn-primary">Know about us</a>
-                </Link>
+                  <a href="/about.html" className="btn btn-primary">Know about us</a>
                 <div className="flex items-center space-x-2">
                   <PlayIcon className="w-12 h-12 text-sky-600" />
                   <p>See our impact</p>

@@ -74,11 +74,11 @@ export default function Contact() {
                 <img
                   src={images.contact.icons.phone}
                   alt="An icon of phone"
-                  className="w-12"
+                  className="w-16"
                 />
               </span>
               <span>
-                <a href="">+91 9769303625</a>
+                <a href="">+91 74001 66036</a>
               </span>
             </div>
             <div className="flex items-center space-x-2 lg:w-1/3">

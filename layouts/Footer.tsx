@@ -69,7 +69,7 @@ export const Footer = () => {
               </p>
               <p>
                 <a href="mailto:info@learning.loyalbytes.com">
-                  info@learning.loyalbytes.com 
+                  info@learning.loyalbytes.com
                 </a>
               </p>
             </div>
@@ -155,11 +155,12 @@ export const Footer = () => {
               Connect with us
             </h3>
             <p>You can contact us to send email to us</p>
-            <Link href={"/contact"}>
-              <a className="inline-block rounded-full btn btn-white">
-                Contact us
-              </a>
-            </Link>
+            <a
+              href="/contact.html"
+              className="inline-block rounded-full btn btn-white"
+            >
+              Contact us
+            </a>
           </div>
         </div>
       </section>

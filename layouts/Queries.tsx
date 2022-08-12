@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const Queries = () => {
   return (
     <div className="px-8 py-12 mx-8 mb-16 bg-gradient-to-r from-blue-800 via-blue-600 to-blue-600 text-blue-50 lg:mx-12 rounded-xl lg:px-20">
@@ -14,9 +12,12 @@ export const Queries = () => {
           </p>
         </div>
         <div>
-          <Link href={"/contact"}>
-            <a className="inline-block btn btn-outline-secondary">Contact Us</a>
-          </Link>
+          <a
+            href="/contact.html"
+            className="inline-block btn btn-outline-secondary"
+          >
+            Contact Us
+          </a>
         </div>
       </div>
     </div>
