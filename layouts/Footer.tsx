@@ -56,9 +56,22 @@ export const Footer = () => {
               </Link>
             </div>
             <div className="space-y-2">
-              <a className="block" href="tel:919769303625">+919769303625</a>
-              <a className="block" href="mailto:info@loyalbytes.com">info@loyalbytes.com</a>
-              <a className="block" href="mailto:rajesh.yadav@loyalbytes.com">rajesh.yadav@loyalbytes.com</a>
+              <p>
+                <a href="tel:917400166036">+91 74001 66036</a> &ndash; Corporate
+                Solutions
+              </p>
+              <p>
+                <a href="tel:919769303625">+91 97693 03625</a> &ndash; Training
+                related Assistance
+              </p>
+              <p>
+                <a href="mailto:info@loyalbytes.com">info@loyalbytes.com</a>
+              </p>
+              <p>
+                <a href="mailto:info@learning.loyalbytes.com">
+                  info@learning.loyalbytes.com 
+                </a>
+              </p>
             </div>
           </div>
           <div className="space-y-2">
@@ -93,27 +106,27 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href={"/course/azure-solutions-architect-expert.html"}>
-                  Azure Solution Architect Expert
+                  Azure Cloud
                 </a>
               </li>
               <li>
                 <a href={"/course/azure-ai-fundamentals-900.html"}>
-                  Azure AI Fundamental
+                  Windows Server MSME
                 </a>
               </li>
               <li>
                 <a href={"/course/azure-data-scientist-associate-100.html"}>
-                  Azure Administrator Associate
+                  Microsoft 365
                 </a>
               </li>
               <li>
                 <a href={"/course/microsoft-azure-iot-developer-az-220.html"}>
-                  Microsoft Azure IoT
+                  Office 365
                 </a>
               </li>
               <li>
                 <a href={"/course/microsoft-azure-iot-developer-az-220.html"}>
-                  Microsoft Azure IoT
+                  Active Directory
                 </a>
               </li>
               <li>
@@ -122,12 +135,17 @@ export const Footer = () => {
                     "/course/microsoft-security-operations-analyst-sc-200.html"
                   }
                 >
-                  Microsoft Security Operations Analyst
+                  Microsoft Exchange Server
                 </a>
               </li>
               <li>
                 <a href="/course/security-compliance-and-identity-fundamentals-900.html">
-                  Security, Compliance, and Identity
+                  Azure IOT
+                </a>
+              </li>
+              <li>
+                <a href="/course/security-compliance-and-identity-fundamentals-900.html">
+                  Cognitive Services and Machine Learning
                 </a>
               </li>
             </ul>
