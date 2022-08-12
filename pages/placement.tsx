@@ -49,7 +49,7 @@ export default function Placement() {
             <div className="grid grid-cols-3 gap-4 md:grid-cols-5 lg:grid-cols-7">
               {Object.values(images.placement.brands).map((brand, index) => (
                 <div key={index.toString()}>
-                  <img src={brand} alt="" />
+                  <img src={brand} alt="" className="rounded-lg shadow-xl" />
                 </div>
               ))}
             </div>

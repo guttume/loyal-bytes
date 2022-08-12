@@ -41,3 +41,15 @@
   height: 100%;
   width: 100%;
 }
+
+.szh-menu {
+  @apply bg-white shadow rounded w-40;
+}
+
+.szh-menu__item {
+  @apply pl-4;
+}
+
+.szh-menu__item:hover {
+  @apply bg-orange-500 text-white;
+}

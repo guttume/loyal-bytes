@@ -1,8 +1,8 @@
 export const menuItems = [
-  {
-    title: "Batches",
-    link: "/batches.html",
-  },
+  // {
+  //   title: "Batches",
+  //   link: "/batches.html",
+  // },
   // {
   //   title: "Training Flexibility",
   //   link: "/training-flexibility.html",
@@ -11,10 +11,10 @@ export const menuItems = [
     title: "Corporate Training",
     link: "/corporate-training.html",
   },
-  {
-    title: "Placements",
-    link: "/placement.html",
-  },
+  // {
+  //   title: "Placements",
+  //   link: "/placement.html",
+  // },
   {
     title: "Contact",
     link: "/contact.html",

@@ -1,4 +1,9 @@
-import { MenuAlt3Icon } from "@heroicons/react/solid";
+import { ChevronDownIcon, MenuAlt3Icon } from "@heroicons/react/solid";
+import {
+  Menu,
+  MenuButton as MenuButtonExt,
+  MenuItem as MenuItemExt,
+} from "@szhsin/react-menu";
 import { useState } from "react";
 import { menuItems } from "../data";
 import { MenuButton } from "./MenutButton";
@@ -16,6 +21,36 @@ export const Nav = () => {
           <MenuButton />
         </div>
         <ul className="flex space-x-4">
+          <li>
+            <Menu
+              menuButton={
+                <MenuButtonExt className="flex items-cente py-2 border-b lg:border-0 font-bold lg:text-sm">
+                  Students
+                  <ChevronDownIcon className="w-5 h-5" />
+                </MenuButtonExt>
+              }
+              transition
+            >
+              <MenuItemExt
+                href="/batches.html"
+                className="block py-2 border-b lg:border-0 font-bold lg:text-sm"
+              >
+                Batches
+              </MenuItemExt>
+              <MenuItemExt
+                href="/placement.html"
+                className="block py-2 border-b lg:border-0 font-bold lg:text-sm"
+              >
+                Placements
+              </MenuItemExt>
+              <MenuItemExt
+                href="/training-flexibility.html"
+                className="block py-2 border-b lg:border-0 font-bold lg:text-sm"
+              >
+                Training Flexibility
+              </MenuItemExt>
+            </Menu>
+          </li>
           {menuItems.map((item) => (
             <MenuItem key={item.title} link={item.link}>
               {item.title}
