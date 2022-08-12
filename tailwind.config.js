@@ -74,7 +74,7 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/line-clamp"),
   require('tailwindcss-animatecss')({
-    classes: ['animate__animated', 'animate__tada'],
+    classes: ['animate__animated', 'animate__pulse'],
     settings: {
       animatedSpeed: 1000,
       heartBeatSpeed: 1000,

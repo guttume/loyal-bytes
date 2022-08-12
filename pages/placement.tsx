@@ -14,7 +14,7 @@ export default function Placement() {
           </div>
           <div className="w-full max-w-2xl px-8 pb-12 space-y-6 lg:px-12">
             <h1 className="text-4xl font-bold text-white md:text-6xl pt-28 lg:pt-32">
-              <span className="text-white">Become Affiliated</span> Become
+              <p className="text-white">Get Affiliated</p> Get
               Global
             </h1>
             <h2 className="text-xl text-white">

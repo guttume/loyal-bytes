@@ -8,7 +8,7 @@ export const GoogleReviews = () => {
       target={"_blank"}
       rel="noreferrer"
     >
-      <span>Google Reviews</span>
+      <span>4.9 Rating on Google Reviews</span>
       <span>
         <StarIcon className="h-5 w-5 text-orange-50 animate-pulse" />
       </span>

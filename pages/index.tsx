@@ -90,12 +90,12 @@ export default function Index() {
             <img src={images.rightConfetti} alt="background art" />
           </div>
           <SectionTitle>
-            <span className="text-gray-400">Open Doors of Opportunities</span>
+            <span className="text-gray-400">Open Doors for Opportunities</span>
           </SectionTitle>
           <blockquote
             ref={ref}
             className={`p-4 text-xl font-bold animate__animated ${
-              isVisible && "animate__tada"
+              isVisible && "animate__pulse"
             }`}
           >
             &ldquo;MONEY BACK GUARANTEE even in the last lecture&rdquo;
