@@ -21,6 +21,13 @@ module.exports = {
         tertiary: "#ffcc29",
         footer: "#3E99CF",
         darkBlue: '#0057bd',
+        circle: {
+          yellow: '#eede4a',
+          peach: '#fc7365',
+          red: '#eb3c00',
+          green: '#2fd3ac',
+          brown: '#eabf82'
+        }
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--gradient-color-stops))",

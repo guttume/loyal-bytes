@@ -8,16 +8,16 @@ import {
   Section,
   SectionSubTitle,
   SectionTitle,
-  Testimonial
+  Testimonial,
 } from "../components";
 import { PopularCourseItem } from "../components/PopularCourseItem";
 import { Statistics } from "../components/Statistics";
 import useIntersectionObserver from "../hooks";
 
 export default function Index() {
-  const ref = useRef<HTMLQuoteElement | null>(null)
-  const entry = useIntersectionObserver(ref, {})
-  const isVisible = !!entry?.isIntersecting
+  const ref = useRef<HTMLQuoteElement | null>(null);
+  const entry = useIntersectionObserver(ref, {});
+  const isVisible = !!entry?.isIntersecting;
   return (
     <div>
       <div>
@@ -35,15 +35,15 @@ export default function Index() {
           <PopularCourseItem
             imageUrl={images.courseAzure}
             title="Azure Cloud"
-            color={"bg-yellow-500 text-yellow-50"}
+            color={"bg-circle-yellow text-gray-800"}
           >
             Implementing Microsoft Azure Infrastructure Solutions, Architecting
             Microsoft Azure Solutions
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseWindows10}
-            title="Windows Server MCSC"
-            color={"bg-rose-500 text-rose-50"}
+            title="Windows Server MCSE"
+            color={"bg-circle-peach text-rose-50"}
           >
             Configuring Windows 8, Supporting Windows 8.1, Deploying Windows
             Desktops and Enterprise Applications
@@ -51,33 +51,30 @@ export default function Index() {
           <PopularCourseItem
             imageUrl={images.courseM365}
             title="Microsoft 365"
-            color={"bg-green-500 text-green-50"}
+            color={"bg-yellow-500 text-yellow-50"}
           >
-            This four-day instructor-led course provides students with the
-            knowledge and skills
+            Increase your productivity with cutting-edge Office applications, thoughtful cloud services, and top-notch security.
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseOffice}
             title="Office 365"
-            color={"bg-blue-500 text-blue-50"}
+            color={"bg-circle-red text-red-50"}
           >
             Implementing Office 365, Managing Office 365 Identities and Services
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseActiveDirectory}
             title="Active Directory"
-            color={"bg-orange-500 text-orange-50"}
+            color={"bg-circle-green text-green-50"}
           >
-            This training course helps you prepare for Microsoft Technology
-            Associate Exam 98-366
+            This four-day instructor-led course provides students with the knowledge and skills 
           </PopularCourseItem>
           <PopularCourseItem
             imageUrl={images.courseExchange}
             title="Microsoft Exchange Server"
-            color={"bg-amber-500 text-amber-50"}
+            color={"bg-circle-brown text-amber-50"}
           >
-            Core Solutions of Microsoft Exchange Server 2013, Advanced Solutions
-            of Microsoft Exchange Server 2013
+            Core Solutions of the latest Microsoft Exchange Server 
           </PopularCourseItem>
         </div>
       </Section>
@@ -94,8 +91,13 @@ export default function Index() {
           </div>
           <SectionTitle>
             <span className="text-gray-400">Open Doors of Opportunities</span>
-            </SectionTitle>
-        <blockquote ref={ref} className={`p-4 text-xl font-bold animate__animated ${isVisible && 'animate__tada'}`}>
+          </SectionTitle>
+          <blockquote
+            ref={ref}
+            className={`p-4 text-xl font-bold animate__animated ${
+              isVisible && "animate__tada"
+            }`}
+          >
             &ldquo;MONEY BACK GUARANTEE even in the last lecture&rdquo;
           </blockquote>
         </div>
