@@ -196,7 +196,7 @@ export default function TrainingFlexibility() {
                 />
                 <h5 className="text-xl font-bold">Benefits</h5>
               </div>
-              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-yellow-200 rounded">
+              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-yellow-200 rounded-tl-[60px] rounded-br-[60px]">
                 <li>Consistently the highest-rated training organization.</li>
                 <li>
                   Thousands of training courses &mdash; from technical training
@@ -218,7 +218,7 @@ export default function TrainingFlexibility() {
       </section>
       <section className="p-8 space-y-4 bg-gray-100 lg:p-12">
         <h3 className="text-3xl font-semibold text-center text-darkertext">
-          Personalized 1 on 1 Training
+          Personalized One-to-One Training
         </h3>
         <div className="w-full max-w-6xl p-4 mx-auto space-y-4 bg-white rounded-lg shadow-lg">
           <p className="font-semibold">
@@ -248,7 +248,7 @@ export default function TrainingFlexibility() {
                 />
                 <h5 className="text-xl font-bold">Benefits</h5>
               </div>
-              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-green-200 rounded">
+              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-green-200 rounded-tr-[60px] rounded-bl-[60px]">
                 <li>
                   Simplicity &mdash; Personalized training is useful and simple
                   to learn the jobs that can be learned by watching and doing.
@@ -348,7 +348,7 @@ export default function TrainingFlexibility() {
                 />
                 <h5 className="text-xl font-bold">Benefits</h5>
               </div>
-              <ul className="py-4 pl-8 pr-4 font-semibold list-disc rounded bg-sky-200">
+              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-sky-200 rounded-tl-[25px] rounded-br-[25px]">
                 <li>It offers high productivity with less time span.</li>
                 <li>It is reasonably quick and cost effective. </li>
               </ul>
@@ -386,7 +386,7 @@ export default function TrainingFlexibility() {
                 />
                 <h5 className="text-xl font-bold">Benefits</h5>
               </div>
-              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-teal-200 rounded">
+              <ul className="py-4 pl-8 pr-4 font-semibold list-disc bg-teal-200 rounded-tr-[60px] rounded-bl-[60px]">
                 <li>It offers training at your location in your comfort.</li>
                 <li>
                   The latest and the next-generation method of training is
@@ -412,7 +412,7 @@ export default function TrainingFlexibility() {
         <h3 className="text-3xl font-semibold text-center text-darkertext">
           Train me where I AM
         </h3>
-        <p className="w-full max-w-6xl p-4 mx-auto font-semibold bg-white rounded-lg shadow-lg">
+        <p className="w-full max-w-6xl p-4 mx-auto font-semibold bg-white rounded-tr-[25px] rounded-bl-[25px] shadow-lg">
           Tailored to suit the needs of our corporate clients,
           Train-me-where-I-am allows enterprises to have our experts conduct
           pieces of training on their premises. Given the huge costs associated
