@@ -51,7 +51,7 @@ export const Nav = () => {
               </MenuItemExt>
             </Menu>
           </li>
-          {menuItems.map((item) => (
+          {menuItems.filter((item) => item.desktop).map((item) => (
             <MenuItem key={item.title} link={item.link}>
               {item.title}
             </MenuItem>
