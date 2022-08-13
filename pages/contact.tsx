@@ -90,8 +90,7 @@ export default function Contact() {
                 />
               </span>
               <span>
-                <a href="">info@loyalbytes.com</a> /{" "}
-                <a href="">rajesh.yadav@loyalbytes.com</a>
+                <a href="mailto:info@loyalbytes.com">info@loyalbytes.com</a>
               </span>
             </div>
             <div className="flex items-center space-x-2 lg:w-1/3">
