@@ -1,4 +1,4 @@
-import { images, Statistics } from "../components";
+import { images, PortfolioSummary, Statistics } from "../components";
 
 export default function about() {
   return (
@@ -21,8 +21,8 @@ export default function about() {
               <h2 className="text-xl font-bold text-gray-500 lg:pr-32">
                 Attend the batch for the same courses as many times as you wish
                 to,{" "}
-                <span className="inline-block text-gray-800">
-                  without any extra cost
+                <span className="inline-block text-gray-800 text-2xl">
+                  Without any extra cost. Lifetime repetition free.
                 </span>
               </h2>
             </div>
@@ -60,16 +60,13 @@ export default function about() {
       </section>
       <section className="px-8 mt-16 lg:mt-0 bg-gradient-to-r from-blue-500 via-indigo-500 to-indigo-500 lg:px-12">
         <div className="lg:flex">
-          <div className="relative flex justify-center pt-12 lg:w-1/2">
+          <div className="flex justify-center pt-12 lg:w-1/2">
             <span className="blur-md">
               <img
                 src={images.about.profile}
                 alt="A picture of a working man"
               />
             </span>
-            <p className="absolute bottom-0 w-48 mb-12 font-semibold text-center text-white transform -translate-x-1/2 left-1/2">
-              &quot;We are the pioneers of the IT in India and abroad&quot;
-            </p>
           </div>
           <div className="py-16 lg:w-1/2">
             <div className="flex items-center mb-16 space-x-4">
@@ -182,7 +179,8 @@ export default function about() {
         <Statistics />
       </section>
       <section className="my-16">
-        <div>
+      <PortfolioSummary />
+        {/*<div>
           <div className="text-center">
             <h2 className="px-8 mb-4 text-2xl font-semibold">
               Over 32k+ software businesses growing with Ar Shakir.
@@ -197,7 +195,7 @@ export default function about() {
                 </div>
               ))}
           </div>
-        </div>
+        </div>*/}
       </section>
     </>
   );
