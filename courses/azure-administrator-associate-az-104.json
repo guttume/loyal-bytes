@@ -42,10 +42,10 @@
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: Manage Azure identities and governance (15–20%)  ",
+      "title": "Module 1: MANAGE AZURE IDENTITIES AND GOVERNANCE (15–20%)",
       "submodules": [
         {
-          "heading": "Manage Azure Active Directory (Azure AD) objects",
+          "heading": "MANAGE AZURE ACTIVE DIRECTORY (AZURE AD) OBJECTS",
           "contents": [
             "Create users and groups",
             "Create administrative units",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "heading": "Manage storage",
+          "heading": "MANAGE STORAGE",
           "contents": [
             "Export from Azure job",
             "Import into Azure job",
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "heading": "Configure Azure files and Azure Blob Storage",
+          "heading": "CONFIGURE AZURE FILES AND AZURE BLOB STORAGE",
           "contents": [
             "Create an Azure file share",
             "Create and configure Azure File Sync service",
@@ -81,10 +81,10 @@
       ]
     },
     {
-      "title": "Module 2: Deploy and manage Azure compute resources (20–25%)",
+      "title": "Module 2: DEPLOY AND MANAGE AZURE COMPUTE RESOURCES (20–25%)",
       "submodules": [
         {
-          "heading": "Automate deployment of virtual machines (VMs) by using Azure Resource Manager templates",
+          "heading": "AUTOMATE DEPLOYMENT OF VIRTUAL MACHINES (VMS) BY USING AZURE RESOURCE MANAGER TEMPLATES",
           "contents": [
             "Modify an Azure Resource Manager template",
             "Configure a virtual hard disk (VHD) template",
@@ -94,7 +94,7 @@
           ]
         },
         {
-          "heading": "Configure VMs",
+          "heading": "CONFIGURE VMS",
           "contents": [
             "Configure Azure Disk Encryption",
             "Move VMs from one resource group to another",
@@ -107,7 +107,7 @@
           ]
         },
         {
-          "heading": "Create and configure containers",
+          "heading": "CREATE AND CONFIGURE CONTAINERS",
           "contents": [
             "Configure sizing and scaling for Azure Container Instances",
             "Configure container groups for Azure Container Instances",
@@ -118,7 +118,7 @@
           ]
         },
         {
-          "heading": "Create and configure Azure App Service",
+          "heading": "CREATE AND CONFIGURE AZURE APP SERVICE",
           "contents": [
             "Create an App Service plan",
             "Configure scaling settings in an App Service plan",
@@ -133,10 +133,10 @@
       ]
     },
     {
-      "title": "Module 3: Configure and manage virtual networking (25–30%)",
+      "title": "Module 3: CONFIGURE AND MANAGE VIRTUAL NETWORKING (25–30%)",
       "submodules": [
         {
-          "heading": "Implement and manage virtual networking",
+          "heading": "IMPLEMENT AND MANAGE VIRTUAL NETWORKING",
           "contents": [
             "Create and configure virtual networks, including peering",
             "Configure private and public IP addresses",
@@ -148,7 +148,7 @@
           ]
         },
         {
-          "heading": "Secure access to virtual networks",
+          "heading": "SECURE ACCESS TO VIRTUAL NETWORKS",
           "contents": [
             "Create security rules",
             "Associate a network security group (NSG) to a subnet or network interface",
@@ -158,7 +158,7 @@
           ]
         },
         {
-          "heading": "Configure load balancing",
+          "heading": "CONFIGURE LOAD BALANCING",
           "contents": [
             "Configure Azure Application Gateway",
             "Configure an internal or public load balancer",
@@ -166,7 +166,7 @@
           ]
         },
         {
-          "heading": "Monitor and troubleshoot virtual networking",
+          "heading": "MONITOR AND TROUBLESHOOT VIRTUAL NETWORKING",
           "contents": [
             "Monitor on-premises connectivity",
             "Configure and use Azure Monitor for Networks",
@@ -176,7 +176,7 @@
           ]
         },
         {
-          "heading": "Integrate an on-premises network with an Azure virtual network",
+          "heading": "INTEGRATE AN ON-PREMISES NETWORK WITH AN AZURE VIRTUAL NETWORK",
           "contents": [
             "Create and configure Azure VPN Gateway",
             "Create and configure Azure ExpressRoute",
@@ -186,10 +186,10 @@
       ]
     },
     {
-      "title": "Module 4: Monitor and back up Azure resources (10–15%)",
+      "title": "Module 4: MONITOR AND BACK UP AZURE RESOURCES (10–15%)",
       "submodules": [
         {
-          "heading": "Monitor resources by using Azure Monitor",
+          "heading": "MONITOR RESOURCES BY USING AZURE MONITOR",
           "contents": [
             "Configure and interpret metrics",
             "Configure Azure Monitor logs",
@@ -199,7 +199,7 @@
           ]
         },
         {
-          "heading": "Implement backup and recovery",
+          "heading": "IMPLEMENT BACKUP AND RECOVERY",
           "contents": [
             "Create a Recovery Services vault",
             "Create a Backup vault",
@@ -210,7 +210,7 @@
           ]
         },
         {
-          "heading": "9.4.3\tIDENTIFY CONSIDERATIONS FOR CONVERSATIONAL AI SOLUTIONS ON AZURE",
+          "heading": "IDENTIFY CONSIDERATIONS FOR CONVERSATIONAL AI SOLUTIONS ON AZURE",
           "contents": [
             "Identify features and uses for bots",
             "Identify capabilities of the Azure Bot service"

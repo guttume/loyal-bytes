@@ -200,7 +200,7 @@
           ]
         },
         {
-          "heading": "9.4.3\tDEFINE AND IMPLEMENT AN INDEXING STRATEGY FOR AN AZURE COSMOS DB CORE API",
+          "heading": "DEFINE AND IMPLEMENT AN INDEXING STRATEGY FOR AN AZURE COSMOS DB CORE API",
           "contents": [
             "Choose when to use a read-heavy versus write-heavy index strategy",
             "Choose an appropriate index type",

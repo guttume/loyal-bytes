@@ -1,0 +1,259 @@
+ {
+  "title": "Dynamics 365 Fundamentals (ERP) - 920",
+  "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  "heroImage": "/images/course-page/azure-hero-image.png",
+  "heroBg": "/images/course-page/azure-hero-bg.png",
+  "courseDetail": {
+    "duration": "10 Hours",
+    "certification": "Microsoft Certification",
+    "batchInfo": "Weekdays batches available",
+    "level": "100",
+    "highlights": [
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Duration",
+        "subheading": "10 Hours."
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Batch Days",
+        "subheading": "Weekdays"
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Learning mode",
+        "subheading": "Group, One-to-One, Corporate Batches, Online Live Classrooms"
+      },
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Passing score",
+        "subheading": "700"
+      }
+    ],
+    "bg": "blue",
+    "displayImage": "/images/course-page/azure-hightlights-image.png",
+    "description": "Whether you are a business stakeholder, functional consultant at the start of your career or a student, jump-start your career by validating your skills with the Dynamics 365 fundamentals (ERP) certification. Earning this certification demonstrates a broad understanding of Dynamics 365 finance and operations apps – specifically, how business operations and finance teams can leverage the power of this solution to achieve new levels of efficiency and effectiveness across the enterprise. It is recommended to have familiarity with business finance and operations."
+  },
+  "idealFor": "This exam covers the features and capabilities of Microsoft Dynamics 365 finance and operations apps. Candidates of this exam should have general knowledge of or relevant working experience in an Information Technology (IT) environment. They should also have a fundamental understanding of financial principles and business operations.",
+  "learningObjectives": "Validate your understanding of the fundamentals of the platform. Demonstrate your broad understanding of the applications of Dynamics 365. Highlight your understanding of how Dynamics 365 can integrate with an array of applications and show a deeper understanding of business finance and operations. Solidify your understanding of basic solution capabilities before advancing to deeper levels of specialty.",
+  "modules": [
+    {
+      "title": "Module 1: DESCRIBE DYNAMICS 365 SUPPLY CHAIN MANAGEMENT (25-30%)",
+      "submodules": [
+        {
+          "heading": "IDENTIFY GENERAL CAPABILITIES",
+          "contents": [
+            "Describe manufacturing types including Discrete, Lean, and Process manufacturing",
+            "Describe production control elements including bills of materials (BOMs), formulas, Kanban’s, resources, and routing",
+            "Describe product master records and product variants"
+          ]
+        },
+        {
+          "heading": "DESCRIBE WAREHOUSE AND INVENTORY MANAGEMENT CAPABILITIES",
+          "contents": [
+            "Describe costing methods including standard costing, weighted averages, last-in-first-out (LIFO), and first-in-first-out (FIFO)",
+            "Describe use cases for Warehouse Management System (WMS)",
+            "Describe purchase orders, item arrival journals, and cross-docking",
+            "Describe inventory reservations, picking and packing, replenishment, and shipments",
+            "Describe inventory counting and inventory on-hand concepts",
+            "Describe quality management capabilities",
+            "Describe warehouse configuration options including layout, stocking limits, and location profiles"
+          ]
+        },
+        {
+          "heading": "DESCRIBE MANUFACTURING STRATEGIES",
+          "contents": [
+            "Describe manufacturing strategies including make to order (MTO), make to stock (MTS), and configure to order (CTO)",
+            "Describe item tracking and tracing processes",
+            "Describe tools that can be used to manage shop floors"
+          ]
+        },
+        {
+          "heading": "DESCRIBE ENTERPRISE ASSET MANAGEMENT CAPABILITIES",
+          "contents": [
+            "Describe enterprise asset management concepts",
+            "Describe the work order lifecycle including work order scheduling, preventative work orders, corrective work orders, and inspections",
+            "Describe vendor warranty agreements including full and partial agreements"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2: DESCRIBE DYNAMICS FINANCE (20-25%)",
+      "submodules": [
+        {
+          "heading": "DESCRIBE THE DYNAMICS 365 FINANCE FEATURES",
+          "contents": [
+            "Describe use cases for legal entities",
+            "Describe how Dynamics 365 Finance handles regional tax reporting requirements",
+            "Describe cost accounting concepts"
+          ]
+        },
+        {
+          "heading": "DESCRIBE GENERAL LEDGERS",
+          "contents": [
+            "Describe charts of accounts including main accounts, balance sheets, and income statements",
+            "Describe financial dimensions and dimensions set concepts",
+            "Describe periodic financial processes"
+          ]
+        },
+        {
+          "heading": "DESCRIBE ACCOUNTS PAYABLES AND ACCOUNTS RECEIVABLES",
+          "contents": [
+            "Describe core accounts payable components including vendors, purchase orders, and vendor invoices",
+            "Describe vendor payments and settlements including three-way matching concepts",
+            "Describe core accounts receivable components including customers, customer invoices, and free text invoices",
+            "Describe credit and collection processes"
+          ]
+        },
+        {
+          "heading": "DESCRIBE RELATED FINANCE COMPONENTS",
+          "contents": [
+            "Describe cash and bank management concepts",
+            "Describe expense management including cash advances and mobile workspaces",
+            "Describe fixed asset management, and fixed asset creation, acquisition, and depreciation",
+            "Describe budgeting capabilities"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3: DESCRIBE DYNAMICS 365 COMMERCE (10-15%)",
+      "submodules": [
+        {
+          "heading": "DESCRIBE DYNAMICS 365 COMMERCE CAPABILITIES",
+          "contents": [
+            "Describe retail channels including call centers, Cloud Point-Of-Sale (CPOS), and Modern Point-Of-Sale (MPOS)",
+            "Describe channel management concepts",
+            "Describe Distributed Order Management (DOM)",
+            "Describe product assortments",
+            "Describe customer loyalty concepts",
+            "Describe how Dynamics 365 Commerce uses Dynamics 365 Customer Insights to create personalized customer experiences and provide product recommendations",
+            "Describe how Dynamics 365 Commerce uses Retail Analytics to provide centralized retail data management"
+          ]
+        },
+        {
+          "heading": "DESCRIBE DYNAMICS 365 FRAUD PROTECTION",
+          "contents": [
+            "Describe how Dynamics 365 Fraud Protection evaluates purchase transaction to reduce fraud losses and increase bank acceptance rates",
+            "Describe how Dynamics 365 Fraud Protection prevents unauthorized account creation, account takeovers, and fraudulent account access",
+            "Describe how Dynamics 365 Fraud Protection prevents loss related to fraudulent returns and discounts, identifying the risk of loss to a business, and identifying anomalies in merchandise discounting and returns"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4: DESCRIBE DYNAMICS 365 HUMAN RESOURCES (5-10%)",
+      "submodules": [
+        {
+          "heading": "DESCRIBE CORE CAPABILITIES",
+          "contents": [
+            "Describe compensation and benefits capabilities",
+            "Describe compliance features",
+            "Describe performance management capabilities"
+          ]
+        },
+        {
+          "heading": "DESCRIBE PERSONNEL MANAGEMENT CAPABILITIES",
+          "contents": [
+            "Describe self-service capabilities",
+            "Describe leave and absence capabilities",
+            "Describe employee training and certification features",
+            "Identify integration options between Dynamics 365 Human Resources and LinkedIn"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 5: DESCRIBE PROJECT OPERATIONS (10-15%)",
+      "submodules": [
+        {
+          "heading": "IDENTIFY PROJECT OPERATIONS CAPABILITIES",
+          "contents": [
+            "Describe project-based services",
+            "Describe project sales capabilities",
+            "Describe project contract capabilities",
+            "Describe project pricing capabilities",
+            "Describe the project lifecycle including project invoicing and revenue recognition"
+          ]
+        },
+        {
+          "heading": "ESCRIBE PROJECT PLANNING AND EXECUTION CAPABILITIES",
+          "contents": [
+            "Identify project features including contracts, stages, team assignments, and fixed price versus time and material estimates versus retainer contracts",
+            "Describe project team management capabilities including allocation methods, resource scheduling, and skills",
+            "Describe project schedule management capabilities including tasks, subtasks, assignments, and project plan management",
+            "Describe project cost tracking capabilities including time and expense costs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 6: DESCRIBE SHARED FEATURES (10-15%)",
+      "submodules": [
+        {
+          "heading": "DESCRIBE REPORTING CAPABILITIES",
+          "contents": [
+            "Describe built-in reporting capabilities including workspaces",
+            "Describe options for exporting data to Microsoft Excel",
+            "Describe options for analyzing data by using Power BI"
+          ]
+        },
+        {
+          "heading": "DESCRIBE INTEGRATION OPTIONS",
+          "contents": [
+            "Describe Microsoft Teams integration capabilities",
+            "Describe use cases for integrating with Microsoft Excel and Microsoft Word",
+            "Describe options for managing documents by using SharePoint Online",
+            "Describe email integration capabilities"
+          ]
+        }
+      ]
+    }
+  ],
+  "onCompletion": [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. ",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+  ],
+  "batches": [
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    }
+  ]
+}

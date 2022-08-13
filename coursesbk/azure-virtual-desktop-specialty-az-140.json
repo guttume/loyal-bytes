@@ -1,0 +1,259 @@
+ {
+  "title": "Azure Virtual Desktop Specialty AZ 140",
+  "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  "heroImage": "/images/course-page/azure-hero-image.png",
+  "heroBg": "/images/course-page/azure-hero-bg.png",
+  "courseDetail": {
+    "duration": "40 Hours",
+    "certification": "DP – 203 and Data Engineering on Microsoft Azure",
+    "batchInfo": "Weekends and weekdays batches available",
+    "level": "200",
+    "highlights": [
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Duration",
+        "subheading": "40 Hours."
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Batch Days",
+        "subheading": "Saturday, Weekdays"
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Learning mode",
+        "subheading": "Group, One-to-One, Corporate Batches, Online Live Classrooms"
+      },
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Passing score",
+        "subheading": "700"
+      }
+    ],
+    "bg": "blue",
+    "displayImage": "/images/course-page/azure-hightlights-image.png",
+    "description": "Candidates for the Azure Virtual Desktop Specialty certification are Microsoft Azure administrators with subject matter expertise in planning, delivering, and managing virtual desktop experiences and remote apps, for any device, on Azure."
+  },
+  "idealFor": "Candidates for this exam are administrators with subject matter expertise in planning, delivering, and managing virtual desktop experiences and remote apps, for any device, on Azure. Responsibilities for this role include deploying virtual desktop experiences and apps to Azure. Professionals in this role deliver applications on Azure Virtual Desktop and optimize them to run in multi-session virtual environments. To deliver these experiences, they work closely with the Azure administrators and architects, along with Microsoft 365 Administrators. Candidates for this exam should have experience in Azure technologies, including virtualization, networking, identity, storage, backups, resilience, and disaster recovery. They should understand on-premises virtual desktop infrastructure technologies as they relate to migrating to Azure Virtual Desktop. These professionals use the Azure portal and Azure Resource Manager templates to accomplish many tasks. This role may use powershell and Azure Command-Line Interface (CLI) for more efficient automation. Candidates for this exam must have expert Azure administration skills.",
+  "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
+  "modules": [
+    {
+      "title": "Module 1: PLAN AN AZURE VIRTUAL DESKTOP ARCHITECTURE (10-15%)",
+      "submodules": [
+        {
+          "heading": "DESIGN THE AZURE VIRTUAL DESKTOP ARCHITECTURE",
+          "contents": [
+            "Assess existing physical and virtual desktop environments",
+            "Assess network capacity and speed requirements for azure virtual desktop",
+            "Recommend an operating system for an azure virtual desktop implementation",
+            "Plan and configure name resolution for active directory (ad) and azure active directory domain services (azure ad ds)",
+            "Plan a host pools architecture",
+            "Recommend resource groups, subscriptions, and management groups",
+            "Configure a location for the azure virtual desktop metadata",
+            "Calculate and recommend a configuration for performance requirements",
+            "Calculate and recommend a configuration for azure virtual machine capacity requirements"
+          ]
+        },
+        {
+          "heading": "DESIGN FOR USER IDENTITIES AND PROFILES",
+          "contents": [
+            "Select an appropriate licensing model for Azure Virtual Desktop based on requirements",
+            "Recommend an appropriate storage solution (including Azure netapp Files versus Azure Files)",
+            "Plan for Azure Virtual Desktop client deployment",
+            "Plan for user profiles",
+            "Recommend a solution for network connectivity",
+            "Plan for Azure AD Connect for user identities"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2: IMPLEMENT AN AZURE VIRTUAL DESKTOP INFRASTRUCTURE (25-30%)",
+      "submodules": [
+        {
+          "heading": "IMPLEMENT AND MANAGE NETWORKING FOR AZURE VIRTUAL DESKTOP",
+          "contents": [
+            "Implement Azure virtual network connectivity",
+            "Manage connectivity to the internet and on-premises networks",
+            "Implement and manage network security",
+            "Secure Azure Virtual Desktop session hosts by using Azure Bastion",
+            "Monitor and troubleshoot network connectivity"
+          ]
+        },
+        {
+          "heading": "IMPLEMENT AND MANAGE STORAGE FOR AZURE VIRTUAL DESKTOP",
+          "contents": [
+            "Configure storage for fslogix components",
+            "Configure storage accounts",
+            "Configure disks",
+            "Create file shares"
+          ]
+        },
+        {
+          "heading": "CREATE AND CONFIGURE HOST POOLS AND SESSION HOSTS",
+          "contents": [
+            "Create a host pool by using the Azure portal",
+            "Automate creation of Azure Virtual Desktop host and host pools by using powershell, Command-Line Interface (CLI), and Azure Resource Manager templates",
+            "Create a host pool based on Windows client or Windows Server session hosts",
+            "Configure host pool settings",
+            "Manage licensing for session hosts that run Windows client or Windows Server",
+            "Assign users to host pools",
+            "Apply OS and application updates to a running Azure Virtual Desktop host",
+            "Apply security and compliance settings to session hosts"
+          ]
+        },
+        {
+          "heading": "CREATE AND MANAGE SESSION HOST IMAGES",
+          "contents": [
+            "Create a gold image",
+            "Modify a session host image",
+            "Install language packs in azure virtual desktop",
+            "Deploy a session host by using a custom image",
+            "Plan for image update and management",
+            "Create and use a shared image gallery",
+            "Troubleshoot os issues related to azure virtual desktop"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3: MANAGE ACCESS AND SECURITY (10-15%)",
+      "submodules": [
+        {
+          "heading": "MANAGE ACCESS",
+          "contents": [
+            "Plan and implement Azure roles and role-based access control (RBAC) for Azure Virtual Desktop",
+            "Manage roles, groups and rights assignment on Azure Virtual Desktop session hosts",
+            "Configure user restrictions by using AD group policies and Azure policies"
+          ]
+        },
+        {
+          "heading": "MANAGE SECURITY",
+          "contents": [
+            "Plan and implement Conditional Access policies for connections to Azure Virtual Desktop",
+            "Plan and implement multifactor authentication in Azure Virtual Desktop",
+            "Manage security by using Azure Security Center",
+            "Configure Microsoft Defender Antivirus for session hosts"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4: MANAGE USER ENVIRONMENTS AND APPS (20-25%)",
+      "submodules": [
+        {
+          "heading": "IMPLEMENT AND MANAGE FSLOGIX",
+          "contents": [
+            "Plan for fslogix",
+            "Install and configure fslogix",
+            "Configure Profile Containers",
+            "Configure Cloud Cache",
+            "Migrate user profiles to fslogix"
+          ]
+        },
+        {
+          "heading": "CONFIGURE USER EXPERIENCE SETTINGS",
+          "contents": [
+            "Configure Universal Print",
+            "Configure user settings through group policies and Endpoint Manager policies",
+            "Configure persistent and non-persistent desktop environments",
+            "Configure Remote Desktop Protocol (RDP) properties on a host pool",
+            "Configure session timeout properties",
+            "Troubleshoot user profile issues",
+            "Troubleshoot Azure Virtual Desktop clients"
+          ]
+        },
+        {
+          "heading": "INSTALL AND CONFIGURE APPS ON A SESSION HOST",
+          "contents": [
+            "Configure dynamic application delivery by using MSIX App Attach",
+            "Implement application masking",
+            "Deploy an application as a remoteapp",
+            "Implement and manage onedrive for Business for a multi-session environment",
+            "Implement and manage Microsoft Teams AV Redirect",
+            "Implement and manage browsers and internet access for Azure Virtual Desktop sessions",
+            "Create and configure an application group",
+            "Troubleshoot application issues related to Azure Virtual Desktop"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 5: MONITOR AND MAINTAIN AN AZURE VIRTUAL DESKTOP INFRASTRUCTURE (20- 25%)",
+      "submodules": [
+        {
+          "heading": "PLAN AND IMPLEMENT BUSINESS CONTINUITY AND DISASTER RECOVERY",
+          "contents": [
+            "Plan and implement a disaster recovery plan for Azure Virtual Desktop",
+            "Design a backup strategy for Azure Virtual Desktop",
+            "Configure backup and restore for fslogix user profiles, personal virtual desktop infrastructures (vdis), and golden images"
+          ]
+        },
+        {
+          "heading": "AUTOMATE AZURE VIRTUAL DESKTOP MANAGEMENT TASKS",
+          "contents": [
+            "Configure automation for Azure Virtual Desktop",
+            "Automate management of host pools, session hosts, and user sessions by using powershell and Azure Command-Line Interface (CLI)",
+            "Implement autoscaling in host pools"
+          ]
+        },
+        {
+          "heading": "MONITOR AND MANAGE PERFORMANCE AND HEALTH",
+          "contents": [
+            "Monitor Azure Virtual Desktop by using Azure Monitor",
+            "Monitor Azure Virtual Desktop by using Azure Advisor",
+            "Customize Azure Monitor workbooks for Azure Virtual Desktop monitoring",
+            "Optimize session host capacity and performance",
+            "Manage active sessions and application groups",
+            "Monitor and optimize autoscaling results"
+          ]
+        }
+      ]
+    }
+  ],
+  "onCompletion": [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+  ],
+  "batches": [
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    }
+  ]
+}

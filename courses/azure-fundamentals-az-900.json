@@ -1,0 +1,212 @@
+ {
+  "title": "Azure Fundamentals - 900",
+  "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  "heroImage": "/images/course-page/azure-hero-image.png",
+  "heroBg": "/images/course-page/azure-hero-bg.png",
+  "courseDetail": {
+    "duration": "8 Hours",
+    "certification": "Microsoft Certification",
+    "batchInfo": "Weekdays batches available",
+    "level": "100",
+    "highlights": [
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Duration",
+        "subheading": "8 Hours."
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Batch Days",
+        "subheading": "Weekdays"
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Learning mode",
+        "subheading": "Group, One-to-One, Corporate Batches, Online Live Classrooms"
+      },
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Passing score",
+        "subheading": "700"
+      }
+    ],
+    "bg": "blue",
+    "displayImage": "/images/course-page/azure-hightlights-image.png",
+    "description": "Whether you&apos;re new to the field or a seasoned professional, mastering the basics in Microsoft Azure can help you jump-start your career and prepare you to dive deeper into the many technical opportunities Azure offers. The certification validates your basic knowledge of cloud services and how those services are provided with Azure. Candidates should be able to demonstrate a fundamental knowledge of cloud concepts, along with Azure services, workloads, security, privacy, pricing, and support. It is recommended to have familiarity with concepts of networking, storage, compute, application support, and application development. You can use your Azure Fundamentals certification to reinforce your basics for other Azure role-based or specialty certifications, but it isn&apos;t a prerequisite for any of them."
+  },
+  "idealFor": "Candidates for this exam are technology professionals who want to demonstrate foundational knowledge of cloud concepts and Microsoft Azure. These professionals can describe Azure architectural components and Azure services, such as compute, networking, and storage. They can also describe features and tools to secure, govern, and administer Azure. Candidates for this exam have skills and experience working with an area of information technology, such as infrastructure management, database management, or software development.",
+  "learningObjectives": "Prove your knowledge of cloud computing concepts, models, and services, such as public, private, and hybrid cloud, in addition to infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS). Show your expertise on how Azure supports security, privacy, compliance, and trust.",
+  "modules": [
+    {
+      "title": "Module 1: DESCRIBE CLOUD CONCEPTS (25–30%) ",
+      "submodules": [
+        {
+          "heading": "DESCRIBE CLOUD COMPUTING ",
+          "contents": [
+            "Describe the shared responsibility model ",
+            "Define cloud computing ",
+            "Define cloud models, including public, private, and hybrid ",
+            "Identify appropriate use cases for each cloud model ",
+            "Describe the consumption-based model ",
+            "Compare cloud pricing models "
+          ]
+        },
+        {
+          "heading": "DESCRIBE THE BENEFITS OF USING CLOUD SERVICES ",
+          "contents": [
+            "Describe the benefits of high availability and scalability in the cloud ",
+            "Describe the benefits of reliability and predictability in the cloud ",
+            "Describe the benefits of security and governance in the cloud ",
+            "Describe the benefits of manageability in the cloud             "
+          ]
+        },
+        {
+          "heading": "DESCRIBE CLOUD SERVICE TYPES ",
+          "contents": [
+            "Describe infrastructure as a service (IaaS) ",
+            "Describe platform as a service (PaaS) ",
+            "Describe software as a service (SaaS) ",
+            "Identify appropriate use cases for each cloud service (IaaS, PaaS, SaaS) "
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2: DESCRIBE AZURE ARCHITECTURE AND SERVICES (35–40%)  ",
+      "submodules": [
+        {
+          "heading": "DESCRIBE THE CORE ARCHITECTURAL COMPONENTS OF AZURE  ",
+          "contents": [
+            "Describe Azure regional, regional pairs, and sovereign regions ",
+            "Describe availability zones ",
+            "Describe Azure datacenters ",
+            "Describe Azure resources and resource groups ",
+            "Describe subscriptions ",
+            "Describe management groups ",
+            "Describe the hierarchy of resource groups, subscriptions, and management groups "
+          ]
+        },
+        {
+          "heading": "DESCRIBE AZURE COMPUTE AND NETWORKING SERVICES  ",
+          "contents": [
+            "Compare compute types, including container instances, virtual machines (VMs), and functions ",
+            "Describe VM options, including Azure Virtual Machines, Azure Virtual Machine Scale Sets, availability sets, and Azure Virtual Desktop ",
+            "Describe resources required for virtual machines ",
+            "Describe application hosting options, including the Web Apps feature of Azure App Service, containers, and virtual machines ",
+            "Describe virtual networking, including the purpose of Azure Virtual Networks, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway, and Azure ExpressRoute ",
+            "Define public and private endpoints "
+          ]
+        },
+        {
+          "heading": "DESCRIBE AZURE STORAGE SERVICES ",
+          "contents": [
+            "Compare Azure storage services ",
+            "Describe storage tiers ",
+            "Describe redundancy options ",
+            "Describe storage account options and storage types ",
+            "Identify options for moving files, including AzCopy, Azure Storage Explorer, and Azure File Sync ",
+            "Describe migration options, including Azure Migrate and Azure Data Box "
+          ]
+        },
+        {
+          "heading": "tDESCRIBE AZURE IDENTITY, ACCESS, AND SECURITY ",
+          "contents": [
+            "Describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)",
+            "Describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication, and password less ",
+            "Describe external identities and guest access in Azure ",
+            "Describe Azure AD Conditional Access ",
+            "Describe Azure role-based access control (RBAC) ",
+            "Describe the concept of Zero Trust ",
+            "Describe the purpose of the defense in depth model ",
+            "Describe the purpose of Microsoft Defender for Cloud "
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3: DESCRIBE AZURE MANAGEMENT AND GOVERNANCE (30–35%)  ",
+      "submodules": [
+        {
+          "heading": "DESCRIBE COST MANAGEMENT IN AZURE  ",
+          "contents": [
+            "Describe factors that can affect costs in Azure ",
+            "Compare the Pricing calculator and the Total Cost of Ownership (TCO) calculator ",
+            "Describe the Azure Cost Management and Billing tool ",
+            "Describe the purpose of tags "
+          ]
+        },
+        {
+          "heading": "DESCRIBE FEATURES AND TOOLS IN AZURE FOR GOVERNANCE AND COMPLIANCE ",
+          "contents": [
+            "Describe the purpose of Azure Blueprints ",
+            "Describe the purpose of Azure Policy ",
+            "Describe the purpose of resource locks ",
+            "Describe the purpose of the Service Trust Portal "
+          ]
+        },
+        {
+          "heading": "DESCRIBE FEATURES AND TOOLS FOR MANAGING AND DEPLOYING AZURE RESOURCES ",
+          "contents": [
+            "Describe the Azure portal ",
+            "Describe Azure Cloud Shell, including Azure CLI and Azure PowerShell ",
+            "Describe the purpose of Azure Arc ",
+            "Describe Azure Resource Manager and Azure Resource Manager templates (ARM templates)"
+          ]
+        },
+        {
+          "heading": "DESCRIBE MONITORING TOOLS IN AZURE ",
+          "contents": [
+            "Describe the purpose of Azure Advisor ",
+            "Describe Azure Service Health ",
+            "Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights "
+          ]
+        }
+      ]
+    }
+  ],
+  "onCompletion": [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. ",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+  ],
+  "batches": [
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    }
+  ]
+}

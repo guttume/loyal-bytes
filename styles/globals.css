@@ -43,7 +43,7 @@
 }
 
 .szh-menu {
-  @apply bg-white shadow rounded w-40;
+  @apply bg-white shadow-xl rounded w-40 z-50;
 }
 
 .szh-menu__item {

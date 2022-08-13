@@ -83,7 +83,7 @@
       ]
     },
     {
-      "title": "Module 2:  IMPLEMENT COMPUTER VISION SOLUTIONS (20-25%)",
+      "title": "Module 2: IMPLEMENT COMPUTER VISION SOLUTIONS (20-25%)",
       "submodules": [
         {
           "heading": "ANALYZE IMAGES BY USING THE COMPUTER VISION API",
@@ -191,7 +191,7 @@
             "Implement phrase lists",
             "Implement a model as a feature (i.e. prebuilt entities)",
             "Manage punctuation and diacritics",
-            " Implement active learning",
+            "Implement active learning",
             "Monitor and correct data imbalances",
             "Implement patterns"
           ]
@@ -264,7 +264,7 @@
           ]
         },
         {
-          "heading": "9.4.5\tMANAGE INDEXING",
+          "heading": "MANAGE INDEXING",
           "contents": [
             "Manage re-indexing",
             "Rebuild indexes",

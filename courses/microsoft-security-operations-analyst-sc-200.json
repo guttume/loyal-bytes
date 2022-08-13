@@ -215,7 +215,7 @@
           ]
         },
         {
-          "heading": "9.3.7\tHUNT FOR THREATS USING MICROSOFT SENTINEL",
+          "heading": "HUNT FOR THREATS USING MICROSOFT SENTINEL",
           "contents": [
             "Create custom hunting queries",
             "Run hunting queries manually",
@@ -265,7 +265,7 @@
           ]
         },
         {
-          "heading": "9.4.4\tMONITOR AND MAINTAIN AZURE ACTIVE DIRECTORY",
+          "heading": "MONITOR AND MAINTAIN AZURE ACTIVE DIRECTORY",
           "contents": [
             "Analyze and investigate sign-in logs to troubleshoot access issues",
             "Review and monitor azure ad audit logs",

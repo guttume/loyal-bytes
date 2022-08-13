@@ -42,10 +42,10 @@
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: Develop Azure compute solutions (25-30%)",
+      "title": "Module 1: DevELOP AZURE COMPUTE SOLUTIONS (25-30%)",
       "submodules": [
         {
-          "heading": "Implement IaaS solutions",
+          "heading": "IMPLEMENT IAAS SOLUTIONS",
           "contents": [
             "Provision virtual machines (VMs)",
             "Configure, validate, and deploy ARM templates ",
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "heading": "Create Azure App Service Web Apps",
+          "heading": "CREATE AZURE APP SERVICE WEB APPS",
           "contents": [
             "Create an Azure App Service Web App",
             "Enable diagnostics logging ",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "heading": "Implement Azure Functions",
+          "heading": "IMPLEMENT AZURE FUNCTIONS",
           "contents": [
             "Create and deploy Azure Functions apps",
             "Implement input and output bindings for a function",
@@ -76,10 +76,10 @@
       ]
     },
     {
-      "title": "Module 2: Develop for Azure storage (15-20%)",
+      "title": "Module 2: DEVELOP FOR AZURE STORAGE (15-20%)",
       "submodules": [
         {
-          "heading": "Develop solutions that use Cosmos DB storage",
+          "heading": "DEVELOP SOLUTIONS THAT USE COSMOS DB STORAGE",
           "contents": [
             "Select the appropriate API and SDK for a solution",
             "Implement partitioning schemes and partition keys",
@@ -89,21 +89,21 @@
           ]
         },
         {
-          "heading": "Develop solutions that use blob storage",
+          "heading": "DEVELOP SOLUTIONS THAT USE BLOB STORAGE",
           "contents": [
-            "move items in blob storage between storage accounts or containers",
-            "set and retrieve properties and metadata",
-            "perform operations on data by using the appropriate SDK",
-            "implement storage policies, data archiving, and retention"
+            "Move items in blob storage between storage accounts or containers",
+            "Set and retrieve properties and metadata",
+            "Perform operations on data by using the appropriate SDK",
+            "Implement storage policies, data archiving, and retention"
           ]
         }
       ]
     },
     {
-      "title": "Module 3: Implement Azure security (20-25%)",
+      "title": "Module 3: IMPLEMENT AZURE SECURITY (20-25%)",
       "submodules": [
         {
-          "heading": "Implement user authentication and authorization",
+          "heading": "IMPLEMENT USER AUTHENTICATION AND AUTHORIZATION",
           "contents": [
             "Authenticate and authorize users by using the Microsoft Identity Platform",
             "Authenticate and authorize users and apps by using Azure Active Directory",
@@ -112,7 +112,7 @@
           ]
         },
         {
-          "heading": "Implement secure cloud solutions",
+          "heading": "IMPLEMENT SECURE CLOUD SOLUTIONS",
           "contents": [
             "Create security rules",
             "Secure app configuration data by using App Configuration or Azure Key Vault ",
@@ -123,10 +123,10 @@
       ]
     },
     {
-      "title": "Module 4: Monitor, troubleshoot, and optimize Azure solutions (15-20%)",
+      "title": "Module 4: MONITOR, TROUBLESHOOT, AND OPTIMIZE AZURE SOLUTIONS (15-20%)",
       "submodules": [
         {
-          "heading": "Implement caching for solutions",
+          "heading": "IMPLEMENT CACHING FOR SOLUTIONS",
           "contents": [
             "Configure cache and expiration policies for Azure Cache for Redis",
             "Implement secure and optimized application cache patterns including data sizing, connections, encryption, and expiration",
@@ -138,10 +138,10 @@
       ]
     },
     {
-      "title": "Connect to and consume Azure services and third-party services (15-20%)",
+      "title": "Module 5: CONNECT TO AND CONSUME AZURE SERVICES AND THIRD-PARTY SERVICES (15-20%)",
       "submodules": [
         {
-          "heading": "Implement API Management",
+          "heading": "IMPLEMENT API MANAGEMENT",
           "contents": [
             "Create an APIM instance",
             "Create and document APIs",
@@ -150,14 +150,14 @@
           ]
         },
         {
-          "heading": "Develop event-based solutions",
+          "heading": "DEVELOP EVENT-BASED SOLUTIONS",
           "contents": [
             "Implement solutions that use Azure Event Grid ",
             "Implement solutions that use Azure Event Hub "
           ]
         },
         {
-          "heading": "Develop message-based solutions",
+          "heading": "DEVELOP MESSAGE-BASED SOLUTIONS",
           "contents": [
             "Implement solutions that use Azure Service Bus ",
             "IImplement solutions that use Azure Queue Storage queues "

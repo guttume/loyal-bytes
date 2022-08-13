@@ -8,7 +8,7 @@ export const Statistics = () => {
         icon="user"
         color="bg-green-500"
         shadowColor="shadow-green-100"
-        numberText="30,000"
+        numberText="38390"
         text="Professionals"
       />
       <StatisticsItem
@@ -24,7 +24,7 @@ export const Statistics = () => {
         icon="client"
         color="bg-purple-500"
         shadowColor="shadow-purple-100"
-        numberText="300"
+        numberText="369"
         text="Clients"
       />
       <StatisticsItem
@@ -32,7 +32,7 @@ export const Statistics = () => {
         icon="badge"
         color="bg-orange-500"
         shadowColor="shadow-orange-100"
-        numberText="30"
+        numberText="35"
         text="Courses"
       />
     </div>

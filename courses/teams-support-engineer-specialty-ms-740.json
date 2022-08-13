@@ -223,7 +223,7 @@
           ]
         },
         {
-          "heading": "9.6.3\tTROUBLESHOOT FILE ISSUES FOR PUBLIC CHANNELS",
+          "heading": "TROUBLESHOOT FILE ISSUES FOR PUBLIC CHANNELS",
           "contents": [
             "Verify sharepoint access permissions",
             "Determine whether the name for a channel or team have been changed",

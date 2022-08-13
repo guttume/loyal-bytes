@@ -46,9 +46,9 @@ export default function index() {
         </div>
       </section>
       <section className="p-8 lg:p-32">
-        <div className="gap-8 xl:grid-cols-4 md:grid-cols-2 md:grid">
+        <div className="gap-8 xl:grid-cols-4 md:grid-cols-2 md:grid space-y-4 xl:space-y-0">
           {courseCategories.map((category) => (
-            <div key={category.url}>
+            <div key={category.url} className="flex justify-center">
                 <a  href={`${category.url}.html`}>
                   <img src={category.image} alt={category.title} />
                 </a>

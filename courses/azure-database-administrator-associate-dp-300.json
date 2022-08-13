@@ -1,0 +1,381 @@
+ {
+  "title": "Azure Database Administrator Associate DP - 300",
+  "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  "heroImage": "/images/course-page/azure-hero-image.png",
+  "heroBg": "/images/course-page/azure-hero-bg.png",
+  "courseDetail": {
+    "duration": "32 Hours",
+    "certification": "Microsoft Certification",
+    "batchInfo": "Weekdays batches available",
+    "level": "200",
+    "highlights": [
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Duration",
+        "subheading": "32 Hours."
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Batch Days",
+        "subheading": "Weekdays"
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Learning mode",
+        "subheading": "Group, One-to-One, Corporate Batches, Online Live Classrooms"
+      },
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Passing score",
+        "subheading": "700"
+      }
+    ],
+    "bg": "blue",
+    "displayImage": "/images/course-page/azure-hightlights-image.png",
+    "description": "The Azure database administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built with Microsoft SQL Server and Microsoft Azure Data Services. The Azure database administrator uses a variety of methods and tools to perform day-to-day operations, including applying knowledge of using T-SQL for administrative management purposes."
+  },
+  "idealFor": "Candidates for this exam are database administrators and data management specialists that manage on-premises and cloud relational databases built with Microsoft SQL Server and Microsoft Azure Data Services.",
+  "learningObjectives": "The Azure database administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built on Azure Data Services and SQL Server. The Azure database administrator uses a variety of methods and tools to perform day-to-day operations, including applying knowledge of using T-SQL for administrative management purposes. This role is responsible for management, availability, security and performance monitoring and optimization of modern relational database solutions. This role works with the Azure data engineer role to manage operational aspects of data platform solutions.",
+  "modules": [
+    {
+      "title": "Module 1: PLAN AND IMPLEMENT DATA PLATFORM RESOURCES (15-20%)",
+      "submodules": [
+        {
+          "heading": "DEPLOY RESOURCES BY USING MANUAL METHODS",
+          "contents": [
+            "Deploy database offerings on selected platforms",
+            "Configure customized deployment templates",
+            "Apply patches and updates for hybrid and IaaS deployment"
+          ]
+        },
+        {
+          "heading": "RECOMMEND AN APPROPRIATE DATABASE OFFERING BASED ON SPECIFIC REQUIREMENTS",
+          "contents": [
+            "Evaluate requirements for the deployment",
+            "Evaluate the functional benefits/impact of possible database offerings",
+            "Evaluate the scalability of the possible database offering",
+            "Evaluate the HA/DR of the possible database offering",
+            "Evaluate the security aspects of the possible database offering"
+          ]
+        },
+        {
+          "heading": "CONFIGURE RESOURCES FOR SCALE AND PERFORMANCE",
+          "contents": [
+            "Configure Azure SQL Database for scale and performance",
+            "Configure Azure SQL Managed Instance for scale and performance",
+            "Configure SQL Server in Azure VMs for scale and performance",
+            "Calculate resource requirements",
+            "Evaluate database partitioning techniques, such as database sharding",
+            "Set up SQL Data Sync"
+          ]
+        },
+        {
+          "heading": "EVALUATE A STRATEGY FOR MOVING TO AZURE",
+          "contents": [
+            "Evaluate requirements for the migration",
+            "Evaluate offline or online migration strategies",
+            "Evaluate requirements for the upgrade",
+            "Evaluate offline or online upgrade strategies"
+          ]
+        },
+        {
+          "heading": "IMPLEMENT A MIGRATION OR UPGRADE STRATEGY FOR MOVING TO AZURE",
+          "contents": [
+            "Implement an online migration strategy",
+            "Implement an offline migration strategy",
+            "Implement an online upgrade strategy",
+            "Implement an offline upgrade strategy"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2: IMPLEMENT A SECURE ENVIRONMENT (15-20%)",
+      "submodules": [
+        {
+          "heading": "CONFIGURE DATABASE AUTHENTICATION BY USING PLATFORM AND DATABASE TOOLS",
+          "contents": [
+            "Configure Azure AD authentication",
+            "Create users from Azure AD identities",
+            "Configure security principals"
+          ]
+        },
+        {
+          "heading": "CONFIGURE DATABASE AUTHORIZATION BY USING PLATFORM AND DATABASE TOOLS",
+          "contents": [
+            "Configure database and object-level permissions using graphical tools",
+            "Apply principle of least privilege for all securable"
+          ]
+        },
+        {
+          "heading": "IMPLEMENT SECURITY FOR DATA AT REST",
+          "contents": [
+            "Implement Transparent Data Encryption (TDE)",
+            "Implement object-level encryption",
+            "Implement Dynamic Data Masking",
+            "Implement Azure Key Vault and disk encryption for Azure VMs"
+          ]
+        },
+        {
+          "heading": "IMPLEMENT SECURITY FOR DATA IN TRANSIT",
+          "contents": [
+            "Configure server and database-level firewall rules",
+            "Implement Always Encrypted"
+          ]
+        },
+        {
+          "heading": "IMPLEMENT COMPLIANCE CONTROLS FOR SENSITIVE DATA",
+          "contents": [
+            "Apply a data classification strategy",
+            "Configure server and database audits",
+            "Implement data change tracking",
+            "Perform a vulnerability assessment"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3: MONITOR AND OPTIMIZE OPERATIONAL RESOURCES (15-20%)",
+      "submodules": [
+        {
+          "heading": "MONITOR ACTIVITY AND PERFORMANCE",
+          "contents": [
+            "Prepare an operational performance baseline",
+            "Determine sources for performance metrics",
+            "Interpret performance metrics",
+            "Configure and monitor activity and performance at the infrastructure, server, service, and database levels"
+          ]
+        },
+        {
+          "heading": "IMPLEMENT PERFORMANCE-RELATED MAINTENANCE TASKS",
+          "contents": [
+            "Implement index maintenance tasks",
+            "Implement statistics maintenance tasks",
+            "Configure database auto-tuning",
+            "Manage storage capacity"
+          ]
+        },
+        {
+          "heading": "IDENTIFY PERFORMANCE-RELATED ISSUES",
+          "contents": [
+            "Configure Query Store to collect performance data",
+            "Identify sessions that cause blocking",
+            "Assess growth/fragmentation of databases and logs",
+            "Assess performance-related database configuration parameters"
+          ]
+        },
+        {
+          "heading": "CONFIGURE RESOURCES FOR OPTIMAL PERFORMANCE",
+          "contents": [
+            "Cnfigure storage and infrastructure resources",
+            "Cnfigure server and service account settings for performance",
+            "Cnfigure Resource Governor for performance"
+          ]
+        },
+        {
+          "heading": "CONFIGURE A USER DATABASE FOR OPTIMAL PERFORMANCE",
+          "contents": [
+            "Implement database-scoped configuration",
+            "Configure compute resources for scaling",
+            "Configure Intelligent Query Processing (IQP)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4: OPTIMIZE QUERY PERFORMANCE (5-10%)",
+      "submodules": [
+        {
+          "heading": "REVIEW QUERY PLANS",
+          "contents": [
+            "Determine the appropriate type of execution plan",
+            "Identify problem areas in execution plans",
+            "Extract query plans from the Query Store"
+          ]
+        },
+        {
+          "heading": "EVALUATE PERFORMANCE IMPROVEMENTS",
+          "contents": [
+            "Determine the appropriate Dynamic Management Views (DMVs) to gather query performance information",
+            "Identify performance issues using DMVs",
+            "Identify and implement index changes for queries",
+            "Recommend query construct modifications based on resource usage",
+            "Assess the use of hints for query performance"
+          ]
+        },
+        {
+          "heading": "REVIEW DATABASE TABLE AND INDEX DESIGN",
+          "contents": [
+            "Identify data quality issues with duplication of data",
+            "Identify normal form of database tables",
+            "Assess index design for performance",
+            "Validate data types defined for columns",
+            "Recommend table and index storage including filegroups",
+            "Evaluate table partitioning strategy",
+            "Evaluate the use of compression for tables and indexes"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 5: PERFORM AUTOMATION OF TASKS (10-15%)",
+      "submodules": [
+        {
+          "heading": "CREATE SCHEDULED TASKS",
+          "contents": [
+            "Manage schedules for regular maintenance jobs",
+            "Configure multi-server automation",
+            "Configure notifications for task success/failure/non-completion"
+          ]
+        },
+        {
+          "heading": "EVALUATE AND IMPLEMENT AN ALERT AND NOTIFICATION STRATEGY",
+          "contents": [
+            "Create event notifications based on metrics",
+            "Create event notifications for Azure resources",
+            "Create alerts for server configuration changes",
+            "Create tasks that respond to event notifications"
+          ]
+        },
+        {
+          "heading": "MANAGE AND AUTOMATE TASKS IN AZURE",
+          "contents": [
+            "Perform automated deployment methods for resources",
+            "Implement policies by using automated evaluation modes"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 6: PLAN AND IMPLEMENT A HIGH AVAILABILITY AND DISASTER RECOVERY (HADR) ENVIRONMENT (15-20%)",
+      "submodules": [
+        {
+          "heading": "RECOMMEND AN HADR STRATEGY FOR A DATA PLATFORM SOLUTION",
+          "contents": [
+            "Recommend HADR strategy based on RPO/RTO requirements",
+            "Evaluate HADR for hybrid deployments",
+            "Evaluate Azure-specific HADR solutions",
+            "Identify resources for HADR solutions"
+          ]
+        },
+        {
+          "heading": "TEST AN HADR STRATEGY BY USING PLATFORM, OS, AND DATABASE TOOLS",
+          "contents": [
+            "Test HA by using failover",
+            "Test DR by using failover or restore"
+          ]
+        },
+        {
+          "heading": "PERFORM BACKUP AND RESTORE A DATABASE BY USING DATABASE TOOLS",
+          "contents": [
+            "Perform a database backup with options",
+            "Perform a database restore with options",
+            "Perform a database restore to a point in time",
+            "Configure long-term backup retention"
+          ]
+        },
+        {
+          "heading": "CONFIGURE HA/DR BY USING OS, PLATFORM, AND DATABASE TOOLS",
+          "contents": [
+            "Configure replication",
+            "Create an Always on Availability Group",
+            "Configure auto-failover groups",
+            "Integrate a database into an Always on Availability Group",
+            "Configure quorum options for a Windows Server Failover Cluster",
+            "Configure an Always on Availability Group listener",
+            "Configure failover cluster instances on Azure VMs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 6: PERFORM ADMINISTRATION BY USING T-SQL (10-15%)",
+      "submodules": [
+        {
+          "heading": "EXAMINE SYSTEM HEALTH",
+          "contents": [
+            "Evaluate database health using DMVs",
+            "Evaluate server health using DMVs",
+            "Perform database consistency checks by using DBCC"
+          ]
+        },
+        {
+          "heading": "MONITOR DATABASE CONFIGURATION BY USING T-SQL",
+          "contents": [
+            "Assess proper database auto grow configuration",
+            "Report on database free space",
+            "Review database configuration options"
+          ]
+        },
+        {
+          "heading": "PERFORM BACKUP AND RESTORE A DATABASE BY USING T-SQL",
+          "contents": [
+            "Prepare databases for Always On Availability Groups",
+            "Perform transaction log backup",
+            "Perform restore of user databases",
+            "Perform database backups with options"
+          ]
+        },
+        {
+          "heading": "MANAGE AUTHENTICATION BY USING T-SQL",
+          "contents": [
+            "Manage certificates",
+            "Manage security principals"
+          ]
+        },
+        {
+          "heading": "MANAGE AUTHORIZATION BY USING T-SQL",
+          "contents": [
+            "Configure permissions for users to access database objects",
+            "Configure permissions by using custom roles"
+          ]
+        }
+      ]
+    }
+  ],
+  "onCompletion": [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. ",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+  ],
+  "batches": [
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    }
+  ]
+}

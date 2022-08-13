@@ -42,10 +42,10 @@
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: Manage identity and access (30-35%)",
+      "title": "Module 1: MANAGE IDENTITY AND ACCESS (30-35%)",
       "submodules": [
         {
-          "heading": "Manage Azure Active Directory (Azure AD) identities",
+          "heading": "MANAGE AZURE ACTIVE DIRECTORY (AZURE AD) IDENTITIES",
           "contents": [
             "Create and manage a managed identity for Azure resources",
             "Manage Azure AD groups",
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "heading": "Manage secure access by using Azure AD",
+          "heading": "MANAGE SECURE ACCESS BY USING AZURE AD",
           "contents": [
             "Configure Azure AD Privileged Identity Management (PIM)",
             "Implement Conditional Access policies, including multifactor authentication ",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "heading": "Manage application access",
+          "heading": "MANAGE APPLICATION ACCESS",
           "contents": [
             "Integrate single sign on (SSO) and identity providers for authentication",
             "Create an app registration",
@@ -76,7 +76,7 @@
           ]
         },
         {
-          "heading": "Manage access control",
+          "heading": "MANAGE ACCESS CONTROL",
           "contents": [
             "Configure Azure role permissions for management groups, subscriptions, resource groups, and resources",
             "Interpret role and resource permissions",
@@ -87,10 +87,10 @@
       ]
     },
     {
-      "title": "Module 2: Implement platform protection (15-20%)",
+      "title": "Module 2: IMPLEMENT PLATFORM PROTECTION (15-20%)",
       "submodules": [
         {
-          "heading": "Implement advanced network security",
+          "heading": "IMPLEMENT ADVANCED NETWORK SECURITY",
           "contents": [
             "Secure the connectivity of hybrid networks",
             "Secure the connectivity of virtual networks",
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "heading": "Configure advanced security for compute",
+          "heading": "CONFIGURE ADVANCED SECURITY FOR COMPUTE",
           "contents": [
             "Configure Azure Endpoint Protection for virtual machines (VMs)",
             "Implement and manage security updates for VMs",
@@ -123,10 +123,10 @@
       ]
     },
     {
-      "title": "Module 3: Manage security operations (25-30%)",
+      "title": "Module 3: MANAGE SECURITY OPERATIONS (25-30%)",
       "submodules": [
         {
-          "heading": "Configure centralized policy management",
+          "heading": "CONFIGURE CENTRALIZED POLICY MANAGEMENT",
           "contents": [
             "Configure a custom security policy",
             "Create a policy initiative",
@@ -134,16 +134,16 @@
           ]
         },
         {
-          "heading": "Configure and manage threat protection",
+          "heading": "CONFIGURE AND MANAGE THREAT PROTECTION",
           "contents": [
-            "configure Microsoft Defender for Servers (not including Microsoft Defender for Endpoint) ",
-            "evaluate vulnerability scans from Microsoft Defender for Servers ",
-            "configure Microsoft Defender for SQL ",
-            "use the Microsoft Threat Modeling Tool "
+            "Configure Microsoft Defender for Servers (not including Microsoft Defender for Endpoint) ",
+            "Evaluate vulnerability scans from Microsoft Defender for Servers ",
+            "Configure Microsoft Defender for SQL ",
+            "Use the Microsoft Threat Modeling Tool "
           ]
         },
         {
-          "heading": "Configure and manage security monitoring solutions ",
+          "heading": "CONFIGURE AND MANAGE SECURITY MONITORING SOLUTIONS",
           "contents": [
             "Create and customize alert rules by using Azure Monitor ",
             "Configure diagnostic logging and log retention by using Azure Monitor ",
@@ -156,10 +156,10 @@
       ]
     },
     {
-      "title": "Module 4: Secure data and applications (25–30%) ",
+      "title": "Module 4: SECURE DATA AND APPLICATIONS (25–30%)",
       "submodules": [
         {
-          "heading": "Configure security for storage ",
+          "heading": "CONFIGURE SECURITY FOR STORAGE",
           "contents": [
             "Configure access control for storage accounts ",
             "Configure storage account access keys ",
@@ -168,7 +168,7 @@
           ]
         },
         {
-          "heading": "Configure security for data ",
+          "heading": "CONFIGURE SECURITY FOR DATA",
           "contents": [
             "Enable database authentication by using Azure AD ",
             "Enable database auditing ",
@@ -178,7 +178,7 @@
           ]
         },
         {
-          "heading": "Configure and manage Azure Key Vault ",
+          "heading": "CONFIGURE AND MANAGE AZURE KEY VAULT",
           "contents": [
             "Create and configure Key Vault ",
             "Configure access to Key Vault ",

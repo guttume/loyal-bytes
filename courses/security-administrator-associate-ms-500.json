@@ -172,7 +172,7 @@
       "title": "Module 3: IMPLEMENT AND MANAGE INFORMATION PROTECTION (10-15%)  ",
       "submodules": [
         {
-          "heading": "9.3.1\tMANAGE SENSITIVE INFORMATION ",
+          "heading": "MANAGE SENSITIVE INFORMATION ",
           "contents": [
             "Plan a sensitivity label solution ",
             "Create and manage sensitive information types ",
@@ -193,7 +193,7 @@
           ]
         },
         {
-          "heading": "9.3.3\tMANAGE DATA GOVERNANCE AND RETENTION ",
+          "heading": "MANAGE DATA GOVERNANCE AND RETENTION ",
           "contents": [
             "Plan for data governance and retention ",
             "Review and interpret data governance reports and dashboards ",
@@ -217,7 +217,7 @@
           ]
         },
         {
-          "heading": "9.4.2\tMANAGE AND ANALYZE AUDIT LOGS AND REPORTS ",
+          "heading": "MANAGE AND ANALYZE AUDIT LOGS AND REPORTS ",
           "contents": [
             "Plan for auditing and reporting ",
             "Perform audit log search ",
@@ -226,7 +226,7 @@
           ]
         },
         {
-          "heading": "9.4.3\tDISCOVER AND RESPOND TO COMPLIANCE QUERIES IN MICROSOFT 365 ",
+          "heading": "DISCOVER AND RESPOND TO COMPLIANCE QUERIES IN MICROSOFT 365 ",
           "contents": [
             "Plan for content search and ediscovery ",
             "Delegate permissions to use search and discovery tools ",
@@ -235,7 +235,7 @@
           ]
         },
         {
-          "heading": "9.4.4\tMANAGE REGULATORY COMPLIANCE ",
+          "heading": "MANAGE REGULATORY COMPLIANCE ",
           "contents": [
             "Plan for regulatory compliance in Microsoft 365 ",
             "Manage Data Subject Requests (dsrs) ",
@@ -244,7 +244,7 @@
           ]
         },
         {
-          "heading": "9.4.5\tMANAGE INSIDER RISK SOLUTIONS IN MICROSOFT 365 ",
+          "heading": "MANAGE INSIDER RISK SOLUTIONS IN MICROSOFT 365 ",
           "contents": [
             "Implement and manage Customer Lockbox ",
             "Implement and manage communication compliance policies ",

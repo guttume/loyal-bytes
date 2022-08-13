@@ -1,0 +1,314 @@
+ {
+  "title": "Exchange Online Support Engineer Specialty MS 220",
+  "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  "heroImage": "/images/course-page/azure-hero-image.png",
+  "heroBg": "/images/course-page/azure-hero-bg.png",
+  "courseDetail": {
+    "duration": "40 Hours",
+    "certification": "DP – 203 and Data Engineering on Microsoft Azure",
+    "batchInfo": "Weekends and weekdays batches available",
+    "level": "200",
+    "highlights": [
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Duration",
+        "subheading": "32 Hours."
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Batch Days",
+        "subheading": "Weekends, Weekdays"
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Learning mode",
+        "subheading": "Group, One-to-One, Corporate Batches, Online Live Classrooms"
+      },
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Passing score",
+        "subheading": "700"
+      }
+    ],
+    "bg": "blue",
+    "displayImage": "/images/course-page/azure-hightlights-image.png",
+    "description": "Candidates for this certification are support engineers who identify, troubleshoot, and resolve issues with Microsoft Exchange Online, hybrid Exchange environments, and related components, technologies, and services. Candidates for this exam work with customers and other stakeholders to understand the details of any issues. They also interact with administrators and peers that work with other related technologies. Candidates should have experience with PowerShell and the Exchange PowerShell module. The support engineer should also have significant experience deploying, managing, and troubleshooting Microsoft Exchange Online environments."
+  },
+  "idealFor": "Candidates for this exam identify, troubleshoot, and resolve issues with Microsoft Exchange Online, hybrid Exchange environments and related components, technologies, and services. Candidates work with customers and other stakeholders to understand the details of any issues. They also interact with administrators and peers that work with other related technologies. Candidates should have experience with powershell and the Exchange powershell module. The support engineer should also have significant experience deploying, managing, and troubleshooting Microsoft Exchange Online environments.",
+  "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
+  "modules": [
+    {
+      "title": "Module 1: TROUBLESHOOT MAIL FLOW ISSUES (20–25%)",
+      "submodules": [
+        {
+          "heading": "TROUBLESHOOT EXCHANGE ONLINE MAIL FLOW ISSUES ",
+          "contents": [
+            "Review and interpret message headers ",
+            "Review and interpret message trace results and policies associated with those results ",
+            "Determine whether a transport rule or conditional routing rule is affecting mail flow ",
+            "Identify rules that are evaluated and policies that are applied when sending or receiving email ",
+            "Troubleshoot issues where users cannot send or receive email and no ndr is generated or displayed ",
+            "Troubleshoot issues where mail destined for one tenant is incorrectly routed to another tenant ",
+            "Troubleshoot delivery delays "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT MAIL FLOW ISSUES WITH EXTERNAL SYSTEMS ",
+          "contents": [
+            "Read and analyze SMTP protocol logs for hybrid deployments and third-party systems ",
+            "Troubleshoot issues related to mail flow for hybrid deployments ",
+            "Troubleshoot DNS-related mail flow issues ",
+            "Troubleshoot SMTP relay issues ",
+            "Troubleshoot SMTP certificate issues "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT OTHER MAIL FLOW ISSUES ",
+          "contents": [
+            "Identify types of ndrs and interpret NDR data ",
+            "Determine which active rules impact email attachments ",
+            "Determine which rules are triggered when an email arrives at a user’s inbox ",
+            "Troubleshoot issues related to blocked attachment types ",
+            "Troubleshoot issues with corrupted inbox rules "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT ISSUES REPORTED BY MICROSOFT DEFENDER FOR OFFICE 365 ",
+          "contents": [
+            "Determine why an email is marked as spam ",
+            "Determine why messages are being quarantined ",
+            "Determine whether the sender spf dmarc and dkim records are valid ",
+            "Troubleshoot spam filter policies ",
+            "Troubleshoot messages that are categorized as false positive or false negative"
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT MAIL FLOW ISSUES WITH EXTERNAL SYSTEMS ",
+          "contents": [
+            "Read and analyze SMTP protocol logs for hybrid deployments and third-party systems ",
+            "Troubleshoot issues related to mail flow for hybrid deployments ",
+            "Troubleshoot DNS-related mail flow issues ",
+            "Troubleshoot SMTP relay issues ",
+            "Troubleshoot SMTP certificate issues "
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2: TROUBLESHOOT COMPLIANCE AND RETENTION ISSUES (25–30%) ",
+      "submodules": [
+        {
+          "heading": "TROUBLESHOOT COMPLIANCE ISSUES ",
+          "contents": [
+            "Identify roles required to perform ediscovery actions",
+            "Describe Compliance center retention policies ",
+            "Troubleshoot ediscovery issues ",
+            "Determine what types of holds are associated with an item ",
+            "Troubleshoot in-place and ediscovery holds ",
+            "Search for and delete email messages in an organization ",
+            "Determine how to clear or purge recoverable item folders "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT RETENTION ISSUES ",
+          "contents": [
+            "Describe retention tag types and actions ",
+            "Describe the process for calculating item retention age ",
+            "Troubleshoot issues creating and applying retention policies ",
+            "Review and interpret messaging records management (mrm) mailbox diagnostics logs ",
+            "Interpret message properties used by message records management (mrm) "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT OFFICE MESSAGE ENCRYPTION (OME) AND S/MIME ISSUES ",
+          "contents": [
+            "Troubleshoot issues with messages that are not encrypted or decrypted as expected ",
+            "Troubleshoot issues where external users cannot decrypt messages but internal users can decrypt messages ",
+            "Troubleshoot issues reading, replying to, or forwarding protected messages from microsoft 365 on mobile devices ",
+            "Troubleshoot mail flow rules ",
+            "Troubleshoot revocation issues for encrypted emails ",
+            "Troubleshoot s/mime issues "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT MAILBOX AUDITING ISSUES ",
+          "contents": [
+            "Troubleshoot issues searching audit logs ",
+            "Troubleshoot user actions (for example user reports an item is deleted but they say they did not delete) ",
+            "Troubleshoot bulk actions including email creation, moves, modifications, and deletion ",
+            "Track non-owner actions ",
+            "Troubleshoot audit log retention period issues ",
+            "Troubleshoot auditing not working "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT JOURNALING ",
+          "contents": [
+            "Troubleshoot duplicate journal entries ",
+            "Troubleshoot mail not being journaled ",
+            "Troubleshoot journal ome decryption issues"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3: TROUBLESHOOT MAIL CLIENT ISSUES (20–25%) ",
+      "submodules": [
+        {
+          "heading": "TROUBLESHOOT CONNECTIVITY AND AUTHENTICATION ISSUES ",
+          "contents": [
+            "Describe how to obtain Outlook client configuration information ",
+            "Troubleshoot Exchange authentication policies ",
+            "Troubleshoot client access rules ",
+            "Troubleshoot issues with modern authentication ",
+            "Troubleshoot Outlook on the Web (OWA) sign in issues ",
+            "Troubleshoot auto-discover issues ",
+            "Outlook client cannot connect to Exchange Online mailbox ",
+            "Troubleshoot Outlook continuously asking for Exchange Online password "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT CALENDARING ISSUES ",
+          "contents": [
+            "Review and analyze mailbox and calendar diagnostic logs ",
+            "Troubleshoot broken manager/delegation issues ",
+            "Troubleshoot resource booking assistant issues "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT CALENDAR SHARING ISSUES ",
+          "contents": [
+            "Troubleshoot permissions issues related to calendar sharing ",
+            "Troubleshoot issues publishing and accessing calendars shared with external users ",
+            "Determine why content for a published calendar is not up to date "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT ISSUES WITH MOBILE DEVICES ",
+          "contents": [
+            "Identify mobile device access states and what the states indicate ",
+            "Review mobile devices statistics to confirm the reason for a block ",
+            "Review the allow blocked quarantine (abq) list to identify blocked or quarantined devices ",
+            "Troubleshoot exchange device access rules ",
+            "Review and interpret activesync logs to troubleshoot outlook sync eas connection issues ",
+            "Troubleshoot connectivity issues with native activesync "
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4: TROUBLESHOOT EXCHANGE ONLINE CONFIGURATION ISSUES (15–20%) ",
+      "submodules": [
+        {
+          "heading": "TROUBLESHOOT PROVISIONING ISSUES ",
+          "contents": [
+            "Interpret and troubleshoot validation errors encountered during object provisioning",
+            "Determine when to restore or recover an inactive mailbox ",
+            "Troubleshoot issues managing resource mailboxes ",
+            "Troubleshoot issues purging deleted users "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT RECIPIENT ISSUES ",
+          "contents": [
+            "Troubleshoot automatic email forwarding ",
+            "Troubleshoot matching issues with azure ad",
+            "Troubleshoot distribution list membership issues (including dynamic distribution groups) ",
+            "Troubleshoot issues with archive mailboxes including auto-expanding archive mailboxes "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT ORG-WIDE SETTINGS ",
+          "contents": [
+            "Troubleshoot domain setup and configuration issues ",
+            "Troubleshoot address book policies ",
+            "Troubleshoot address lists ",
+            "Troubleshoot allowed file types ",
+            "Troubleshoot mailbox plans ",
+            "Troubleshoot client-access services (cas) mailbox plans "
+          ]
+        },
+        {
+          "heading": "TROUBLESHOOT PUBLIC FOLDER ISSUES ",
+          "contents": [
+            "Troubleshoot Exchange Online access to public folders",
+            "Troubleshoot mail-enabled public folders ",
+            "Troubleshoot issues sending email to public folders ",
+            "Troubleshoot hybrid access to public folders ",
+            "Troubleshoot load-balancing issues for public folders "
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 5: TROUBLESHOOT HYBRID AND MIGRATION ISSUES (10–15%) ",
+      "submodules": [
+        {
+          "heading": "TROUBLESHOOT HYBRID CONFIGURATION ISSUES ",
+          "contents": [
+            "Troubleshoot Hybrid Configuration Wizard issues ",
+            "Troubleshoot hybrid mail flow issues ",
+            "Troubleshoot free/busy issues for hybrid deployments ",
+            "Troubleshoot issues synchronizing remote recipient attributes with Exchange Online "
+          ]
+        },
+        {
+          "heading": "9.5.2\tTROUBLESHOOT MIGRATION ISSUES ",
+          "contents": [
+            "Troubleshoot endpoint creation issues ",
+            "Review migration users and move requests ",
+            "Troubleshoot slow migrations ",
+            "Troubleshoot data consistency score (dcs) issues ",
+            "Troubleshoot failed migrations ",
+            "Troubleshoot public folder migration issues "
+          ]
+        }
+      ]
+    }
+  ],
+  "onCompletion": [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+  ],
+  "batches": [
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    }
+  ]
+}

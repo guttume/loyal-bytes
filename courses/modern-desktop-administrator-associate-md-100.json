@@ -96,7 +96,7 @@
           ]
         },
         {
-          "heading": "10.2.2\tCONFIGURE AND MANAGE STORAGE ",
+          "heading": "CONFIGURE AND MANAGE STORAGE ",
           "contents": [
             "Configure local storage ",
             "Configure onedrive on windows client ",
@@ -236,7 +236,7 @@
       ]
     },
     {
-      "title": "Module 4:\tMANAGE IDENTITY AND ACCESS (10-15%) ",
+      "title": "Module 4: MANAGE IDENTITY AND ACCESS (10-15%) ",
       "submodules": [
         {
           "heading": "MANAGE IDENTITY",
@@ -331,10 +331,10 @@
       ]
     },
     {
-      "title": "Module 7: 11.5\tMANAGE APPS (10-15%) ",
+      "title": "Module 7: MANAGE APPS (10-15%) ",
       "submodules": [
         {
-          "heading": "11.5.1\tDEPLOY AND UPDATE APPLICATIONS ",
+          "heading": "DEPLOY AND UPDATE APPLICATIONS ",
           "contents": [
             "Deploy apps by using Intune ",
             "Configure Microsoft 365 Apps deployment by using Office Deployment Toolkit or Office Customization Tool ",
@@ -345,7 +345,7 @@
           ]
         },
         {
-          "heading": "11.5.2\tIMPLEMENT APP PROTECTION AND APP CONFIGURATION POLICIES ",
+          "heading": "IMPLEMENT APP PROTECTION AND APP CONFIGURATION POLICIES ",
           "contents": [
             "Plan app protection policies ",
             "Plan app configuration policies for ios and android ",

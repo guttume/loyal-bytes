@@ -21,7 +21,7 @@ export default function Category({ courses }: { courses: Array<string> }) {
             <a
               key={course}
               className="flex bg-gray-200 px-4 py-8 justify-between items-center rounded-xl"
-              href={`/course/${course.replace(/\.js$/, ".html")}`}
+              href={`/course/${course.replace(/\.js$/, ".html").replace(/\(/, "").replace(/\)/, "")}`}
             >
               <span className="flex-1">
                 <span
@@ -42,7 +42,12 @@ export default function Category({ courses }: { courses: Array<string> }) {
                       (word) =>
                         `${word.slice(0, 1).toUpperCase()}${word.slice(1)}`
                     )
-                    .join(" ")}
+                    .join(" ")
+                    .replace(/(\(\w+\s\d+)/, (v) => v.toUpperCase()).replace(/(& \w\w)/, (v) => v.toUpperCase())
+                    .replace(/Ai/, 'AI')
+                    .replace(/Iot/, 'IOT')
+                    .replace(/Db/, 'DB')
+                  }
                 </span>
               <span className="flex-1">
                 <span className="h-8 w-8 bg-white rounded-full flex justify-center items-center">

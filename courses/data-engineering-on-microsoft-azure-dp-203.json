@@ -42,10 +42,10 @@
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: Design and Implement Data Storage (40-45%)",
+      "title": "Module 1: DESIGN AND IMPLEMENT DATA STORAGE (40-45%)",
       "submodules": [
         {
-          "heading": "Design a data storage structure",
+          "heading": "DESIGN A DATA STORAGE STRUCTURE",
           "contents": [
             "Design an Azure Data Lake solution",
             "Recommend file types for storage",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "heading": "Design a partition strategy",
+          "heading": "DESIGN A PARTITION STRATEGY",
           "contents": [
             "Design a partition strategy for files",
             "Design a partition strategy for analytical workloads",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "heading": "Design the serving layer",
+          "heading": "DESIGN THE SERVING LAYER",
           "contents": [
             "Design star schemas",
             "Design slowly changing dimensions",
@@ -80,7 +80,7 @@
           ]
         },
         {
-          "heading": "Implement physical data storage structures",
+          "heading": "IMPLEMENT PHYSICAL DATA STORAGE STRUCTURES",
           "contents": [
             "Implement compression",
             "Implement partitioning",
@@ -92,7 +92,7 @@
           ]
         },
         {
-          "heading": "Implement logical data structures",
+          "heading": "IMPLEMENT LOGICAL DATA STRUCTURES",
           "contents": [
             "Build a temporal data solution",
             "Build a slowly changing dimension",
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "heading": "Implement the serving layer",
+          "heading": "IMPLEMENT THE SERVING LAYER",
           "contents": [
             "Deliver data in a relational star schema",
             "Deliver data in Parquet files",
@@ -113,10 +113,10 @@
       ]
     },
     {
-      "title": "Module 2: Design and Develop Data Processing (25-30%)",
+      "title": "Module 2: DESIGN AND DEVELOP DATA PROCESSING (25-30%)",
       "submodules": [
         {
-          "heading": "Ingest and transform data",
+          "heading": "INGEST AND TRANSFORM DATA",
           "contents": [
             "Transform data by using Apache Spark",
             "Recommend a public and internal IP strategy",
@@ -134,7 +134,7 @@
           ]
         },
         {
-          "heading": "Design and develop a batch processing solution",
+          "heading": "DESIGN AND DEVELOP A BATCH PROCESSING SOLUTION",
           "contents": [
             "Develop batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks",
             "Create data pipelines",
@@ -157,7 +157,7 @@
           ]
         },
         {
-          "heading": "Design and develop a stream processing solution",
+          "heading": "DESIGN AND DEVELOP A STREAM PROCESSING SOLUTION",
           "contents": [
             "Develop a stream processing solution by using Stream Analytics, Azure Databricks, and Azure Event Hubs",
             "Process data by using Spark structured streaming",
@@ -179,7 +179,7 @@
           ]
         },
         {
-          "heading": "Manage batches and pipelines",
+          "heading": "MANAGE BATCHES AND PIPELINES",
           "contents": [
             "Trigger batches",
             "Handle failed batch loads",
@@ -193,10 +193,10 @@
       ]
     },
     {
-      "title": "Module 3: Design and Implement Data Security (10-15%)",
+      "title": "Module 3: DESIGN AND IMPLEMENT DATA SECURITY (10-15%)",
       "submodules": [
         {
-          "heading": "Design security for data policies and standards",
+          "heading": "DESIGN SECURITY FOR DATA POLICIES AND STANDARDS",
           "contents": [
             "Design data encryption for data at rest and in transit",
             "Design a data auditing strategy",
@@ -209,7 +209,7 @@
           ]
         },
         {
-          "heading": "Implement data security",
+          "heading": "IMPLEMENT DATA SECURITY",
           "contents": [
             "Implement data masking",
             "Encrypt data at rest and in motion",
@@ -229,10 +229,10 @@
       ]
     },
     {
-      "title": "Module 4: Monitor and Optimize Data Storage and Data Processing (10-15%)",
+      "title": "Module 4: MONITOR AND OPTIMIZE DATA STORAGE AND DATA PROCESSING (10-15%)",
       "submodules": [
         {
-          "heading": "Monitor data storage and data processing",
+          "heading": "MONITOR DATA STORAGE AND DATA PROCESSING",
           "contents": [
             "Implement logging used by Azure Monitor",
             "Configure monitoring services",
@@ -248,7 +248,7 @@
           ]
         },
         {
-          "heading": "Optimize and troubleshoot data storage and data processing",
+          "heading": "OPTIMIZE AND TROUBLESHOOT DATA STORAGE AND DATA PROCESSING",
           "contents": [
             "Compact small files",
             "Rewrite user-defined functions (UDFs)",

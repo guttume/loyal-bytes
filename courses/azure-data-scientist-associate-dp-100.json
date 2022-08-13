@@ -1,0 +1,289 @@
+ {
+  "title": "Azure Administrator Associate AZ - 104",
+  "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+  "heroImage": "/images/course-page/azure-hero-image.png",
+  "heroBg": "/images/course-page/azure-hero-bg.png",
+  "courseDetail": {
+    "duration": "40 Hours",
+    "certification": "Microsoft Certification",
+    "batchInfo": "Weekdays batches available",
+    "level": "100",
+    "highlights": [
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Duration",
+        "subheading": "40 Hours."
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Batch Days",
+        "subheading": "Weekdays"
+      },
+      {
+        "icon": "user ",
+        "color": "orange",
+        "heading": "Learning mode",
+        "subheading": "Group, One-to-One, Corporate Batches, Online Live Classrooms"
+      },
+      {
+        "icon": "user",
+        "color": "orange",
+        "heading": "Passing score",
+        "subheading": "700"
+      }
+    ],
+    "bg": "blue",
+    "displayImage": "/images/course-page/azure-hightlights-image.png",
+    "description": "Candidates for the Azure Data Scientist Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure. A candidate for this certification should have knowledge and experience in data science and using Azure Machine Learning and Azure Databricks."
+  },
+  "idealFor": "Candidates for the Azure Jo Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure. Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure. You run data experiments and train predictive models. In addition, you manage, optimize, and deploy machine learning models into production. A candidate for this certification should have knowledge and experience in data science and using Azure Machine Learning and Azure Databricks.",
+  "learningObjectives": "Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure. You run data experiments and train predictive models. In addition, you manage, optimize, and deploy machine learning models into production.",
+  "modules": [
+    {
+      "title": "Module 1 MANAGE AZURE RESOURCES FOR MACHINE LEARNING (25-30%)",
+      "submodules": [
+        {
+          "heading": "CREATE AN AZURE MACHINE LEARNING WORKSPACE",
+          "contents": [
+            "Create an Azure Machine Learning workspace",
+            "Configure workspace settings",
+            "Manage a workspace by using Azure Machine Learning studio"
+          ]
+        },
+        {
+          "heading": "MANAGE DATA IN AN AZURE MACHINE LEARNING WORKSPACE",
+          "contents": [
+            "Select Azure storage resources",
+            "Register and maintain datastores",
+            "Create and manage datasets"
+          ]
+        },
+        {
+          "heading": "MANAGE COMPUTE FOR EXPERIMENTS IN AZURE MACHINE LEARNING",
+          "contents": [
+            "Determine the appropriate compute specifications for a training workload",
+            "Create compute targets for experiments and training",
+            "Configure Attached Compute resources including Azure Databricks",
+            "Monitor compute utilization"
+          ]
+        },
+        {
+          "heading": "IMPLEMENT SECURITY AND ACCESS CONTROL IN AZURE MACHINE LEARNING",
+          "contents": [
+            "Determine access requirements and map requirements to built-in roles",
+            "Create custom roles",
+            "Manage role membership",
+            "Manage credentials by using Azure Key Vault"
+          ]
+        },
+        {
+          "heading": "SET UP AN AZURE MACHINE LEARNING DEVELOPMENT ENVIRONMENT",
+          "contents": [
+            "Create compute instances",
+            "Share compute instances",
+            "Access Azure Machine Learning workspaces from other development environments"
+          ]
+        },
+        {
+          "heading": "SET UP AN AZURE DATABRICKS WORKSPACE",
+          "contents": [
+            "Create an Azure Databricks workspace",
+            "Create an Azure Databricks cluster",
+            "Create and run notebooks in Azure Databricks",
+            "Link and Azure Databricks workspace to an Azure Machine Learning workspace"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 2: RUN EXPERIMENTS AND TRAIN MODELS (20-25%)",
+      "submodules": [
+        {
+          "heading": "CREATE MODELS BY USING THE AZURE MACHINE LEARNING DESIGNER",
+          "contents": [
+            "Create a training pipeline by using Azure Machine Learning designer",
+            "Ingest data in a designer pipeline",
+            "Use designer modules to define a pipeline data flow",
+            "Use custom code modules in designer"
+          ]
+        },
+        {
+          "heading": "RUN MODEL TRAINING SCRIPTS",
+          "contents": [
+            "Create and run an experiment by using the Azure Machine Learning SDK",
+            "Configure run settings for a script",
+            "Consume data from a dataset in an experiment by using the Azure Machine Learning SDK",
+            "Run a training script on Azure Databricks compute",
+            "Run code to train a model in an Azure Databricks notebook"
+          ]
+        },
+        {
+          "heading": "GENERATE METRICS FROM AN EXPERIMENT RUN",
+          "contents": [
+            "Log metrics from an experiment run",
+            "Retrieve and view experiment outputs",
+            "Use logs to troubleshoot experiment run errors",
+            "Use MLflow to track experiments",
+            "Track experiments running in Azure Databricks"
+          ]
+        },
+        {
+          "heading": "USE AUTOMATED MACHINE LEAR",
+          "contents": [
+            "Use the Automated ML interface in Azure Machine Learning studio",
+            "Use Automated ML from the A4",
+            "Select the algorithms to be searched",
+            "Define a primary metric",
+            "Get data for an Automated ML run",
+            "Retrieve the best model            "
+          ]
+        },
+        {
+          "heading": "TUNE HYPERPARAMETERS WITH AZURE MACHINE LEARNING",
+          "contents": [
+            "Select a sampling method",
+            "Define the search space",
+            "Define the primary metric",
+            "Define early termination options",
+            "Find the model that has optimal hyperparameter values"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 3: DEPLOY AND OPERATIONALIZE MACHINE LEARNING SOLUTIONS (35-40%)",
+      "submodules": [
+        {
+          "heading": "SELECT COMPUTE FOR MODEL DEPLOYMENT",
+          "contents": [
+            "Consider security for deployed services",
+            "Evaluate compute options for deployment"
+          ]
+        },
+        {
+          "heading": "DEPLOY A MODEL AS A SERVICE",
+          "contents": [
+            "Configure deployment settings",
+            "Deploy a registered model",
+            "Deploy a model trained in Azure Databricks to an Azure Machine Learning endpoint",
+            "Consume a deployed service",
+            "Troubleshoot deployment container issues"
+          ]
+        },
+        {
+          "heading": "MANAGE MODELS IN AZURE MACHINE LEARNING",
+          "contents": [
+            "Register a trained model",
+            "Monitor model usage",
+            "Monitor data drift"
+          ]
+        },
+        {
+          "heading": "CREATE AN AZURE MACHINE LEARNING PIPELINE FOR BATCH INFERENCING",
+          "contents": [
+            "Configure a ParallelRunStep",
+            "Configure compute for a batch inferencing pipeline",
+            "Publish a batch inferencing pipeline",
+            "Run a batch inferencing pipeline and obtain outputs",
+            "Obtain outputs from a ParallelRunStep"
+          ]
+        },
+        {
+          "heading": "PUBLISH AN AZURE MACHINE LEARNING DESIGNER PIPELINE AS A WEB SERVICE",
+          "contents": [
+            "Create a target compute resource",
+            "Configure an inference pipeline",
+            "Consume a deployed endpoint"
+          ]
+        },
+        {
+          "heading": "IMPLEMENT PIPELINES BY USING THE AZURE MACHINE LEARNING SDK",
+          "contents": [
+            "Create a pipeline",
+            "Pass data between steps in a pipeline",
+            "Run a pipeline",
+            "Monitor pipeline runs"
+          ]
+        },
+        {
+          "heading": "APPLY ML OPS PRACTICES",
+          "contents": [
+            "Trigger an Azure Machine Learning pipeline from Azure DevOps",
+            "Automate model retraining based on new data additions or data changes",
+            "Refactor notebooks into scripts",
+            "Implement source control for scripts"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Module 4: IMPLEMENT RESPONSIBLE MACHINE LEARNING (5-10%)",
+      "submodules": [
+        {
+          "heading": "USE MODEL EXPLAINERS TO INTERPRET MODELS",
+          "contents": [
+            "Select a model interpreter",
+            "Generate feature importance data"
+          ]
+        },
+        {
+          "heading": "DESCRIBE FAIRNESS CONSIDERATIONS FOR MODELS",
+          "contents": [
+            "Evaluate model fairness based on prediction disparity",
+            "Mitigate model unfairness"
+          ]
+        },
+        {
+          "heading": "DESCRIBE PRIVACY CONSIDERATIONS FOR DATA",
+          "contents": [
+            "Describe principles of differential privacy",
+            "Dpecify acceptable levels of noise in data and the effects on privacy"
+          ]
+        }
+      ]
+    }
+  ],
+  "onCompletion": [
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. ",
+    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+  ],
+  "batches": [
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    },
+    {
+      "id": "",
+      "days": "",
+      "mode": "",
+      "time": "",
+      "duration": ""
+    }
+  ]
+}

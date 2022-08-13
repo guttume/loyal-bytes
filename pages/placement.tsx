@@ -3,13 +3,13 @@ import { images, Testimonial } from "../components";
 export default function Placement() {
   return (
     <>
-      <section>
-        <div className="relative bg-gradient-to-tr from-blue-900 via-darkBlue to-blue-900 md:bg-gradient-radial">
+      <section className="h-[52vw]">
+        <div className="relative bg-gradient-to-tr from-blue-900 via-darkBlue to-blue-900 lg:bg-gradient-radial">
           <div className="absolute -z-10">
             <img
               src={images.placement.hero}
               alt="Hero image"
-              className="hidden w-full md:block"
+              className="hidden w-full lg:block"
             />
           </div>
           <div className="w-full max-w-2xl px-8 pb-12 space-y-6 lg:px-12">
@@ -84,13 +84,13 @@ export default function Placement() {
       <section className="py-12 mx-8 mb-16 bg-gradient-to-r from-blue-800 via-blue-600 to-blue-600 text-blue-50 lg:mx-12 rounded-xl">
         <div className="justify-between space-y-8 lg:flex lg:px-20 lg:space-y-0">
           <div className="px-4 space-y-4 lg:space-y-0">
-            <h3 className="text-3xl font-bold text-center text-white lg:text-left">
+            <h3 className="font-bold text-lg mb-3">
               Apply now and get early birds offers
             </h3>
-            <h4 className="text-lg font-semibold text-center text-white lg:text-left">
+            <p>
               Apply for the course of your choice and avail attractive early
               birds offers.
-            </h4>
+            </p>
           </div>
           <div className="flex justify-center lg:block">
             <a
