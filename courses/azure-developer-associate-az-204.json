@@ -1,4 +1,4 @@
- {
+{
   "title": "Azure Developer Associate AZ - 204",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -42,7 +42,7 @@
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: DevELOP AZURE COMPUTE SOLUTIONS (25-30%)",
+      "title": "Module 1: DEVELOP AZURE COMPUTE SOLUTIONS (25-30%)",
       "submodules": [
         {
           "heading": "IMPLEMENT IAAS SOLUTIONS",

@@ -1,4 +1,4 @@
- {
+{
   "title": "Azure Stack Hub Operator Associate AZ-600",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -42,10 +42,10 @@
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: Provide services (30-35%)",
+      "title": "Module 1: PROVIDE SERVICES (30-35%)",
       "submodules": [
         {
-          "heading": "Manage Azure Stack Hub Marketplace",
+          "heading": "MANAGE AZURE STACK HUB MARKETPLACE",
           "contents": [
             "Populate Azure Stack Hub Marketplace in a disconnected environment",
             "Create a custom Azure Stack Hub Marketplace item",
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "heading": "Offer an App Service resource provider",
+          "heading": "OFFER AN APP SERVICE RESOURCE PROVIDER",
           "contents": [
             "Plan an App Service resource provider deployment",
             "Deploy an App Service resource provider",
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "heading": "Offer an Event Hubs resource provider",
+          "heading": "OFFER AN EVENT HUBS RESOURCE PROVIDER",
           "contents": [
             "Plan an Event Hubs resource provider deployment",
             "Deploy an Event Hubs resource provider",
@@ -74,7 +74,7 @@
           ]
         },
         {
-          "heading": "Offer services",
+          "heading": "OFFER SERVICES",
           "contents": [
             "Create and manage quotas",
             "Create and manage plans",
@@ -84,7 +84,7 @@
           ]
         },
         {
-          "heading": "Manage usage and billing",
+          "heading": "MANAGE USAGE AND BILLING",
           "contents": [
             "Set up usage data reporting",
             "View and retrieve usage data by using the Usage API",
@@ -94,10 +94,10 @@
       ]
     },
     {
-      "title": "Module 2: Implement data center integration (15-20%)",
+      "title": "Module 2: IMPLEMENT DATA CENTER INTEGRATION (15-20%)",
       "submodules": [
         {
-          "heading": "Prepare for Azure Stack Hub deployment",
+          "heading": "PREPARE FOR AZURE STACK HUB DEPLOYMENT",
           "contents": [
             "Recommend a name resolution strategy",
             "Recommend a public and internal IP strategy",
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "heading": "Manage infrastructure certificates for Azure Stack Hub",
+          "heading": "MANAGE INFRASTRUCTURE CERTIFICATES FOR AZURE STACK HUB",
           "contents": [
             "Recommend a certificate strategy",
             "Validate the certificates",
@@ -116,7 +116,7 @@
           ]
         },
         {
-          "heading": "Manage Azure Stack Hub registration",
+          "heading": "MANAGE AZURE STACK HUB REGISTRATION",
           "contents": [
             "recommend a registration model",
             "register in a connected environment",
@@ -127,10 +127,10 @@
       ]
     },
     {
-      "title": "Module 3: Manage identity and access (10-15%)",
+      "title": "Module 3: MANAGE IDENTITY AND ACCESS (10-15%)",
       "submodules": [
         {
-          "heading": "Manage multi-tenancy",
+          "heading": "MANAGE MULTI-TENANCY",
           "contents": [
             "Register the guest tenant directory with Azure Stack Hub",
             "Disable multi-tenancy",
@@ -138,7 +138,7 @@
           ]
         },
         {
-          "heading": "Manage access",
+          "heading": "MANAGE ACCESS",
           "contents": [
             "Identify an appropriate method for access (service principal, users, groups)",
             "Provision a service principal for Azure Stack Hub",
@@ -150,10 +150,10 @@
       ]
     },
     {
-      "title": "Module 4: Manage infrastructure (30-35%)",
+      "title": "Module 4: MANAGE INFRASTRUCTURE (30-35%)",
       "submodules": [
         {
-          "heading": "Manage system health",
+          "heading": "MANAGE SYSTEM HEALTH",
           "contents": [
             "Recommend a monitoring strategy",
             "Monitor system health by using the REST API",
@@ -165,7 +165,7 @@
           ]
         },
         {
-          "heading": "Plan and configure business continuity and disaster recovery",
+          "heading": "PLAN AND CONFIGURE BUSINESS CONTINUITY AND DISASTER RECOVERY",
           "contents": [
             "Recommend a business continuity disaster recovery (BCDR) strategy",
             "Recommend a strategy for infrastructure backups",
@@ -175,7 +175,7 @@
           ]
         },
         {
-          "heading": "Manage capacity",
+          "heading": "MANAGE CAPACITY",
           "contents": [
             "Plan for system capacity",
             "Manage partitioned GPUs",
@@ -185,7 +185,7 @@
           ]
         },
         {
-          "heading": "Update infrastructure",
+          "heading": "UPDATE INFRASTRUCTURE",
           "contents": [
             "Update Azure Stack Hub",
             "Download and import update packages manually",
@@ -193,7 +193,7 @@
           ]
         },
         {
-          "heading": "Manage Azure Stack Hub by using privileged endpoints",
+          "heading": "MANAGE AZURE STACK HUB BY USING PRIVILEGED ENDPOINTS",
           "contents": [
             "Connect to a privileged endpoint",
             "Configure the cloud admin user role",

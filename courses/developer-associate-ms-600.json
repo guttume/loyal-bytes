@@ -1,4 +1,4 @@
- {
+{
   "title": "Developer Associate MS - 600",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -289,7 +289,7 @@
       ]
     },
     {
-      "title": "Module 4: EXTEND OFFICE (15-20%)",
+      "title": "Module 5: EXTEND OFFICE (15-20%)",
       "submodules": [
         {
           "heading": "DESCRIBE FUNDAMENTAL COMPONENTS AND TYPES OF OFFICE ADD-INS",

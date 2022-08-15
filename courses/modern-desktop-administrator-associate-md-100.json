@@ -1,4 +1,4 @@
- {
+{
   "title": "Modern Desktop Administrator Associate MD 100 MD 101",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -103,16 +103,6 @@
             "Optimize local drives by using disk cleanup or storage sense ",
             "Configure file and folder permissions "
           ]
-        },
-        {
-          "heading": "ACCESS USER DATA FROM MICROSOFT GRAPH",
-          "contents": [
-            "Get the signed in user's profile",
-            "Get a list of users in the organization",
-            "Get the user's profile photo",
-            "Get the user object based on the user's unique identifier",
-            "Get the user's manager’s profile"
-          ]
         }
       ]
     },
@@ -197,10 +187,10 @@
       ]
     },
     {
-      "title": "Module 4: DEPLOY WINDOWS CLIENT (25-30%) ",
+      "title": "Module 5: DEPLOY WINDOWS CLIENT (25-30%) ",
       "submodules": [
         {
-          "heading": "DESCRIBE FUNDAMENTAL COMPONENTS AND TYPES OF OFFICE ADD-INS",
+          "heading": "PLAN A WINDOWS CLIENT DEPLOYMENT ",
           "contents": [
             "Assess infrastructure readiness by using Endpoint Analytics ",
             "Select a deployment tool based on requirements ",
@@ -236,7 +226,7 @@
       ]
     },
     {
-      "title": "Module 4: MANAGE IDENTITY AND ACCESS (10-15%) ",
+      "title": "Module 6: MANAGE IDENTITY AND ACCESS (10-15%) ",
       "submodules": [
         {
           "heading": "MANAGE IDENTITY",
@@ -260,7 +250,7 @@
       ]
     },
     {
-      "title": "Module 5: MANAGE COMPLIANCE POLICIES AND CONFIGURATION PROFILES (10-15%) ",
+      "title": "Module 7: MANAGE COMPLIANCE POLICIES AND CONFIGURATION PROFILES (10-15%) ",
       "submodules": [
         {
           "heading": "IMPLEMENT DEVICE COMPLIANCE POLICIES",
@@ -284,7 +274,7 @@
       ]
     },
     {
-      "title": "Module 6: MANAGE, MAINTAIN, AND PROTECT DEVICES (25-30%) ",
+      "title": "Module 8: MANAGE, MAINTAIN, AND PROTECT DEVICES (25-30%) ",
       "submodules": [
         {
           "heading": "MANAGE DEVICE LIFECYCLE ",
@@ -331,7 +321,7 @@
       ]
     },
     {
-      "title": "Module 7: MANAGE APPS (10-15%) ",
+      "title": "Module 9: MANAGE APPS (10-15%) ",
       "submodules": [
         {
           "heading": "DEPLOY AND UPDATE APPLICATIONS ",

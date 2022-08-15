@@ -1,4 +1,4 @@
- {
+{
   "title": "Azure Fundamentals - 900",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -113,7 +113,7 @@
           ]
         },
         {
-          "heading": "tDESCRIBE AZURE IDENTITY, ACCESS, AND SECURITY ",
+          "heading": "DESCRIBE AZURE IDENTITY, ACCESS, AND SECURITY ",
           "contents": [
             "Describe directory services in Azure, including Azure Active Directory (Azure AD) and Azure Active Directory Domain Services (Azure AD DS)",
             "Describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication, and password less ",

@@ -1,5 +1,5 @@
- {
-  "title": "Azure Administrator Associate AZ - 104",
+{
+  "title": "Azure Data Scientist Associate DP - 100",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
   "heroBg": "/images/course-page/azure-hero-bg.png",
@@ -42,112 +42,112 @@
   "learningObjectives": "Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure. You run data experiments and train predictive models. In addition, you manage, optimize, and deploy machine learning models into production.",
   "modules": [
     {
-      "title": "Module 1 MANAGE AZURE RESOURCES FOR MACHINE LEARNING (25-30%)",
+      "title": "Module 1:\tMANAGE AZURE RESOURCES FOR MACHINE LEARNING (25-30%)",
       "submodules": [
         {
-          "heading": "CREATE AN AZURE MACHINE LEARNING WORKSPACE",
+          "heading": "9.1.1\tCREATE AN AZURE MACHINE LEARNING WORKSPACE",
           "contents": [
-            "Create an Azure Machine Learning workspace",
-            "Configure workspace settings",
-            "Manage a workspace by using Azure Machine Learning studio"
+            "create an Azure Machine Learning workspace",
+            "configure workspace settings",
+            "manage a workspace by using Azure Machine Learning studio"
           ]
         },
         {
-          "heading": "MANAGE DATA IN AN AZURE MACHINE LEARNING WORKSPACE",
+          "heading": "9.1.2\tMANAGE DATA IN AN AZURE MACHINE LEARNING WORKSPACE",
           "contents": [
-            "Select Azure storage resources",
-            "Register and maintain datastores",
-            "Create and manage datasets"
+            "select Azure storage resources",
+            "register and maintain datastores",
+            "create and manage datasets"
           ]
         },
         {
-          "heading": "MANAGE COMPUTE FOR EXPERIMENTS IN AZURE MACHINE LEARNING",
+          "heading": "9.1.3\tMANAGE COMPUTE FOR EXPERIMENTS IN AZURE MACHINE LEARNING",
           "contents": [
-            "Determine the appropriate compute specifications for a training workload",
-            "Create compute targets for experiments and training",
-            "Configure Attached Compute resources including Azure Databricks",
-            "Monitor compute utilization"
+            "determine the appropriate compute specifications for a training workload",
+            "create compute targets for experiments and training",
+            "configure Attached Compute resources including Azure Databricks",
+            "monitor compute utilization"
           ]
         },
         {
-          "heading": "IMPLEMENT SECURITY AND ACCESS CONTROL IN AZURE MACHINE LEARNING",
+          "heading": "9.1.4\tIMPLEMENT SECURITY AND ACCESS CONTROL IN AZURE MACHINE LEARNING",
           "contents": [
-            "Determine access requirements and map requirements to built-in roles",
-            "Create custom roles",
-            "Manage role membership",
-            "Manage credentials by using Azure Key Vault"
+            "determine access requirements and map requirements to built-in roles",
+            "create custom roles",
+            "manage role membership",
+            "manage credentials by using Azure Key Vault"
           ]
         },
         {
-          "heading": "SET UP AN AZURE MACHINE LEARNING DEVELOPMENT ENVIRONMENT",
+          "heading": "9.1.5\tSET UP AN AZURE MACHINE LEARNING DEVELOPMENT ENVIRONMENT",
           "contents": [
-            "Create compute instances",
-            "Share compute instances",
-            "Access Azure Machine Learning workspaces from other development environments"
+            "create compute instances",
+            "share compute instances",
+            "access Azure Machine Learning workspaces from other development environments"
           ]
         },
         {
-          "heading": "SET UP AN AZURE DATABRICKS WORKSPACE",
+          "heading": "9.1.6\tSET UP AN AZURE DATABRICKS WORKSPACE",
           "contents": [
-            "Create an Azure Databricks workspace",
-            "Create an Azure Databricks cluster",
-            "Create and run notebooks in Azure Databricks",
-            "Link and Azure Databricks workspace to an Azure Machine Learning workspace"
+            "create an Azure Databricks workspace",
+            "create an Azure Databricks cluster",
+            "create and run notebooks in Azure Databricks",
+            "link and Azure Databricks workspace to an Azure Machine Learning workspace"
           ]
         }
       ]
     },
     {
-      "title": "Module 2: RUN EXPERIMENTS AND TRAIN MODELS (20-25%)",
+      "title": "Module 2:\tRUN EXPERIMENTS AND TRAIN MODELS (20-25%)",
       "submodules": [
         {
-          "heading": "CREATE MODELS BY USING THE AZURE MACHINE LEARNING DESIGNER",
+          "heading": "9.2.1\tCREATE MODELS BY USING THE AZURE MACHINE LEARNING DESIGNER",
           "contents": [
-            "Create a training pipeline by using Azure Machine Learning designer",
-            "Ingest data in a designer pipeline",
-            "Use designer modules to define a pipeline data flow",
-            "Use custom code modules in designer"
+            "create a training pipeline by using Azure Machine Learning designer",
+            "ingest data in a designer pipeline",
+            "use designer modules to define a pipeline data flow",
+            "use custom code modules in designer"
           ]
         },
         {
-          "heading": "RUN MODEL TRAINING SCRIPTS",
+          "heading": "9.2.2\tRUN MODEL TRAINING SCRIPTS",
           "contents": [
-            "Create and run an experiment by using the Azure Machine Learning SDK",
-            "Configure run settings for a script",
-            "Consume data from a dataset in an experiment by using the Azure Machine Learning SDK",
-            "Run a training script on Azure Databricks compute",
-            "Run code to train a model in an Azure Databricks notebook"
+            "create and run an experiment by using the Azure Machine Learning SDK",
+            "configure run settings for a script",
+            "consume data from a dataset in an experiment by using the Azure Machine Learning SDK",
+            "run a training script on Azure Databricks compute",
+            "run code to train a model in an Azure Databricks notebook"
           ]
         },
         {
-          "heading": "GENERATE METRICS FROM AN EXPERIMENT RUN",
+          "heading": "9.2.3\tGENERATE METRICS FROM AN EXPERIMENT RUN",
           "contents": [
-            "Log metrics from an experiment run",
-            "Retrieve and view experiment outputs",
-            "Use logs to troubleshoot experiment run errors",
-            "Use MLflow to track experiments",
-            "Track experiments running in Azure Databricks"
+            "log metrics from an experiment run",
+            "retrieve and view experiment outputs",
+            "use logs to troubleshoot experiment run errors",
+            "use MLflow to track experiments",
+            "track experiments running in Azure Databricks"
           ]
         },
         {
-          "heading": "USE AUTOMATED MACHINE LEAR",
+          "heading": "9.2.4\tUSE AUTOMATED MACHINE LEAR",
           "contents": [
-            "Use the Automated ML interface in Azure Machine Learning studio",
-            "Use Automated ML from the A4",
-            "Select the algorithms to be searched",
-            "Define a primary metric",
-            "Get data for an Automated ML run",
-            "Retrieve the best model            "
+            "use the Automated ML interface in Azure Machine Learning studio",
+            "use Automated ML from the A4",
+            "select the algorithms to be searched",
+            "define a primary metric",
+            "get data for an Automated ML run",
+            "retrieve the best model            "
           ]
         },
         {
-          "heading": "TUNE HYPERPARAMETERS WITH AZURE MACHINE LEARNING",
+          "heading": "9.2.5\tTUNE HYPERPARAMETERS WITH AZURE MACHINE LEARNING",
           "contents": [
-            "Select a sampling method",
-            "Define the search space",
-            "Define the primary metric",
-            "Define early termination options",
-            "Find the model that has optimal hyperparameter values"
+            "select a sampling method",
+            "define the search space",
+            "define the primary metric",
+            "define early termination options",
+            "find the model that has optimal hyperparameter values"
           ]
         }
       ]
@@ -156,64 +156,64 @@
       "title": "Module 3: DEPLOY AND OPERATIONALIZE MACHINE LEARNING SOLUTIONS (35-40%)",
       "submodules": [
         {
-          "heading": "SELECT COMPUTE FOR MODEL DEPLOYMENT",
+          "heading": "9.3.1\tSELECT COMPUTE FOR MODEL DEPLOYMENT",
           "contents": [
-            "Consider security for deployed services",
-            "Evaluate compute options for deployment"
+            "consider security for deployed services",
+            "evaluate compute options for deployment"
           ]
         },
         {
-          "heading": "DEPLOY A MODEL AS A SERVICE",
+          "heading": "9.3.2\tDEPLOY A MODEL AS A SERVICE",
           "contents": [
-            "Configure deployment settings",
-            "Deploy a registered model",
-            "Deploy a model trained in Azure Databricks to an Azure Machine Learning endpoint",
-            "Consume a deployed service",
-            "Troubleshoot deployment container issues"
+            "configure deployment settings",
+            "deploy a registered model",
+            "deploy a model trained in Azure Databricks to an Azure Machine Learning endpoint",
+            "consume a deployed service",
+            "troubleshoot deployment container issues"
           ]
         },
         {
-          "heading": "MANAGE MODELS IN AZURE MACHINE LEARNING",
+          "heading": "9.3.3\tMANAGE MODELS IN AZURE MACHINE LEARNING",
           "contents": [
-            "Register a trained model",
-            "Monitor model usage",
-            "Monitor data drift"
+            "register a trained model",
+            "monitor model usage",
+            "monitor data drift"
           ]
         },
         {
-          "heading": "CREATE AN AZURE MACHINE LEARNING PIPELINE FOR BATCH INFERENCING",
+          "heading": "9.3.4\tCREATE AN AZURE MACHINE LEARNING PIPELINE FOR BATCH INFERENCING",
           "contents": [
-            "Configure a ParallelRunStep",
-            "Configure compute for a batch inferencing pipeline",
-            "Publish a batch inferencing pipeline",
-            "Run a batch inferencing pipeline and obtain outputs",
-            "Obtain outputs from a ParallelRunStep"
+            "configure a ParallelRunStep",
+            "configure compute for a batch inferencing pipeline",
+            "publish a batch inferencing pipeline",
+            "run a batch inferencing pipeline and obtain outputs",
+            "obtain outputs from a ParallelRunStep"
           ]
         },
         {
-          "heading": "PUBLISH AN AZURE MACHINE LEARNING DESIGNER PIPELINE AS A WEB SERVICE",
+          "heading": "9.3.5\tPUBLISH AN AZURE MACHINE LEARNING DESIGNER PIPELINE AS A WEB SERVICE",
           "contents": [
-            "Create a target compute resource",
-            "Configure an inference pipeline",
-            "Consume a deployed endpoint"
+            "create a target compute resource",
+            "configure an inference pipeline",
+            "consume a deployed endpoint"
           ]
         },
         {
-          "heading": "IMPLEMENT PIPELINES BY USING THE AZURE MACHINE LEARNING SDK",
+          "heading": "9.3.6\tIMPLEMENT PIPELINES BY USING THE AZURE MACHINE LEARNING SDK",
           "contents": [
-            "Create a pipeline",
-            "Pass data between steps in a pipeline",
-            "Run a pipeline",
-            "Monitor pipeline runs"
+            "create a pipeline",
+            "pass data between steps in a pipeline",
+            "run a pipeline",
+            "monitor pipeline runs"
           ]
         },
         {
-          "heading": "APPLY ML OPS PRACTICES",
+          "heading": "9.3.7\tAPPLY ML OPS PRACTICES",
           "contents": [
-            "Trigger an Azure Machine Learning pipeline from Azure DevOps",
-            "Automate model retraining based on new data additions or data changes",
-            "Refactor notebooks into scripts",
-            "Implement source control for scripts"
+            "trigger an Azure Machine Learning pipeline from Azure DevOps",
+            "automate model retraining based on new data additions or data changes",
+            "refactor notebooks into scripts",
+            "implement source control for scripts"
           ]
         }
       ]
@@ -222,24 +222,24 @@
       "title": "Module 4: IMPLEMENT RESPONSIBLE MACHINE LEARNING (5-10%)",
       "submodules": [
         {
-          "heading": "USE MODEL EXPLAINERS TO INTERPRET MODELS",
+          "heading": "9.4.1\tUSE MODEL EXPLAINERS TO INTERPRET MODELS",
           "contents": [
-            "Select a model interpreter",
-            "Generate feature importance data"
+            "select a model interpreter",
+            "generate feature importance data"
           ]
         },
         {
-          "heading": "DESCRIBE FAIRNESS CONSIDERATIONS FOR MODELS",
+          "heading": "9.4.2\tDESCRIBE FAIRNESS CONSIDERATIONS FOR MODELS",
           "contents": [
-            "Evaluate model fairness based on prediction disparity",
-            "Mitigate model unfairness"
+            "evaluate model fairness based on prediction disparity",
+            "mitigate model unfairness"
           ]
         },
         {
-          "heading": "DESCRIBE PRIVACY CONSIDERATIONS FOR DATA",
+          "heading": "9.4.3\tDESCRIBE PRIVACY CONSIDERATIONS FOR DATA",
           "contents": [
-            "Describe principles of differential privacy",
-            "Dpecify acceptable levels of noise in data and the effects on privacy"
+            "describe principles of differential privacy",
+            "specify acceptable levels of noise in data and the effects on privacy"
           ]
         }
       ]

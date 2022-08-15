@@ -1,4 +1,4 @@
- {
+{
   "title": "Designing and Implementing a Microsoft Azure AI Solution AI - 102",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -177,6 +177,14 @@
           ]
         },
         {
+          "heading": "TRANSLATE LANGUAGE",
+          "contents": [
+            "Translate text by using the Translator service ",
+            "Translate speech-to-speech by using the Speech service ",
+            "Translate speech-to-text by using the Speech service"
+          ]
+        },
+        {
           "heading": "BUILD AN INITIAL LANGUAGE MODEL BY USING LANGUAGE UNDERSTANDING SERVICE (LUIS)",
           "contents": [
             "Create intents and entities based on a schema, and then add utterances",
@@ -186,7 +194,7 @@
           ]
         },
         {
-          "heading": "ITER ATE ON AND OPTIMIZE A LANGUAGE MODEL BY USING LANGUAGE UNDERSTANDING",
+          "heading": "ITERATE ON AND OPTIMIZE A LANGUAGE MODEL BY USING LANGUAGE UNDERSTANDING",
           "contents": [
             "Implement phrase lists",
             "Implement a model as a feature (i.e. prebuilt entities)",

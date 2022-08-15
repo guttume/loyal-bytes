@@ -43,7 +43,7 @@ export default function CorporateTraining() {
               </span>
               <p className="my-4 text-xl font-semibold">Corporate Trainings</p>
               <div className="space-y-4">
-                <p>
+                <p className="text-justify">
                   The holistic training outsourcing solutions provided by LBLS
                   for Corporates are a suite of best-in-class training processes
                   that enable customers to reduce costs, sharpen their business
@@ -53,13 +53,13 @@ export default function CorporateTraining() {
                   Training, and Product/Application Roll-out Training, making
                   the company a preferred training services partner.
                 </p>
-                <p>
+                <p className="text-justify">
                   LBLS&apos;s Corporate Training Programs, targeted at both
                   large enterprises and Small and Medium Businesses (SMBs),
                   deliver training that is focused and meets the requirements of
                   a 21st-century technology-powered workplace.
                 </p>
-                <p>
+                <p className="text-justify">
                   These corporate training programs additionally integrate
                   proven best practices into business processes and redirect
                   surplus training capital into core business solutions.
@@ -79,14 +79,14 @@ export default function CorporateTraining() {
             </div>
           </div>
           <div className="mt-4 space-y-4">
-            <p>
+            <p className="text-justify">
               In a world where technology is continuously evolving, it is not
               easy for your IT workforce to keep pace with what&apos;s emerging
               on the horizon and develop knowledge and skills while balancing
               work pressures and deadlines. At LBLS, we understand what it takes
               for you to maintain your competitive advantage.
             </p>
-            <p>
+            <p className="text-justify">
               Our training solutions are aimed at corporates that constantly
               need to adapt to new technologies and approaches within the
               business environment. These training programs enable users to

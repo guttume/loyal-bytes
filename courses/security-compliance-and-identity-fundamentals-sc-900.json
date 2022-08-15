@@ -1,4 +1,4 @@
- {
+{
   "title": "Security, Compliance, and Identity Fundamentals - 900",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -111,7 +111,7 @@
       "title": "Module 3: DESCRIBE THE CAPABILITIES OF MICROSOFT SECURITY SOLUTIONS (25-30%)",
       "submodules": [
         {
-          "heading": "ESCRIBE BASIC SECURITY CAPABILITIES IN AZURE",
+          "heading": "DESCRIBE BASIC SECURITY CAPABILITIES IN AZURE",
           "contents": [
             "Describe Azure DDoS protection",
             "Describe Azure Firewall",

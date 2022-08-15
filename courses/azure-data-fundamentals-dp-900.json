@@ -1,4 +1,4 @@
- {
+{
   "title": "Azure Data Fundamentals - 900",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -45,62 +45,62 @@
       "title": "Module 1:\tDESCRIBE CORE DATA CONCEPTS (25–30%)",
       "submodules": [
         {
-          "heading": "9.1.1\tDESCRIBE WAYS TO REPRESENT DATA",
+          "heading": "DESCRIBE WAYS TO REPRESENT DATA",
           "contents": [
-            "describe features of structured data",
-            "describe features of semi-structured ",
-            "describe features of unstructured data "
+            "Describe features of structured data",
+            "Describe features of semi-structured ",
+            "Describe features of unstructured data "
           ]
         },
         {
-          "heading": "9.1.2\tIDENTIFY OPTIONS FOR DATA STORAGE",
+          "heading": "IDENTIFY OPTIONS FOR DATA STORAGE",
           "contents": [
-            "describe common formats for data files ",
-            "describe types of databases "
+            "Describe common formats for data files ",
+            "Describe types of databases "
           ]
         },
         {
-          "heading": "9.1.3\tDESCRIBE COMMON DATA WORKLOADS ",
+          "heading": "DESCRIBE COMMON DATA WORKLOADS ",
           "contents": [
-            "describe features of transactional workloads ",
-            "describe features of analytical workloads "
+            "Describe features of transactional workloads ",
+            "Describe features of analytical workloads "
           ]
         },
         {
-          "heading": "9.1.3\tDESCRIBE COMMON DATA WORKLOADS ",
+          "heading": "DESCRIBE COMMON DATA WORKLOADS ",
           "contents": [
-            "describe features of transactional workloads ",
-            "describe features of analytical workloads "
+            "Describe features of analytical workloads",
+            "Describe features of transactional workloads"
           ]
         },
         {
-          "heading": "9.1.4\tIDENTIFY ROLES AND RESPONSIBILITIES FOR DATA WORKLOADS ",
+          "heading": "IDENTIFY ROLES AND RESPONSIBILITIES FOR DATA WORKLOADS ",
           "contents": [
-            "describe responsibilities for database administrators ",
-            "describe responsibilities for data engineers ",
-            "describe responsibilities for data analysts"
+            "Describe responsibilities for database administrators ",
+            "Describe responsibilities for data engineers ",
+            "Describe responsibilities for data analysts"
           ]
         }
       ]
     },
     {
-      "title": "Module 2:\tIDENTIFY CONSIDERATIONS FOR RELATIONAL DATA ON AZURE (20–25%) ",
+      "title": "Module 2: IDENTIFY CONSIDERATIONS FOR RELATIONAL DATA ON AZURE (20–25%) ",
       "submodules": [
         {
-          "heading": "9.2.1\tDESCRIBE RELATIONAL CONCEPTS ",
+          "heading": "DESCRIBE RELATIONAL CONCEPTS ",
           "contents": [
-            "identify features of relational data ",
-            "describe normalization and why it is used ",
-            "identify common structured query language (SQL) statements ",
-            "identify common database objects "
+            "Identify features of relational data ",
+            "Describe normalization and why it is used ",
+            "Identify common structured query language (SQL) statements ",
+            "Identify common database objects "
           ]
         },
         {
-          "heading": "9.2.2\tDESCRIBE RELATIONAL AZURE DATA SERVICES ",
+          "heading": "DESCRIBE RELATIONAL AZURE DATA SERVICES ",
           "contents": [
-            "describe the Azure SQL family of products including Azure SQL Database, Azure SQL ",
-            "managed Instance, and SQL Server on Azure Virtual Machines ",
-            "identify Azure database services for open-source database systems "
+            "Describe the Azure SQL family of products including Azure SQL Database, Azure SQL ",
+            "Managed Instance, and SQL Server on Azure Virtual Machines ",
+            "Identify Azure database services for open-source database systems "
           ]
         }
       ]
@@ -111,16 +111,16 @@
         {
           "heading": "9.3.1\tDESCRIBE CAPABILITIES OF AZURE STORAGE ",
           "contents": [
-            "describe Azure Blob storage ",
-            "describe Azure File storage ",
-            "describe Azure Table storage "
+            "Describe Azure Blob storage ",
+            "Describe Azure File storage ",
+            "Describe Azure Table storage "
           ]
         },
         {
-          "heading": "9.3.2\tDESCRIBE CAPABILITIES AND FEATURES OF AZURE COSMOS DB ",
+          "heading": "DESCRIBE CAPABILITIES AND FEATURES OF AZURE COSMOS DB ",
           "contents": [
-            "identify use cases for Azure Cosmos DB ",
-            "describe Azure Cosmos DB APIs "
+            "Identify use cases for Azure Cosmos DB ",
+            "Describe Azure Cosmos DB APIs "
           ]
         }
       ]
@@ -129,26 +129,26 @@
       "title": "Module 4: DESCRIBE AN ANALYTICS WORKLOAD ON AZURE (25–30%) ",
       "submodules": [
         {
-          "heading": "9.4.1\tDESCRIBE COMMON ELEMENTS OF A MODERN DATA WAREHOUSE ",
+          "heading": "DESCRIBE COMMON ELEMENTS OF A MODERN DATA WAREHOUSE ",
           "contents": [
-            "describe considerations for data ingestion and processing ",
-            "describe options for analytical data stores ",
-            "describe Azure services for data warehousing, including Azure Synapse Analytics, Azure Databricks, Azure HDInsight, and Azure Data Factory "
+            "Describe considerations for data ingestion and processing ",
+            "Describe options for analytical data stores ",
+            "Describe Azure services for data warehousing, including Azure Synapse Analytics, Azure Databricks, Azure HDInsight, and Azure Data Factory "
           ]
         },
         {
-          "heading": "9.4.2\tDESCRIBE CONSIDERATION FOR REAL-TIME DATA ANALYTICS ",
+          "heading": "DESCRIBE CONSIDERATION FOR REAL-TIME DATA ANALYTICS ",
           "contents": [
-            "describe the difference between batch and streaming data ",
-            "describe technologies for real-time analytics including Azure Stream Analytics, Azure Synapse Data Explorer, and Spark structured streaming "
+            "Describe the difference between batch and streaming data ",
+            "Describe technologies for real-time analytics including Azure Stream Analytics, Azure Synapse Data Explorer, and Spark structured streaming "
           ]
         },
         {
-          "heading": "9.4.3\tDESCRIBE DATA VISUALIZATION IN MICROSOFT POWER BI ",
+          "heading": "DESCRIBE DATA VISUALIZATION IN MICROSOFT POWER BI ",
           "contents": [
-            "identify capabilities of Power BI ",
-            "describe features of data models in Power BI ",
-            "identify appropriate visualizations for data "
+            "Identify capabilities of Power BI ",
+            "Describe features of data models in Power BI ",
+            "Identify appropriate visualizations for data "
           ]
         }
       ]

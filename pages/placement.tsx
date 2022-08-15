@@ -14,8 +14,8 @@ export default function Placement() {
           </div>
           <div className="w-full max-w-2xl px-8 pb-12 space-y-6 lg:px-12">
             <h1 className="text-4xl font-bold text-white md:text-6xl pt-28 lg:pt-32">
-              <p className="text-white">Get Affiliated</p> Get
-              Global
+              <p className="text-white">Get Affiliated</p>
+              <p>Go Global</p>
             </h1>
             <h2 className="text-xl text-white">
               Our students have been placed in the top tech companies across the

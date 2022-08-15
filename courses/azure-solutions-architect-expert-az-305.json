@@ -1,4 +1,4 @@
- {
+{
   "title": "Azure Solutions Architect Expert AZ 305",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -163,7 +163,7 @@
           ]
         },
         {
-          "heading": "99.4.4\tDESIGN NETWORK SOLUTIONS",
+          "heading": "DESIGN NETWORK SOLUTIONS",
           "contents": [
             "Recommend a network architecture solution based on workload requirements",
             "Recommend a connectivity solution that connects azure resources to the internet",

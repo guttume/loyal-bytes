@@ -1,4 +1,4 @@
- {
+{
   "title": "Azure AI Fundamentals - 900",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -47,21 +47,21 @@
         {
           "heading": "IDENTIFY FEATURES OF COMMON AI WORKLOADS",
           "contents": [
-            "identify features of anomaly detection workloads",
-            "identify computer vision workloads",
-            "identify natural language processing workloads",
-            "identify knowledge mining workloads"
+            "Identify features of anomaly detection workloads",
+            "Identify computer vision workloads",
+            "Identify natural language processing workloads",
+            "Identify knowledge mining workloads"
           ]
         },
         {
           "heading": "IDENTIFY GUIDING PRINCIPLES FOR RESPONSIBLE AI",
           "contents": [
-            "describe considerations for fairness in an AI solution",
-            "describe considerations for reliability and safety in an AI solution",
-            "describe considerations for privacy and security in an AI solution",
-            "describe considerations for inclusiveness in an AI solution",
-            "describe considerations for transparency in an AI solution",
-            "describe considerations for accountability in an AI solution"
+            "Describe considerations for fairness in an AI solution",
+            "Describe considerations for reliability and safety in an AI solution",
+            "Describe considerations for privacy and security in an AI solution",
+            "Describe considerations for inclusiveness in an AI solution",
+            "Describe considerations for transparency in an AI solution",
+            "Describe considerations for accountability in an AI solution"
           ]
         }
       ]
@@ -120,7 +120,7 @@
       "title": "Module 4: DESCRIBE FEATURES OF NATURAL LANGUAGE PROCESSING (NLP) WORKLOADS ON AZURE (25—30%)",
       "submodules": [
         {
-          "heading": "9.4.1\tIDENTIFY FEATURES OF COMMON NLP WORKLOAD SCENARIOS",
+          "heading": "IDENTIFY FEATURES OF COMMON NLP WORKLOAD SCENARIOS",
           "contents": [
             "Identify features and uses for key phrase extraction",
             "Identify features and uses for entity recognition",
@@ -131,7 +131,7 @@
           ]
         },
         {
-          "heading": "9.4.2\tIDENTIFY AZURE TOOLS AND SERVICES FOR NLP WORKLOADS",
+          "heading": "IDENTIFY AZURE TOOLS AND SERVICES FOR NLP WORKLOADS",
           "contents": [
             "Identify capabilities of the Language service",
             "Identify capabilities of the Speech service",
@@ -139,7 +139,7 @@
           ]
         },
         {
-          "heading": "9.4.3\tIDENTIFY CONSIDERATIONS FOR CONVERSATIONAL AI SOLUTIONS ON AZURE",
+          "heading": "IDENTIFY CONSIDERATIONS FOR CONVERSATIONAL AI SOLUTIONS ON AZURE",
           "contents": [
             "Identify features and uses for bots",
             "Identify capabilities of the Azure Bot service"

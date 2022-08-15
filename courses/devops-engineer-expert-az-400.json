@@ -1,4 +1,4 @@
- {
+{
   "title": "DevOps Engineer Expert AZ 400",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -67,7 +67,7 @@
           ]
         },
         {
-          "heading": "9.1.3\tINTEGRATE LOGGING AND MONITORING SOLUTIONS",
+          "heading": "INTEGRATE LOGGING AND MONITORING SOLUTIONS",
           "contents": [
             "Configure and integrate container monitoring (Azure Monitor, Prometheus, etc.)",
             "Configure and integrate with monitoring tools (Azure Monitor Application Insights, Dynatrace, New Relic, Naggios, Zabbix)",
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "heading": "9.2.3\tDESIGN AND IMPLEMENT A HEALTH CHECK",
+          "heading": "DESIGN AND IMPLEMENT A HEALTH CHECK",
           "contents": [
             "Analyze system dependencies to determine which dependency should be included in health check",
             "Calculate healthy response timeouts based on slo for the service",

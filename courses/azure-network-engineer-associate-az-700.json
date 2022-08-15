@@ -1,4 +1,4 @@
- {
+{
   "title": "Azure Network Engineer Associate AZ - 700",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -42,10 +42,10 @@
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: Design, Implement, and Manage Hybrid Networking (10–15%)",
+      "title": "Module 1: DESIGN, IMPLEMENT, AND MANAGE HYBRID NETWORKING (10–15%)",
       "submodules": [
         {
-          "heading": "Design, implement, and manage a site-to-site VPN connection",
+          "heading": "DESIGN, IMPLEMENT, AND MANAGE A SITE-TO-SITE VPN CONNECTION",
           "contents": [
             "Design a site-to-site VPN connection for high availability",
             "Select an appropriate virtual network (VNet) gateway SKU",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "heading": "Design, implement, and manage a point-to-site VPN connection",
+          "heading": "DESIGN, IMPLEMENT, AND MANAGE A POINT-TO-SITE VPN CONNECTION",
           "contents": [
             "Select an appropriate virtual network gateway SKU",
             "Plan and configure RADIUS authentication",
@@ -68,7 +68,7 @@
           ]
         },
         {
-          "heading": "Design, implement, and manage Azure ExpressRoute",
+          "heading": "DESIGN, IMPLEMENT, AND MANAGE AZURE EXPRESSROUTE",
           "contents": [
             "Choose between provider and direct model (ExpressRoute Direct)",
             "Design and implement Azure cross-region connectivity between multiple ExpressRoute locations",
@@ -89,10 +89,10 @@
       ]
     },
     {
-      "title": "Module 2: Design and Implement Core Networking Infrastructure (20–25%)",
+      "title": "Module 2: DESIGN AND IMPLEMENT CORE NETWORKING INFRASTRUCTURE (20–25%)",
       "submodules": [
         {
-          "heading": "Design and implement private IP addressing for VNets",
+          "heading": "DESIGN AND IMPLEMENT PRIVATE IP ADDRESSING FOR VNETS",
           "contents": [
             "Create a VNet",
             "Plan and configure subnetting for services, including VNet gateways, private endpoints, firewalls, application gateways, and VNet-integrated platform services",
@@ -101,7 +101,7 @@
           ]
         },
         {
-          "heading": "Design and implement name resolution",
+          "heading": "DESIGN AND IMPLEMENT NAME RESOLUTION",
           "contents": [
             "Mdesign public DNS zones",
             "Design private DNS zones",
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "heading": "Design and implement cross-VNet connectivity",
+          "heading": "DESIGN AND IMPLEMENT CROSS-VNET CONNECTIVITY",
           "contents": [
             "Design service chaining, including gateway transit",
             "Design VPN connectivity between VNets",
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "heading": "Design and implement an Azure Virtual WAN architecture",
+          "heading": "DESIGN AND IMPLEMENT AN AZURE VIRTUAL WAN ARCHITECTURE",
           "contents": [
             "Design an Azure Virtual WAN architecture, including selecting types and services",
             "Connect a VNet gateway to Azure Virtual WAN",
@@ -132,10 +132,10 @@
       ]
     },
     {
-      "title": "Module 3: Design and Implement Routing (25–30%)",
+      "title": "Module 3: DESIGN AND IMPLEMENT ROUTING (25–30%)",
       "submodules": [
         {
-          "heading": "Design, implement, and manage VNet routing",
+          "heading": "DESIGN, IMPLEMENT, AND MANAGE VNET ROUTING",
           "contents": [
             "Design and implement user-defined routes (UDRs)",
             "Associate a route table with a subnet",
@@ -145,7 +145,7 @@
           ]
         },
         {
-          "heading": "Design and implement an Azure Load Balancer",
+          "heading": "DESIGN AND IMPLEMENT AN AZURE LOAD BALANCER",
           "contents": [
             "Choose an Azure Load Balancer SKU (Basic versus Standard)",
             "Choose between public and internal",
@@ -156,7 +156,7 @@
           ]
         },
         {
-          "heading": "Design and implement Azure Application Gateway",
+          "heading": "DESIGN AND IMPLEMENT AZURE APPLICATION GATEWAY",
           "contents": [
             "Recommend Azure Application Gateway deployment options",
             "Choose between manual and auto scale",
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "heading": "Implement Azure Front Door",
+          "heading": "IMPLEMENT AZURE FRONT DOOR",
           "contents": [
             "Choose an Azure Front Door SKU",
             "Configure health probes, including customization of HTTP response codes",
@@ -181,7 +181,7 @@
           ]
         },
         {
-          "heading": "Implement an Azure Traffic Manager profile",
+          "heading": "IMPLEMENT AN AZURE TRAFFIC MANAGER PROFILE",
           "contents": [
             "Configure a routing method (mode)",
             "Configure endpoints",
@@ -189,7 +189,7 @@
           ]
         },
         {
-          "heading": "Design and implement an Azure Virtual Network NAT",
+          "heading": "DESIGN AND IMPLEMENT AN AZURE VIRTUAL NETWORK NAT",
           "contents": [
             "Choose when to use a Virtual Network NAT",
             "Allocate public IP or public IP prefixes for a NAT gateway",
@@ -199,10 +199,10 @@
       ]
     },
     {
-      "title": "Module 4: Secure and Monitor Networks (15–20%)",
+      "title": "Module 4: SECURE AND MONITOR NETWORKS (15–20%)",
       "submodules": [
         {
-          "heading": "Design, implement, and manage an Azure Firewall deployment",
+          "heading": "DESIGN, IMPLEMENT, AND MANAGE AN AZURE FIREWALL DEPLOYMENT",
           "contents": [
             "Design an Azure Firewall deployment",
             "Create and implement an Azure Firewall deployment",
@@ -213,7 +213,7 @@
           ]
         },
         {
-          "heading": "Implement and manage network security groups (NSGs)",
+          "heading": "IMPLEMENT AND MANAGE NETWORK SECURITY GROUPS (NSGS)",
           "contents": [
             "Create an NSG",
             "Associate an NSG to a resource",
@@ -226,7 +226,7 @@
           ]
         },
         {
-          "heading": "Implement a Web Application Firewall (WAF) deployment",
+          "heading": "IMPLEMENT A WEB APPLICATION FIREWALL (WAF) DEPLOYMENT",
           "contents": [
             "Configure detection or prevention mode",
             "Configure rule sets for Azure Front Door, including Microsoft managed and user defined",
@@ -236,7 +236,7 @@
           ]
         },
         {
-          "heading": "Monitor networks",
+          "heading": "MONITOR NETWORKS",
           "contents": [
             "Configure network health alerts and logging by using Azure Monitor",
             "Create and configure a Connection Monitor instance",
@@ -249,10 +249,10 @@
       ]
     },
     {
-      "title": "Design and Implement Private Access to Azure Services (10–15%)",
+      "title": "Module 5: DESIGN AND IMPLEMENT PRIVATE ACCESS TO AZURE SERVICES (10–15%)",
       "submodules": [
         {
-          "heading": "Design and implement Azure Private Link service and Azure Private Endpoint",
+          "heading": "DESIGN AND IMPLEMENT AZURE PRIVATE LINK SERVICE AND AZURE PRIVATE ENDPOINT",
           "contents": [
             "Create a Private Link service",
             "Plan private endpoints",
@@ -263,7 +263,7 @@
           ]
         },
         {
-          "heading": "Design and implement service endpoints",
+          "heading": "DESIGN AND IMPLEMENT SERVICE ENDPOINTS",
           "contents": [
             "Create service endpoints",
             "Configure service endpoint policies",
@@ -272,7 +272,7 @@
           ]
         },
         {
-          "heading": "Configure VNet integration for dedicated platform as a service (PaaS) services",
+          "heading": "CONFIGURE VNET INTEGRATION FOR DEDICATED PLATFORM AS A SERVICE (PAAS) SERVICES",
           "contents": [
             "Configure App Service for regional VNet integration",
             "Configure Azure Kubernetes Service (AKS) for regional VNet integration",

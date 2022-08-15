@@ -1,4 +1,4 @@
- {
+{
   "title": "Troubleshooting Microsoft Azure Connectivity MS 720",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "title": "Module 3: 9.3\tTROUBLESHOOT PLATFORM AS A SERVICE ISSUES (5–10%) ",
+      "title": "Module 3: TROUBLESHOOT PLATFORM AS A SERVICE ISSUES (5–10%) ",
       "submodules": [
         {
           "heading": "TROUBLESHOOT PAAS SERVICES ",
