@@ -29,7 +29,7 @@ export default function CorporateTraining() {
             <img
               src={images.corporateTrainingHero}
               alt="hero picture"
-              className="w-auto h-full"
+              className="lg:w-auto lg:h-full"
             />
           </div>
         </div>
