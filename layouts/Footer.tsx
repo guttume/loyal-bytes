@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { images } from "../components";
 
 export const Footer = () => {
   return (
@@ -6,13 +7,13 @@ export const Footer = () => {
       <section className="px-8 py-16 text-sm text-white bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 lg:px-12">
         <div className="items-start justify-between space-y-12 lg:space-y-0 lg:flex">
           <div className="space-y-4">
-            {/* <h2 className="w-24 text-xl font-bold">
+             <h2 className="w-24 text-xl font-bold">
               <Link href={"/"}>
                 <a>
                   <img src={images.logoWhite} alt="white logo" />
                 </a>
               </Link>
-            </h2> */}
+            </h2> 
             <div className="flex items-center space-x-2 text-white">
               <Link href={"https://www.facebook.com/LoyalBytes"}>
                 <a target="_blank">
