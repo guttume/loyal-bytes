@@ -36,9 +36,19 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Learn how to investigate, respond to, and hunt for threats using Microsoft Azure Sentinel, Azure Defender, and Microsoft 365 Defender. In this course you will learn how to mitigate cyberthreats using these technologies. Specifically, you will configure and use Azure Sentinel as well as utilize Kusto Query Language (KQL) to perform detection, analysis, and reporting. The course was designed for people who work in a Security Operations job role and helps learners prepare for the exam SC-200: Microsoft Security Operations Analyst. Learn how to investigate, respond to, and hunt for threats using Microsoft Sentinel, Microsoft Defender for Cloud, and Microsoft 365 Defender. In this course you will learn how to mitigate cyberthreats using these technologies. Specifically, you will configure and use Microsoft Sentinel as well as utilize Kusto Query Language (KQL) to perform detection, analysis, and reporting.\tThe course was designed for people who work in a Security Operations job role and helps learners prepare for the exam SC-200: Microsoft Security Operations Analyst."
+    "description": [
+      "Learn how to investigate, respond to, and hunt for threats using Microsoft Azure Sentinel, Azure Defender, and Microsoft 365 Defender. In this course you will learn how to mitigate cyberthreats using these technologies. Specifically, you will configure and use Azure Sentinel as well as utilize Kusto Query Language (KQL) to perform detection, analysis, and reporting. The course was designed for people who work in a Security Operations job role and helps learners prepare for the exam SC-200: Microsoft Security Operations Analyst.",
+      "Learn how to investigate, respond to, and hunt for threats using Microsoft Sentinel, Microsoft Defender for Cloud, and Microsoft 365 Defender.",
+      "In this course you will learn how to mitigate cyberthreats using these technologies. Specifically, you will configure and use Microsoft Sentinel as well as utilize Kusto Query Language (KQL) to perform detection, analysis, and reporting.",
+      "The course was designed for people who work in a Security Operations job role and helps learners prepare for the exam SC-200: Microsoft Security Operations Analyst."
+    ]
   },
-  "idealFor": "The Microsoft security operations analyst collaborates with organizational stakeholders to secure information technology systems for the organization. Their goal is to reduce organizational risk by rapidly remediating active attacks in the environment, advising on improvements to threat protection practices, and referring violations of organizational policies to appropriate stakeholders. Responsibilities include threat management, monitoring, and response by using a variety of security solutions across their environment. The role primarily investigates, responds to, and hunts for threats using Microsoft Sentinel, Microsoft Defender for Cloud, Microsoft 365 Defender, and third-party security products. Since the security operations analyst consumes the operational output of these tools, they are also a critical stakeholder in the configuration and deployment of these technologies.",
+  "idealFor": [
+    "The Microsoft security operations analyst collaborates with organizational stakeholders to secure information technology systems for the organization.",
+    "Their goal is to reduce organizational risk by rapidly remediating active attacks in the environment, advising on improvements to threat protection practices, and referring violations of organizational policies to appropriate stakeholders.",
+    "Responsibilities include threat management, monitoring, and response by using a variety of security solutions across their environment.",
+    "The role primarily investigates, responds to, and hunts for threats using Microsoft Sentinel, Microsoft Defender for Cloud, Microsoft 365 Defender, and third-party security products. Since the security operations analyst consumes the operational output of these tools, they are also a critical stakeholder in the configuration and deployment of these technologies."
+  ],    
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
@@ -215,7 +225,7 @@
           ]
         },
         {
-          "heading": "HUNT FOR THREATS USING MICROSOFT SENTINEL",
+          "heading": "9.3.7\tHUNT FOR THREATS USING MICROSOFT SENTINEL",
           "contents": [
             "Create custom hunting queries",
             "Run hunting queries manually",
@@ -265,7 +275,7 @@
           ]
         },
         {
-          "heading": "MONITOR AND MAINTAIN AZURE ACTIVE DIRECTORY",
+          "heading": "9.4.4\tMONITOR AND MAINTAIN AZURE ACTIVE DIRECTORY",
           "contents": [
             "Analyze and investigate sign-in logs to troubleshoot access issues",
             "Review and monitor azure ad audit logs",

@@ -36,9 +36,21 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Candidates for the Azure Virtual Desktop Specialty certification are Microsoft Azure administrators with subject matter expertise in planning, delivering, and managing virtual desktop experiences and remote apps, for any device, on Azure."
+    "description": [
+      "Candidates for the Azure Virtual Desktop Specialty certification are Microsoft Azure administrators with subject matter expertise in planning, delivering, and managing virtual desktop experiences and remote apps, for any device, on Azure."
+    ]
   },
-  "idealFor": "Candidates for this exam are administrators with subject matter expertise in planning, delivering, and managing virtual desktop experiences and remote apps, for any device, on Azure. Responsibilities for this role include deploying virtual desktop experiences and apps to Azure. Professionals in this role deliver applications on Azure Virtual Desktop and optimize them to run in multi-session virtual environments. To deliver these experiences, they work closely with the Azure administrators and architects, along with Microsoft 365 Administrators. Candidates for this exam should have experience in Azure technologies, including virtualization, networking, identity, storage, backups, resilience, and disaster recovery. They should understand on-premises virtual desktop infrastructure technologies as they relate to migrating to Azure Virtual Desktop. These professionals use the Azure portal and Azure Resource Manager templates to accomplish many tasks. This role may use powershell and Azure Command-Line Interface (CLI) for more efficient automation. Candidates for this exam must have expert Azure administration skills.",
+  "idealFor": [
+    "Candidates for this exam are administrators with subject matter expertise in planning, delivering, and managing virtual desktop experiences and remote apps, for any device, on Azure.",
+    "Responsibilities for this role include deploying virtual desktop experiences and apps to Azure.",
+    "Professionals in this role deliver applications on Azure Virtual Desktop and optimize them to run in multi-session virtual environments.",
+    "To deliver these experiences, they work closely with the Azure administrators and architects, along with Microsoft 365 Administrators.",
+    "Candidates for this exam should have experience in Azure technologies, including virtualization, networking, identity, storage, backups, resilience, and disaster recovery.",
+    "They should understand on-premises virtual desktop infrastructure technologies as they relate to migrating to Azure Virtual Desktop.",
+    "These professionals use the Azure portal and Azure Resource Manager templates to accomplish many tasks.",
+    "This role may use PowerShell and Azure Command-Line Interface (CLI) for more efficient automation.",
+    "Candidates for this exam must have expert Azure administration skills."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

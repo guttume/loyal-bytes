@@ -36,16 +36,28 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "A candidate for the Azure Data Engineer Associate certification should have subject matter expertise integrating, transforming, and consolidating data from various structured and unstructured data systems into structures that are suitable for building analytics solutions. Responsibilities for this role include helping stakeholders understand the data through exploration, building and maintaining secure and compliant data processing pipelines by using different tools and techniques. This professional uses various Azure data services and languages to store and produce cleansed and enhanced datasets for analysis. An Azure data engineer also helps ensure that data pipelines and data stores are high-performing, efficient, organized, and reliable, given a specific set of business requirements and constraints. This professional deals with unanticipated issues swiftly and minimizes data loss. An Azure data engineer also designs, implements, monitors, and optimizes data platforms to meet the data pipeline needs. A candidate for this certification must have solid knowledge of data processing languages, such as SQL, Python, or Scala, and they need to understand parallel processing and data architecture patterns."
+    "description": [
+      "A candidate for the Azure Data Engineer Associate certification should have subject matter expertise integrating, transforming, and consolidating data from various structured and unstructured data systems into structures that are suitable for building analytics solutions.",
+      "Responsibilities for this role include helping stakeholders understand the data through exploration, building and maintaining secure and compliant data processing pipelines by using different tools and techniques. This professional uses various Azure data services and languages to store and produce cleansed and enhanced datasets for analysis.",
+      "An Azure data engineer also helps ensure that data pipelines and data stores are high-performing, efficient, organized, and reliable, given a specific set of business requirements and constraints. This professional deals with unanticipated issues swiftly and minimizes data loss. An Azure data engineer also designs, implements, monitors, and optimizes data platforms to meet the data pipeline needs.",
+      "A candidate for this certification must have solid knowledge of data processing languages, such as SQL, Python, or Scala, and they need to understand parallel processing and data architecture patterns."
+    ]
   },
-  "idealFor": "Candidates for this exam should have subject matter expertise integrating, transforming, and consolidating data from various structured and unstructured data systems into a structure that is suitable for building analytics solutions. Azure data engineers help stakeholders understand the data through exploration, and they build and maintain secure and compliant data processing pipelines by using different tools and techniques. These professionals use various Azure data services and languages to store and produce cleansed and enhanced datasets for analysis. Azure data engineers also help ensure that data pipelines and data stores are high-performing, efficient, organized, and reliable, given a set of business requirements and constraints. They deal with unanticipated issues swiftly, and they minimize data loss. They also design, implement, monitor, and optimize data platforms to meet the data pipelines needs. A candidate for this exam must have strong knowledge of data processing languages such as SQL, Python, or Scala, and they need to understand parallel processing and data architecture patterns.",
+  "idealFor": [
+    "Candidates for this exam should have subject matter expertise integrating, transforming, and consolidating data from various structured and unstructured data systems into a structure that is suitable for building analytics solutions.",
+    "Azure data engineers help stakeholders understand the data through exploration, and they build and maintain secure and compliant data processing pipelines by using different tools and techniques.",
+    "These professionals use various Azure data services and languages to store and produce cleansed and enhanced datasets for analysis.",
+    "Azure data engineers also help ensure that data pipelines and data stores are high-performing, efficient, organized, and reliable, given a set of business requirements and constraints. They deal with unanticipated issues swiftly, and they minimize data loss.",
+    "They also design, implement, monitor, and optimize data platforms to meet the data pipelines needs.",
+    "A candidate for this exam must have strong knowledge of data processing languages such as SQL, Python, or Scala, and they need to understand parallel processing and data architecture patterns."
+  ],    
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: DESIGN AND IMPLEMENT DATA STORAGE (40-45%)",
+      "title": "Module 1: Design and Implement Data Storage (40-45%)",
       "submodules": [
         {
-          "heading": "DESIGN A DATA STORAGE STRUCTURE",
+          "heading": "Design a data storage structure",
           "contents": [
             "Design an Azure Data Lake solution",
             "Recommend file types for storage",
@@ -58,7 +70,7 @@
           ]
         },
         {
-          "heading": "DESIGN A PARTITION STRATEGY",
+          "heading": "Design a partition strategy",
           "contents": [
             "Design a partition strategy for files",
             "Design a partition strategy for analytical workloads",
@@ -68,7 +80,7 @@
           ]
         },
         {
-          "heading": "DESIGN THE SERVING LAYER",
+          "heading": "Design the serving layer",
           "contents": [
             "Design star schemas",
             "Design slowly changing dimensions",
@@ -80,7 +92,7 @@
           ]
         },
         {
-          "heading": "IMPLEMENT PHYSICAL DATA STORAGE STRUCTURES",
+          "heading": "Implement physical data storage structures",
           "contents": [
             "Implement compression",
             "Implement partitioning",
@@ -92,7 +104,7 @@
           ]
         },
         {
-          "heading": "IMPLEMENT LOGICAL DATA STRUCTURES",
+          "heading": "Implement logical data structures",
           "contents": [
             "Build a temporal data solution",
             "Build a slowly changing dimension",
@@ -102,7 +114,7 @@
           ]
         },
         {
-          "heading": "IMPLEMENT THE SERVING LAYER",
+          "heading": "Implement the serving layer",
           "contents": [
             "Deliver data in a relational star schema",
             "Deliver data in Parquet files",
@@ -113,10 +125,10 @@
       ]
     },
     {
-      "title": "Module 2: DESIGN AND DEVELOP DATA PROCESSING (25-30%)",
+      "title": "Module 2: Design and Develop Data Processing (25-30%)",
       "submodules": [
         {
-          "heading": "INGEST AND TRANSFORM DATA",
+          "heading": "Ingest and transform data",
           "contents": [
             "Transform data by using Apache Spark",
             "Recommend a public and internal IP strategy",
@@ -134,7 +146,7 @@
           ]
         },
         {
-          "heading": "DESIGN AND DEVELOP A BATCH PROCESSING SOLUTION",
+          "heading": "Design and develop a batch processing solution",
           "contents": [
             "Develop batch processing solutions by using Data Factory, Data Lake, Spark, Azure Synapse Pipelines, PolyBase, and Azure Databricks",
             "Create data pipelines",
@@ -157,7 +169,7 @@
           ]
         },
         {
-          "heading": "DESIGN AND DEVELOP A STREAM PROCESSING SOLUTION",
+          "heading": "Design and develop a stream processing solution",
           "contents": [
             "Develop a stream processing solution by using Stream Analytics, Azure Databricks, and Azure Event Hubs",
             "Process data by using Spark structured streaming",
@@ -179,7 +191,7 @@
           ]
         },
         {
-          "heading": "MANAGE BATCHES AND PIPELINES",
+          "heading": "Manage batches and pipelines",
           "contents": [
             "Trigger batches",
             "Handle failed batch loads",
@@ -193,10 +205,10 @@
       ]
     },
     {
-      "title": "Module 3: DESIGN AND IMPLEMENT DATA SECURITY (10-15%)",
+      "title": "Module 3: Design and Implement Data Security (10-15%)",
       "submodules": [
         {
-          "heading": "DESIGN SECURITY FOR DATA POLICIES AND STANDARDS",
+          "heading": "Design security for data policies and standards",
           "contents": [
             "Design data encryption for data at rest and in transit",
             "Design a data auditing strategy",
@@ -209,7 +221,7 @@
           ]
         },
         {
-          "heading": "IMPLEMENT DATA SECURITY",
+          "heading": "Implement data security",
           "contents": [
             "Implement data masking",
             "Encrypt data at rest and in motion",
@@ -229,10 +241,10 @@
       ]
     },
     {
-      "title": "Module 4: MONITOR AND OPTIMIZE DATA STORAGE AND DATA PROCESSING (10-15%)",
+      "title": "Module 4: Monitor and Optimize Data Storage and Data Processing (10-15%)",
       "submodules": [
         {
-          "heading": "MONITOR DATA STORAGE AND DATA PROCESSING",
+          "heading": "Monitor data storage and data processing",
           "contents": [
             "Implement logging used by Azure Monitor",
             "Configure monitoring services",
@@ -248,7 +260,7 @@
           ]
         },
         {
-          "heading": "OPTIMIZE AND TROUBLESHOOT DATA STORAGE AND DATA PROCESSING",
+          "heading": "Optimize and troubleshoot data storage and data processing",
           "contents": [
             "Compact small files",
             "Rewrite user-defined functions (UDFs)",

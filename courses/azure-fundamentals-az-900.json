@@ -1,4 +1,4 @@
-{
+ {
   "title": "Azure Fundamentals - 900",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,20 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Whether you&apos;re new to the field or a seasoned professional, mastering the basics in Microsoft Azure can help you jump-start your career and prepare you to dive deeper into the many technical opportunities Azure offers. The certification validates your basic knowledge of cloud services and how those services are provided with Azure. Candidates should be able to demonstrate a fundamental knowledge of cloud concepts, along with Azure services, workloads, security, privacy, pricing, and support. It is recommended to have familiarity with concepts of networking, storage, compute, application support, and application development. You can use your Azure Fundamentals certification to reinforce your basics for other Azure role-based or specialty certifications, but it isn&apos;t a prerequisite for any of them."
+    "description": [
+      "Whether you’re new to the field or a seasoned professional, mastering the basics in Microsoft Azure can help you jump-start your career and prepare you to dive deeper into the many technical opportunities Azure offers.",
+      "The certification validates your basic knowledge of cloud services and how those services are provided with Azure. Candidates should be able to demonstrate a fundamental knowledge of cloud concepts, along with Azure services, workloads, security, privacy, pricing, and support.",
+      "The Microsoft Certified: Azure Fundamentals certification could be a great fit for you if you’d like to",
+      "Prove your knowledge of cloud computing concepts, models, and services, such as public, private, and hybrid cloud, in addition to infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS).",
+      "Show your expertise on how Azure supports security, privacy, compliance, and trust.",
+      "It is recommended to have familiarity with concepts of networking, storage, compute, application support, and application development. You can use your Azure Fundamentals certification to reinforce your basics for other Azure role-based or specialty certifications, but it isn’t a prerequisite for any of them."
+    ]
   },
-  "idealFor": "Candidates for this exam are technology professionals who want to demonstrate foundational knowledge of cloud concepts and Microsoft Azure. These professionals can describe Azure architectural components and Azure services, such as compute, networking, and storage. They can also describe features and tools to secure, govern, and administer Azure. Candidates for this exam have skills and experience working with an area of information technology, such as infrastructure management, database management, or software development.",
+  "idealFor": [
+    "Candidates for this exam are technology professionals who want to demonstrate foundational knowledge of cloud concepts and Microsoft Azure.",
+    "These professionals can describe Azure architectural components and Azure services, such as compute, networking, and storage. They can also describe features and tools to secure, govern, and administer Azure.",
+    "Candidates for this exam have skills and experience working with an area of information technology, such as infrastructure management, database management, or software development."
+  ],
   "learningObjectives": "Prove your knowledge of cloud computing concepts, models, and services, such as public, private, and hybrid cloud, in addition to infrastructure as a service (IaaS), platform as a service (PaaS), and software as a service (SaaS). Show your expertise on how Azure supports security, privacy, compliance, and trust.",
   "modules": [
     {

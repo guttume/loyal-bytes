@@ -36,9 +36,15 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Candidates for this certification are support engineers who use advanced troubleshooting methods to support Microsoft Teams environments, analyze telemetry and log data, troubleshoot deployments, and tune performance. Candidates are expected to review logs and other data, infer the root cause of an issue and provide a fix. "
+    "description": [
+      "Candidates for this certification are support engineers who use advanced troubleshooting methods to support Microsoft Teams environments, analyze telemetry and log data, troubleshoot deployments, and tune performance. Candidates are expected to review logs and other data, infer the root cause of an issue and provide a fix. "
+    ]
   },
-  "idealFor": "Candidates for this exam are support engineers who use advanced troubleshooting methods to support Microsoft Teams environments, analyze telemetry and log data, troubleshoot deployments, and tune performance. Candidates are expected to review logs and other data, infer the root cause of an issue, and provide a fix. Candidates should have significant experience troubleshooting unified communications solutions with hands-on expertise specific to troubleshooting Microsoft Teams. In addition, candidates should have networking knowledge of Azure fundamentals, telephony, PowerShell, data storage technologies, APIs, app security, authentication and authorization, security, and compliance information, debugging, performance tuning, and monitoring.",
+  "idealFor": [
+    "Candidates for this exam are support engineers who use advanced troubleshooting methods to support Microsoft Teams environments, analyze telemetry and log data, troubleshoot deployments, and tune performance. Candidates are expected to review logs and other data, infer the root cause of an issue, and provide a fix.",
+    "Candidates should have significant experience troubleshooting unified communications solutions with hands-on expertise specific to troubleshooting Microsoft Teams.",
+    "In addition, candidates should have networking knowledge of Azure fundamentals, telephony, PowerShell, data storage technologies, APIs, app security, authentication and authorization, security, and compliance information, debugging, performance tuning, and monitoring."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

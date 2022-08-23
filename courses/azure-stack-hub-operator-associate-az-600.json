@@ -1,4 +1,4 @@
-{
+ {
   "title": "Azure Stack Hub Operator Associate AZ-600",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,22 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Candidates for Exam AZ-600 are Azure administrators or Azure Stack Hub operators who provide cloud services to end users or customers from within their own datacenter using Azure Stack Hub. Candidates for this exam should have significant experience managing and operating Azure Stack Hub environments. They should have a strong understanding of Azure, in addition to some knowledge of virtualization, networking, and identity management. They need to understand how Azure Stack Hub enables DevOps processes and the hybrid development model. This learning path is designed to help you prepare for Microsoft's AZ-700 Designing and Implementing Microsoft Azure Networking Solutions exam. People who pass the AZ-700 exam will earn the Microsoft Certified: Azure Network Engineer Associate certification. The AZ-700 exam tests your knowledge of five subject areas: designing, implementing, and managing hybrid networking, designing, and implementing core networking infrastructure, designing and implementing routing, securing and monitoring networks, and designing and implementing private access to Azure services."
+    "description": [
+      "Candidates for Exam AZ-600 are Azure administrators or Azure Stack Hub operators who provide cloud services to end users or customers from within their own datacenter using Azure Stack Hub.",
+      "Candidates for this exam should have significant experience managing and operating Azure Stack Hub environments.",
+      "They should have a strong understanding of Azure, in addition to some knowledge of virtualization, networking, and identity management.",
+      "They need to understand how Azure Stack Hub enables DevOps processes and the hybrid development model.",
+      "This learning path is designed to help you prepare for Microsoft's AZ-700 Designing and Implementing Microsoft Azure Networking Solutions exam.",
+      "People who pass the AZ-700 exam will earn the Microsoft Certified: Azure Network Engineer Associate certification.",
+      "The AZ-700 exam tests your knowledge of five subject areas: designing, implementing, and managing hybrid networking, designing, and implementing core networking infrastructure, designing and implementing routing, securing and monitoring networks, and designing and implementing private access to Azure services."
+    ]
   },
-  "idealFor": "Candidates for the Azure Stack Hub Operator Associate certification are Azure administrators or Azure Stack Hub operators who provide cloud services to end users or customers from within their own datacenter using Azure Stack Hub. Their responsibilities are to plan, deploy, package, update, and maintain the Azure Stack Hub infrastructure. They also offer hybrid cloud resources and requested services and manage infrastructure as a service (IaaS) and platform as a service (PaaS). They serve as part of a larger team dedicated to cloud-based management and security or hybrid environments as part of an end-to-end infrastructure. Candidates for this certification should have significant experience managing and operating Azure Stack Hub environments. They should have a strong understanding of Azure, in addition to some knowledge of virtualization, networking, and identity management. They need to understand how Azure Stack Hub enables DevOps processes and the hybrid development model.",
+  "idealFor": [
+    "Candidates for the Azure Stack Hub Operator Associate certification are Azure administrators or Azure Stack Hub operators who provide cloud services to end users or customers from within their own datacenter using Azure Stack Hub.",
+    "Their responsibilities are to plan, deploy, package, update, and maintain the Azure Stack Hub infrastructure. They also offer hybrid cloud resources and requested services and manage infrastructure as a service (IaaS) and platform as a service (PaaS).",
+    "They serve as part of a larger team dedicated to cloud-based management and security or hybrid environments as part of an end-to-end infrastructure.",
+    "Candidates for this certification should have significant experience managing and operating Azure Stack Hub environments. They should have a strong understanding of Azure, in addition to some knowledge of virtualization, networking, and identity management. They need to understand how Azure Stack Hub enables DevOps processes and the hybrid development model."
+  ],    
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

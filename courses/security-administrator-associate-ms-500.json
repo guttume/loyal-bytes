@@ -36,9 +36,23 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "The opportunity in cloud computing is clear. Most companies are implementing or investigating how to implement cloud technologies within their operations. One big topic is securing all cloud workloads and services. Don't be left behind. Be ahead of the curve by getting certified as a Microsoft 365 Security Administrator and be ready for the opportunity to advance your career. In this course you will learn\t how to secure user access to your organization’s resources. The course covers user password protection, multi-factor authentication, how to enable Azure Identity Protection, how to setup and use Azure AD Connect, and introduces you to conditional access in Microsoft 365. You will learn about threat protection technologies that help protect your Microsoft 365 environment. Specifically, you will learn about threat vectors and Microsoft’s security solutions to mitigate threats. You will learn about Secure Score, Exchange Online protection, Azure Advanced Threat Protection, Windows Defender Advanced Threat Protection, and threat management. In the course you will learn about information protection technologies that help secure your Microsoft 365 environment. The course discusses information rights managed content, message encryption, as well as labels, policies and rules that support data loss prevention and information protection. Lastly, you will learn about archiving and retention in Microsoft 365 as well as data governance and how to conduct content searches and investigations. This course covers data retention policies and tags, in-place records management for SharePoint, email retention, and how to conduct content searches that support eDiscovery investigations."
+    "description": [
+      "The opportunity in cloud computing is clear. Most companies are implementing or investigating how to implement cloud technologies within their operations. One big topic is securing all cloud workloads and services.",
+      "Don't be left behind. Be ahead of the curve by getting certified as a Microsoft 365 Security Administrator and be ready for the opportunity to advance your career.",
+      "In this course you will learn how to secure user access to your organization’s resources. The course covers user password protection, multi-factor authentication, how to enable Azure Identity Protection, how to setup and use Azure AD Connect, and introduces you to conditional access in Microsoft 365.",
+      "You will learn about threat protection technologies that help protect your Microsoft 365 environment. Specifically, you will learn about threat vectors and Microsoft’s security solutions to mitigate threats.",
+      "You will learn about Secure Score, Exchange Online protection, Azure Advanced Threat Protection, Windows Defender Advanced Threat Protection, and threat management.",
+      "In the course you will learn about information protection technologies that help secure your Microsoft 365 environment. The course discusses information rights managed content, message encryption, as well as labels, policies and rules that support data loss prevention and information protection.",
+      "Lastly, you will learn about archiving and retention in Microsoft 365 as well as data governance and how to conduct content searches and investigations.",
+      "This course covers data retention policies and tags, in-place records management for SharePoint, email retention, and how to conduct content searches that support eDiscovery investigations."
+    ]      
   },
-  "idealFor": "Candidates for this exam implement, manage, and monitor security and compliance solutions for Microsoft 365 and hybrid environments. The Microsoft 365 security administrator proactively secures Microsoft 365 enterprise environments, responds to threats, performs investigations, and enforces data governance. The Microsoft 365 security administrator collaborates with the Microsoft 365 enterprise administrator, business stakeholders, and other workload administrators to plan and implement security strategies and ensures that the solutions comply with the policies and regulations of the organization. Candidates for this exam are familiar with Microsoft 365 workloads and have strong skills and experience with identity protection, information protection, threat protection, security management, and data governance. This role focuses on the Microsoft 365 environment and includes hybrid environments.",
+  "idealFor": [
+    "Candidates for this exam implement, manage, and monitor security and compliance solutions for Microsoft 365 and hybrid environments. ",
+    "The Microsoft 365 security administrator proactively secures Microsoft 365 enterprise environments, responds to threats, performs investigations, and enforces data governance. ",
+    "The Microsoft 365 security administrator collaborates with the Microsoft 365 enterprise administrator, business stakeholders, and other workload administrators to plan and implement security strategies and ensures that the solutions comply with the policies and regulations of the organization. ",
+    "Candidates for this exam are familiar with Microsoft 365 workloads and have strong skills and experience with identity protection, information protection, threat protection, security management, and data governance. This role focuses on the Microsoft 365 environment and includes hybrid environments."
+  ],    
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
@@ -172,7 +186,7 @@
       "title": "Module 3: IMPLEMENT AND MANAGE INFORMATION PROTECTION (10-15%)  ",
       "submodules": [
         {
-          "heading": "MANAGE SENSITIVE INFORMATION ",
+          "heading": "9.3.1\tMANAGE SENSITIVE INFORMATION ",
           "contents": [
             "Plan a sensitivity label solution ",
             "Create and manage sensitive information types ",
@@ -193,7 +207,7 @@
           ]
         },
         {
-          "heading": "MANAGE DATA GOVERNANCE AND RETENTION ",
+          "heading": "9.3.3\tMANAGE DATA GOVERNANCE AND RETENTION ",
           "contents": [
             "Plan for data governance and retention ",
             "Review and interpret data governance reports and dashboards ",
@@ -217,7 +231,7 @@
           ]
         },
         {
-          "heading": "MANAGE AND ANALYZE AUDIT LOGS AND REPORTS ",
+          "heading": "9.4.2\tMANAGE AND ANALYZE AUDIT LOGS AND REPORTS ",
           "contents": [
             "Plan for auditing and reporting ",
             "Perform audit log search ",
@@ -226,7 +240,7 @@
           ]
         },
         {
-          "heading": "DISCOVER AND RESPOND TO COMPLIANCE QUERIES IN MICROSOFT 365 ",
+          "heading": "9.4.3\tDISCOVER AND RESPOND TO COMPLIANCE QUERIES IN MICROSOFT 365 ",
           "contents": [
             "Plan for content search and ediscovery ",
             "Delegate permissions to use search and discovery tools ",
@@ -235,7 +249,7 @@
           ]
         },
         {
-          "heading": "MANAGE REGULATORY COMPLIANCE ",
+          "heading": "9.4.4\tMANAGE REGULATORY COMPLIANCE ",
           "contents": [
             "Plan for regulatory compliance in Microsoft 365 ",
             "Manage Data Subject Requests (dsrs) ",
@@ -244,7 +258,7 @@
           ]
         },
         {
-          "heading": "MANAGE INSIDER RISK SOLUTIONS IN MICROSOFT 365 ",
+          "heading": "9.4.5\tMANAGE INSIDER RISK SOLUTIONS IN MICROSOFT 365 ",
           "contents": [
             "Implement and manage Customer Lockbox ",
             "Implement and manage communication compliance policies ",

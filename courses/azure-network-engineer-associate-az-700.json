@@ -1,4 +1,4 @@
-{
+ {
   "title": "Azure Network Engineer Associate AZ - 700",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,20 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Designing and Implementing Microsoft Azure Networking Solutions. Candidates for this exam should have subject matter expertise in planning, implementing, and maintaining Azure networking solutions, including hybrid networking, connectivity, routing, security, and private access to Azure services. This learning path is designed to help you prepare for Microsoft's AZ-700 Designing and Implementing Microsoft Azure Networking Solutions exam. People who pass the AZ-700 exam will earn the Microsoft Certified: Azure Network Engineer Associate certification. The AZ-700 exam tests your knowledge of five subject areas: designing, implementing, and managing hybrid networking, designing and implementing core networking infrastructure, designing and implementing routing, securing and monitoring networks, and designing and implementing private access to Azure services."
+    "description": [
+      "Designing and Implementing Microsoft Azure Networking Solutions. Candidates for this exam should have subject matter expertise in planning, implementing, and maintaining Azure networking solutions, including hybrid networking, connectivity, routing, security, and private access to Azure services",
+      "This learning path is designed to help you prepare for Microsoft's AZ-700 Designing and Implementing Microsoft Azure Networking Solutions exam.",
+      "People who pass the AZ-700 exam will earn the Microsoft Certified: Azure Network Engineer Associate certification.",
+      "The AZ-700 exam tests your knowledge of five subject areas: designing, implementing, and managing hybrid networking, designing and implementing core networking infrastructure, designing and implementing routing, securing and monitoring networks, and designing and implementing private access to Azure services."
+    ]
   },
-  "idealFor": "Candidates for this exam should have subject matter expertise in planning, implementing, and maintaining Azure networking solutions, including hybrid networking, connectivity, routing, security, and private access to Azure services. Responsibilities for the Azure Network Engineer include recommending, planning, and implementing Azure networking solutions. Professionals in this role manage the solution for performance, resiliency, scale, and security. They deploy networking solutions by using the Azure Portal and other methods, including PowerShell, Azure Command-Line Interface (CLI), and Azure Resource Manager templates (ARM templates). The Azure Network Engineer works with solution architects, cloud administrators, security engineers, application developers, and DevOps engineers to deliver Azure solutions. Candidates for this exam should have expert Azure administration skills, in addition to extensive experience and knowledge of networking, hybrid connections, and network security.",
+  "idealFor": [
+    "Candidates for this exam should have subject matter expertise in planning, implementing, and maintaining Azure networking solutions, including hybrid networking, connectivity, routing, security, and private access to Azure services.",
+    "Responsibilities for the Azure Network Engineer include recommending, planning, and implementing Azure networking solutions. Professionals in this role manage the solution for performance, resiliency, scale, and security.",
+    "They deploy networking solutions by using the Azure Portal and other methods, including PowerShell, Azure Command-Line Interface (CLI), and Azure Resource Manager templates (ARM templates).",
+    "The Azure Network Engineer works with solution architects, cloud administrators, security engineers, application developers, and DevOps engineers to deliver Azure solutions.",
+    "Candidates for this exam should have expert Azure administration skills, in addition to extensive experience and knowledge of networking, hybrid connections, and network security."
+  ],    
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

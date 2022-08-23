@@ -1,4 +1,4 @@
-{
+ {
   "title": "Developer Associate MS - 600",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,22 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "This course covers five central elements of Microsoft 365 platform – implementing Microsoft Identity, working with Microsoft Graph, extending, and customizing sharepoint, extending Teams, and extending Office. In this course, students will learn how to implement Microsoft Identity and work with Microsoft Graph. Students will also gain the knowledge on UI elements (including Adaptive Cards and UI Fabric), Integration Points (including Microsoft Teams, Office Add-ins, sharepoint Framework, Actionable Messages), and determining workload platform targets. In implementing Microsoft Identity, students will learn to implement Microsoft identity including registering an application, implanting authentication, configuring permissions to consume an API, and creating a service to access Microsoft Graph. In working with Microsoft Graph, students will learn how to access user data, explore query parameters, manage a group lifecycle, access files, and optimize network traffic using Microsoft Graph. In extending and customizing sharepoint, students will learn about sharepoint Framework web parts, extensions, and how to package and deploy a spfx solution. In extending Teams, students will look at the components of a Teams App, work with webhooks, tabs, and conversational bots. In extending Office, students work with Office Add-ins, task pane add-ins, javascript apis, Office UI Fabric, and actionable messages with adaptive cards."
+    "description": [
+      "This course covers five central elements of Microsoft 365 platform – implementing Microsoft Identity, working with Microsoft Graph, extending, and customizing SharePoint, extending Teams, and extending Office.",
+      "In this course, students will learn how to implement Microsoft Identity and work with Microsoft Graph. Students will also gain the knowledge on UI elements (including Adaptive Cards and UI Fabric), Integration Points (including Microsoft Teams, Office Add-ins, SharePoint Framework, Actionable Messages), and determining workload platform targets.",
+      "In implementing Microsoft Identity, students will learn to implement Microsoft identity including registering an application, implanting authentication, configuring permissions to consume an API, and creating a service to access Microsoft Graph.",
+      "In working with Microsoft Graph, students will learn how to access user data, explore query parameters, manage a group lifecycle, access files, and optimize network traffic using Microsoft Graph.",
+      "In extending and customizing SharePoint, students will learn about SharePoint Framework web parts, extensions, and how to package and deploy a SPFx solution. In extending Teams, students will look at the components of a Teams App, work with webhooks, tabs, and conversational bots.",
+      "In extending Office, students work with Office Add-ins, task pane add-ins, JavaScript APIs, Office UI Fabric, and actionable messages with adaptive cards."
+    ]      
   },
-  "idealFor": "Candidates for this exam are Microsoft 365 Developers who design, build, test, and maintain applications and solutions that are optimized for the productivity and collaboration needs of organizations using the Microsoft 365 platform. Candidates for this exam are proficient in Microsoft identity, Microsoft Graph, and building apps for Microsoft Teams. They have general knowledge on UI elements (including Fluent UI (Office UI Fabric), integration points (including Office Add-ins, sharepoint Framework, Actionable Messages), and determining workload platform targets. Candidates should have experience developing solutions on Microsoft Teams, Office, or sharepoint through all phases of software development. They should have a basic understanding of REST apis, JSON, oauth2, odata, openid Connect, Microsoft identities (including Azure AD and Microsoft accounts), Azure AD B2C, and permission/consent concepts Skills Measured The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used.",
+  "idealFor": [
+    "Candidates for this exam are Microsoft 365 Developers who design, build, test, and maintain applications and solutions that are optimized for the productivity and collaboration needs of organizations using the Microsoft 365 platform.",
+    "Candidates for this exam are proficient in Microsoft identity, Microsoft Graph, and building apps for Microsoft Teams. ",
+    "They have general knowledge on UI elements (including Fluent UI (Office UI Fabric), integration points (including Office Add-ins, SharePoint Framework, Actionable Messages), and determining workload platform targets.",
+    "Candidates should have experience developing solutions on Microsoft Teams, Office, or SharePoint through all phases of software development. ",
+    "They should have a basic understanding of REST APIs, JSON, OAuth2, OData, OpenID Connect, Microsoft identities (including Azure AD and Microsoft accounts), Azure AD B2C, and permission/consent concepts"
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

@@ -1,5 +1,5 @@
  {
-  "title": "Designing and Implementing a Microsoft Azure AI Solution AI - 102",
+  "title": "Microsoft Information Protection Administrator SC - 400",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
   "heroBg": "/images/course-page/azure-hero-bg.png",
@@ -36,9 +36,19 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Learn how to protect the information in your Microsoft 365 deployment. This course focuses on data governance and information protection within your organization. The course covers the implementation of data loss prevention policies, sensitive information types, sensitivity labels, data retention policies and Office 365 message encryption among other related topics. The course helps learners prepare for the Microsoft Information Protection Administrator exam (SC-400). The Microsoft information protection administrator plans and implements controls that meet organizational compliance needs. This person is responsible for translating requirements and compliance controls into technical implementation. They assist organizational control owners to become and stay compliant. They work with information technology (IT) personnel, business application owners, human resources, and legal stakeholders to implement technology that supports policies and controls necessary to sufficiently address regulatory requirements for their organization. They also work with the compliance and security leadership, such as a chief compliance officer and security officer, to evaluate the full breadth of associated enterprise risk and partner to develop those policies. This person defines applicable requirements and tests IT processes and operations against those policies and controls.They are responsible for creating policies and rules for content classification, data loss prevention, governance, and protection."
+    "description": [
+      "Learn how to protect the information in your Microsoft 365 deployment. This course focuses on data governance and information protection within your organization. The course covers the implementation of data loss prevention policies, sensitive information types, sensitivity labels, data retention policies and Office 365 message encryption among other related topics. The course helps learners prepare for the Microsoft Information Protection Administrator exam (SC-400)."
+    ]
   },
-  "idealFor": "Candidates for Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution build, manage, and deploy AI solutions that leverage Azure Cognitive Services and Azure Applied AI services. Their responsibilities include participating in all phases of AI solutions development—from requirements definition and design to development, deployment, maintenance, performance tuning, and monitoring. They work with solution architects to translate their vision and with data scientists, data engineers, IoT specialists, and AI developers to build complete end-to-end AI solutions. Candidates for this exam should be proficient in C# or Python and should be able to use REST-based APIs and SDKs to build computer vision, natural language processing, knowledge mining, and conversational AI solutions on Azure. They should also understand the components that make up the Azure AI portfolio and the available data storage options. Plus, candidates need to understand and be able to apply responsible AI principles",
+  "idealFor": [
+    "The Microsoft information protection administrator plans and implements controls that meet organizational compliance needs.",
+    "This person is responsible for translating requirements and compliance controls into technical implementation.",
+    "They assist organizational control owners to become and stay compliant.",
+    "They work with information technology (IT) personnel, business application owners, human resources, and legal stakeholders to implement technology that supports policies and controls necessary to sufficiently address regulatory requirements for their organization.",
+    "They also work with the compliance and security leadership, such as a chief compliance officer and security officer, to evaluate the full breadth of associated enterprise risk and partner to develop those policies.",
+    "This person defines applicable requirements and tests IT processes and operations against those policies and controls.",
+    "They are responsible for creating policies and rules for content classification, data loss prevention, governance, and protection."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

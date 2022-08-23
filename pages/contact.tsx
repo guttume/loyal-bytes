@@ -52,7 +52,7 @@ export default function Contact() {
               </h4>
               <a
                 className="flex items-center justify-center w-64 space-x-4 btn btn-outline-primary"
-                href="https://forms.office.com/r/VEQqdjwzZr"
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"
               >
                 <span>Get in touch</span>
                 <span>

@@ -17,7 +17,7 @@ import {
 } from "../../lib/courses";
 
 export default function Course({ content }: CoursePageProps) {
-  const [showMore, setShowMore] = useState(true)
+  const [showMore, setShowMore] = useState(true);
   return (
     <div>
       <CourseHero title={content.title} subtitle={content.subtitle} />
@@ -48,22 +48,25 @@ export default function Course({ content }: CoursePageProps) {
               />
             ))}
           </div>
-          <p className="mb-6 text-blue-50">
-            <span className={showMore ? 'line-clamp-3' : ""}>
-              {content.courseDetail.description}
-            </span>
-              <button className="underline" onClick={() => setShowMore(!showMore)}>
-                View {showMore ? 'more' : 'less' }
-                </button>
-          </p>
+          <ul className="mb-6 space-y-2 list-disc list-inside text-blue-50">
+            {showMore ? (
+              <li>{content.courseDetail.description[0]}</li>
+            ) : (
+              content.courseDetail.description.map((d, i) => <li key={i}>{d}</li>)
+            )}
+            <button
+              className="underline"
+              onClick={() => setShowMore(!showMore)}
+            >
+              View {showMore ? "more" : "less"}
+            </button>
+          </ul>
           <div className="flex flex-col items-center space-x-6 space-y-6 lg:flex-row lg:space-y-0">
-            <Link href={"https://forms.office.com/r/VEQqdjwzZr"}>
+            <Link href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}>
               <a className="btn btn-primary">Apply now</a>
             </Link>
             <Link href={"/loyal-bytes-brochure.pdf"}>
-            <a className="btn btn-outline-secondary">
-              Download brochure
-            </a>
+              <a className="btn btn-outline-secondary">Download brochure</a>
             </Link>
             <Link href={"/demo-certificate.pdf"}>
               <a className="underline text-blue-50">Demo certificate</a>
@@ -75,7 +78,11 @@ export default function Course({ content }: CoursePageProps) {
         <h4 className="flex items-center mb-4 text-5xl font-bold text-center lg:w-4/12 lg:text-left lg:mb-0 lg:border-r lg:border-orange-500">
           This course is ideal for
         </h4>
-        <div className="text-lg lg:w-8/12 lg:pl-32">{content.idealFor}</div>
+        <ul className="space-y-2 text-lg list-disc list-inside lg:w-8/12 lg:pl-32">
+          {content.idealFor.map((c, i) => (
+            <li key={i}>{c}</li>
+          ))}
+        </ul>
       </section>
       <section className="relative">
         <div className="absolute w-[650px] -mt-96 top-0 left-0 transform -translate-x-1/2 -z-10">

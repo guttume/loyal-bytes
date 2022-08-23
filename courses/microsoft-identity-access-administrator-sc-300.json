@@ -36,9 +36,19 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "This course provides IT Identity and Access Professional, along with IT Security Professional, with the knowledge and skills needed to implement identity management solutions based on Microsoft Azure AD, and it connected identity technologies. This course includes identity content for Azure AD, enterprise application registration, conditional access, identity governance, and other identity tools. This course provides IT Identity & Access Professionals and IT Security Professionals with the knowledge and skills needed to implement identity management solutions based on Microsoft Azure AD, and its connected identity technologies. This course includes identity content for Azure AD, enterprise application registration, conditional access, identity governance, and other identity tools."
+    "description": [
+      "This course provides IT Identity and Access Professional, along with IT Security Professional, with the knowledge and skills needed to implement identity management solutions based on Microsoft Azure AD, and it connected identity technologies.",
+      "This course includes identity content for Azure AD, enterprise application registration, conditional access, identity governance, and other identity tools.",
+      "This course provides IT Identity & Access Professionals and IT Security Professionals with the knowledge and skills needed to implement identity management solutions based on Microsoft Azure AD, and its connected identity technologies.",
+      "This course includes identity content for Azure AD, enterprise application registration, conditional access, identity governance, and other identity tools."
+    ]
   },
-  "idealFor": "The Microsoft identity and access administrator designs, implements, and operates an organization’s identity and access management systems by using Azure Active Directory (Azure AD). They manage tasks such as providing secure authentication and authorization access to enterprise applications. The administrator provides seamless experiences and self-service management capabilities for all users. Adaptive access and governance are core elements to the role. This role is also responsible for troubleshooting, monitoring, and reporting for the identity and access environment. The identity and access administrator may be a single individual or a member of a larger team. This role collaborates with many other roles in the organization to drive strategic identity projects to modernize identity solutions, to implement hybrid identity solutions and to implement identity governance.",
+  "idealFor": [
+    "The Microsoft identity and access administrator designs, implements, and operates an organization’s identity and access management systems by using Azure Active Directory (Azure AD).",
+    "They manage tasks such as providing secure authentication and authorization access to enterprise applications. The administrator provides seamless experiences and self-service management capabilities for all users.",
+    "Adaptive access and governance are core elements to the role. This role is also responsible for troubleshooting, monitoring, and reporting for the identity and access environment.",
+    "The identity and access administrator may be a single individual or a member of a larger team. This role collaborates with many other roles in the organization to drive strategic identity projects to modernize identity solutions, to implement hybrid identity solutions and to implement identity governance."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

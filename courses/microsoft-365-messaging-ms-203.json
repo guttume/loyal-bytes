@@ -1,4 +1,4 @@
-{
+ {
   "title": "Microsoft 365 Messaging MS - 203",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,19 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Microsoft 365 Messaging Administrators deploy, configure, manage, troubleshoot, and monitor recipients, compliance, threat protection, and mail flow in hybrid and cloud enterprise environments.This learning path is designed to help you prepare for Microsoft's AZ-700 Designing and Implementing Microsoft Azure Networking Solutions exam. People who pass the AZ-700 exam will earn the Microsoft Certified: Azure Network Engineer Associate certification. The AZ-700 exam tests your knowledge of five subject areas: designing, implementing, and managing hybrid networking, designing, and implementing core networking infrastructure, designing, and implementing routing, securing and monitoring networks, and designing and implementing private access to Azure services."
+    "description": [
+      "Microsoft 365 Messaging Administrators deploy, configure, manage, troubleshoot, and monitor recipients, compliance, threat protection, and mail flow in hybrid and cloud enterprise environments.This learning path is designed to help you prepare for Microsoft's AZ-700 Designing and Implementing Microsoft Azure Networking Solutions exam. People who pass the AZ-700 exam will earn the Microsoft Certified: Azure Network Engineer Associate certification. The AZ-700 exam tests your knowledge of five subject areas: designing, implementing, and managing hybrid networking, designing, and implementing core networking infrastructure, designing, and implementing routing, securing and monitoring networks, and designing and implementing private access to Azure services.",
+      "This learning path is designed to help you prepare for Microsoft's AZ-700 Designing and Implementing Microsoft Azure Networking Solutions exam.",
+      "People who pass the AZ-700 exam will earn the Microsoft Certified: Azure Network Engineer Associate certification.",
+      "The AZ-700 exam tests your knowledge of five subject areas: designing, implementing, and managing hybrid networking, designing, and implementing core networking infrastructure, designing, and implementing routing, securing and monitoring networks, and designing and implementing private access to Azure services."
+    ]
   },
-  "idealFor": "Candidates for this exam are messaging administrators who deploy, configure, manage, troubleshoot, and monitor recipients, compliance, threat protection, and mail flow in hybrid and cloud enterprise environments. Messaging administrators are responsible for managing message hygiene, permissions, messaging infrastructure, hybrid configuration, migration, transport, mailboxes, and client access. Messaging administrators collaborate with other workload administrators and the Microsoft 365 enterprise administrator to implement a secure hybrid or cloud-only messaging topology that meets the business needs of an enterprise. The messaging administrator should have a working knowledge of authentication types, licensing, and integration with Microsoft 365 applications",
+  "idealFor": [
+    "Candidates for this exam are messaging administrators who deploy, configure, manage, troubleshoot, and monitor recipients, compliance, threat protection, and mail flow in hybrid and cloud enterprise environments.",
+    "Messaging administrators are responsible for managing message hygiene, permissions, messaging infrastructure, hybrid configuration, migration, transport, mailboxes, and client access.",
+    "Messaging administrators collaborate with other workload administrators and the Microsoft 365 enterprise administrator to implement a secure hybrid or cloud-only messaging topology that meets the business needs of an enterprise.",
+    "The messaging administrator should have a working knowledge of authentication types, licensing, and integration with Microsoft 365 applications"
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

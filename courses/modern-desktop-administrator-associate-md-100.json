@@ -1,4 +1,4 @@
-{
+ {
   "title": "Modern Desktop Administrator Associate MD 100 MD 101",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,28 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Modern desktop administrators deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment. Candidates for this exam are administrators who deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment. Candidates manage identity, access, policies, updates, and apps. As an administrator, candidates typically collaborate with the Microsoft 365 enterprise administrator to design and implement a device strategy that meets the business needs of a modern organization. Candidates must be familiar with Microsoft 365 workloads and must be proficient and experienced in deploying, configuring, and maintaining Windows Client and non-Windows devices and technologies. Candidates for this exam are administrators who deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment. Candidates manage identity, access, policies, updates, and apps. As an administrator, candidates typically collaborate with the Microsoft 365 enterprise administrator to design and implement a device strategy that meets the business needs of a modern organization. Candidates must be familiar with Microsoft 365 workloads and must be proficient and experienced in deploying, configuring, and maintaining Windows 10 and non-Windows devices and technologies."
+    "description": [
+      "Modern desktop administrators deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment.",
+      "Candidates for this exam are administrators who deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment.",
+      "Candidates manage identity, access, policies, updates, and apps.",
+      "As an administrator, candidates typically collaborate with the Microsoft 365 enterprise administrator to design and implement a device strategy that meets the business needs of a modern organization.",
+      "Candidates must be familiar with Microsoft 365 workloads and must be proficient and experienced in deploying, configuring, and maintaining Windows Client and non-Windows devices and technologies.",
+      "Candidates for this exam are administrators who deploy, configure, secure, manage, and monitor devices and client applications in an enterprise environment.",
+      "Candidates manage identity, access, policies, updates, and apps.",
+      "As an administrator, candidates typically collaborate with the Microsoft 365 enterprise administrator to design and implement a device strategy that meets the business needs of a modern organization.",
+      "Candidates must be familiar with Microsoft 365 workloads and must be proficient and experienced in deploying, configuring, and maintaining Windows 10 and non-Windows devices and technologies."
+    ]
   },
-  "idealFor": "Candidates for this exam are IT professionals who have subject matter expertise in installing, configuring, and maintaining Microsoft Windows clients within a domain infrastructure. Responsibilities include protecting and maintaining the reliability of the Windows device and the data stored on the device. Candidates for this exam administer Windows clients in an Azure Active Directory environment. Candidates for this exam may collaborate with the Microsoft 365 enterprise administrator, the Microsoft 365 security administrator, and Windows Server administrators to implement a modern desktop and device strategy that meets the business needs of an organization. Candidates for this exam must be familiar with device management, client computer networking, policy-based management, and cloud-based solutions.Candidates for this exam are IT professionals who have subject matter expertise in installing, configuring, and maintaining Windows clients within a domain infrastructure. Responsibilities include protecting and maintaining the reliability of the Windows device and the data stored on the device. Candidates for this exam administer Windows clients in an Active Directory environment. Candidates for this exam may collaborate with the Microsoft 365 enterprise administrator, the Microsoft 365 security administrator, and Windows Server administrators to implement a modern desktop and device strategy that meets the business needs of an organization. Candidates for this exam must be familiar with device management, client computer networking, policy-based management, and cloud-based solutions.",
+  "idealFor": [
+    "Candidates for this exam are IT professionals who have subject matter expertise in installing, configuring, and maintaining Microsoft Windows clients within a domain infrastructure.",
+    "Responsibilities include protecting and maintaining the reliability of the Windows device and the data stored on the device. Candidates for this exam administer Windows clients in an Azure Active Directory environment.",
+    "Candidates for this exam may collaborate with the Microsoft 365 enterprise administrator, the Microsoft 365 security administrator, and Windows Server administrators to implement a modern desktop and device strategy that meets the business needs of an organization.",
+    "Candidates for this exam must be familiar with device management, client computer networking, policy-based management, and cloud-based solutions.",
+    "Candidates for this exam are IT professionals who have subject matter expertise in installing, configuring, and maintaining Windows clients within a domain infrastructure.",
+    "Responsibilities include protecting and maintaining the reliability of the Windows device and the data stored on the device. Candidates for this exam administer Windows clients in an Active Directory environment.",
+    "Candidates for this exam may collaborate with the Microsoft 365 enterprise administrator, the Microsoft 365 security administrator, and Windows Server administrators to implement a modern desktop and device strategy that meets the business needs of an organization.",
+    "Candidates for this exam must be familiar with device management, client computer networking, policy-based management, and cloud-based solutions."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
@@ -96,12 +115,22 @@
           ]
         },
         {
-          "heading": "CONFIGURE AND MANAGE STORAGE ",
+          "heading": "10.2.2\tCONFIGURE AND MANAGE STORAGE ",
           "contents": [
             "Configure local storage ",
             "Configure onedrive on windows client ",
             "Optimize local drives by using disk cleanup or storage sense ",
             "Configure file and folder permissions "
+          ]
+        },
+        {
+          "heading": "ACCESS USER DATA FROM MICROSOFT GRAPH",
+          "contents": [
+            "Get the signed in user's profile",
+            "Get a list of users in the organization",
+            "Get the user's profile photo",
+            "Get the user object based on the user's unique identifier",
+            "Get the user's manager’s profile"
           ]
         }
       ]
@@ -187,10 +216,10 @@
       ]
     },
     {
-      "title": "Module 5: DEPLOY WINDOWS CLIENT (25-30%) ",
+      "title": "Module 4: DEPLOY WINDOWS CLIENT (25-30%) ",
       "submodules": [
         {
-          "heading": "PLAN A WINDOWS CLIENT DEPLOYMENT ",
+          "heading": "DESCRIBE FUNDAMENTAL COMPONENTS AND TYPES OF OFFICE ADD-INS",
           "contents": [
             "Assess infrastructure readiness by using Endpoint Analytics ",
             "Select a deployment tool based on requirements ",
@@ -226,7 +255,7 @@
       ]
     },
     {
-      "title": "Module 6: MANAGE IDENTITY AND ACCESS (10-15%) ",
+      "title": "Module 4:\tMANAGE IDENTITY AND ACCESS (10-15%) ",
       "submodules": [
         {
           "heading": "MANAGE IDENTITY",
@@ -250,7 +279,7 @@
       ]
     },
     {
-      "title": "Module 7: MANAGE COMPLIANCE POLICIES AND CONFIGURATION PROFILES (10-15%) ",
+      "title": "Module 5: MANAGE COMPLIANCE POLICIES AND CONFIGURATION PROFILES (10-15%) ",
       "submodules": [
         {
           "heading": "IMPLEMENT DEVICE COMPLIANCE POLICIES",
@@ -274,7 +303,7 @@
       ]
     },
     {
-      "title": "Module 8: MANAGE, MAINTAIN, AND PROTECT DEVICES (25-30%) ",
+      "title": "Module 6: MANAGE, MAINTAIN, AND PROTECT DEVICES (25-30%) ",
       "submodules": [
         {
           "heading": "MANAGE DEVICE LIFECYCLE ",
@@ -321,10 +350,10 @@
       ]
     },
     {
-      "title": "Module 9: MANAGE APPS (10-15%) ",
+      "title": "Module 7: 11.5\tMANAGE APPS (10-15%) ",
       "submodules": [
         {
-          "heading": "DEPLOY AND UPDATE APPLICATIONS ",
+          "heading": "11.5.1\tDEPLOY AND UPDATE APPLICATIONS ",
           "contents": [
             "Deploy apps by using Intune ",
             "Configure Microsoft 365 Apps deployment by using Office Deployment Toolkit or Office Customization Tool ",
@@ -335,7 +364,7 @@
           ]
         },
         {
-          "heading": "IMPLEMENT APP PROTECTION AND APP CONFIGURATION POLICIES ",
+          "heading": "11.5.2\tIMPLEMENT APP PROTECTION AND APP CONFIGURATION POLICIES ",
           "contents": [
             "Plan app protection policies ",
             "Plan app configuration policies for ios and android ",

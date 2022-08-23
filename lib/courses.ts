@@ -50,7 +50,7 @@ export interface CourseContent {
   subtitle: string;
   heroImage: string;
   heroBg?: string;
-  idealFor: string;
+  idealFor: Array<string>;
   learningObjectives: string;
   courseDetail: CourseDetail;
   modules: Array<CourseModule>;
@@ -66,7 +66,7 @@ export interface CourseDetail {
   highlights: Array<CourseHighlight>;
   bg: string;
   displayImage: string;
-  description: string;
+  description: Array<string>;
 }
 
 export interface CourseModule {

@@ -36,9 +36,17 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Candidates for this certification are support engineers who identify, troubleshoot, and resolve issues with Microsoft Exchange Online, hybrid Exchange environments, and related components, technologies, and services. Candidates for this exam work with customers and other stakeholders to understand the details of any issues. They also interact with administrators and peers that work with other related technologies. Candidates should have experience with PowerShell and the Exchange PowerShell module. The support engineer should also have significant experience deploying, managing, and troubleshooting Microsoft Exchange Online environments."
+    "description": [
+      "Candidates for this certification are support engineers who identify, troubleshoot, and resolve issues with Microsoft Exchange Online, hybrid Exchange environments, and related components, technologies, and services.",
+      "Candidates for this exam work with customers and other stakeholders to understand the details of any issues. They also interact with administrators and peers that work with other related technologies.",
+      "Candidates should have experience with PowerShell and the Exchange PowerShell module. The support engineer should also have significant experience deploying, managing, and troubleshooting Microsoft Exchange Online environments."
+    ]
   },
-  "idealFor": "Candidates for this exam identify, troubleshoot, and resolve issues with Microsoft Exchange Online, hybrid Exchange environments and related components, technologies, and services. Candidates work with customers and other stakeholders to understand the details of any issues. They also interact with administrators and peers that work with other related technologies. Candidates should have experience with powershell and the Exchange powershell module. The support engineer should also have significant experience deploying, managing, and troubleshooting Microsoft Exchange Online environments.",
+  "idealFor": [
+    "Candidates for this exam identify, troubleshoot, and resolve issues with Microsoft Exchange Online, hybrid Exchange environments and related components, technologies, and services.",
+    "Candidates work with customers and other stakeholders to understand the details of any issues. They also interact with administrators and peers that work with other related technologies.",
+    "Candidates should have experience with PowerShell and the Exchange PowerShell module. The support engineer should also have significant experience deploying, managing, and troubleshooting Microsoft Exchange Online environments."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

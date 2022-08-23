@@ -1,4 +1,4 @@
-{
+ {
   "title": "Designing and Implementing a Microsoft Azure AI Solution AI - 102",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,17 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "AI-102 Designing and Implementing an Azure AI Solution is intended for software developers wanting to build AI infused applications that leverage Azure Cognitive Services, Azure Cognitive Search, and Microsoft Bot Framework. The course will use C# or Python as the programming language. "
+    "description": [
+      "AI-102 Designing and Implementing an Azure AI Solution is intended for software developers wanting to build AI infused applications that leverage Azure Cognitive Services, Azure Cognitive Search, and Microsoft Bot Framework. The course will use C# or Python as the programming language. "
+    ]
   },
-  "idealFor": "•\tCandidates for Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution build, manage, and deploy AI solutions that leverage Azure Cognitive Services and Azure Applied AI services. Their responsibilities include participating in all phases of AI solutions development—from requirements definition and design to development, deployment, maintenance, performance tuning, and monitoring. They work with solution architects to translate their vision and with data scientists, data engineers, IoT specialists, and AI developers to build complete end-to-end AI solutions. Candidates for this exam should be proficient in C# or Python and should be able to use REST-based APIs and SDKs to build computer vision, natural language processing, knowledge mining, and conversational AI solutions on Azure. They should also understand the components that make up the Azure AI portfolio and the available data storage options. Plus, candidates need to understand and be able to apply responsible AI principles",
+  "idealFor": [
+    "Candidates for Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution build, manage, and deploy AI solutions that leverage Azure Cognitive Services and Azure Applied AI services.",
+    "Their responsibilities include participating in all phases of AI solutions development—from requirements definition and design to development, deployment, maintenance, performance tuning, and monitoring.",
+    "They work with solution architects to translate their vision and with data scientists, data engineers, IoT specialists, and AI developers to build complete end-to-end AI solutions.",
+    "Candidates for this exam should be proficient in C# or Python and should be able to use REST-based APIs and SDKs to build computer vision, natural language processing, knowledge mining, and conversational AI solutions on Azure.",
+    "They should also understand the components that make up the Azure AI portfolio and the available data storage options. Plus, candidates need to understand and be able to apply responsible AI principles"
+  ],    
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
@@ -53,7 +61,7 @@
             "Select the appropriate cognitive service for a speech solution"
           ]
         },
-        {
+        { 
           "heading": "PLAN AND CONFIGURE SECURITY FOR A COGNITIVE SERVICES SOLUTION",
           "contents": [
             "Manage Cognitive Services account keys",
@@ -181,9 +189,9 @@
           "contents": [
             "Translate text by using the Translator service ",
             "Translate speech-to-speech by using the Speech service ",
-            "Translate speech-to-text by using the Speech service"
+            "Translate speech-to-text by using the Speech service"             
           ]
-        },
+        },  
         {
           "heading": "BUILD AN INITIAL LANGUAGE MODEL BY USING LANGUAGE UNDERSTANDING SERVICE (LUIS)",
           "contents": [

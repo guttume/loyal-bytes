@@ -1,4 +1,4 @@
-{
+                                                                                                                                                                                             {
   "title": "Azure Data Scientist Associate DP - 100",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,18 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Candidates for the Azure Data Scientist Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure. A candidate for this certification should have knowledge and experience in data science and using Azure Machine Learning and Azure Databricks."
+    "description": [
+      "Candidates for the Azure Data Scientist Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure.",
+      "Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure. You run data experiments and train predictive models. In addition, you manage, optimize, and deploy machine learning models into production.",
+      "A candidate for this certification should have knowledge and experience in data science and using Azure Machine Learning and Azure Databricks."
+    ]
   },
-  "idealFor": "Candidates for the Azure Jo Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure. Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure. You run data experiments and train predictive models. In addition, you manage, optimize, and deploy machine learning models into production. A candidate for this certification should have knowledge and experience in data science and using Azure Machine Learning and Azure Databricks.",
+  "idealFor": [
+    "Candidates for the Azure Jo Associate certification should have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure.",
+    "Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure. You run data experiments and train predictive models.",
+    "In addition, you manage, optimize, and deploy machine learning models into production.",
+    "A candidate for this certification should have knowledge and experience in data science and using Azure Machine Learning and Azure Databricks."
+  ],    
   "learningObjectives": "Responsibilities for this role include planning and creating a suitable working environment for data science workloads on Azure. You run data experiments and train predictive models. In addition, you manage, optimize, and deploy machine learning models into production.",
   "modules": [
     {

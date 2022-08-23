@@ -1,4 +1,4 @@
-{
+ {
   "title": "Azure Developer Associate AZ - 204",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,15 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "This program teaches developers how to create end-to-end solutions in Microsoft Azure. Students will learn how to implement Azure compute solutions, create Azure Functions, implement and manage web apps, develop solutions utilizing Azure storage, implement authentication and authorization, and secure their solutions by using KeyVault and Managed Identities. Students will also learn how to connect to and consume Azure services and third-party services and include event- and message-based models in their solutions. The Specialization also covers monitoring, troubleshooting, and optimizing Azure solutions."
+    "description": [
+      "This program teaches developers how to create end-to-end solutions in Microsoft Azure. Students will learn how to implement Azure compute solutions, create Azure Functions, implement and manage web apps, develop solutions utilizing Azure storage, implement authentication and authorization, and secure their solutions by using KeyVault and Managed Identities. Students will also learn how to connect to and consume Azure services and third-party services and include event- and message-based models in their solutions. The Specialization also covers monitoring, troubleshooting, and optimizing Azure solutions."
+    ]
   },
-  "idealFor": "Candidates for this exam are cloud developers who participate in all phases of development from requirements definition and design to development, deployment, and maintenance. They partner with cloud DBAs, cloud administrators, and clients to implement solutions. Candidates should be proficient in Azure SDKs, data storage options, data connections, APIs, app authentication and authorization, compute, and container deployment, debugging, performance tuning, and monitoring. Candidates should have 1-2 years professional development experience and experience with Microsoft Azure. They should be able to program in an Azure-supported language, and should be proficient using Azure CLI, Azure PowerShell, and other tools.",
+  "idealFor": [
+    "Candidates for this exam are cloud developers who participate in all phases of development from requirements definition and design to development, deployment, and maintenance. They partner with cloud DBAs, cloud administrators, and clients to implement solutions.",
+    "Candidates should be proficient in Azure SDKs, data storage options, data connections, APIs, app authentication and authorization, compute, and container deployment, debugging, performance tuning, and monitoring.",
+    "Candidates should have 1-2 years professional development experience and experience with Microsoft Azure. They should be able to program in an Azure-supported language, and should be proficient using Azure CLI, Azure PowerShell, and other tools."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

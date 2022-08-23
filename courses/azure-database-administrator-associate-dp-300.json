@@ -36,9 +36,17 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "The Azure database administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built with Microsoft SQL Server and Microsoft Azure Data Services. The Azure database administrator uses a variety of methods and tools to perform day-to-day operations, including applying knowledge of using T-SQL for administrative management purposes."
+    "description": [
+      "The Azure database administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built with Microsoft SQL Server and Microsoft Azure Data Services. The Azure database administrator uses a variety of methods and tools to perform day-to-day operations, including applying knowledge of using T-SQL for administrative management purposes."
+    ]
   },
-  "idealFor": "Candidates for this exam are database administrators and data management specialists that manage on-premises and cloud relational databases built with Microsoft SQL Server and Microsoft Azure Data Services.",
+  "idealFor": [
+  "Candidates for this exam are database administrators and data management specialists that manage on-premises and cloud relational databases built with Microsoft SQL Server and Microsoft Azure Data Services.",
+  "The Azure database administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built on Azure Data Services and SQL Server.",
+  "The Azure database administrator uses a variety of methods and tools to perform day-to-day operations, including applying knowledge of using T-SQL for administrative management purposes.",
+  "This role is responsible for management, availability, security and performance monitoring and optimization of modern relational database solutions.",
+  "This role works with the Azure data engineer role to manage operational aspects of data platform solutions."
+  ],
   "learningObjectives": "The Azure database administrator implements and manages the operational aspects of cloud-native and hybrid data platform solutions built on Azure Data Services and SQL Server. The Azure database administrator uses a variety of methods and tools to perform day-to-day operations, including applying knowledge of using T-SQL for administrative management purposes. This role is responsible for management, availability, security and performance monitoring and optimization of modern relational database solutions. This role works with the Azure data engineer role to manage operational aspects of data platform solutions.",
   "modules": [
     {
@@ -293,7 +301,7 @@
       ]
     },
     {
-      "title": "Module 6: PERFORM ADMINISTRATION BY USING T-SQL (10-15%)",
+      "title": "Module 7 : PERFORM ADMINISTRATION BY USING T-SQL (10-15%)",
       "submodules": [
         {
           "heading": "EXAMINE SYSTEM HEALTH",

@@ -1,4 +1,4 @@
-{
+ {
   "title": "Security, Compliance, and Identity Fundamentals - 900",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,20 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Whether you’re a student, business user, or IT professional, this certification ensures you have a firm grasp of a range of topics in the rapidly growing field of cybersecurity. This fundamentals certification can serve as a steppingstone if you are interested in advancing to role-based certifications in security operations, identity and access management, and information protection. It is recommended to have familiarity with networking and cloud computing concepts, general IT knowledge or any general experience working in an IT environment, general understanding of Microsoft Azure and Microsoft 365."
+    "description": [
+      "Whether you’re a student, business user, or IT professional, this certification ensures you have a firm grasp of a range of topics in the rapidly growing field of cybersecurity.",
+      "This fundamentals certification can serve as a steppingstone if you are interested in advancing to role-based certifications in security operations, identity and access management, and information protection.",
+      "The Microsoft Certified: Security, Compliance, and Identity Fundamentals certification could be a great fit for you if you’d like to",
+      "Demonstrate your knowledge of Microsoft Security, Compliance, and Identity (SCI) solutions.",
+      "Highlight your understanding of how Microsoft SCI solutions provide holistic, end-to-end cybersecurity capabilities.",
+      "It is recommended to have familiarity with networking and cloud computing concepts, general IT knowledge or any general experience working in an IT environment, general understanding of Microsoft Azure and Microsoft 365."
+    ]
   },
-  "idealFor": "This certification is targeted to those looking to familiarize themselves with the fundamentals of security, compliance, and identity (SCI) across cloud-based and related Microsoft services. This is a broad audience that may include business stakeholders, new or existing IT professionals, or students who have an interest in Microsoft Security, compliance, and identity solutions. Candidates should be familiar with Microsoft Azure and Microsoft 365 and want to understand how Microsoft Security, compliance, and identity solutions can span across these solution areas to provide a holistic and end-to-end solution.",
+  "idealFor": [
+    "This certification is targeted to those looking to familiarize themselves with the fundamentals of security, compliance, and identity (SCI) across cloud-based and related Microsoft services.",
+    "This is a broad audience that may include business stakeholders, new or existing IT professionals, or students who have an interest in Microsoft Security, compliance, and identity solutions.",
+    "Candidates should be familiar with Microsoft Azure and Microsoft 365 and want to understand how Microsoft Security, compliance, and identity solutions can span across these solution areas to provide a holistic and end-to-end solution."
+  ],
   "learningObjectives": "Demonstrate your knowledge of Microsoft Security, Compliance, and Identity (SCI) solutions. Highlight your understanding of how Microsoft SCI solutions provide holistic, end-to-end cybersecurity capabilities.",
   "modules": [
     {

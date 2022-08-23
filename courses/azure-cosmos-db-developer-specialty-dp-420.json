@@ -36,9 +36,21 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Candidates for the Azure Cosmos DB Developer Specialty certification should have subject matter expertise designing, implementing, and monitoring cloud-native applications that store and manage data. Candidates for this exam must have solid knowledge and experience developing apps for Azure and working with Azure Cosmos DB database technologies. They should be proficient at developing applications by using the Core (SQL) API and SDKs, writing efficient queries, and creating appropriate index policies, provisioning, and managing resources in Azure, and creating server-side objects with JavaScript. They should be able to interpret JSON, read C# or Java code, and use PowerShell."
+    "description": [
+      "Candidates for the Azure Cosmos DB Developer Specialty certification should have subject matter expertise designing, implementing, and monitoring cloud-native applications that store and manage data.",
+      "Candidates for this exam must have solid knowledge and experience developing apps for Azure and working with Azure Cosmos DB database technologies. ",
+      "They should be proficient at developing applications by using the Core (SQL) API and SDKs, writing efficient queries, and creating appropriate index policies, provisioning, and managing resources in Azure, and creating server-side objects with JavaScript. ",
+      "They should be able to interpret JSON, read C# or Java code, and use PowerShell."
+    ] 
   },
-  "idealFor": "Responsibilities for this role include designing and implementing data models and data distribution, loading data into an Azure Cosmos DB database, and optimizing and maintaining the solution. These professionals integrate the solution with other Azure services. They also design, implement, and monitor solutions that consider se\tcurity, availability, resilience, and performance requirements. Candidates for this certification must have solid knowledge and experience developing apps for Azure and working with Azure Cosmos DB database technologies. They should be proficient at developing applications by using the Core (SQL) API and SDKs, writing efficient queries, and creating appropriate index policies, provisioning, and managing resources in Azure, and creating server-side objects with JavaScript. They should be able to interpret JSON, read C# or Java code, and use PowerShell.",
+  "idealFor": [
+    "Responsibilities for this role include designing and implementing data models and data distribution, loading data into an Azure Cosmos DB database, and optimizing and maintaining the solution.",
+    "These professionals integrate the solution with other Azure services.",
+    "They also design, implement, and monitor solutions that consider security, availability, resilience, and performance requirements.",
+    "Candidates for this certification must have solid knowledge and experience developing apps for Azure and working with Azure Cosmos DB database technologies.",
+    "They should be proficient at developing applications by using the Core (SQL) API and SDKs, writing efficient queries, and creating appropriate index policies, provisioning, and managing resources in Azure, and creating server-side objects with JavaScript.",
+    "They should be able to interpret JSON, read C# or Java code, and use PowerShell."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

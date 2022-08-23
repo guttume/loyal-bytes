@@ -1,4 +1,4 @@
-{
+ {
   "title": "DevOps Engineer Expert AZ 400",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,18 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Candidates for this exam should have advanced experience and knowledge of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance. A professional in this role should manage how decisions in each area affect an overall solution. In addition, they should have experience in Azure administration, Azure development, and DevOps processes. Candidates for the DevOps Engineer Expert certification should have subject matter expertise working with people, processes, and technologies to continuously deliver business value. Responsibilities for this role include designing and implementing strategies for collaboration, code, infrastructure, source control, security, compliance, continuous integration, testing, delivery, monitoring, and feedback. A candidate for this certification must be familiar with both Azure administration and development and must be expert in at least one of these areas."
+    "description": [
+      "Candidates for this exam should have advanced experience and knowledge of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance. A professional in this role should manage how decisions in each area affect an overall solution. In addition, they should have experience in Azure administration, Azure development, and DevOps processes.",
+      "Candidates for the DevOps Engineer Expert certification should have subject matter expertise working with people, processes, and technologies to continuously deliver business value.",
+      "Responsibilities for this role include designing and implementing strategies for collaboration, code, infrastructure, source control, security, compliance, continuous integration, testing, delivery, monitoring, and feedback.",
+      "A candidate for this certification must be familiar with both Azure administration and development and must be expert in at least one of these areas."
+    ]
   },
-  "idealFor": "Candidates for this exam should have subject matter expertise working with people, processes, and technologies to continuously deliver business value. Responsibilities for this role include designing and implementing strategies for collaboration, code, infrastructure, source control, security, compliance, continuous integration, testing, delivery, monitoring, and feedback. A candidate for this exam must be familiar with both Azure administration and development and must be expert in at least one of these areas.",
+  "idealFor": [
+    "Candidates for this exam should have subject matter expertise working with people, processes, and technologies to continuously deliver business value.",
+    "Responsibilities for this role include designing and implementing strategies for collaboration, code, infrastructure, source control, security, compliance, continuous integration, testing, delivery, monitoring, and feedback.",
+    "A candidate for this exam must be familiar with both Azure administration and development and must be expert in at least one of these areas."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

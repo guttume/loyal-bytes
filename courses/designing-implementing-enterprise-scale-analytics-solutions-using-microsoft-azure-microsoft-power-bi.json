@@ -1,5 +1,5 @@
 {
-  "title": "Designing and Implementing Enterprise-Scale Analytics Solutions",
+  "title": "Designing Implementing Enterprise Scale Analytics Solutions Using Microsoft Azure Microsoft Power BI (DP 500)",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
   "heroBg": "/images/course-page/azure-hero-bg.png",
@@ -36,9 +36,24 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": ["Candidates for this exam should have advanced Power BI skills, including managing data repositories and data processing in the cloud and on-premises, along with using Power Query and Data Analysis Expressions (DAX). They should also be proficient in consuming data from Azure Synapse Analytics and should have experience querying relational databases, analyzing data by using Transact-SQL (T-SQL), and visualizing data.This course covers all the topics that are required for Microsoft Azure AZ-500 Microsoft Azure Security Technologies exam. Even if you aren't planning to take the exam this course will help you get started on your way to deploying and managing Microsoft Azure security technologies with hands-on LAB. The AZ-500 exam tests your knowledge in four different subject areas, and that's how this learning path is structured. We'll start with managing identities and access. Next, we'll get into implementing platform protection, which will include topics like Network Security Groups, Azure Firewalls, Container Security, and much more. You will then learn about managing security options using tools like Azure Monitor, the Azure Security Center, and Log Analytics. You'll learn how to secure data and applications by configuring security policies, enabling auditing, leveraging Key Vault, and many other topics."]
+    "description": [
+      "Candidates for this exam should have advanced Power BI skills, including managing data repositories and data processing in the cloud and on-premises, along with using Power Query and Data Analysis Expressions (DAX). They should also be proficient in consuming data from Azure Synapse Analytics and should have experience querying relational databases, analyzing data by using Transact-SQL (T-SQL), and visualizing data.",
+      "This course covers all the topics that are required for Microsoft Azure AZ-500 Microsoft Azure Security Technologies exam. Even if you aren’t planning to take the exam this course will help you get started on your way to deploying and managing Microsoft Azure security technologies with hands-on LAB.",
+      "The AZ-500 exam tests your knowledge in four different subject areas, and that’s how this learning path is structured.", 
+      "We’ll start with managing identities and access.", 
+      "Next, we’ll get into implementing platform protection, which will include topics like Network Security Groups, Azure Firewalls, Container Security, and much more.",
+      "You will then learn about managing security options using tools like Azure Monitor, the Azure Security Center, and Log Analytics.",
+      "You’ll learn how to secure data and applications by configuring security policies, enabling auditing, leveraging Key Vault, and many other topics."
+    ]
   },
-  "idealFor": ["Candidates for the Azure Enterprise Data Analyst Associate certification should have subject matter expertise in designing, creating, and deploying enterprise-scale data analytics solutions. Responsibilities for this role include performing advanced data analytics at scale, such as cleaning and transforming data, designing, and building enterprise data models, incorporating advanced analytics capabilities, integrating with IT infrastructure, and applying development lifecycle practices. These professionals help collect enterprise-level requirements for data analytics solutions that include Azure and Power BI. They also advise on data governance and configuration settings for Power BI administration, monitor data usage, and optimize performance of the data analytics solutions. Azure enterprise data analysts collaborate with other roles, such as solution architects, data engineers, data scientists, AI engineers, database administrators, and Power BI data analysts. Candidates for this exam should have advanced Power BI skills, including managing data repositories and data processing in the cloud and on-premises, along with using Power Query and Data Analysis Expressions (DAX). They should also be proficient in consuming data from Azure Synapse Analytics and should have experience querying relational databases, analyzing data by using Transact-SQL (T-SQL), and visualizing data."],
+  "idealFor": [
+    "Candidates for the Azure Enterprise Data Analyst Associate certification should have subject matter expertise in designing, creating, and deploying enterprise-scale data analytics solutions.",
+    "Responsibilities for this role include performing advanced data analytics at scale, such as cleaning and transforming data, designing, and building enterprise data models, incorporating advanced analytics capabilities, integrating with IT infrastructure, and applying development lifecycle practices.",
+    "These professionals help collect enterprise-level requirements for data analytics solutions that include Azure and Power BI. They also advise on data governance and configuration settings for Power BI administration, monitor data usage, and optimize performance of the data analytics solutions.",
+    "Azure enterprise data analysts collaborate with other roles, such as solution architects, data engineers, data scientists, AI engineers, database administrators, and Power BI data analysts.",
+    "Candidates for this exam should have advanced Power BI skills, including managing data repositories and data processing in the cloud and on-premises, along with using Power Query and Data Analysis Expressions (DAX).",
+    "They should also be proficient in consuming data from Azure Synapse Analytics and should have experience querying relational databases, analyzing data by using Transact-SQL (T-SQL), and visualizing data."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
@@ -107,7 +122,7 @@
       "title": "Module 3: IMPLEMENT AND MANAGE DATA MODELS (25–30%)",
       "submodules": [
         {
-          "heading": "DESIGN AND BUILD TABULAR MODELS",
+          "heading": "9.3.1\tDESIGN AND BUILD TABULAR MODELS",
           "contents": [
             "Choose when to use Direct Query for Power BI datasets ",
             "Choose when to use external tools, including DAX Studio and Tabular Editor 2 ",
@@ -132,10 +147,10 @@
       ]
     },
     {
-      "title": "Module 4: EXPLORE AND VISUALIZE DATA (20–25%)",
+      "title": "Module 4: 9.4\tEXPLORE AND VISUALIZE DATA (20–25%)",
       "submodules": [
         {
-          "heading": "EXPLORE DATA BY USING AZURE SYNAPSE ANALYTICS",
+          "heading": "9.4.1\tEXPLORE DATA BY USING AZURE SYNAPSE ANALYTICS",
           "contents": [
             "Explore data by using native visuals in Spark notebooks ",
             "Explore and visualize data by using the Azure Synapse SQL results pane"

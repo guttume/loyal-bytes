@@ -36,9 +36,20 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "The Microsoft cybersecurity architect has subject matter expertise in designing and evolving the cybersecurity strategy to protect an organization’s mission and business processes across all aspects of the enterprise architecture. Candidates for this exam should have advanced experience and knowledge in a wide range of security engineering areas, including identity and access, platform protection, security operations, securing data, and securing applications. They should also have experience with hybrid and cloud implementations."
+    "description": [
+      "The Microsoft cybersecurity architect has subject matter expertise in designing and evolving the cybersecurity strategy to protect an organization’s mission and business processes across all aspects of the enterprise architecture.", 
+      "Candidates for this exam should have advanced experience and knowledge in a wide range of security engineering areas, including identity and access, platform protection, security operations, securing data, and securing applications. They should also have experience with hybrid and cloud implementations."
+    ]
   },
-  "idealFor": "The Microsoft cybersecurity architect has subject matter expertise in designing and evolving the cybersecurity strategy to protect an organization’s mission and business processes across all aspects of the enterprise architecture. The cybersecurity architect designs a Zero Trust strategy and architecture, including security strategies for data, applications, access management, identity, and infrastructure. The cybersecurity architect also evaluates Governance Risk Compliance (GRC) technical strategies and security operations strategies. The cybersecurity architect continuously collaborates with leaders and practitioners in IT security, privacy, and other roles across an organization to plan and implement a cybersecurity strategy that meets the business needs of an organization. A candidate for this certification should have advanced experience and knowledge in a wide range of security engineering areas including identity and access, platform protection, security operations, securing data and securing applications. They should also have experience with hybrid and cloud implementations. To earn the Microsoft Cybersecurity Architect certification, candidates must also pass one of the following exams: SC-200, SC-300, AZ-500, or MS-500. We strongly recommend that you do this before taking this exam.",
+  "idealFor": [
+    "The Microsoft cybersecurity architect has subject matter expertise in designing and evolving the cybersecurity strategy to protect an organization’s mission and business processes across all aspects of the enterprise architecture.",
+    "The cybersecurity architect designs a Zero Trust strategy and architecture, including security strategies for data, applications, access management, identity, and infrastructure.",
+    "The cybersecurity architect also evaluates Governance Risk Compliance (GRC) technical strategies and security operations strategies.",
+    "The cybersecurity architect continuously collaborates with leaders and practitioners in IT security, privacy, and other roles across an organization to plan and implement a cybersecurity strategy that meets the business needs of an organization.",
+    "A candidate for this certification should have advanced experience and knowledge in a wide range of security engineering areas including identity and access, platform protection, security operations, securing data and securing applications.",
+    "They should also have experience with hybrid and cloud implementations.",
+    "To earn the Microsoft Cybersecurity Architect certification, candidates must also pass one of the following exams: SC-200, SC-300, AZ-500, or MS-500. We strongly recommend that you do this before taking this exam."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
@@ -113,7 +124,7 @@
       "title": "Module 3: DESIGN SECURITY FOR INFRASTRUCTURE (20–25%)",
       "submodules": [
         {
-          "heading": "DESIGN A STRATEGY FOR SECURING SERVER AND CLIENT ENDPOINTS (NOTE: includes hybrid and multi-cloud)",
+          "heading": "9.3.1\tDESIGN A STRATEGY FOR SECURING SERVER AND CLIENT ENDPOINTS (NOTE: includes hybrid and multi-cloud)",
           "contents": [
             "Specify security baselines for server and client endpoints ",
             "Specify security requirements for servers, including multiple platforms and operating systems ",

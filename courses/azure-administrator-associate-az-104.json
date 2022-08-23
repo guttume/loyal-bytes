@@ -36,9 +36,15 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Mastering the basics in AI can help you jump-start your career and get ready to dive deeper into the other technical opportunities Azure offers. Artificial intelligence (AI) opens doors into possibilities that might have seemed like science fiction only yesterday. Using AI, you can build solutions, improve your apps, and advance technology in many fields, including healthcare, financial management, and environmental protection, to name just a few. The Microsoft Certified: Azure AI Fundamentals certification could be a great fit for you if you'd like to: Prove that you have the AI skills it takes to build a better world. Earning your Azure AI Fundamentals certification can supply the foundation you need to build your career and demonstrate your knowledge of common AI and machine learning workloads—and what Azure services can solve for them. Validate your foundational knowledge of machine learning and AI concepts, along with related Azure services., It is recommended to have some general programming knowledge or experience, but it is not required. You can use Azure AI fundamentals to reinforce your basics for other Azure role-based certifications, like Azure Data Scientist Associate, Azure AI Engineer Associate, or Azure Developer Associate, but its not a prerequisite for any of them. NOTE: Passing score: 700"
+    "description": ""
   },
-  "idealFor": "Candidates for this exam should have subject matter expertise implementing, managing, and monitoring an organization’s Microsoft Azure environment. Responsibilities for this role include implementing, managing, and monitoring identity, governance, storage, compute, and virtual networks in a cloud environment, plus provision, size, monitor, and adjust resources, when needed. An Azure administrator often serves as part of a larger team dedicated to implementing an organization's cloud infrastructure. A candidate for this exam should have at least six months of hands-on experience administering Azure, along with a strong understanding of core Azure services, Azure workloads, security, and governance. In addition, this role should have experience using PowerShell, Azure CLI, Azure portal, and Azure Resource Manager templates.",
+  "idealFor": [
+    "Candidates for this exam should have subject matter expertise implementing, managing, and monitoring an organization’s Microsoft Azure environment.",
+    "Responsibilities for this role include implementing, managing, and monitoring identity, governance, storage, compute, and virtual networks in a cloud environment, plus provision, size, monitor, and adjust resources, when needed.",
+    "An Azure administrator often serves as part of a larger team dedicated to implementing an organization's cloud infrastructure.",
+    "A candidate for this exam should have at least six months of hands-on experience administering Azure, along with a strong understanding of core Azure services, Azure workloads, security, and governance. ",
+    "In addition, this role should have experience using PowerShell, Azure CLI, Azure portal, and Azure Resource Manager templates."    
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

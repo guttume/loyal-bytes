@@ -1,4 +1,4 @@
-{
+ {
   "title": "Dynamics 365 Fundamentals (ERP) - 920",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,21 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": ["Whether you are a business stakeholder, functional consultant at the start of your career or a student, jump-start your career by validating your skills with the Dynamics 365 fundamentals (ERP) certification. Earning this certification demonstrates a broad understanding of Dynamics 365 finance and operations apps – specifically, how business operations and finance teams can leverage the power of this solution to achieve new levels of efficiency and effectiveness across the enterprise. It is recommended to have familiarity with business finance and operations."]
+    "description": [
+      "Whether you are a business stakeholder, functional consultant at the start of your career or a student, jump-start your career by validating your skills with the Dynamics 365 fundamentals (ERP) certification.",
+      "Earning this certification demonstrates a broad understanding of Dynamics 365 finance and operations apps – specifically, how business operations and finance teams can leverage the power of this solution to achieve new levels of efficiency and effectiveness across the enterprise.",
+      "The Microsoft Certified: Dynamics Fundamentals (ERP) certification could be a great fit for you if you’d like to",
+      "Validate your understanding of the fundamentals of the platform",
+      "Demonstrate your broad understanding of the applications of Dynamics 365",
+      "Highlight your understanding of how Dynamics 365 can integrate with an array of applications and show a deeper understanding of business finance and operations",
+      "Solidify your understanding of basic solution capabilities before advancing to deeper levels of specialty.",
+      "It is recommended to have familiarity with business finance and operations."
+    ]
   },
-  "idealFor": ["This exam covers the features and capabilities of Microsoft Dynamics 365 finance and operations apps. Candidates of this exam should have general knowledge of or relevant working experience in an Information Technology (IT) environment. They should also have a fundamental understanding of financial principles and business operations."],
+  "idealFor": [
+    "This exam covers the features and capabilities of Microsoft Dynamics 365 finance and operations apps.",
+    "Candidates of this exam should have general knowledge of or relevant working experience in an Information Technology (IT) environment. They should also have a fundamental understanding of financial principles and business operations."
+  ],
   "learningObjectives": "Validate your understanding of the fundamentals of the platform. Demonstrate your broad understanding of the applications of Dynamics 365. Highlight your understanding of how Dynamics 365 can integrate with an array of applications and show a deeper understanding of business finance and operations. Solidify your understanding of basic solution capabilities before advancing to deeper levels of specialty.",
   "modules": [
     {

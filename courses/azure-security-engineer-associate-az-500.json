@@ -36,16 +36,29 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "This course provides IT Security Professionals with the knowledge and skills needed to implement security controls, maintain an organization’s security posture, and identify and remediate security vulnerabilities. This course includes security for identity and access, platform protection, data and applications, and security operations. This course covers all the topics that are required for Microsoft Azure AZ-500 Microsoft Azure Security Technologies exam. Even if you aren’t planning to take the exam this course will help you get started on your way to deploying and managing Microsoft Azure security technologies with hands-on LAB. The AZ-500 exam tests your knowledge in four different subject areas, and that’s how this learning path is structured. We’ll start with managing identities and access. Next, we’ll get into implementing platform protection, which will include topics like Network Security Groups, Azure Firewalls, Container Security, and much more. You will then learn about managing security options using tools like Azure Monitor, the Azure Security Center, and Log Analytics. You’ll learn how to secure data and applications by configuring security policies, enabling auditing, leveraging Key Vault, and many other topics."
+    "description": [
+      "This course provides IT Security Professionals with the knowledge and skills needed to implement security controls, maintain an organization’s security posture, and identify and remediate security vulnerabilities. This course includes security for identity and access, platform protection, data and applications, and security operations.",
+      "This course covers all the topics that are required for Microsoft Azure AZ-500 Microsoft Azure Security Technologies exam. Even if you aren’t planning to take the exam this course will help you get started on your way to deploying and managing Microsoft Azure security technologies with hands-on LAB.",
+      "The AZ-500 exam tests your knowledge in four different subject areas, and that’s how this learning path is structured.",
+      "We’ll start with managing identities and access.",
+      "Next, we’ll get into implementing platform protection, which will include topics like Network Security Groups, Azure Firewalls, Container Security, and much more.",
+      "You will then learn about managing security options using tools like Azure Monitor, the Azure Security Center, and Log Analytics.",
+      "You’ll learn how to secure data and applications by configuring security policies, enabling auditing, leveraging Key Vault, and many other topics."
+    ]
   },
-  "idealFor": "Candidates for this exam should have subject matter expertise implementing Azure security controls that protect identity, access, data, applications, and networks in cloud and hybrid environments as part of an end-to-end infrastructure. Responsibilities for an Azure security engineer include managing the security posture, identifying, and remediating vulnerabilities, performing threat modeling, implementing threat protection, and responding to security incident escalations. Azure security engineers often serve as part of a larger team to plan and implement cloud-based management and security. Candidates for this exam should have practical experience in administration of Azure and hybrid environments. Candidates should have experience with infrastructure as code, security operations processes, cloud capabilities, and Azure services.",
+  "idealFor": [
+    "Candidates for this exam should have subject matter expertise implementing Azure security controls that protect identity, access, data, applications, and networks in cloud and hybrid environments as part of an end-to-end infrastructure.",
+    "Responsibilities for an Azure security engineer include managing the security posture, identifying, and remediating vulnerabilities, performing threat modeling, implementing threat protection, and responding to security incident escalations.",
+    "Azure security engineers often serve as part of a larger team to plan and implement cloud-based management and security.",
+    "Candidates for this exam should have practical experience in administration of Azure and hybrid environments. Candidates should have experience with infrastructure as code, security operations processes, cloud capabilities, and Azure services."
+  ],    
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
-      "title": "Module 1: MANAGE IDENTITY AND ACCESS (30-35%)",
+      "title": "Module 1: Manage identity and access (30-35%)",
       "submodules": [
         {
-          "heading": "MANAGE AZURE ACTIVE DIRECTORY (AZURE AD) IDENTITIES",
+          "heading": "Manage Azure Active Directory (Azure AD) identities",
           "contents": [
             "Create and manage a managed identity for Azure resources",
             "Manage Azure AD groups",
@@ -55,7 +68,7 @@
           ]
         },
         {
-          "heading": "MANAGE SECURE ACCESS BY USING AZURE AD",
+          "heading": "Manage secure access by using Azure AD",
           "contents": [
             "Configure Azure AD Privileged Identity Management (PIM)",
             "Implement Conditional Access policies, including multifactor authentication ",
@@ -65,7 +78,7 @@
           ]
         },
         {
-          "heading": "MANAGE APPLICATION ACCESS",
+          "heading": "Manage application access",
           "contents": [
             "Integrate single sign on (SSO) and identity providers for authentication",
             "Create an app registration",
@@ -76,7 +89,7 @@
           ]
         },
         {
-          "heading": "MANAGE ACCESS CONTROL",
+          "heading": "Manage access control",
           "contents": [
             "Configure Azure role permissions for management groups, subscriptions, resource groups, and resources",
             "Interpret role and resource permissions",
@@ -87,10 +100,10 @@
       ]
     },
     {
-      "title": "Module 2: IMPLEMENT PLATFORM PROTECTION (15-20%)",
+      "title": "Module 2: Implement platform protection (15-20%)",
       "submodules": [
         {
-          "heading": "IMPLEMENT ADVANCED NETWORK SECURITY",
+          "heading": "Implement advanced network security",
           "contents": [
             "Secure the connectivity of hybrid networks",
             "Secure the connectivity of virtual networks",
@@ -108,7 +121,7 @@
           ]
         },
         {
-          "heading": "CONFIGURE ADVANCED SECURITY FOR COMPUTE",
+          "heading": "Configure advanced security for compute",
           "contents": [
             "Configure Azure Endpoint Protection for virtual machines (VMs)",
             "Implement and manage security updates for VMs",
@@ -123,10 +136,10 @@
       ]
     },
     {
-      "title": "Module 3: MANAGE SECURITY OPERATIONS (25-30%)",
+      "title": "Module 3: Manage security operations (25-30%)",
       "submodules": [
         {
-          "heading": "CONFIGURE CENTRALIZED POLICY MANAGEMENT",
+          "heading": "Configure centralized policy management",
           "contents": [
             "Configure a custom security policy",
             "Create a policy initiative",
@@ -134,16 +147,16 @@
           ]
         },
         {
-          "heading": "CONFIGURE AND MANAGE THREAT PROTECTION",
+          "heading": "Configure and manage threat protection",
           "contents": [
-            "Configure Microsoft Defender for Servers (not including Microsoft Defender for Endpoint) ",
-            "Evaluate vulnerability scans from Microsoft Defender for Servers ",
-            "Configure Microsoft Defender for SQL ",
-            "Use the Microsoft Threat Modeling Tool "
+            "configure Microsoft Defender for Servers (not including Microsoft Defender for Endpoint) ",
+            "evaluate vulnerability scans from Microsoft Defender for Servers ",
+            "configure Microsoft Defender for SQL ",
+            "use the Microsoft Threat Modeling Tool "
           ]
         },
         {
-          "heading": "CONFIGURE AND MANAGE SECURITY MONITORING SOLUTIONS",
+          "heading": "Configure and manage security monitoring solutions ",
           "contents": [
             "Create and customize alert rules by using Azure Monitor ",
             "Configure diagnostic logging and log retention by using Azure Monitor ",
@@ -156,10 +169,10 @@
       ]
     },
     {
-      "title": "Module 4: SECURE DATA AND APPLICATIONS (25–30%)",
+      "title": "Module 4: Secure data and applications (25–30%) ",
       "submodules": [
         {
-          "heading": "CONFIGURE SECURITY FOR STORAGE",
+          "heading": "Configure security for storage ",
           "contents": [
             "Configure access control for storage accounts ",
             "Configure storage account access keys ",
@@ -168,7 +181,7 @@
           ]
         },
         {
-          "heading": "CONFIGURE SECURITY FOR DATA",
+          "heading": "Configure security for data ",
           "contents": [
             "Enable database authentication by using Azure AD ",
             "Enable database auditing ",
@@ -178,7 +191,7 @@
           ]
         },
         {
-          "heading": "CONFIGURE AND MANAGE AZURE KEY VAULT",
+          "heading": "Configure and manage Azure Key Vault ",
           "contents": [
             "Create and configure Key Vault ",
             "Configure access to Key Vault ",

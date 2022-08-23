@@ -1,4 +1,4 @@
-{
+ {
   "title": "Azure Data Fundamentals - 900",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,22 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": ["To master data in the cloud, you need the right foundation—a solid understanding of core data concepts, such as relational data, nonrelational data, big data, and analytics. Plus, familiarity with the roles, tasks, and responsibilities in the world of data and data analytics. Are you there? Certification can help you prove it. The certification offers the foundation you need to build your technical skills to start working with data in the cloud. Mastering the basics can help you jump-start your career and prepare you to dive deeper into other technical opportunities Azure offers. If you’re beginning to work with data in the cloud, this certification is for you. It is recommended to have familiarity with the concepts of relational and nonrelational data and with different types of data workloads, such as transactional or analytical."]
+    "description": [
+      "To master data in the cloud, you need the right foundation—a solid understanding of core data concepts, such as relational data, nonrelational data, big data, and analytics. Plus, familiarity with the roles, tasks, and responsibilities in the world of data and data analytics. Are you there? Certification can help you prove it.",
+      "The certification offers the foundation you need to build your technical skills to start working with data in the cloud. Mastering the basics can help you jump-start your career and prepare you to dive deeper into other technical opportunities Azure offers.",
+      "The Microsoft Certified: Azure Data Fundamentals certification could be a great fit for you if you’d like to",
+      "Validate your foundational knowledge of core data concepts and how they’re implemented using Azure data services.",
+      "Reinforce your basics for other Azure role-based certifications, like Azure Database Administrator Associate, Azure Data Engineer Associate, Data Analyst Associate, or Azure Developer Associate, but it’s not a prerequisite for any of them.",
+      "If you’re new to the cloud or just starting out with Azure, first choose Azure fundamentals training and certification.",
+      "If you’re beginning to work with data in the cloud, this certification is for you. It is recommended to have familiarity with the concepts of relational and nonrelational data and with different types of data workloads, such as transactional or analytical."
+    ]
   },
-  "idealFor": ["This exam is an opportunity to demonstrate knowledge of core data concepts and related Microsoft Azure data services. Candidates for this exam should have familiarity with DP-900&apos;s self-paced or instructor-led learning material. This exam is intended for candidates beginning to work with data in the cloud. •\tCandidates should be familiar with the concepts of relational and non-relational data, and different types of data workloads such as transactional or analytical. Azure Data Fundamentals can be used to prepare for other Azure role-based certifications like Azure Database Administrator Associate or Azure Data Engineer Associate, but it is not a prerequisite for any of them."],
+  "idealFor": [
+    "This exam is an opportunity to demonstrate knowledge of core data concepts and related Microsoft Azure data services. Candidates for this exam should have familiarity with DP-900's self-paced or instructor-led learning material.",
+    "This exam is intended for candidates beginning to work with data in the cloud.",
+    "Candidates should be familiar with the concepts of relational and non-relational data, and different types of data workloads such as transactional or analytical.",
+    "Azure Data Fundamentals can be used to prepare for other Azure role-based certifications like Azure Database Administrator Associate or Azure Data Engineer Associate, but it is not a prerequisite for any of them."
+  ],
   "learningObjectives": "Validate your foundational knowledge of core data concepts and how they&apos;re implemented using Azure data services. Reinforce your basics for other Azure role-based certifications, like Azure Database Administrator Associate, Azure Data Engineer Associate, Data Analyst Associate, or Azure Developer Associate, but it’s not a prerequisite for any of them.",
   "modules": [
     {

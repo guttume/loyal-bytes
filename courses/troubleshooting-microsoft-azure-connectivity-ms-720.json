@@ -1,4 +1,4 @@
-{
+ {
   "title": "Troubleshooting Microsoft Azure Connectivity MS 720",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,18 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Candidates for the Azure Support Engineer for Connectivity Specialty certification are support engineers with subject matter expertise in using advanced troubleshooting methods to resolve networking and connectivity issues in Azure. Candidates for this exam should have experience with networking and with hybrid environments, including knowledge of routing, permissions, and account limits. They must be able to use available tools to diagnose issues related to business continuity, hybrid environments, Infrastructure as a Service (IaaS), Platform as a Service (PaaS), access control, networking, and virtual machines connectivity."
+    "description": [
+      "Candidates for the Azure Support Engineer for Connectivity Specialty certification are support engineers with subject matter expertise in using advanced troubleshooting methods to resolve networking and connectivity issues in Azure.",
+      "Candidates for this exam should have experience with networking and with hybrid environments, including knowledge of routing, permissions, and account limits. They must be able to use available tools to diagnose issues related to business continuity, hybrid environments, Infrastructure as a Service (IaaS), Platform as a Service (PaaS), access control, networking, and virtual machines connectivity."
+    ]
   },
-  "idealFor": "Candidates for the Azure Support Engineer for Connectivity Specialty certification are support engineers with subject matter expertise in using advanced troubleshooting methods to resolve networking and connectivity issues in Azure. Professionals in this role troubleshoot hybrid environments, including issues with Azure Virtual Machines, virtual networks, and connectivity between on-premises and Azure services. They use various tools and technologies to diagnose and identify root causes for complex issues. Candidates for this exam should have experience with networking and with hybrid environments, including knowledge of routing, permissions, and account limits. They must be able to use available tools to diagnose issues related to business continuity, hybrid environments, Infrastructure as a Service (iaas), Platform as a Service (paas), access control, networking, and virtual machines connectivity.",
+  "idealFor": [
+    "Candidates for the Azure Support Engineer for Connectivity Specialty certification are support engineers with subject matter expertise in using advanced troubleshooting methods to resolve networking and connectivity issues in Azure.",
+    "Professionals in this role troubleshoot hybrid environments, including issues with Azure Virtual Machines, virtual networks, and connectivity between on-premises and Azure services.",
+    "They use various tools and technologies to diagnose and identify root causes for complex issues.",
+    "Candidates for this exam should have experience with networking and with hybrid environments, including knowledge of routing, permissions, and account limits.",
+    "They must be able to use available tools to diagnose issues related to business continuity, hybrid environments, Infrastructure as a Service (IaaS), Platform as a Service (PaaS), access control, networking, and virtual machines connectivity."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

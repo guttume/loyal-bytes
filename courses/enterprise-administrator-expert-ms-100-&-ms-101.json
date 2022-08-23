@@ -36,9 +36,24 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": "Microsoft 365 enterprise administrators evaluate, plan, migrate, deploy, and manage Microsoft 365 services. Candidates for the Azure Solutions Architect Expert certification should have subject matter expertise in designing cloud and hybrid solutions that run on Microsoft Azure, including compute, network, storage, monitoring, and security. Responsibilities for this role include advising stakeholders and translating business requirements into designs for secure, scalable, and reliable Azure solutions. An Azure solutions architect partners with developers, administrators, and other roles responsible for implementing solutions on Azure. A candidate for this certification should have advanced experience and knowledge of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance. A professional in this role should manage how decisions in each area affect an overall solution. In addition, they should have experience in Azure administration, Azure development, and DevOps processes."
+    "description": [
+      "Microsoft 365 enterprise administrators evaluate, plan, migrate, deploy, and manage Microsoft 365 services.",
+      "Candidates for the Azure Solutions Architect Expert certification should have subject matter expertise in designing cloud and hybrid solutions that run on Microsoft Azure, including compute, network, storage, monitoring, and security.",
+      "Responsibilities for this role include advising stakeholders and translating business requirements into designs for secure, scalable, and reliable Azure solutions.",
+      "An Azure solutions architect partners with developers, administrators, and other roles responsible for implementing solutions on Azure.",
+      "A candidate for this certification should have advanced experience and knowledge of IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance.",
+      "A professional in this role should manage how decisions in each area affect an overall solution. In addition, they should have experience in Azure administration, Azure development, and DevOps processes."
+    ]
   },
-  "idealFor": "Candidates for this exam are Microsoft 365 enterprise administrators who take part in evaluating, planning, migrating, deploying, and managing Microsoft 365 services. They perform Microsoft 365 tenant management tasks for an enterprise, including its identities, security, compliance, Power Platform, and supporting technologies. Candidates have a working knowledge of Microsoft 365 workloads and should have been an administrator for at least one Exchange, SharePoint, Teams, or Windows 10 deployment. Candidates also have a working knowledge of networking, server administration, and IT fundamentals such as DNS, Active Directory, and PowerShell. Candidates for this exam are Microsoft 365 enterprise administrators who take part in evaluating, planning, migrating, deploying, and managing Microsoft 365 services. They perform Microsoft 365 tenant management tasks for an enterprise, including its identities, security, compliance, and supporting technologies. Candidates have a working knowledge of Microsoft 365 workloads and should have been an administrator for at least Exchange, SharePoint, Teams, Windows 10 deployment. Candidates also have a working knowledge of networking, server administration, and IT fundamentals such as DNS, Active Directory, and PowerShell.",
+  "idealFor": [
+    "Candidates for this exam are Microsoft 365 enterprise administrators who take part in evaluating, planning, migrating, deploying, and managing Microsoft 365 services.",
+    "They perform Microsoft 365 tenant management tasks for an enterprise, including its identities, security, compliance, Power Platform, and supporting technologies.",
+    "Candidates have a working knowledge of Microsoft 365 workloads and should have been an administrator for at least one Exchange, SharePoint, Teams, or Windows 10 deployment.",
+    "Candidates also have a working knowledge of networking, server administration, and IT fundamentals such as DNS, Active Directory, and PowerShell.",
+    "Candidates for this exam are Microsoft 365 enterprise administrators who take part in evaluating, planning, migrating, deploying, and managing Microsoft 365 services.",
+    "They perform Microsoft 365 tenant management tasks for an enterprise, including its identities, security, compliance, and supporting technologies.",
+    "Candidates have a working knowledge of Microsoft 365 workloads and should have been an administrator for at least Exchange, SharePoint, Teams, Windows 10 deployment. Candidates also have a working knowledge of networking, server administration, and IT fundamentals such as DNS, Active Directory, and PowerShell."
+  ],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {
@@ -368,7 +383,7 @@
           ]
         },
         {
-          "heading": "MANAGE SEARCH AND INVESTIGATION",
+          "heading": "11.3.5\tMANAGE SEARCH AND INVESTIGATION",
           "contents": [
             "Plan and configure auditing",
             "Plan and configure ediscovery",
