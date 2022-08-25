@@ -38,7 +38,7 @@
     "displayImage": "/images/course-page/azure-hightlights-image.png",
     "description": ["Candidates for this certification administer core and advanced Windows Server workloads and services using on-premises, hybrid, and cloud technologies. These professionals should have expertise in implementing and managing on-premises and hybrid solutions, such as identity, management, compute, networking, and storage. They are also experts at performing tasks related to security, migration, monitoring, high availability, troubleshooting, and disaster recovery. These professionals use administrative tools and technologies, including Windows Admin Center, PowerShell, Azure Arc, and IaaS virtual machine administration. They also work with Azure Automation Update Management, Microsoft Defender for Identity, Azure Security Center, Azure Migrate, and Azure Monitor. Candidates for the Windows Server Hybrid Administrator Associate certification should have subject matter expertise in configuring and managing Windows Server on-premises, hybrid, and infrastructure as a service (iaas) platform workload. Responsibilities for this role include integrating Windows Server environments with Azure services and managing Windows Server in on-premises networks. This role manages and maintains Windows Server iaas workloads in Azure, in addition to migrating and deploying workloads to Azure. This role typically collaborates with Azure administrators, enterprise architects, Microsoft 365 administrators, and network engineers."]
   },
-  "idealFor": [""],
+  "idealFor": [],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

@@ -40,7 +40,7 @@ export const CourseHero = ({
               />
             </div>
             <div className="flex justify-end space-x-8">
-                <a target={"_blank"} href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"} className="btn btn-primary">Apply Now</a>
+                <a target={"_blank"} rel="noreferrer" href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"} className="btn btn-primary">Apply Now</a>
                 <a href={"/courses.html"} className="btn btn-outline-primary">View all courses</a>
             </div>
           </div>

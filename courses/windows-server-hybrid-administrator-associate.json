@@ -44,7 +44,7 @@
       "This role typically collaborates with Azure administrators, enterprise architects, Microsoft 365 administrators, and network engineers."
     ]
   },
-  "idealFor": [""],
+  "idealFor": [],
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

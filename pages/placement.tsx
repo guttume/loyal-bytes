@@ -25,7 +25,7 @@ export default function Placement() {
                 <a className="flex justify-center w-1/2 text-center btn btn-primary" href="/testimonials.html">
                   Hear from our students
                 </a>
-              <a target={"_blank"}
+              <a target={"_blank"} rel="noreferrer"
                 className="flex justify-center w-1/2 btn btn-outline-secondary"
                 href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}
               >
@@ -93,7 +93,7 @@ export default function Placement() {
             </p>
           </div>
           <div className="flex justify-center lg:block">
-            <a target={"_blank"}
+            <a target={"_blank"} rel="noreferrer"
               href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}
               className="btn btn-outline-secondary"
             >

@@ -1,5 +1,4 @@
 import { GetStaticProps } from "next";
-import Link from "next/link";
 import { useState } from "react";
 import {
   Accordion,
@@ -48,37 +47,69 @@ export default function Course({ content }: CoursePageProps) {
               />
             ))}
           </div>
-          <ul className="mb-6 space-y-2 list-disc list-inside text-blue-50">
-            {showMore ? (
-              <li>{content.courseDetail.description[0]}</li>
-            ) : (
-              content.courseDetail.description.map((d, i) => <li key={i}>{d}</li>)
-            )}
-            <button
-              className="underline"
-              onClick={() => setShowMore(!showMore)}
-            >
-              View {showMore ? "more" : "less"}
-            </button>
-          </ul>
+          {content.courseDetail.description.length < 2 ? (
+            <p className="mb-6 text-blue-50">
+              {content.courseDetail.description[0]}
+            </p>
+          ) : (
+            <ul className="mb-6 space-y-2 list-disc list-inside text-blue-50">
+              {showMore ? (
+                <li>{content.courseDetail.description[0]}</li>
+              ) : (
+                content.courseDetail.description.map((d, i) => (
+                  <li key={i}>{d}</li>
+                ))
+              )}
+              <button
+                className="underline"
+                onClick={() => setShowMore(!showMore)}
+              >
+                View {showMore ? "more" : "less"}
+              </button>
+            </ul>
+          )}
           <div className="flex flex-col items-center space-x-6 space-y-6 lg:flex-row lg:space-y-0">
-              <a  target={"_blank"} href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"} className="btn btn-primary">Apply now</a>
-              <a href={"/loyal-bytes-brochure.pdf"} className="btn btn-outline-secondary">Download brochure</a>
-              <a href={"/demo-certificate.pdf"} className="underline text-blue-50">Demo certificate</a>
+            <a
+              target={"_blank"} rel="noreferrer"
+              href={
+                "https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"
+              }
+              className="btn btn-primary"
+            >
+              Apply now
+            </a>
+            <a
+              href={"/loyal-bytes-brochure.pdf"}
+              className="btn btn-outline-secondary"
+            >
+              Download brochure
+            </a>
+            <a
+              href={"/demo-certificate.pdf"}
+              className="underline text-blue-50"
+            >
+              Demo certificate
+            </a>
           </div>
         </div>
       </section>
-      <section className="px-4 my-28 lg:flex lg:px-12">
-        <h4 className="flex items-center mb-4 text-5xl font-bold text-center lg:w-4/12 lg:text-left lg:mb-0 lg:border-r lg:border-orange-500">
-          This course is ideal for
-        </h4>
-        <ul className="space-y-2 text-lg list-disc list-inside lg:w-8/12 lg:pl-32">
-          {content.idealFor.map((c, i) => (
-            <li key={i}>{c}</li>
-          ))}
-        </ul>
-      </section>
-      <section className="relative">
+      {content.idealFor.length > 0 && (
+        <section className="px-4 my-28 lg:flex lg:px-12">
+          <h4 className="flex items-center mb-4 text-5xl font-bold text-center lg:w-4/12 lg:text-left lg:mb-0 lg:border-r lg:border-orange-500">
+            This course is ideal for
+          </h4>
+          {content.idealFor.length < 2 ? (
+            <p className="text-lg lg:w-8/12 lg:pl-32">{content.idealFor[0]}</p>
+          ) : (
+            <ul className="space-y-2 text-lg list-disc list-inside lg:w-8/12 lg:pl-32">
+              {content.idealFor.map((c, i) => (
+                <li key={i}>{c}</li>
+              ))}
+            </ul>
+          )}
+        </section>
+      )}
+      <section className="relative my-32">
         <div className="absolute w-[650px] -mt-96 top-0 left-0 transform -translate-x-1/2 -z-10">
           <img src={images.homePageRings} alt="background ring image" />
         </div>

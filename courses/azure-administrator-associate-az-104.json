@@ -36,7 +36,7 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": ""
+    "description": []
   },
   "idealFor": [
     "Candidates for this exam should have subject matter expertise implementing, managing, and monitoring an organization’s Microsoft Azure environment.",

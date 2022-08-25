@@ -15,7 +15,7 @@ export const Header = () => {
       <Nav />
       <div className="hidden xl:flex xl:space-x-2">
         <a href="https://loyalbytes.com/" className="bg-blue-500 btn-small text-blue-50">Professional Solutions</a>
-          <a className="text-white btn-small btn-primary" target="_blank"  href="https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true">Make Enquiry</a>
+          <a className="text-white btn-small btn-primary" target="_blank" rel="noreferrer"  href="https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true">Make Enquiry</a>
       </div>
     </header>
   );

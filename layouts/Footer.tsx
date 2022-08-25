@@ -106,27 +106,27 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a href={"/course/azure-solutions-architect-expert.html"}>
+                <a href={"/course/azure-developer-associate-az-204.html"}>
                   Azure Cloud
                 </a>
               </li>
               <li>
-                <a href={"/course/azure-ai-fundamentals-900.html"}>
+                <a href={"/course/windows-server-hybrid-administrator-associate-az-800-&-az-801.html"}>
                   Windows Server MSME
                 </a>
               </li>
               <li>
-                <a href={"/course/azure-data-scientist-associate-100.html"}>
+                <a href={"/course/microsoft-365-fundamentals-ms-900.html"}>
                   Microsoft 365
                 </a>
               </li>
               <li>
-                <a href={"/course/microsoft-azure-iot-developer-az-220.html"}>
+                <a href={"/course/dynamics-365-fundamentals-mb-910.html"}>
                   Office 365
                 </a>
               </li>
               <li>
-                <a href={"/course/microsoft-azure-iot-developer-az-220.html"}>
+                <a href={"/course/microsoft-identity-access-administrator-sc-300.html"}>
                   Active Directory
                 </a>
               </li>
@@ -140,7 +140,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/course/security-compliance-and-identity-fundamentals-900.html">
+                <a href="/course/microsoft-azure-iot-developer-az-220.html">
                   Azure IOT
                 </a>
               </li>
