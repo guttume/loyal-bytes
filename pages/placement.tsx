@@ -25,7 +25,7 @@ export default function Placement() {
                 <a className="flex justify-center w-1/2 text-center btn btn-primary" href="/testimonials.html">
                   Hear from our students
                 </a>
-              <a
+              <a target={"_blank"}
                 className="flex justify-center w-1/2 btn btn-outline-secondary"
                 href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}
               >
@@ -84,7 +84,7 @@ export default function Placement() {
       <section className="py-12 mx-8 mb-16 bg-gradient-to-r from-blue-800 via-blue-600 to-blue-600 text-blue-50 lg:mx-12 rounded-xl">
         <div className="justify-between space-y-8 lg:flex lg:px-20 lg:space-y-0">
           <div className="px-4 space-y-4 lg:space-y-0">
-            <h3 className="font-bold text-lg mb-3">
+            <h3 className="mb-3 text-lg font-bold">
               Apply now and get early birds offers
             </h3>
             <p>
@@ -93,7 +93,7 @@ export default function Placement() {
             </p>
           </div>
           <div className="flex justify-center lg:block">
-            <a
+            <a target={"_blank"}
               href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}
               className="btn btn-outline-secondary"
             >

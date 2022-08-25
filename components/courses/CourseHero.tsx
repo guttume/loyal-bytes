@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { images } from "../Images";
 
 export const CourseHero = ({
@@ -41,9 +40,7 @@ export const CourseHero = ({
               />
             </div>
             <div className="flex justify-end space-x-8">
-              <Link href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}>
-                <a className="btn btn-primary">Apply Now</a>
-              </Link>
+                <a target={"_blank"} href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"} className="btn btn-primary">Apply Now</a>
                 <a href={"/courses.html"} className="btn btn-outline-primary">View all courses</a>
             </div>
           </div>

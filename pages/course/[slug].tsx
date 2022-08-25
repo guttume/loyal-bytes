@@ -62,15 +62,9 @@ export default function Course({ content }: CoursePageProps) {
             </button>
           </ul>
           <div className="flex flex-col items-center space-x-6 space-y-6 lg:flex-row lg:space-y-0">
-            <Link href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}>
-              <a className="btn btn-primary">Apply now</a>
-            </Link>
-            <Link href={"/loyal-bytes-brochure.pdf"}>
-              <a className="btn btn-outline-secondary">Download brochure</a>
-            </Link>
-            <Link href={"/demo-certificate.pdf"}>
-              <a className="underline text-blue-50">Demo certificate</a>
-            </Link>
+              <a  target={"_blank"} href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"} className="btn btn-primary">Apply now</a>
+              <a href={"/loyal-bytes-brochure.pdf"} className="btn btn-outline-secondary">Download brochure</a>
+              <a href={"/demo-certificate.pdf"} className="underline text-blue-50">Demo certificate</a>
           </div>
         </div>
       </section>
