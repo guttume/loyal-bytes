@@ -36,9 +36,17 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": ["Developers who work with Microsoft Power Apps and Dynamics 365 are responsible for designing, developing, securing, and extending a Dynamics 365 implementation. Candidates implement components of the solution that include application enhancements, custom user experience, system integrations, data conversions, custom process automation, and custom visualizations."]
+    "description": [
+      "Developers who work with Microsoft Power Apps and Dynamics 365 are responsible for designing, developing, securing, and extending a Dynamics 365 implementation. Candidates implement components of the solution that include application enhancements, custom user experience, system integrations, data conversions, custom process automation, and custom visualizations."
+    ]
   },
-  "idealFor": ["Candidates for this exam should have subject matter expertise in planning, implementing, and maintaining Azure networking solutions, including hybrid networking, connectivity, routing, security, and private access to Azure services. Responsibilities for the Azure Network Engineer include recommending, planning, and implementing Azure networking solutions. Professionals in this role manage the solution for performance, resiliency, scale, and security. They deploy networking solutions by using the Azure Portal and other methods, including PowerShell, Azure Command-Line Interface (CLI), and Azure Resource Manager templates (ARM templates). The Azure Network Engineer works with solution architects, cloud administrators, security engineers, application developers, and DevOps engineers to deliver Azure solutions. Candidates for this exam should have expert Azure administration skills, in addition to extensive experience and knowledge of networking, hybrid connections, and network security."],
+  "idealFor": [
+    "Candidates for this exam should have subject matter expertise in planning, implementing, and maintaining Azure networking solutions, including hybrid networking, connectivity, routing, security, and private access to Azure services.",
+    "Responsibilities for the Azure Network Engineer include recommending, planning, and implementing Azure networking solutions. Professionals in this role manage the solution for performance, resiliency, scale, and security. ",
+    "They deploy networking solutions by using the Azure Portal and other methods, including PowerShell, Azure Command-Line Interface (CLI), and Azure Resource Manager templates (ARM templates).",
+    "The Azure Network Engineer works with solution architects, cloud administrators, security engineers, application developers, and DevOps engineers to deliver Azure solutions.",
+    "Candidates for this exam should have expert Azure administration skills, in addition to extensive experience and knowledge of networking, hybrid connections, and network security."
+  ],    
   "learningObjectives": "Create beautiful web flow. Learn how to migrate and host on Microsoft Azure",
   "modules": [
     {

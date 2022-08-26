@@ -1,4 +1,4 @@
-{
+ {
   "title": "Dynamics 365 Fundamentals (CRM) - 910",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
   "heroImage": "/images/course-page/azure-hero-image.png",
@@ -36,9 +36,20 @@
     ],
     "bg": "blue",
     "displayImage": "/images/course-page/azure-hightlights-image.png",
-    "description": ["Whether you are a business stakeholder, functional consultant at the start of your career or a student, this certification is a validation of your broad knowledge of the customer engagement apps in Microsoft Dynamics 365, including marketing capabilities, and the automation of the sales, service and support lifecycles. It is recommended for tech-savvy individuals with some basic knowledge of business functions like marketing, sales, and services."]
+    "description": [
+      "Whether you are a business stakeholder, functional consultant at the start of your career or a student, this certification is a validation of your broad knowledge of the customer engagement apps in Microsoft Dynamics 365, including marketing capabilities, and the automation of the sales, service and support lifecycles.",
+      "The Microsoft Certified: Dynamics Fundamentals (CRM) certification could be a great fit for you if you’d like to",
+      "Understand the core capabilities across the Dynamic 365 customer engagement apps",
+      "Validate your Dynamics 365 skills",
+      "Highlight your understanding of business operations and customer engagement",
+      "Demonstrate capability in Dynamics 365 customer engagement capabilities to move to the next level",
+      "It is recommended for tech-savvy individuals with some basic knowledge of business functions like marketing, sales, and services."
+    ]
   },
-  "idealFor": ["This exam covers the customer engagement features and capabilities of Dynamics 365 apps. Candidates of this exam should have a fundamental understanding of customer engagement principles, and business operations, general computer skills"],
+  "idealFor": [
+    "This exam covers the customer engagement features and capabilities of Dynamics 365 apps.",
+    "Candidates of this exam should have a fundamental understanding of customer engagement principles, and business operations, general computer skills"
+  ],
   "learningObjectives": "Understand the core capabilities across the Dynamic 365 customer engagement apps. Validate your Dynamics 365 skills. Highlight your understanding of business operations and customer engagement. Demonstrate capability in Dynamics 365 customer engagement capabilities to move to the next level",
   "modules": [
     {

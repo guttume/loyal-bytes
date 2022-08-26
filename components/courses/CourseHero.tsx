@@ -26,7 +26,7 @@ export const CourseHero = ({
         </div>
         <div className="items-center justify-center h-full lg:w-1/2 lg:flex">
           <div>
-            <h1 className="text-4xl font-bold text-right lg:text-6xl">
+            <h1 className="text-4xl font-bold text-right lg:text-5xl">
               {title}
             </h1>
             <h2 className="my-4 text-xl text-right lg:text-3xl">{subtitle}</h2>
