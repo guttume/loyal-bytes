@@ -43,6 +43,8 @@ export const images = {
   corporateTrainingBrands: "/images/corporate-training/brands.webp",
   corporateTrainingBoyOnPc: "/images/corporate-training/boy-on-pc.webp",
   corporateTrainingVodafone: "/images/corporate-training/vodafone.webp",
+  azureLogo: "/images/course-page/azure_logo.png",
+  officeLogo: "/images/course-page/office_logo.png",
   contact: {
     hero: "/images/contact/hero.webp",
     map: "/images/contact/map.webp",

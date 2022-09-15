@@ -31,13 +31,13 @@ export const CourseHero = ({
             </h1>
             <h2 className="my-4 text-xl text-right lg:text-3xl">{subtitle}</h2>
             <div className="flex justify-end my-16 space-x-12">
-              <img src={images.awsLogo} alt="AWS logo" className="h-12" />
-              <img src={images.gcpLogo} alt="GCP logo" className="h-12" />
               <img
                 src={images.windowsLogo}
                 alt="Windows logo"
                 className="h-12"
               />
+              <img src={images.azureLogo} alt="Azure logo" className="h-12" />
+              <img src={images.officeLogo} alt="Office logo" className="h-12" />
             </div>
             <div className="flex justify-end space-x-8">
                 <a target={"_blank"} rel="noreferrer" href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"} className="btn btn-primary">Apply Now</a>
