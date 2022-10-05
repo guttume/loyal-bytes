@@ -4,8 +4,8 @@
   "heroImage": "/images/course-page/azure-hero-image.png",
   "heroBg": "/images/course-page/azure-hero-bg.png",
   "courseDetail": {
-    "duration": "40 Hours",
-    "certification": "DP – 203 and Data Engineering on Microsoft Azure",
+    "duration": "32 Hours",
+    "certification": "MS 740 and Teams Support Engineer Specialty",
     "batchInfo": "Weekends and weekdays batches available",
     "level": "200",
     "highlights": [
@@ -19,7 +19,7 @@
         "icon": "user ",
         "color": "orange",
         "heading": "Batch Days",
-        "subheading": "•\tSaturday, Weekdays"
+        "subheading": "Saturday, Weekdays"
       },
       {
         "icon": "user ",
