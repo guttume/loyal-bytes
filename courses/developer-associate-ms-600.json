@@ -5,8 +5,8 @@
   "heroBg": "/images/course-page/azure-hero-bg.png",
   "courseDetail": {
     "duration": "40 Hours",
-    "certification": "DP – 203 and Data Engineering on Microsoft Azure",
-    "batchInfo": "Weekends and weekdays batches available",
+    "certification": "MS - 600 and Microsoft 365 Certified: Developer Associate",
+    "batchInfo": "Weekdays batches available",
     "level": "200",
     "highlights": [
       {
@@ -353,7 +353,7 @@
     }
   ],
   "onCompletion": [
-    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam.",
     "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
   ],
   "batches": [

@@ -4,8 +4,8 @@
   "heroImage": "/images/course-page/azure-hero-image.png",
   "heroBg": "/images/course-page/azure-hero-bg.png",
   "courseDetail": {
-    "duration": "40 Hours",
-    "certification": "DP – 203 and Data Engineering on Microsoft Azure",
+    "duration": "120 Hours",
+    "certification": "MD – 100 (Windows Client) and MD – 101 (Managing Modern Desktops) & Microsoft 365 Certified: Modern Desktop Administrator Associate",
     "batchInfo": "Weekends and weekdays batches available",
     "level": "200",
     "highlights": [
@@ -19,7 +19,7 @@
         "icon": "user ",
         "color": "orange",
         "heading": "Batch Days",
-        "subheading": "Weekdays, Weekends"
+        "subheading": "Weekdays & Weekends"
       },
       {
         "icon": "user ",
@@ -378,7 +378,7 @@
     }
   ],
   "onCompletion": [
-    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam.",
     "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
   ],
   "batches": [

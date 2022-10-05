@@ -5,7 +5,7 @@
   "heroBg": "/images/course-page/azure-hero-bg.png",
   "courseDetail": {
     "duration": "10 Hours",
-    "certification": "Microsoft Certification",
+    "certification": "MB - 920 and Microsoft Certified: Dynamics 365 Fundamentals (ERP)",
     "batchInfo": "Weekdays batches available",
     "level": "100",
     "highlights": [
@@ -228,8 +228,8 @@
     }
   ],
   "onCompletion": [
-    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. ",
-    "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
+    "The bullets that appear below each of the skills measured are intended to illustrate how we are assessing that skill. This list is NOT definitive or exhaustive.",
+    "Most questions cover features that are General Availability (GA). The exam may contain questions on Preview features if those features are commonly used."
   ],
   "batches": [
     {

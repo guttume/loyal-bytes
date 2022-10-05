@@ -5,8 +5,8 @@
   "heroBg": "/images/course-page/azure-hero-bg.png",
   "courseDetail": {
     "duration": "8 Hours",
-    "certification": "Microsoft Certification",
-    "batchInfo": "Weekdays batches available",
+    "certification": "MS-900 and Microsoft 365 Fundamentals",
+    "batchInfo": "Saturday and Weekdays batches available",
     "level": "100",
     "highlights": [
       {
@@ -19,7 +19,7 @@
         "icon": "user ",
         "color": "orange",
         "heading": "Batch Days",
-        "subheading": "Weekdays"
+        "subheading": "Saturday & Weekdays"
       },
       {
         "icon": "user ",
@@ -207,7 +207,7 @@
     }
   ],
   "onCompletion": [
-    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam. ",
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. This list is not definitive or exhaustive.",
     "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
   ],
   "batches": [

@@ -5,8 +5,8 @@
   "heroBg": "/images/course-page/azure-hero-bg.png",
   "courseDetail": {
     "duration": "40 Hours",
-    "certification": "Microsoft Certification",
-    "batchInfo": "Weekdays batches available",
+    "certification": "DP – 100 and Azure Data Scientist Associate",
+    "batchInfo": "Weekends and weekdays batches available",
     "level": "100",
     "highlights": [
       {
@@ -19,7 +19,7 @@
         "icon": "user ",
         "color": "orange",
         "heading": "Batch Days",
-        "subheading": "Weekdays"
+        "subheading": "Weekends & Weekdays"
       },
       {
         "icon": "user ",

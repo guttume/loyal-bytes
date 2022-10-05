@@ -5,7 +5,7 @@
   "heroBg": "/images/course-page/azure-hero-bg.png",
   "courseDetail": {
     "duration": "40 Hours",
-    "certification": "AZ - 104 and Azure Administrator Associate",
+    "certification": "Microsoft Certified: Windows Server Hybrid Administrator Associate & AZ – 800 (Administering Windows Server Hybrid Core Infrastructure) AZ – 801 (Configuring Windows Server Hybrid Advanced Services)",
     "batchInfo": "Weekend and weekdays batches available",
     "level": "200",
     "highlights": [
@@ -499,7 +499,7 @@
     }
   ],
   "onCompletion": [
-    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may not be covered in the exam.",
+    "The bullets that follow each of the skills measured are intended to illustrate how we are assessing that skill. Related topics may be covered in the exam.",
     "Most questions cover features that are general availability (GA). The exam may contain questions on Preview features if those features are commonly used."
   ],
   "batches": [
