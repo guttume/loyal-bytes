@@ -73,7 +73,7 @@ export default function Course({ content }: CoursePageProps) {
               target={"_blank"} rel="noreferrer"
               href={
                 "https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"
-              }
+              } title="Apply now"
               className="btn btn-primary"
             >
               Apply now
@@ -111,7 +111,7 @@ export default function Course({ content }: CoursePageProps) {
       )}
       <section className="relative my-32">
         <div className="absolute w-[650px] -mt-96 top-0 left-0 transform -translate-x-1/2 -z-10">
-          <img src={images.homePageRings} alt="background ring image" />
+          <img src={images.homePageRings} title="Background Ring" alt="background ring image" />
         </div>
         <div className="px-4 lg:px-12">
           <h3 className="text-5xl font-bold text-center">

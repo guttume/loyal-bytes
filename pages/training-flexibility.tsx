@@ -27,7 +27,7 @@ export default function TrainingFlexibility() {
             </h2>
             <div className="flex justify-center md:block">
               <div className="justify-center my-6 space-y-4 md:space-y-0 md:space-x-2 md:flex md:justify-start">
-                  <a href="/about.html" className="btn btn-primary">Know about us</a>
+                  <a href="/about.html" title="About us" className="btn btn-primary">Know about us</a>
                 <div className="flex items-center space-x-2">
                   <PlayIcon className="w-12 h-12 text-sky-600" />
                   <p>See our impact</p>
@@ -99,7 +99,7 @@ export default function TrainingFlexibility() {
       </section>
       <section className="relative py-8 bg-blue-700 lg:pb-16 overflow-clip">
         <div className="absolute top-0 left-0 w-1/3 mt-40 -ml-40">
-          <img src={images.homePageRings} alt="rings" />
+          <img src={images.homePageRings} title="Rings" alt="rings" />
         </div>
         <h3 className="mb-4 text-3xl font-semibold tracking-wider text-center text-white">
           Our Methodology

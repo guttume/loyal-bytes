@@ -41,7 +41,7 @@ export const PortfolioSummary = () => {
         </div>
       </div> */}
       <div className="flex justify-center">
-          <a href={"/placement.html"} className="text-xl font-bold text-gray-600 underline">View all</a>
+          <a href={"/placement.html"} title="View all" className="text-xl font-bold text-gray-600 underline">View all</a>
       </div>
     </div>
   );

@@ -32,19 +32,19 @@ export const Nav = () => {
               transition
             >
               <MenuItemExt
-                href="/batches.html"
+                href="/batches.html" title="Batches"
                 className="block py-2 border-b lg:border-0 font-bold lg:text-sm"
               >
                 Batches
               </MenuItemExt>
               <MenuItemExt
-                href="/placement.html"
+                href="/placement.html" title="Placements"
                 className="block py-2 border-b lg:border-0 font-bold lg:text-sm"
               >
                 Placements
               </MenuItemExt>
               <MenuItemExt
-                href="/training-flexibility.html"
+                href="/training-flexibility.html" title="Training Felibility"
                 className="block py-2 border-b lg:border-0 font-bold lg:text-sm"
               >
                 Training Flexibility

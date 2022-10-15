@@ -7,7 +7,7 @@ export const HurryUp = () => {
         <p>We have limited seats for specialisation courses. Apply now and avail courses.</p>
       </div>
       <div className="mt-6 flex lg:block justify-center">
-          <a href="/courses.html" className="btn btn-white">View All Courses</a>
+          <a href="/courses.html" title="View All Courses" className="btn btn-white">View All Courses</a>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ export const Queries = () => {
         </div>
         <div>
           <a
-            href="/contact.html"
+            href="/contact.html" title="Contact Us"
             className="inline-block btn btn-outline-secondary"
           >
             Contact Us

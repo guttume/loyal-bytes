@@ -12,7 +12,7 @@ export default function Batches() {
           <h2 className="text-xl md:text-2xl">
             With Loyal Bytes you get flexible choices course batches
           </h2>
-            <a href={"/testimonials.html"} className="inline-block btn btn-primary">
+            <a href={"/testimonials.html"} title="Hear from our students" className="inline-block btn btn-primary">
               Hear from our students
             </a>
         </div>

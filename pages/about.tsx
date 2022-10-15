@@ -7,7 +7,7 @@ export default function about() {
         <div className="hidden lg:block absolute top-0 right-0 lg:h-[calc(100vh+64px)] -z-10">
           <img
             src={images.about.hero}
-            alt="A picture of a girl flying in clouds"
+            alt="A picture of a girl flying in clouds" title="hero"
             className="lg:h-full lg:w-auto"
           />
         </div>
@@ -50,10 +50,10 @@ export default function about() {
               </span>
             </div>
             <div className="space-x-0 space-y-4 md:space-y-0 md:space-x-4 md:flex">
-                <a href={"/courses.html"} className="block w-48 border border-orange-500 btn btn-primary">
+                <a href={"/courses.html"} title="View Courses" className="block w-48 border border-orange-500 btn btn-primary">
                   View Courses
                 </a>
-                <a href={"/courses.html"} className="block w-48 btn btn-outline-primary">View All Courses</a>
+                <a href={"/courses.html"} title="View All Courses" className="block w-48 btn btn-outline-primary">View All Courses</a>
             </div>
           </div>
         </div>

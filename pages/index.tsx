@@ -42,7 +42,7 @@ export default function Index() {
           <PopularCourseItem
             imageUrl={images.courseWindows10}
             title="Windows Server MCSE"
-            color={"bg-circle-peach text-rose-50"}
+            color={"bg-circle-peach text-rose-50"} 
           >
             Configuring Windows 8, Supporting Windows 8.1, Deploying Windows
             Desktops and Enterprise Applications
@@ -80,13 +80,13 @@ export default function Index() {
       <Section>
         <div className="mb-8 text-center">
           <div className="absolute w-24 left-1/2 lg:-ml-56 lg:-mt-12">
-            <img src={images.patterns} alt="background art" />
+            <img src={images.patterns} title="Backgroung art" alt="background art" />
           </div>
           <div className="absolute left-0 w-12 lg:left-1/2 lg:-ml-64 -z-10">
-            <img src={images.leftConfetti} alt="background art" />
+            <img src={images.leftConfetti} title="Backgroung art" alt="background art" />
           </div>
           <div className="absolute right-0 w-20 lg:left-1/2 lg:ml-48 -z-10">
-            <img src={images.rightConfetti} alt="background art" />
+            <img src={images.rightConfetti} title="Backgroung art" alt="background art" />
           </div>
           <SectionTitle>
             <span className="text-gray-400">Open Doors for Opportunities</span>
@@ -101,14 +101,14 @@ export default function Index() {
           </blockquote>
         </div>
         <div className="flex justify-center">
-            <a href="/courses.html" className="btn btn-primary">View All Courses</a>
+            <a href="/courses.html" title="View All Courses" className="btn btn-primary">View All Courses</a>
         </div>
         <div className="mt-16 lg:relative lg:h-96">
           <div className="absolute top-0 w-5/12 -mt-40 -ml-56">
-            <img src={images.homePageRings} alt="rings" />
+            <img src={images.homePageRings} title="Rings" alt="rings" />
           </div>
           <div className="lg:absolute lg:w-80 xl:w-[400px] 2xl:w-[500px] lg:right-0 lg:mt-8 lg:mr-4 xl:mr-8 2xl:mr-40 z-10">
-            <img src={images.corporateTrainings} alt="corporate trainings" />
+            <img src={images.corporateTrainings} title="Corporate Trainings" alt="corporate trainings" />
           </div>
           <div className="lg:border lg:absolute lg:w-full lg:px-4 2xl:pl-24 lg:py-16 lg:rounded-lg bg-gradient-to-r from-teal-50 via-yellow-50 to-red-50">
             <div className="lg:w-[600px] p-4">
@@ -130,7 +130,7 @@ export default function Index() {
                 21st-century technology-powered workplace.
               </SectionSubTitle>
               <div className="flex justify-center my-4 lg:block">
-                  <a href="/corporate-training.html" className="btn btn-black">Know more</a>
+                  <a href="/corporate-training.html" title="Corporate Training" className="btn btn-black">Know more</a>
               </div>
             </div>
           </div>

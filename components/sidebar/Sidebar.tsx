@@ -19,7 +19,7 @@ export const Sidebar = ({ hidden, onClose }: { hidden: boolean, onClose: () => v
       <div className="px-4 w-2/3 absolute right-0 bg-white h-full">
         <div className="flex justify-between items-start py-4 mb-16">
           <div className="w-40">
-            <img src={images.logo} alt="logo" />
+            <img src={images.logo} title="Loyalbyte logo" alt="logo" />
           </div>
           <button onClick={onClose}>
             <XCircleIcon className="h-8 w-8 text-red-500" />

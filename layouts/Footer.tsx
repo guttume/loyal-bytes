@@ -10,12 +10,12 @@ export const Footer = () => {
              <h2 className="w-24 text-xl font-bold">
               <Link href={"/"}>
                 <a>
-                  <img src={images.logoWhite} alt="white logo" />
+                  <img src={images.logoWhite} title="Loyalbyte logo" alt="white logo" />
                 </a>
               </Link>
             </h2> 
             <div className="flex items-center space-x-2 text-white">
-              <Link href={"https://www.facebook.com/LoyalBytes"}>
+              <Link href={"https://www.facebook.com/LoyalBytes"} title="Loyalbytes Facebook Page">
                 <a target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +28,7 @@ export const Footer = () => {
                 </a>
               </Link>
               <Link
-                href={"https://www.linkedin.com/company/loyalbytes/mycompany/"}
+                href={"https://www.linkedin.com/company/loyalbytes/mycompany/"} title="Loyalbytes Linkedin Page"
               >
                 <a target="_blank">
                   <svg
@@ -41,7 +41,7 @@ export const Footer = () => {
                   </svg>
                 </a>
               </Link>
-              <Link href={"https://www.instagram.com/loyalbytes/"}>
+              <Link href={"https://www.instagram.com/loyalbytes/"} title="Loyalbytes Instagram Page">
                 <a target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -58,11 +58,11 @@ export const Footer = () => {
             </div>
             <div className="space-y-2">
               <p>
-                <a href="tel:917400166036">+91 74001 66036</a> &ndash; Corporate
+                <a href="tel:917400166036" title="Call us">+91 74001 66036</a> &ndash; Corporate
                 Solutions
               </p>
               <p>
-                <a href="tel:919769303625">+91 97693 03625</a> &ndash; Training
+                <a href="tel:919769303625" title="Call us">+91 97693 03625</a> &ndash; Training
                 related Assistance
               </p>
               <p>
@@ -81,22 +81,22 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a href={"/batches.html"}>Batches</a>
+                <a href={"/batches.html"} title="Batches" >Batches</a>
               </li>
               <li>
-                <a href={"/training-flexibility.html"}>Training Flexibility</a>
+                <a href={"/training-flexibility.html"} title="Training Flexibility" >Training Flexibility</a>
               </li>
               <li>
-                <a href={"/corporate-training.html"}>Corporate Training</a>
+                <a href={"/corporate-training.html"} title="Corporate Taining" >Corporate Training</a>
               </li>
               <li>
-                <a href={"/placement.html"}>Placements</a>
+                <a href={"/placement.html"} title="Placements">Placements</a>
               </li>
               <li>
-                <a href={"/testimonials.html"}>Testimonials</a>
+                <a href={"/testimonials.html"} title="Testimonials">Testimonials</a>
               </li>
               <li>
-                <a href={"/about.html"}>About</a>
+                <a href={"/about.html"} title="About us">About</a>
               </li>
             </ul>
           </div>
@@ -106,27 +106,27 @@ export const Footer = () => {
             </h4>
             <ul className="space-y-3">
               <li>
-                <a href={"/course/azure-developer-associate-az-204.html"}>
+                <a href={"/course/azure-developer-associate-az-204.html"} title="Azure Cloud" >
                   Azure Cloud
                 </a>
               </li>
               <li>
-                <a href={"/course/windows-server-hybrid-administrator-associate-az-800-&-az-801.html"}>
+                <a href={"/course/windows-server-hybrid-administrator-associate-az-800-&-az-801.html"} title="Windows Server MSME" >
                   Windows Server MSME
                 </a>
               </li>
               <li>
-                <a href={"/course/microsoft-365-fundamentals-ms-900.html"}>
+                <a href={"/course/microsoft-365-fundamentals-ms-900.html"} title="Microsoft 365" >
                   Microsoft 365
                 </a>
               </li>
               <li>
-                <a href={"/course/dynamics-365-fundamentals-mb-910.html"}>
+                <a href={"/course/dynamics-365-fundamentals-mb-910.html"} title="Office 365" >
                   Office 365
                 </a>
               </li>
               <li>
-                <a href={"/course/microsoft-identity-access-administrator-sc-300.html"}>
+                <a href={"/course/microsoft-identity-access-administrator-sc-300.html"} title="Active Directoy" >
                   Active Directory
                 </a>
               </li>
@@ -134,18 +134,18 @@ export const Footer = () => {
                 <a
                   href={
                     "/course/microsoft-security-operations-analyst-sc-200.html"
-                  }
+                  } title="Microsoft Exchange Server" 
                 >
                   Microsoft Exchange Server
                 </a>
               </li>
               <li>
-                <a href="/course/microsoft-azure-iot-developer-az-220.html">
+                <a href="/course/microsoft-azure-iot-developer-az-220.html" title="Azure IOT"> 
                   Azure IOT
                 </a>
               </li>
               <li>
-                <a href="/course/security-compliance-and-identity-fundamentals-900.html">
+                <a href="/course/security-compliance-and-identity-fundamentals-900.html" title="Cognitive Services and Machine Learning">
                   Cognitive Services and Machine Learning
                 </a>
               </li>
@@ -157,7 +157,7 @@ export const Footer = () => {
             </h3>
             <p>You can contact us to send email to us</p>
             <a
-              href="/contact.html"
+              href="/contact.html" title="Contact Us"
               className="inline-block rounded-full btn btn-white"
             >
               Contact us

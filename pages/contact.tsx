@@ -52,7 +52,7 @@ export default function Contact() {
               </h4>
               <a target={"_blank"} rel="noreferrer"
                 className="flex items-center justify-center w-64 space-x-4 btn btn-outline-primary"
-                href="https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"
+                href="https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true" title="Get In Touch"
               >
                 <span>Get in touch</span>
                 <span>

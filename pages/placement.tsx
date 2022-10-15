@@ -27,7 +27,7 @@ export default function Placement() {
                 </a>
               <a target={"_blank"} rel="noreferrer"
                 className="flex justify-center w-1/2 btn btn-outline-secondary"
-                href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}
+                href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"} title="Inquire now"
               >
                 Inquire now
               </a>
@@ -94,7 +94,7 @@ export default function Placement() {
           </div>
           <div className="flex justify-center lg:block">
             <a target={"_blank"} rel="noreferrer"
-              href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"}
+              href={"https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true"} title="Apply now"
               className="btn btn-outline-secondary"
             >
               Apply now

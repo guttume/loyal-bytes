@@ -8,14 +8,14 @@ export const Header = () => {
       <div className="w-64">
         <Link href="/">
           <a>
-            <img src={images.logo} alt="logo" />
+            <img src={images.logo} title="Loyalbyte logo" alt="Loyalbyte logo" />
           </a>
         </Link>
       </div>
       <Nav />
       <div className="hidden xl:flex xl:space-x-2">
         <a href="https://loyalbytes.com/" className="bg-blue-500 btn-small text-blue-50">Professional Solutions</a>
-          <a className="text-white btn-small btn-primary" target="_blank" rel="noreferrer"  href="https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true">Make Enquiry</a>
+          <a className="text-white btn-small btn-primary" target="_blank" rel="noreferrer"  href="https://forms.office.com/Pages/ResponsePage.aspx?id=Ym9HIoi1Mk29lHyvGTXTatrzVUYRhrRGpLyZwK3J4j9UMU4yV0FWS1ZWUENWM1ZIUjlHMDFLOFUwNCQlQCN0PWcu&embed=true" title="Make Enquiry">Make Enquiry</a>
       </div>
     </header>
   );

@@ -11,10 +11,10 @@ export default function CorporateTraining() {
     <>
       <section className="relative px-8 lg:px-0 overflow-clip">
         <div className="hidden lg:block absolute top-0 right-0 w-[600px] transform translate-x-1/2">
-          <img src={images.homePageRings} alt="rings picture" />
+          <img src={images.homePageRings} title="Rings" alt="rings picture" />
         </div>
         <div className="hidden lg:block absolute top-0 left-0 w-[900px] mt-48 transform -translate-x-1/2 -z-10">
-          <img src={images.homePageRings} alt="rings picture" />
+          <img src={images.homePageRings} title="Rings" alt="rings picture" />
         </div>
         <h1 className="mt-12 text-5xl font-bold leading-tight text-center lg:text-6xl text-darkerText">
           Stay Ahead of Time with{" "}
