@@ -4,11 +4,16 @@ import { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { images } from "../components";
 import { courses } from "../data/training-courses";
+import Head from "next/head";
 
 export default function CorporateTraining() {
   const isMedium = useMediaQuery({ query: "(min-width: 768px)" });
   return (
     <>
+      <Head>
+        <title>Best Corporate Training Courses in Mumbai | Learning.loyalbytes.com</title>
+        <meta name="description" content="Enroll now on Learning.loyalbytes.com to attend best corporate training courses in Mumbai by the industry thought leaders." />
+      </Head>
       <section className="relative px-8 lg:px-0 overflow-clip">
         <div className="hidden lg:block absolute top-0 right-0 w-[600px] transform translate-x-1/2">
           <img src={images.homePageRings} title="Rings" alt="rings picture" />

@@ -47,6 +47,7 @@ export async function getCourseData(slug: any) {
 
 export interface CourseContent {
   title: string;
+  meta?: {title: string, description: string},
   subtitle: string;
   heroImage: string;
   heroBg?: string;

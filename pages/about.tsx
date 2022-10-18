@@ -1,8 +1,13 @@
 import { images, PortfolioSummary, Statistics } from "../components";
+import Head from "next/head";
 
 export default function about() {
   return (
     <>
+      <Head>
+        <title>Classes in Mumbai to Learn Microsoft Office | Learning.loyalbytes.com</title>
+        <meta name="description" content="Visit us on Learning.loyalbytes.com and join Classes in Mumbai to Learn Microsoft Office complete professional courses." />
+      </Head>
       <section className="px-8 lg:px-12">
         <div className="hidden lg:block absolute top-0 right-0 lg:h-[calc(100vh+64px)] -z-10">
           <img
@@ -180,22 +185,6 @@ export default function about() {
       </section>
       <section className="my-16">
       <PortfolioSummary />
-        {/*<div>
-          <div className="text-center">
-            <h2 className="px-8 mb-4 text-2xl font-semibold">
-              Over 32k+ software businesses growing with Ar Shakir.
-            </h2>
-          </div>
-          <div className="flex flex-wrap justify-center px-2 my-12 space-x-6">
-            {Object.values(images.placement.brands)
-              .slice(0, 8)
-              .map((brand, index) => (
-                <div key={index.toString()} className="w-32">
-                  <img src={brand} alt="" />
-                </div>
-              ))}
-          </div>
-        </div>*/}
       </section>
     </>
   );

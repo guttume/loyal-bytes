@@ -1,6 +1,10 @@
  {
   "title": "Azure Developer Associate AZ - 204",
   "subtitle": "A master course designed for working professionals like you. Make your career soar with Loyal Bytes.",
+   "meta": {
+     "title": "Microsoft Azure Cloud Learning Courses | Learning.loyalbytes.com",
+     "description": "Learn Microsoft azure cloud learning courses from Learning.loyalbytes.com and build your career in cloud computing. Also gathered knowledge from hands-on projects."
+   },
   "heroImage": "/images/course-page/azure-hero-image.png",
   "heroBg": "/images/course-page/azure-hero-bg.png",
   "courseDetail": {

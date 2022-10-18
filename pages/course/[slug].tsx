@@ -14,11 +14,15 @@ import {
   getAllCourseSlugs,
   getCourseData
 } from "../../lib/courses";
+import Head from "next/head";
 
 export default function Course({ content }: CoursePageProps) {
   const [showMore, setShowMore] = useState(true);
   return (
     <div>
+      {
+        content.meta && <Head><title>{content.meta.title}</title><meta name={"description"} content={content.meta.description} /></Head>
+      }
       <CourseHero title={content.title} subtitle={content.subtitle} />
       <section className="mt-8 shadow-2xl lg:flex lg:mt-0 bg-gradient-to-t from-indigo-700 via-indigo-700 to-indigo-500 shadow-indigo-300">
         <div className="flex items-center justify-center pt-4 lg:w-1/3 lg:pt-4">
