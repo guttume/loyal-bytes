@@ -78,7 +78,7 @@ export default function Contact() {
                 />
               </span>
               <span>
-                <a href="">+91 74001 66036</a>
+                <a href="tel:+919769303625">+91 97693 03625</a>
               </span>
             </div>
             <div className="flex items-center space-x-2 lg:w-1/3">
@@ -90,7 +90,7 @@ export default function Contact() {
                 />
               </span>
               <span>
-                <a href="mailto:info@loyalbytes.com">info@loyalbytes.com</a>
+                <a href="mailto:info@learning.loyalbytes.com">info@learning.loyalbytes.com</a>
               </span>
             </div>
             <div className="flex items-center space-x-2 lg:w-1/3">
