@@ -78,7 +78,9 @@ export default function Contact() {
                 />
               </span>
               <span>
-                <a href="tel:+919769303625">+91 97693 03625</a>
+                <a href="tel:+912235506193">+91-22-35506193</a> <br />
+                <a href="tel:+912231889106">+91-22-31889106</a> <br />
+                <a href="tel:+917400166036">+91-7400166036</a>
               </span>
             </div>
             <div className="flex items-center space-x-2 lg:w-1/3">
